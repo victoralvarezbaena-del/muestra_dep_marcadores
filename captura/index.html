@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#08713d">
+<title>Captura de resultados · Muestra Deportiva</title>
+<style>
+:root{--verde:#08713d;--verde-osc:#05512b;--claro:#e8f3ec;--linea:#d6e3da;--tinta:#16302a;--suave:#5d7268;--rojo:#b42318;--ambar:#9a6700;--fondo:#f4f7f5}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--fondo);color:var(--tinta);line-height:1.4}
+header{background:var(--verde);color:#fff;padding:16px 16px 14px;position:sticky;top:0;z-index:5}
+header h1{margin:0;font-size:19px;font-weight:800}
+header p{margin:2px 0 0;font-size:13px;opacity:.85}
+main{max-width:560px;margin:0 auto;padding:14px 14px 40px}
+.card{background:#fff;border:1px solid var(--linea);border-radius:14px;padding:14px;margin-bottom:12px}
+.card h2{margin:0 0 10px;font-size:15px;display:flex;align-items:center;gap:8px}
+.paso{display:inline-grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--verde);color:#fff;font-size:13px;font-weight:800}
+label{display:block;font-size:13px;font-weight:700;margin:10px 0 5px;color:var(--suave)}
+input,select,textarea{width:100%;font:inherit;font-size:16px;padding:11px 12px;border:1px solid #b9cfc1;border-radius:10px;background:#fff;color:var(--tinta)}
+input:focus,select:focus,textarea:focus{outline:3px solid #9fd3b3;border-color:var(--verde)}
+.fila{display:flex;gap:10px}
+.fila>*{flex:1}
+.marcador{display:grid;grid-template-columns:1fr 84px;gap:8px 10px;align-items:center}
+.marcador .eq{font-weight:700;font-size:15px}
+.marcador input{text-align:center;font-size:22px;font-weight:800;padding:8px}
+.sets{display:grid;grid-template-columns:auto 1fr 1fr;gap:8px;align-items:center}
+.sets .h{font-size:12px;font-weight:700;color:var(--suave);text-align:center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sets input{text-align:center;font-size:20px;font-weight:800;padding:8px}
+.info{font-size:13px;color:var(--suave);margin-top:8px}
+.aviso{font-size:13.5px;border-radius:10px;padding:9px 11px;margin-top:10px}
+.aviso.err{background:#fdecea;color:var(--rojo)}
+.aviso.warn{background:#fff6dd;color:var(--ambar)}
+.aviso.ok{background:var(--claro);color:var(--verde-osc)}
+button{font:inherit;font-weight:800;font-size:16px;border:0;border-radius:12px;padding:14px;width:100%;cursor:pointer}
+.primario{background:var(--verde);color:#fff}
+.primario:disabled{background:#9db8a8}
+.whats{background:#1fa855;color:#fff;margin-top:10px}
+.sec{background:#fff;color:var(--verde-osc);border:1px solid #b9cfc1;margin-top:8px}
+pre{white-space:pre-wrap;word-break:break-word;background:#f6faf7;border:1px dashed #b9cfc1;border-radius:10px;padding:10px;font-size:14px;margin:0}
+.pin{letter-spacing:.3em}
+.chk{display:flex;gap:8px;align-items:center;font-size:14px;margin-top:8px;font-weight:600;color:var(--tinta)}
+.chk input{width:auto}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<header>
+  <h1>📲 Captura de resultados</h1>
+  <p>Muestra Deportiva · comisionados de campo</p>
+</header>
+<main>
+  <section class="card">
+    <h2><span class="paso">1</span> Tus datos</h2>
+    <div class="fila">
+      <div><label for="nombre">Nombre del comisionado</label><input id="nombre" autocomplete="name" placeholder="Nombre y apellido"></div>
+    </div>
+    <label for="pin">PIN</label>
+    <input id="pin" class="pin" type="password" inputmode="numeric" autocomplete="off" maxlength="8" placeholder="••••">
+    <label class="chk"><input type="checkbox" id="recordar" checked> Recordar en este celular</label>
+  </section>
+
+  <section class="card">
+    <h2><span class="paso">2</span> Partido</h2>
+    <label for="torneo">Disciplina y rama</label>
+    <select id="torneo"><option value="">— Elige —</option></select>
+    <label for="partido">Partido</label>
+    <select id="partido" disabled><option value="">Primero elige la disciplina</option></select>
+    <div class="info" id="partidoInfo"></div>
+  </section>
+
+  <section class="card" id="cardMarcador" hidden>
+    <h2><span class="paso">3</span> Resultado</h2>
+    <div id="zonaMarcador"></div>
+    <div id="zonaGanador" hidden>
+      <label for="ganador">Ganador (empate en tiempo regular: penales, desempate, etc.)</label>
+      <select id="ganador"></select>
+    </div>
+    <label for="obs">Observaciones (opcional)</label>
+    <input id="obs" maxlength="140" placeholder="W.O., incidencia, protesta…">
+    <div id="avisos"></div>
+  </section>
+
+  <section class="card" id="cardEnvio" hidden>
+    <h2><span class="paso">4</span> Enviar</h2>
+    <pre id="mensaje"></pre>
+    <button class="whats" id="btnWhats">Enviar por WhatsApp</button>
+    <button class="sec" id="btnCompartir">Compartir por otra app</button>
+    <button class="sec" id="btnCopiar">Copiar mensaje</button>
+    <div class="info">Revisa el mensaje antes de enviarlo. No modifiques la última línea: el coordinador la usa para cargar el resultado.</div>
+  </section>
+
+  <button class="primario" id="btnRevisar" disabled>Revisar mensaje</button>
+</main>
+
+<script src="../comun/torneos.js"></script>
+<script>
+// Número de WhatsApp del coordinador (con lada de país, sin + ni espacios). Vacío = el comisionado elige el chat.
+const WHATSAPP_COORDINADOR = '';
+
+const $ = id => document.getElementById(id);
+const T = window.MCD_TORNEOS;
+let datos = null, torneo = null, partido = null, mensajeFinal = '';
+
+// ---------- Datos del comisionado ----------
+try {
+  const g = JSON.parse(localStorage.getItem('mcd_comisionado') || '{}');
+  if (g.nombre) $('nombre').value = g.nombre;
+  if (g.pin) $('pin').value = g.pin;
+} catch (e) {}
+function recordar() {
+  try {
+    if ($('recordar').checked) localStorage.setItem('mcd_comisionado', JSON.stringify({ nombre: $('nombre').value.trim(), pin: $('pin').value.trim() }));
+    else localStorage.removeItem('mcd_comisionado');
+  } catch (e) {}
+}
+
+// ---------- Torneos ----------
+$('torneo').innerHTML += T.map(t => `<option value="${t.id}">${t.nombre}</option>`).join('');
+$('torneo').addEventListener('change', async () => {
+  torneo = T.find(t => t.id === $('torneo').value) || null;
+  datos = null; partido = null; limpiarResultado();
+  const sel = $('partido');
+  sel.disabled = true;
+  if (!torneo) { sel.innerHTML = '<option value="">Primero elige la disciplina</option>'; return; }
+  sel.innerHTML = '<option value="">Cargando…</option>';
+  try {
+    const r = await fetch(`../${torneo.carpeta}/${torneo.archivo}?v=${Date.now()}`, { cache: 'no-store' });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    datos = await r.json();
+    llenarPartidos();
+  } catch (e) {
+    sel.innerHTML = '<option value="">No se pudo cargar. Revisa tu conexión.</option>';
+  }
+});
+
+const DIA = { 'Mié': 1, 'Jue': 2, 'Vie': 3 };
+function claveHora(h) {
+  const m = String(h || '').match(/^(\S+) \d+ nov · (\d\d:\d\d)/);
+  return m ? `${DIA[m[1]] || 9}${m[2]}` : '9';
+}
+function tieneResultado(m) {
+  if (torneo.tipo === 'sets') return Array.isArray(m.sets) && m.sets.length > 0;
+  return Number.isFinite(m.gh) && Number.isFinite(m.ga);
+}
+
+function llenarPartidos() {
+  const lista = [];
+  for (const [g, grupo] of Object.entries(datos.groups || {})) {
+    for (const m of grupo.matches || []) {
+      lista.push({ fase: 'G', grupo: g, home: m.home, away: m.away, hour: m.hour, place: m.place, hecho: tieneResultado(m) });
+    }
+  }
+  for (const key of ['sf1', 'sf2', 'third', 'final']) {
+    const k = (datos.knockout || {})[key] || {};
+    const eq = mcdEquiposKO(datos, key);
+    lista.push({ fase: 'KO', grupo: key, home: eq.home, away: eq.away, hour: k.hour, place: k.place,
+                 hecho: tieneResultado(k), pendiente: !(eq.home && eq.away) });
+  }
+  lista.sort((a, b) => claveHora(a.hour).localeCompare(claveHora(b.hour)));
+  window._lista = lista;
+  const sel = $('partido');
+  sel.innerHTML = '<option value="">— Elige el partido —</option>' + lista.map((p, i) => {
+    const fase = p.fase === 'G' ? `Grupo ${p.grupo}` : MCD_FASES[p.grupo];
+    const eq = p.pendiente ? 'equipos por definir' : `${p.home} vs ${p.away}`;
+    const extra = p.hecho ? ' ✔︎ ya tiene resultado' : '';
+    return `<option value="${i}" ${p.pendiente ? 'disabled' : ''}>${(p.hour || '').replace(' nov', '')} · ${fase} · ${eq}${extra}</option>`;
+  }).join('');
+  sel.disabled = false;
+}
+
+$('partido').addEventListener('change', () => {
+  partido = window._lista ? window._lista[$('partido').value] : null;
+  limpiarResultado();
+  if (!partido) return;
+  $('partidoInfo').textContent = `${partido.hour || ''} · ${partido.place || ''}` + (partido.hecho ? ' · Este partido ya tiene un resultado publicado; si lo envías, el coordinador verá que es una corrección.' : '');
+  pintarMarcador();
+  $('cardMarcador').hidden = false;
+  validar();
+});
+
+// ---------- Marcador ----------
+function limpiarResultado() {
+  $('cardMarcador').hidden = true; $('cardEnvio').hidden = true; $('zonaGanador').hidden = true;
+  $('zonaMarcador').innerHTML = ''; $('avisos').innerHTML = ''; $('ganador').innerHTML = ''; $('obs').value = ''; $('partidoInfo').textContent = '';
+  $('btnRevisar').disabled = true;
+}
+function pintarMarcador() {
+  const z = $('zonaMarcador');
+  if (torneo.tipo === 'sets') {
+    const t = torneo.sets;
+    z.innerHTML = `<div class="sets"><span></span><span class="h">${esc(partido.home)}</span><span class="h">${esc(partido.away)}</span>` +
+      [0, 1, 2].map(i => `<span class="h">Set ${i + 1}${i === 2 ? ' (si aplica)' : ''}</span>
+        <input type="number" inputmode="numeric" min="0" max="60" data-set="${i}" data-lado="h" aria-label="Set ${i + 1} ${esc(partido.home)}">
+        <input type="number" inputmode="numeric" min="0" max="60" data-set="${i}" data-lado="a" aria-label="Set ${i + 1} ${esc(partido.away)}">`).join('') +
+      `</div><div class="info">Sets a ${t[0]} puntos; el tercero a ${t[2]}. Gana quien llegue a 2 sets.</div>`;
+  } else {
+    z.innerHTML = `<div class="marcador">
+      <span class="eq">${esc(partido.home)}</span><input type="number" inputmode="numeric" min="0" max="300" id="sh" aria-label="${torneo.unidad} ${esc(partido.home)}">
+      <span class="eq">${esc(partido.away)}</span><input type="number" inputmode="numeric" min="0" max="300" id="sa" aria-label="${torneo.unidad} ${esc(partido.away)}"></div>
+      <div class="info">${torneo.unidad} de cada equipo.</div>`;
+  }
+  z.querySelectorAll('input').forEach(i => i.addEventListener('input', validar));
+}
+function esc(s) { return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+const num = v => v === '' || v == null ? null : Number(v);
+
+function leerResultado() {
+  const errores = [], avisos = [];
+  let marcador = '', ganador = '';
+  if (torneo.tipo === 'sets') {
+    const sets = [];
+    for (let i = 0; i < 3; i++) {
+      const h = num(document.querySelector(`[data-set="${i}"][data-lado="h"]`).value);
+      const a = num(document.querySelector(`[data-set="${i}"][data-lado="a"]`).value);
+      if (h == null && a == null) continue;
+      if (h == null || a == null) { errores.push(`Falta un marcador en el set ${i + 1}.`); continue; }
+      sets.push({ h, a, i });
+    }
+    if (!sets.length) errores.push('Captura al menos los sets jugados.');
+    let gh = 0, ga = 0;
+    sets.forEach(s => {
+      const obj = torneo.sets[s.i], max = Math.max(s.h, s.a), min = Math.min(s.h, s.a);
+      if (s.h === s.a) errores.push(`El set ${s.i + 1} no puede quedar empatado.`);
+      else if (max - min < 2) errores.push(`En el set ${s.i + 1} debe haber 2 puntos de diferencia.`);
+      else if (max < obj) avisos.push(`El set ${s.i + 1} se ganó con ${max} puntos (se juega a ${obj}). Verifica.`);
+      else if (max > obj && max - min !== 2) avisos.push(`El set ${s.i + 1} pasó de ${obj}: la diferencia debería ser exactamente 2. Verifica.`);
+      if (s.h > s.a) gh++; else if (s.a > s.h) ga++;
+      if ((gh === 2 || ga === 2) && s !== sets[sets.length - 1]) errores.push('Hay sets capturados después de que un equipo ya ganó 2.');
+    });
+    if (!errores.length && gh < 2 && ga < 2) errores.push('Ningún equipo ha ganado 2 sets.');
+    marcador = sets.map(s => `${s.h}-${s.a}`).join(',');
+    ganador = gh > ga ? partido.home : partido.away;
+  } else {
+    const h = num($('sh').value), a = num($('sa').value);
+    if (h == null || a == null) errores.push('Captura el marcador de los dos equipos.');
+    else if (h < 0 || a < 0 || !Number.isInteger(h) || !Number.isInteger(a)) errores.push('El marcador debe ser un número entero.');
+    marcador = `${h}-${a}`;
+    const empate = h != null && h === a;
+    $('zonaGanador').hidden = !(empate && partido.fase === 'KO');
+    if (empate && partido.fase === 'KO') {
+      const sel = $('ganador');
+      if (!sel.options.length) sel.innerHTML = `<option value="">— Elige —</option><option>${esc(partido.home)}</option><option>${esc(partido.away)}</option>`;
+      ganador = sel.value;
+      if (!ganador) errores.push('Es eliminatoria y quedó empatado: indica quién ganó.');
+    } else if (h != null && a != null) {
+      ganador = h > a ? partido.home : a > h ? partido.away : '';
+    }
+    if ((torneo.id.startsWith('basquet') || torneo.id.startsWith('3x3')) && h != null && h === a) errores.push('En baloncesto no hay empates.');
+  }
+  return { errores, avisos, marcador, ganador };
+}
+
+function validar() {
+  if (!partido) return;
+  const r = leerResultado();
+  const faltan = [];
+  if (!$('nombre').value.trim()) faltan.push('Escribe tu nombre.');
+  if (!/^\d{4,8}$/.test($('pin').value.trim())) faltan.push('Escribe tu PIN (4 a 8 dígitos).');
+  const html = [...faltan, ...r.errores].map(e => `<div class="aviso err">${esc(e)}</div>`).join('') +
+               r.avisos.map(e => `<div class="aviso warn">${esc(e)}</div>`).join('');
+  $('avisos').innerHTML = html;
+  $('btnRevisar').disabled = !!(faltan.length || r.errores.length);
+  $('cardEnvio').hidden = true;
+  return r;
+}
+['nombre', 'pin', 'obs', 'ganador'].forEach(id => $(id).addEventListener('input', validar));
+$('ganador').addEventListener('change', validar);
+
+// ---------- Mensaje ----------
+const limpio = s => String(s || '').replace(/[|\n]/g, ' ').trim();
+$('btnRevisar').addEventListener('click', async () => {
+  const r = validar();
+  if (!r || r.errores.length) return;
+  recordar();
+  const fase = partido.fase === 'G' ? `G:${partido.grupo}` : `KO:${partido.grupo}`;
+  const contenido = ['MCD1', torneo.id, fase, limpio(partido.home), limpio(partido.away), r.marcador, limpio(r.ganador) || '-'].join('|');
+  const firma = await mcdFirma($('pin').value.trim(), contenido);
+  const titulo = partido.fase === 'G' ? `Grupo ${partido.grupo}` : MCD_FASES[partido.grupo];
+  const legible = torneo.tipo === 'sets'
+    ? `${partido.home} ${r.ganador === partido.home ? '✅' : ''}\n${partido.away} ${r.ganador === partido.away ? '✅' : ''}\nSets: ${r.marcador.replace(/,/g, ' · ')}`
+    : `${partido.home} ${r.marcador.split('-')[0]} - ${r.marcador.split('-')[1]} ${partido.away}` + (r.ganador && $('zonaGanador').hidden === false ? `\nGanador: ${r.ganador}` : '');
+  mensajeFinal = [
+    `🏆 RESULTADO · ${torneo.nombre} · ${titulo}`,
+    legible,
+    `${partido.hour || ''} · ${partido.place || ''}`,
+    `Comisionado: ${limpio($('nombre').value)}`,
+    $('obs').value.trim() ? `Obs.: ${limpio($('obs').value)}` : '',
+    `#${contenido}|${firma}`,
+  ].filter(Boolean).join('\n');
+  $('mensaje').textContent = mensajeFinal;
+  $('cardEnvio').hidden = false;
+  $('cardEnvio').scrollIntoView({ behavior: 'smooth', block: 'start' });
+});
+$('btnWhats').addEventListener('click', () => {
+  const base = WHATSAPP_COORDINADOR ? `https://wa.me/${WHATSAPP_COORDINADOR}` : 'https://wa.me/';
+  location.href = `${base}?text=${encodeURIComponent(mensajeFinal)}`;
+});
+$('btnCompartir').addEventListener('click', async () => {
+  if (navigator.share) { try { await navigator.share({ text: mensajeFinal }); } catch (e) {} }
+  else $('btnCopiar').click();
+});
+$('btnCopiar').addEventListener('click', async () => {
+  try { await navigator.clipboard.writeText(mensajeFinal); $('btnCopiar').textContent = '✔︎ Copiado'; }
+  catch (e) { $('btnCopiar').textContent = 'Mantén presionado el mensaje para copiarlo'; }
+  setTimeout(() => $('btnCopiar').textContent = 'Copiar mensaje', 2500);
+});
+</script>
+</body>
+</html>
