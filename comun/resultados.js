@@ -12,10 +12,11 @@
 
   // ---------- Estilos y panel ----------
   const css = `
-  .mcd-card{border:2px solid #1fa855;border-radius:12px;padding:14px;margin:0 0 16px;background:#f3fbf6;color:#16302a;font-family:inherit}
-  .mcd-card h2{margin:0 0 6px;font-size:18px}
+  .mcd-card{border:2px solid #1fa855;border-radius:12px;padding:8px 14px;margin:0 0 12px;background:#f3fbf6;color:#16302a;font-family:inherit}
+  .mcd-sum{cursor:pointer;font-weight:800;font-size:15px;padding:4px 0;list-style-position:inside}
+  #mcdBox[open] .mcd-sum{margin-bottom:6px}
   .mcd-card p{margin:4px 0 8px;font-size:13.5px;color:#43594f}
-  .mcd-card textarea{width:100%;min-height:110px;font:13px/1.35 ui-monospace,Consolas,monospace;padding:8px;border:1px solid #b9cfc1;border-radius:8px;box-sizing:border-box}
+  .mcd-card textarea{width:100%;min-height:80px;font:13px/1.35 ui-monospace,Consolas,monospace;padding:8px;border:1px solid #b9cfc1;border-radius:8px;box-sizing:border-box}
   .mcd-btn{border:0;border-radius:8px;padding:9px 14px;font-weight:700;cursor:pointer;margin:8px 6px 0 0;background:#08713d;color:#fff}
   .mcd-btn.sec{background:#fff;color:#08713d;border:1px solid #9fc3ad}
   .mcd-tab{width:100%;border-collapse:collapse;margin-top:10px;font-size:13px;background:#fff}
@@ -32,10 +33,10 @@
   const card = document.createElement('section');
   card.className = 'mcd-card';
   card.innerHTML = `
-    <h2>📲 Pegar resultados de WhatsApp</h2>
+    <div id="mcdFlash"></div>
+    <details id="mcdBox"><summary class="mcd-sum">📲 Pegar resultados de WhatsApp <span class="mcd-mute" style="font-weight:400">· clic para abrir o cerrar</span></summary>
     <p>Copia los mensajes que te enviaron los comisionados (uno o varios) y pégalos aquí. Solo se usan las líneas que empiezan con <b>#MCD1</b>.</p>
     <div>Torneo cargado en este administrador: <span class="mcd-tor" id="mcdTorneo"></span></div>
-    <div id="mcdFlash"></div>
     <textarea id="mcdTexto" placeholder="Pega aquí los mensajes…"></textarea>
     <div><button class="mcd-btn" id="mcdRevisar" type="button">Revisar</button><button class="mcd-btn sec" id="mcdLimpiar" type="button">Limpiar</button></div>
     <div id="mcdRes"></div>
@@ -44,12 +45,15 @@
       <table class="mcd-tab mcd-pines"><thead><tr><th>Comisionado</th><th>PIN</th><th></th></tr></thead><tbody id="mcdPines"></tbody></table>
       <button class="mcd-btn sec" id="mcdAgregar" type="button">+ Agregar comisionado</button>
       <button class="mcd-btn" id="mcdGuardarPines" type="button">Guardar PIN</button>
+    </details>
     </details>`;
   const cont = document.querySelector('.container') || document.body;
   const ancla = cont.querySelector('header, h1');
   if (ancla && ancla.parentElement === cont) ancla.insertAdjacentElement('afterend', card);
   else cont.insertBefore(card, cont.firstChild);
   const $ = id => document.getElementById(id);
+  try { if (localStorage.getItem('mcd_panel_abierto') === '1') $('mcdBox').open = true; } catch (e) {}
+  $('mcdBox').addEventListener('toggle', () => { try { localStorage.setItem('mcd_panel_abierto', $('mcdBox').open ? '1' : '0'); } catch (e) {} });
 
   // ---------- Torneo actual ----------
   function torneoActual() {
