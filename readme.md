@@ -125,7 +125,7 @@ Las mascotas están en `mascotas/` (PL-26.webp, CE-15.webp…); en los datos se 
 - **Comisionados:** abren `captura/index.html`, eligen disciplina y partido, capturan el marcador, escriben su nombre y PIN y envían el mensaje por WhatsApp.
 - **Coordinador:** en cualquier administrador, sección **"Pegar resultados de WhatsApp"**, pega los mensajes, revisa y aplica. Luego publica como siempre.
 - **PIN:** se registran en **⚙️ Comisionados y PIN** dentro de un administrador. Se guardan solo en ese navegador (sirven para todos los administradores de la misma computadora) y nunca se publican. Cada mensaje lleva una firma calculada con el PIN; si el PIN no es de un comisionado registrado o alguien modifica la línea `#MCD1`, el administrador lo rechaza.
-- Para que el botón de WhatsApp abra directo tu chat, escribe tu número en `WHATSAPP_COORDINADOR` al inicio del script de `captura/index.html` (formato `521XXXXXXXXXX`).
+- Para que el botón de WhatsApp abra directo tu chat, escribe tu número en `WHATSAPP_COORDINADOR` al inicio del script de `captura/index.html` (formato `52` + 10 dígitos, sin + ni espacios).
 - La lista de torneos que usan la captura y el panel está en `comun/torneos.js`.
 
 ## 📋 Instrucciones de Uso
