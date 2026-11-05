@@ -1,93 +1,119 @@
 {
+  "teamProfiles": {},
   "groups": {
     "A": {
       "teams": [
-        "AGUILUCHOS PL17",
-        "CORRECAMINOS PL10",
-        "LOBOS PL02"
+        "Equipo A1",
+        "Equipo A2",
+        "Equipo A3",
+        "Equipo A4"
       ],
       "matches": [
         {
-          "home": "AGUILUCHOS PL17",
-          "away": "CORRECAMINOS PL10",
-          "gh": 1,
-          "ga": 2,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo A1",
+          "away": "Equipo A2",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 08:00",
+          "place": "Tangamanga I · Campo 1"
         },
         {
-          "home": "CORRECAMINOS PL10",
-          "away": "LOBOS PL02",
-          "gh": 11,
-          "ga": 0,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo A3",
+          "away": "Equipo A4",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 08:00",
+          "place": "Tangamanga I · Campo 2"
         },
         {
-          "home": "AGUILUCHOS PL17",
-          "away": "LOBOS PL02",
-          "gh": 11,
-          "ga": 1,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo A1",
+          "away": "Equipo A3",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 11:40",
+          "place": "Tangamanga I · Campo 1"
+        },
+        {
+          "home": "Equipo A2",
+          "away": "Equipo A4",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 11:40",
+          "place": "Tangamanga I · Campo 2"
+        },
+        {
+          "home": "Equipo A1",
+          "away": "Equipo A4",
+          "gh": null,
+          "ga": null,
+          "hour": "Jue 19 nov · 08:00",
+          "place": "Tangamanga I · Campo 1"
+        },
+        {
+          "home": "Equipo A2",
+          "away": "Equipo A3",
+          "gh": null,
+          "ga": null,
+          "hour": "Jue 19 nov · 08:00",
+          "place": "Tangamanga I · Campo 2"
         }
       ]
     },
     "B": {
       "teams": [
-        "CARDENALES EM16",
-        "PUMAS EM09",
-        "TIGRES PL06",
-        "AGUILAS PL19"
+        "Equipo B1",
+        "Equipo B2",
+        "Equipo B3",
+        "Equipo B4"
       ],
       "matches": [
         {
-          "home": "CARDENALES EM16",
-          "away": "PUMAS EM09",
-          "gh": 2,
-          "ga": 5,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo B1",
+          "away": "Equipo B2",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 09:50",
+          "place": "Tangamanga I · Campo 1"
         },
         {
-          "home": "TIGRES PL06",
-          "away": "AGUILAS PL19",
-          "gh": 5,
-          "ga": 5,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo B3",
+          "away": "Equipo B4",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 09:50",
+          "place": "Tangamanga I · Campo 2"
         },
         {
-          "home": "CARDENALES EM16",
-          "away": "TIGRES PL06",
-          "gh": 3,
-          "ga": 11,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo B1",
+          "away": "Equipo B3",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 13:30",
+          "place": "Tangamanga I · Campo 1"
         },
         {
-          "home": "PUMAS EM09",
-          "away": "AGUILAS PL19",
-          "gh": 0,
-          "ga": 6,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo B2",
+          "away": "Equipo B4",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 13:30",
+          "place": "Tangamanga I · Campo 2"
         },
         {
-          "home": "CARDENALES EM16",
-          "away": "AGUILAS PL19",
-          "gh": 1,
-          "ga": 11,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo B1",
+          "away": "Equipo B4",
+          "gh": null,
+          "ga": null,
+          "hour": "Jue 19 nov · 09:50",
+          "place": "Tangamanga I · Campo 1"
         },
         {
-          "home": "PUMAS EM09",
-          "away": "TIGRES PL06",
-          "gh": 5,
-          "ga": 9,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo B2",
+          "away": "Equipo B3",
+          "gh": null,
+          "ga": null,
+          "hour": "Jue 19 nov · 09:50",
+          "place": "Tangamanga I · Campo 2"
         }
       ]
     }
@@ -99,55 +125,54 @@
   },
   "knockout": {
     "sf1": {
-      "home": "CORRECAMINOS PL10",
-      "away": "TIGRES PL06",
-      "gh": 8,
-      "ga": 5,
+      "home": "",
+      "away": "",
+      "gh": null,
+      "ga": null,
       "winner": "",
-      "hour": "PARTIDO",
-      "place": "FINALIZADO",
+      "hour": "Jue 19 nov · 13:30",
+      "place": "Tangamanga I · Campo 1",
       "homeName": "",
       "awayName": ""
     },
     "sf2": {
-      "home": "AGUILAS PL19",
-      "away": "AGUILUCHOS PL17",
-      "gh": 0,
-      "ga": 1,
+      "home": "",
+      "away": "",
+      "gh": null,
+      "ga": null,
       "winner": "",
-      "hour": "PARTIDO",
-      "place": "FINALIZADO",
+      "hour": "Jue 19 nov · 13:30",
+      "place": "Tangamanga I · Campo 2",
       "homeName": "",
       "awayName": ""
     },
     "final": {
-      "home": "CORRECAMINOS PL10",
-      "away": "AGUILUCHOS PL17",
-      "gh": 3,
-      "ga": 2,
-      "winner": "CORRECAMINOS PL10",
-      "hour": "PARTIDO",
-      "place": "FINALIZADO",
+      "home": "",
+      "away": "",
+      "gh": null,
+      "ga": null,
+      "winner": "",
+      "hour": "Vie 20 nov · 08:00",
+      "place": "Tangamanga I · Campo 1",
       "homeName": "",
       "awayName": ""
     },
     "third": {
-      "home": "TIGRES PL06",
-      "away": "AGUILAS PL19",
-      "gh": 8,
-      "ga": 7,
-      "winner": "TIGRES PL06",
-      "hour": "PARTIDO",
-      "place": "FINALIZADO",
+      "home": "",
+      "away": "",
+      "gh": null,
+      "ga": null,
+      "winner": "",
+      "hour": "Vie 20 nov · 08:00",
+      "place": "Tangamanga I · Campo 2",
       "homeName": "",
       "awayName": ""
     }
   },
-  "tournamentName": "",
+  "tournamentName": "Béisbol 2026",
   "theme": {
     "color": "#004b70",
     "bg": "#f8fafc"
   },
-  "timestamp": "2025-11-21T12:04:04.321",
-  "updatedAtLocal": "21 de noviembre de 2025, 12:04"
+  "updatedAtLocal": "Programa preliminar · equipos por definir en el sorteo"
 }

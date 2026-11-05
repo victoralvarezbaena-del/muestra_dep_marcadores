@@ -314,7 +314,7 @@ Leones Dorados</textarea></div>
 
 <script>
 function escapeIdentity(value){return String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
-function normalizeProfiles(profiles){const result=Object.create(null);if(profiles&&typeof profiles==='object')for(const [key,p] of Object.entries(profiles)){if(!p||typeof p!=='object')continue;result[key]={school:String(p.school||'').slice(0,180),image:/^data:image\/(png|jpeg|webp);base64,[A-Za-z0-9+/=]+$/.test(p.image||'')?p.image:''};}return result;}
+function normalizeProfiles(profiles){const result=Object.create(null);if(profiles&&typeof profiles==='object')for(const [key,p] of Object.entries(profiles)){if(!p||typeof p!=='object')continue;result[key]={school:String(p.school||'').slice(0,180),image:(/^data:image\/(png|jpeg|webp);base64,[A-Za-z0-9+/=]+$/.test(p.image||'')||/^\.\.\/mascotas\/[A-Za-z0-9_-]+\.(webp|png|jpe?g)$/.test(p.image||''))?p.image:''};}return result;}
 function teamIdentity(name){const p=(state.teamProfiles||{})[name]||{};const label=p.school||name;return `<span class="team-identity">${p.image?`<img src="${p.image}" alt="Mascota de ${escapeIdentity(label)}">`:''}<span><span class="school-label">${escapeIdentity(label)}</span>${p.school&&p.school!==name?`<span class="identity-name">${escapeIdentity(name)}</span>`:''}</span></span>`;}
 
 function renderIdentityEditors(){

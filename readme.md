@@ -96,6 +96,30 @@ muestra-deportiva-2025/
 
 Cada página pública toma su archivo de datos con `?t=archivo.json` (por ejemplo `futbol/index.html?t=data-futbolv.json`); béisbol y softbol usan `data.json`.
 
+## 🔗 Archivos de datos y enlaces públicos (2026)
+
+| Torneo | Archivo | Página pública |
+|---|---|---|
+| Fútbol Soccer Varonil | `futbol/data-futbolv.json` | `futbol/index.html?t=data-futbolv.json` |
+| Fútbol Soccer Femenil | `futbol/data-futbolf.json` | `futbol/index.html?t=data-futbolf.json` |
+| Fútbol 7 Varonil | `futbol/data-futbol7v.json` | `futbol/index.html?t=data-futbol7v.json` |
+| Fútbol 7 Femenil | `futbol/data-futbol7f.json` | `futbol/index.html?t=data-futbol7f.json` |
+| Baloncesto 5x5 Varonil | `basquetbol/data-basquetv.json` | `basquetbol/index.html?t=data-basquetv.json` |
+| Baloncesto 5x5 Femenil | `basquetbol/data-basquetf.json` | `basquetbol/index.html?t=data-basquetf.json` |
+| Baloncesto 3x3 Varonil | `3x3/data-3x3v.json` | `3x3/index.html?t=data-3x3v.json` |
+| Baloncesto 3x3 Femenil | `3x3/data-3x3f.json` | `3x3/index.html?t=data-3x3f.json` |
+| Balonmano Varonil | `handball/data-handballv.json` | `handball/index.html?t=data-handballv.json` |
+| Balonmano Femenil | `handballf/data-handballf.json` | `handballf/index.html?t=data-handballf.json` |
+| Béisbol | `beisbol/data.json` | `beisbol/index.html` |
+| Softbol | `softbol/data.json` | `softbol/index.html` |
+| Voleibol de Sala Varonil | `voleibol/data-voleibolv.json` | `voleibol/index.html?t=data-voleibolv.json` |
+| Voleibol de Sala Femenil | `voleibol/data-voleibolf.json` | `voleibol/index.html?t=data-voleibolf.json` |
+| Voleibol de Playa Varonil | `voleiplaya/data-playav.json` | `voleiplaya/index.html?t=data-playav.json` |
+| Voleibol de Playa Femenil | `voleiplaya/data-playaf.json` | `voleiplaya/index.html?t=data-playaf.json` |
+
+Al publicar desde un administrador se descarga un archivo con otro nombre: renómbralo como en la tabla antes de subirlo.
+Las mascotas están en `mascotas/` (PL-26.webp, CE-15.webp…); en los datos se indican como `"image": "../mascotas/PL-26.webp"` dentro de `teamProfiles`.
+
 ## 📋 Instrucciones de Uso
 
 ### Para Administradores

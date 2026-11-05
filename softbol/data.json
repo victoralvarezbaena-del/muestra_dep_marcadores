@@ -1,101 +1,94 @@
 {
+  "teamProfiles": {},
   "groups": {
     "A": {
       "teams": [
-        "CARDENALES EM16",
-        "AGUILAS PL07",
-        "HALCONES PL26"
+        "Equipo A1",
+        "Equipo A2",
+        "Equipo A3",
+        "Equipo A4"
       ],
       "matches": [
         {
-          "home": "CARDENALES EM16",
-          "away": "AGUILAS PL07",
-          "gh": 11,
-          "ga": 22,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo A1",
+          "away": "Equipo A2",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 08:00",
+          "place": "Tangamanga I · Campo 1"
         },
         {
-          "home": "AGUILAS PL07",
-          "away": "HALCONES PL26",
-          "gh": 7,
-          "ga": 0,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo A3",
+          "away": "Equipo A4",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 08:00",
+          "place": "Tangamanga I · Campo 2"
         },
         {
-          "home": "CARDENALES EM16",
-          "away": "HALCONES PL26",
-          "gh": 7,
-          "ga": 0,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo A1",
+          "away": "Equipo A3",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 11:40",
+          "place": "Tangamanga I · Campo 1"
+        },
+        {
+          "home": "Equipo A2",
+          "away": "Equipo A4",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 11:40",
+          "place": "Tangamanga I · Campo 2"
+        },
+        {
+          "home": "Equipo A1",
+          "away": "Equipo A4",
+          "gh": null,
+          "ga": null,
+          "hour": "Jue 19 nov · 08:00",
+          "place": "Tangamanga I · Campo 1"
+        },
+        {
+          "home": "Equipo A2",
+          "away": "Equipo A3",
+          "gh": null,
+          "ga": null,
+          "hour": "Jue 19 nov · 08:00",
+          "place": "Tangamanga I · Campo 2"
         }
       ]
     },
     "B": {
       "teams": [
-        "AGUILUCHOS PL17",
-        "PUMAS PL04",
-        "PANTERAS PL28"
+        "Equipo B1",
+        "Equipo B2",
+        "Equipo B3"
       ],
       "matches": [
         {
-          "home": "AGUILUCHOS PL17",
-          "away": "PUMAS PL04",
-          "gh": 0,
-          "ga": 20,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo B1",
+          "away": "Equipo B2",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 09:50",
+          "place": "Tangamanga I · Campo 1"
         },
         {
-          "home": "PUMAS PL04",
-          "away": "PANTERAS PL28",
-          "gh": 17,
-          "ga": 0,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo B1",
+          "away": "Equipo B3",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 13:30",
+          "place": "Tangamanga I · Campo 1"
         },
         {
-          "home": "AGUILUCHOS PL17",
-          "away": "PANTERAS PL28",
-          "gh": 22,
-          "ga": 10,
-          "hour": "20/11/2025   8:00",
-          "place": "Ingenio Campo 2"
-        }
-      ]
-    },
-    "C": {
-      "teams": [
-        "TIGRES PL06",
-        "AGUILAS PL19",
-        "LEONES PL11"
-      ],
-      "matches": [
-        {
-          "home": "TIGRES PL06",
-          "away": "AGUILAS PL19",
-          "gh": 32,
-          "ga": 3,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
-        },
-        {
-          "home": "TIGRES PL06",
-          "away": "LEONES PL11",
-          "gh": 17,
-          "ga": 7,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
-        },
-        {
-          "home": "AGUILAS PL19",
-          "away": "LEONES PL11",
-          "gh": 4,
-          "ga": 14,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo B2",
+          "away": "Equipo B3",
+          "gh": null,
+          "ga": null,
+          "hour": "Jue 19 nov · 09:50",
+          "place": "Tangamanga I · Campo 1"
         }
       ]
     }
@@ -107,55 +100,54 @@
   },
   "knockout": {
     "sf1": {
-      "home": "AGUILAS PL07",
-      "away": "PUMAS PL04",
-      "gh": 12,
-      "ga": 11,
+      "home": "",
+      "away": "",
+      "gh": null,
+      "ga": null,
       "winner": "",
-      "hour": "PARTIDO",
-      "place": "FINALIZADO",
+      "hour": "Jue 19 nov · 13:30",
+      "place": "Tangamanga I · Campo 1",
       "homeName": "",
       "awayName": ""
     },
     "sf2": {
-      "home": "TIGRES PL06",
-      "away": "LEONES PL11",
-      "gh": 17,
-      "ga": 9,
+      "home": "",
+      "away": "",
+      "gh": null,
+      "ga": null,
       "winner": "",
-      "hour": "PARTIDO",
-      "place": "FINALIZADO",
+      "hour": "Jue 19 nov · 13:30",
+      "place": "Tangamanga I · Campo 2",
       "homeName": "",
       "awayName": ""
     },
     "final": {
-      "home": "AGUILAS PL07",
-      "away": "TIGRES PL06",
-      "gh": 20,
-      "ga": 16,
-      "winner": "AGUILAS PL07",
-      "hour": "PARTIDO",
-      "place": "FINALIZADO",
+      "home": "",
+      "away": "",
+      "gh": null,
+      "ga": null,
+      "winner": "",
+      "hour": "Vie 20 nov · 08:00",
+      "place": "Tangamanga I · Campo 1",
       "homeName": "",
       "awayName": ""
     },
     "third": {
-      "home": "PUMAS PL04",
-      "away": "LEONES PL11",
-      "gh": 10,
-      "ga": 3,
-      "winner": "PUMAS PL04",
-      "hour": "PARTIDO",
-      "place": "FINALIZADO",
+      "home": "",
+      "away": "",
+      "gh": null,
+      "ga": null,
+      "winner": "",
+      "hour": "Vie 20 nov · 08:00",
+      "place": "Tangamanga I · Campo 2",
       "homeName": "",
       "awayName": ""
     }
   },
-  "tournamentName": "Softbol",
+  "tournamentName": "Softbol 2026",
   "theme": {
     "color": "#487a93",
     "bg": "#cce0f5"
   },
-  "timestamp": "2025-11-21T12:23:30.208",
-  "updatedAtLocal": "21 de noviembre de 2025, 12:23"
+  "updatedAtLocal": "Programa preliminar · equipos por definir en el sorteo"
 }

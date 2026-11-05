@@ -1,222 +1,115 @@
 {
+  "teamProfiles": {},
   "groups": {
     "A": {
       "teams": [
-        "AGUILAS PL19",
-        "HALCONES PL26",
-        "QUICHANES PL13"
+        "Equipo A1",
+        "Equipo A2",
+        "Equipo A3"
       ],
       "matches": [
         {
-          "home": "AGUILAS PL19",
-          "away": "HALCONES PL26",
-          "sets": [
-            {
-              "home": 10,
-              "away": 25
-            },
-            {
-              "home": 12,
-              "away": 25
-            }
-          ],
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo A1",
+          "away": "Equipo A2",
+          "sets": [],
+          "hour": "Mié 18 nov · 08:00",
+          "place": "Plantel 26 San Luis IV · Cancha 1"
         },
         {
-          "home": "HALCONES PL26",
-          "away": "QUICHANES PL13",
-          "sets": [
-            {
-              "home": 25,
-              "away": 8
-            },
-            {
-              "home": 25,
-              "away": 6
-            }
-          ],
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo A3",
+          "away": "Equipo A1",
+          "sets": [],
+          "hour": "Mié 18 nov · 11:20",
+          "place": "Plantel 26 San Luis IV · Cancha 1"
         },
         {
-          "home": "QUICHANES PL13",
-          "away": "AGUILAS PL19",
-          "sets": [
-            {
-              "home": 21,
-              "away": 25
-            },
-            {
-              "home": 9,
-              "away": 25
-            }
-          ],
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo A2",
+          "away": "Equipo A3",
+          "sets": [],
+          "hour": "Jue 19 nov · 08:50",
+          "place": "Plantel 26 San Luis IV · Cancha 1"
         }
       ]
     },
     "B": {
       "teams": [
-        "ARDILLAS PL03",
-        "MAPACHES PL24",
-        "TIGRES PL06"
+        "Equipo B1",
+        "Equipo B2",
+        "Equipo B3"
       ],
       "matches": [
         {
-          "home": "ARDILLAS PL03",
-          "away": "MAPACHES PL24",
-          "sets": [
-            {
-              "home": 10,
-              "away": 25
-            },
-            {
-              "home": 20,
-              "away": 25
-            }
-          ],
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo B1",
+          "away": "Equipo B2",
+          "sets": [],
+          "hour": "Mié 18 nov · 08:50",
+          "place": "Plantel 26 San Luis IV · Cancha 1"
         },
         {
-          "home": "MAPACHES PL24",
-          "away": "TIGRES PL06",
-          "sets": [
-            {
-              "home": 16,
-              "away": 25
-            },
-            {
-              "home": 16,
-              "away": 25
-            }
-          ],
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo B3",
+          "away": "Equipo B1",
+          "sets": [],
+          "hour": "Mié 18 nov · 10:30",
+          "place": "Plantel 26 San Luis IV · Cancha 1"
         },
         {
-          "home": "TIGRES PL06",
-          "away": "ARDILLAS PL03",
-          "sets": [
-            {
-              "home": 25,
-              "away": 10
-            },
-            {
-              "home": 25,
-              "away": 8
-            }
-          ],
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo B2",
+          "away": "Equipo B3",
+          "sets": [],
+          "hour": "Jue 19 nov · 08:00",
+          "place": "Plantel 26 San Luis IV · Cancha 1"
         }
       ]
     },
     "C": {
       "teams": [
-        "CARDENALES EM08",
-        "PANTERAS PL28",
-        "COYOTES PL05",
-        "CACHORROS PL16"
+        "Equipo C1",
+        "Equipo C2",
+        "Equipo C3",
+        "Equipo C4"
       ],
       "matches": [
         {
-          "home": "CARDENALES EM08",
-          "away": "PANTERAS PL28",
-          "sets": [
-            {
-              "home": 5,
-              "away": 25
-            },
-            {
-              "home": 10,
-              "away": 25
-            }
-          ],
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo C2",
+          "away": "Equipo C4",
+          "sets": [],
+          "hour": "Mié 18 nov · 08:00",
+          "place": "Plantel 26 San Luis IV · Cancha 2"
         },
         {
-          "home": "COYOTES PL05",
-          "away": "CACHORROS PL16",
-          "sets": [
-            {
-              "home": 25,
-              "away": 10
-            },
-            {
-              "home": 25,
-              "away": 15
-            }
-          ],
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo C1",
+          "away": "Equipo C3",
+          "sets": [],
+          "hour": "Mié 18 nov · 08:50",
+          "place": "Plantel 26 San Luis IV · Cancha 2"
         },
         {
-          "home": "CARDENALES EM08",
-          "away": "COYOTES PL05",
-          "sets": [
-            {
-              "home": 6,
-              "away": 25
-            },
-            {
-              "home": 16,
-              "away": 25
-            }
-          ],
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo C1",
+          "away": "Equipo C4",
+          "sets": [],
+          "hour": "Mié 18 nov · 10:30",
+          "place": "Plantel 26 San Luis IV · Cancha 2"
         },
         {
-          "home": "PANTERAS PL28",
-          "away": "CACHORROS PL16",
-          "sets": [
-            {
-              "home": 25,
-              "away": 7
-            },
-            {
-              "home": 25,
-              "away": 5
-            }
-          ],
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo C2",
+          "away": "Equipo C3",
+          "sets": [],
+          "hour": "Mié 18 nov · 10:30",
+          "place": "Plantel 26 San Luis IV · Cancha 3"
         },
         {
-          "home": "PANTERAS PL28",
-          "away": "COYOTES PL05",
-          "sets": [
-            {
-              "home": 0,
-              "away": 25
-            },
-            {
-              "home": 0,
-              "away": 25
-            }
-          ],
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo C1",
+          "away": "Equipo C2",
+          "sets": [],
+          "hour": "Jue 19 nov · 08:50",
+          "place": "Plantel 26 San Luis IV · Cancha 2"
         },
         {
-          "home": "CARDENALES EM08",
-          "away": "CACHORROS PL16",
-          "sets": [
-            {
-              "home": 23,
-              "away": 25
-            },
-            {
-              "home": 12,
-              "away": 25
-            }
-          ],
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo C3",
+          "away": "Equipo C4",
+          "sets": [],
+          "hour": "Jue 19 nov · 08:50",
+          "place": "Plantel 26 San Luis IV · Cancha 3"
         }
       ]
     }
@@ -228,76 +121,41 @@
   "knockout": {
     "sf1": {
       "home": "",
-      "away": "PANTERAS PL28",
-      "sets": [
-        {
-          "home": 25,
-          "away": 15
-        },
-        {
-          "home": 25,
-          "away": 18
-        }
-      ],
+      "away": "",
+      "sets": [],
       "winner": "",
-      "hour": "PARTIDO",
-      "place": "FINALIZADO"
+      "hour": "Jue 19 nov · 10:30",
+      "place": "Plantel 26 San Luis IV · Cancha 1"
     },
     "sf2": {
       "home": "",
       "away": "",
       "sets": [],
       "winner": "",
-      "hour": "PARTIDO",
-      "place": "FINALIZADO"
+      "hour": "Jue 19 nov · 11:20",
+      "place": "Plantel 26 San Luis IV · Cancha 1"
     },
     "final": {
-      "home": "HALCONES PL26",
-      "away": "TIGRES PL06",
-      "sets": [
-        {
-          "home": 25,
-          "away": 10
-        },
-        {
-          "home": 18,
-          "away": 25
-        },
-        {
-          "home": 15,
-          "away": 10
-        }
-      ],
-      "winner": "HALCONES PL26",
-      "hour": "PARTIDO",
-      "place": "FINALIZADO"
+      "home": "",
+      "away": "",
+      "sets": [],
+      "winner": "",
+      "hour": "Vie 20 nov · 08:00",
+      "place": "Plantel 26 San Luis IV · Cancha 1"
     },
     "third": {
-      "home": "PANTERAS PL28",
-      "away": "COYOTES PL05",
-      "sets": [
-        {
-          "home": 25,
-          "away": 20
-        },
-        {
-          "home": 19,
-          "away": 25
-        },
-        {
-          "home": 15,
-          "away": 9
-        }
-      ],
-      "winner": "PANTERAS PL28",
-      "hour": "PARTIDO",
-      "place": "FINALIZADO"
+      "home": "",
+      "away": "",
+      "sets": [],
+      "winner": "",
+      "hour": "Vie 20 nov · 08:00",
+      "place": "Plantel 26 San Luis IV · Cancha 2"
     }
   },
-  "tournamentName": "Voleibol Femenil",
+  "tournamentName": "Voleibol de Sala Femenil 2026",
   "theme": {
     "color": "#ab75d7",
     "bg": "#dcc8ea"
   },
-  "timestamp": "2025-11-21T18:39:39.665Z"
+  "updatedAtLocal": "Programa preliminar · equipos por definir en el sorteo"
 }

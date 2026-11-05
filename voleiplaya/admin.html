@@ -236,7 +236,7 @@ Equipo B4</textarea></div>
 
 <script>
 function escapeIdentity(value){return String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
-function normalizeProfiles(profiles){const result=Object.create(null);if(profiles&&typeof profiles==='object')for(const [key,p] of Object.entries(profiles)){if(!p||typeof p!=='object')continue;result[key]={school:String(p.school||'').slice(0,180),image:/^data:image\/(png|jpeg|webp);base64,[A-Za-z0-9+/=]+$/.test(p.image||'')?p.image:''};}return result;}
+function normalizeProfiles(profiles){const result=Object.create(null);if(profiles&&typeof profiles==='object')for(const [key,p] of Object.entries(profiles)){if(!p||typeof p!=='object')continue;result[key]={school:String(p.school||'').slice(0,180),image:(/^data:image\/(png|jpeg|webp);base64,[A-Za-z0-9+/=]+$/.test(p.image||'')||/^\.\.\/mascotas\/[A-Za-z0-9_-]+\.(webp|png|jpe?g)$/.test(p.image||''))?p.image:''};}return result;}
 function teamIdentity(name){const p=(state.teamProfiles||{})[name]||{};const label=p.school||name;return `<span class="team-identity">${p.image?`<img src="${p.image}" alt="Mascota de ${escapeIdentity(label)}">`:''}<span><span class="school-label">${escapeIdentity(label)}</span>${p.school&&p.school!==name?`<span class="identity-name">${escapeIdentity(name)}</span>`:''}</span></span>`;}
 
 function renderIdentityEditors(){
@@ -483,6 +483,11 @@ async function publish(){
 }
 
 function applyStateToUI(){
+  // Horarios, sedes y nombres de la eliminatoria guardados en el estado
+  [['sf1','sf1'],['sf2','sf2'],['fi','final'],['third','third']].forEach(([pre,key])=>{
+    const k=(state.knockout||{})[key]||{};
+    [['Hour','hour'],['Place','place'],['HomeName','home'],['AwayName','away']].forEach(([suf,f])=>{ const el=document.getElementById(pre+suf); if(el) el.value=k[f]||''; });
+  });
   const a = $('#ga'), b = $('#gb'); 
   if(a) a.value = (state.groups.A.teams || []).join('\n'); 
   if(b) b.value = (state.groups.B.teams || []).join('\n');

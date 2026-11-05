@@ -2,176 +2,105 @@
   "groups": {
     "A": {
       "teams": [
-        "ARDILLAS PL03",
-        "BUHOS EM06",
-        "PANTERAS PL28"
+        "Equipo A1",
+        "Equipo A2",
+        "Equipo A3",
+        "Equipo A4"
       ],
       "matches": [
         {
-          "home": "ARDILLAS PL03",
-          "away": "BUHOS EM06",
-          "sets": [
-            {
-              "home": 12,
-              "away": 21
-            },
-            {
-              "home": 14,
-              "away": 21
-            }
-          ],
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo A1",
+          "away": "Equipo A3",
+          "sets": [],
+          "hour": "Mié 18 nov · 09:20",
+          "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "PANTERAS PL28",
-          "away": "ARDILLAS PL03",
-          "sets": [
-            {
-              "home": 10,
-              "away": 21
-            },
-            {
-              "home": 11,
-              "away": 21
-            }
-          ],
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo A2",
+          "away": "Equipo A3",
+          "sets": [],
+          "hour": "Mié 18 nov · 14:40",
+          "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "BUHOS EM06",
-          "away": "PANTERAS PL28",
-          "sets": [
-            {
-              "home": 21,
-              "away": 13
-            },
-            {
-              "home": 21,
-              "away": 14
-            }
-          ],
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo A3",
+          "away": "Equipo A4",
+          "sets": [],
+          "hour": "Mié 18 nov · 16:00",
+          "place": "U. Cuauhtémoc campus sur · Cancha 1"
+        },
+        {
+          "home": "Equipo A1",
+          "away": "Equipo A4",
+          "sets": [],
+          "hour": "Jue 19 nov · 08:00",
+          "place": "U. Cuauhtémoc campus sur · Cancha 1"
+        },
+        {
+          "home": "Equipo A1",
+          "away": "Equipo A2",
+          "sets": [],
+          "hour": "Jue 19 nov · 09:20",
+          "place": "U. Cuauhtémoc campus sur · Cancha 1"
+        },
+        {
+          "home": "Equipo A2",
+          "away": "Equipo A4",
+          "sets": [],
+          "hour": "Jue 19 nov · 14:00",
+          "place": "U. Cuauhtémoc campus sur · Cancha 1"
         }
       ]
     },
     "B": {
       "teams": [
-        "AGUILAS PL19",
-        "CATANES PL22",
-        "COYOTES PL05",
-        "HALCONES PL26"
+        "Equipo B1",
+        "Equipo B2",
+        "Equipo B3",
+        "Equipo B4"
       ],
       "matches": [
         {
-          "home": "AGUILAS PL19",
-          "away": "CATANES PL22",
-          "sets": [
-            {
-              "home": 14,
-              "away": 21
-            },
-            {
-              "home": 16,
-              "away": 21
-            }
-          ],
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo B2",
+          "away": "Equipo B4",
+          "sets": [],
+          "hour": "Mié 18 nov · 10:40",
+          "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "COYOTES PL05",
-          "away": "HALCONES PL26",
-          "sets": [
-            {
-              "home": 21,
-              "away": 11
-            },
-            {
-              "home": 11,
-              "away": 21
-            },
-            {
-              "home": 6,
-              "away": 15
-            }
-          ],
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo B1",
+          "away": "Equipo B2",
+          "sets": [],
+          "hour": "Mié 18 nov · 12:00",
+          "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "AGUILAS PL19",
-          "away": "COYOTES PL05",
-          "sets": [
-            {
-              "home": 21,
-              "away": 15
-            },
-            {
-              "home": 19,
-              "away": 21
-            },
-            {
-              "home": 15,
-              "away": 10
-            }
-          ],
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo B1",
+          "away": "Equipo B4",
+          "sets": [],
+          "hour": "Mié 18 nov · 13:20",
+          "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "CATANES PL22",
-          "away": "HALCONES PL26",
-          "sets": [
-            {
-              "home": 21,
-              "away": 8
-            },
-            {
-              "home": 21,
-              "away": 7
-            }
-          ],
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo B2",
+          "away": "Equipo B3",
+          "sets": [],
+          "hour": "Mié 18 nov · 15:20",
+          "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "AGUILAS PL19",
-          "away": "HALCONES PL26",
-          "sets": [
-            {
-              "home": 15,
-              "away": 21
-            },
-            {
-              "home": 21,
-              "away": 5
-            },
-            {
-              "home": 15,
-              "away": 7
-            }
-          ],
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo B3",
+          "away": "Equipo B4",
+          "sets": [],
+          "hour": "Jue 19 nov · 11:20",
+          "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "CATANES PL22",
-          "away": "COYOTES PL05",
-          "sets": [
-            {
-              "home": 21,
-              "away": 10
-            },
-            {
-              "home": 21,
-              "away": 10
-            }
-          ],
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo B1",
+          "away": "Equipo B3",
+          "sets": [],
+          "hour": "Jue 19 nov · 13:20",
+          "place": "U. Cuauhtémoc campus sur · Cancha 1"
         }
       ]
     }
@@ -182,82 +111,43 @@
   },
   "knockout": {
     "sf1": {
-      "home": "BUHOS EM06",
-      "away": "AGUILAS PL19",
-      "sets": [
-        {
-          "home": 6,
-          "away": 21
-        },
-        {
-          "home": 13,
-          "away": 21
-        }
-      ],
+      "home": "",
+      "away": "",
+      "sets": [],
       "winner": "",
-      "hour": "PARTIDO",
-      "place": "FINALIZADO"
+      "hour": "Jue 19 nov · 16:00",
+      "place": "U. Cuauhtémoc campus sur · Cancha 1"
     },
     "sf2": {
-      "home": "CATANES PL22",
-      "away": "ARDILLAS PL03",
-      "sets": [
-        {
-          "home": 21,
-          "away": 5
-        },
-        {
-          "home": 21,
-          "away": 11
-        }
-      ],
+      "home": "",
+      "away": "",
+      "sets": [],
       "winner": "",
-      "hour": "PARTIDO",
-      "place": "FINALIZADO"
+      "hour": "Jue 19 nov · 16:40",
+      "place": "U. Cuauhtémoc campus sur · Cancha 1"
     },
     "final": {
-      "home": "AGUILAS PL19",
-      "away": "CATANES PL22",
-      "sets": [
-        {
-          "home": 10,
-          "away": 31
-        },
-        {
-          "home": 13,
-          "away": 21
-        }
-      ],
-      "winner": "CATANES PL22",
-      "hour": "PARTIDO",
-      "place": "FINALIZADO"
+      "home": "",
+      "away": "",
+      "sets": [],
+      "winner": "",
+      "hour": "Vie 20 nov · 09:30",
+      "place": "U. Cuauhtémoc campus sur · Cancha 1"
     },
     "third": {
-      "home": "BUHOS EM06",
-      "away": "ARDILLAS PL03",
-      "sets": [
-        {
-          "home": 21,
-          "away": 10
-        },
-        {
-          "home": 20,
-          "away": 21
-        },
-        {
-          "home": 14,
-          "away": 16
-        }
-      ],
-      "winner": "ARDILLAS PL03",
-      "hour": "21/11/2025   9:20",
-      "place": "Tantocob"
+      "home": "",
+      "away": "",
+      "sets": [],
+      "winner": "",
+      "hour": "Vie 20 nov · 10:15",
+      "place": "U. Cuauhtémoc campus sur · Cancha 1"
     }
   },
-  "tournamentName": "Voleibol de Playa Varonil",
+  "tournamentName": "Voleibol de Playa Varonil 2026",
   "theme": {
     "color": "#8308e7",
     "bg": "#4c2361"
   },
-  "timestamp": "2025-11-21T17:55:21.188Z"
+  "teamProfiles": {},
+  "updatedAtLocal": "Programa preliminar · equipos por definir en el sorteo"
 }

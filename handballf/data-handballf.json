@@ -1,308 +1,151 @@
 {
-  "tournamentName": "Balonmano Femenil",
-  "theme": {
-    "color": "#6be619",
-    "bg": "#c1f2bb"
+  "teamProfiles": {},
+  "groups": {
+    "A": {
+      "teams": [
+        "Equipo A1",
+        "Equipo A2",
+        "Equipo A3",
+        "Equipo A4"
+      ],
+      "matches": [
+        {
+          "home": "Equipo A2",
+          "away": "Equipo A4",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 08:00",
+          "place": "CEDETAR · Cancha 1"
+        },
+        {
+          "home": "Equipo A1",
+          "away": "Equipo A3",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 09:00",
+          "place": "CEDETAR · Cancha 1"
+        },
+        {
+          "home": "Equipo A3",
+          "away": "Equipo A4",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 11:00",
+          "place": "CEDETAR · Cancha 2"
+        },
+        {
+          "home": "Equipo A1",
+          "away": "Equipo A2",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 14:00",
+          "place": "CEDETAR · Cancha 1"
+        },
+        {
+          "home": "Equipo A1",
+          "away": "Equipo A4",
+          "gh": null,
+          "ga": null,
+          "hour": "Jue 19 nov · 10:00",
+          "place": "CEDETAR · Cancha 1"
+        },
+        {
+          "home": "Equipo A2",
+          "away": "Equipo A3",
+          "gh": null,
+          "ga": null,
+          "hour": "Jue 19 nov · 10:00",
+          "place": "CEDETAR · Cancha 2"
+        }
+      ]
+    },
+    "B": {
+      "teams": [
+        "Equipo B1",
+        "Equipo B2",
+        "Equipo B3"
+      ],
+      "matches": [
+        {
+          "home": "Equipo B3",
+          "away": "Equipo B1",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 09:00",
+          "place": "CEDETAR · Cancha 2"
+        },
+        {
+          "home": "Equipo B1",
+          "away": "Equipo B2",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 13:00",
+          "place": "CEDETAR · Cancha 2"
+        },
+        {
+          "home": "Equipo B2",
+          "away": "Equipo B3",
+          "gh": null,
+          "ga": null,
+          "hour": "Jue 19 nov · 11:00",
+          "place": "CEDETAR · Cancha 2"
+        }
+      ]
+    }
   },
   "points": {
     "win": 2,
     "draw": 1,
     "loss": 0
   },
-  "groups": {
-    "A": {
-      "teams": [
-        "AGUILAS PL19",
-        "AGUILUCHOS PL17",
-        "AGUILAS PL07"
-      ],
-      "matches": [
-        {
-          "home": "AGUILAS PL19",
-          "away": "AGUILUCHOS PL17",
-          "gh": 3,
-          "ga": 12,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
-        },
-        {
-          "home": "AGUILUCHOS PL17",
-          "away": "AGUILAS PL07",
-          "gh": 15,
-          "ga": 2,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
-        },
-        {
-          "home": "AGUILAS PL07",
-          "away": "AGUILAS PL19",
-          "gh": 0,
-          "ga": 7,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
-        }
-      ],
-      "table": [
-        {
-          "team": "AGUILUCHOS PL17",
-          "PJ": 2,
-          "G": 2,
-          "E": 0,
-          "P": 0,
-          "GF": 27,
-          "GC": 5,
-          "DG": 22,
-          "Pts": 4
-        },
-        {
-          "team": "AGUILAS PL19",
-          "PJ": 2,
-          "G": 1,
-          "E": 0,
-          "P": 1,
-          "GF": 10,
-          "GC": 12,
-          "DG": -2,
-          "Pts": 2
-        },
-        {
-          "team": "AGUILAS PL07",
-          "PJ": 2,
-          "G": 0,
-          "E": 0,
-          "P": 2,
-          "GF": 2,
-          "GC": 22,
-          "DG": -20,
-          "Pts": 0
-        }
-      ]
-    },
-    "B": {
-      "teams": [
-        "GARZAS PL33",
-        "PANTERAS PL28",
-        "TIGRILLOS PL14"
-      ],
-      "matches": [
-        {
-          "home": "GARZAS PL33",
-          "away": "PANTERAS PL28",
-          "gh": 14,
-          "ga": 9,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
-        },
-        {
-          "home": "PANTERAS PL28",
-          "away": "TIGRILLOS PL14",
-          "gh": 5,
-          "ga": 12,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
-        },
-        {
-          "home": "TIGRILLOS PL14",
-          "away": "GARZAS PL33",
-          "gh": 5,
-          "ga": 4,
-          "hour": "20/11/2025   9:40",
-          "place": "Gómez Morín Cancha 2"
-        }
-      ],
-      "table": [
-        {
-          "team": "TIGRILLOS PL14",
-          "PJ": 2,
-          "G": 2,
-          "E": 0,
-          "P": 0,
-          "GF": 17,
-          "GC": 9,
-          "DG": 8,
-          "Pts": 4
-        },
-        {
-          "team": "GARZAS PL33",
-          "PJ": 2,
-          "G": 1,
-          "E": 0,
-          "P": 1,
-          "GF": 18,
-          "GC": 14,
-          "DG": 4,
-          "Pts": 2
-        },
-        {
-          "team": "PANTERAS PL28",
-          "PJ": 2,
-          "G": 0,
-          "E": 0,
-          "P": 2,
-          "GF": 14,
-          "GC": 26,
-          "DG": -12,
-          "Pts": 0
-        }
-      ]
-    },
-    "C": {
-      "teams": [
-        "ABEJAS PL08",
-        "TIGRES PL06",
-        "BUHOS PL25",
-        "ARDILLAS PL03"
-      ],
-      "matches": [
-        {
-          "home": "ABEJAS PL08",
-          "away": "TIGRES PL06",
-          "gh": 21,
-          "ga": 1,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
-        },
-        {
-          "home": "BUHOS PL25",
-          "away": "ARDILLAS PL03",
-          "gh": 0,
-          "ga": 10,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
-        },
-        {
-          "home": "ABEJAS PL08",
-          "away": "BUHOS PL25",
-          "gh": 10,
-          "ga": 0,
-          "hour": "20/11/2025   10:30",
-          "place": "Gómez Morín Cancha 2"
-        },
-        {
-          "home": "TIGRES PL06",
-          "away": "ARDILLAS PL03",
-          "gh": 2,
-          "ga": 18,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
-        },
-        {
-          "home": "ABEJAS PL08",
-          "away": "ARDILLAS PL03",
-          "gh": 13,
-          "ga": 12,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
-        },
-        {
-          "home": "TIGRES PL06",
-          "away": "BUHOS PL25",
-          "gh": 10,
-          "ga": 0,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
-        }
-      ],
-      "table": [
-        {
-          "team": "ABEJAS PL08",
-          "PJ": 3,
-          "G": 3,
-          "E": 0,
-          "P": 0,
-          "GF": 44,
-          "GC": 13,
-          "DG": 31,
-          "Pts": 6
-        },
-        {
-          "team": "ARDILLAS PL03",
-          "PJ": 3,
-          "G": 2,
-          "E": 0,
-          "P": 1,
-          "GF": 40,
-          "GC": 15,
-          "DG": 25,
-          "Pts": 4
-        },
-        {
-          "team": "TIGRES PL06",
-          "PJ": 3,
-          "G": 1,
-          "E": 0,
-          "P": 2,
-          "GF": 13,
-          "GC": 39,
-          "DG": -26,
-          "Pts": 2
-        },
-        {
-          "team": "BUHOS PL25",
-          "PJ": 3,
-          "G": 0,
-          "E": 0,
-          "P": 3,
-          "GF": 0,
-          "GC": 30,
-          "DG": -30,
-          "Pts": 0
-        }
-      ]
-    }
-  },
-  "qualifiedTeams": {
-    "firstA": "AGUILUCHOS PL17",
-    "firstB": "TIGRILLOS PL14",
-    "firstC": "ABEJAS PL08",
-    "secondA": "AGUILAS PL19",
-    "secondB": "GARZAS PL33",
-    "secondC": "ARDILLAS PL03"
-  },
-  "semifinalTeams": {
-    "sf1Home": "AGUILUCHOS PL17",
-    "sf1Away": "ARDILLAS PL03",
-    "sf2Home": "ABEJAS PL08",
-    "sf2Away": "TIGRILLOS PL14"
-  },
   "knockout": {
     "sf1": {
       "home": "",
       "away": "",
-      "gh": 9,
-      "ga": 18,
+      "gh": null,
+      "ga": null,
       "winner": "",
-      "hour": "PARTIDO",
-      "place": "FINALIZADO"
+      "hour": "Jue 19 nov · 13:00",
+      "place": "CEDETAR · Cancha 1"
     },
     "sf2": {
       "home": "",
       "away": "",
-      "gh": 29,
-      "ga": 5,
+      "gh": null,
+      "ga": null,
       "winner": "",
-      "hour": "PARTIDO",
-      "place": "FINALIZADO"
+      "hour": "Jue 19 nov · 13:00",
+      "place": "CEDETAR · Cancha 2"
     },
     "final": {
-      "home": "ARDILLAS PL03",
-      "away": "ABEJAS PL08",
-      "gh": 16,
-      "ga": 14,
-      "winner": "ARDILLAS PL03",
-      "hour": "PARTIDO",
-      "place": "FINALIZADO"
+      "home": "",
+      "away": "",
+      "gh": null,
+      "ga": null,
+      "winner": "",
+      "hour": "Vie 20 nov · 09:00",
+      "place": "CEDETAR · Cancha 1"
     },
     "third": {
-      "home": "AGUILUCHOS PL17",
-      "away": "TIGRILLOS PL14",
-      "gh": 16,
-      "ga": 4,
-      "winner": "AGUILUCHOS PL17",
-      "hour": "PARTIDO",
-      "place": "FINALIZADO"
+      "home": "",
+      "away": "",
+      "gh": null,
+      "ga": null,
+      "winner": "",
+      "hour": "Vie 20 nov · 09:00",
+      "place": "CEDETAR · Cancha 2"
     }
   },
-  "lastUpdated": "2025-11-21T11:05:14.005",
-  "format": "10_equipos_3_grupos"
+  "semifinalTeams": {
+    "sf1Home": "",
+    "sf1Away": "",
+    "sf2Home": "",
+    "sf2Away": ""
+  },
+  "tournamentName": "Balonmano Femenil 2026",
+  "theme": {
+    "color": "#6be619",
+    "bg": "#c1f2bb"
+  },
+  "updatedAtLocal": "Programa preliminar · equipos por definir en el sorteo"
 }

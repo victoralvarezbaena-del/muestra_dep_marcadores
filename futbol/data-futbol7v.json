@@ -1,176 +1,136 @@
 {
-  "tournamentName": "Futbol 7 Varonil",
-  "subtitle": "",
   "groups": {
     "A": {
       "teams": [
-        "ABEJAS PL08",
-        "AGUILAS PL07",
-        "CARNEROS PL29"
+        "Equipo A1",
+        "Equipo A2",
+        "Equipo A3"
       ],
       "matches": [
         {
-          "home": "ABEJAS PL08",
-          "away": "AGUILAS PL07",
-          "gh": 1,
-          "ga": 3,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo A2",
+          "away": "Equipo A3",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 10:00",
+          "place": "U. Politécnica · Campo F7 1"
         },
         {
-          "home": "CARNEROS PL29",
-          "away": "ABEJAS PL08",
-          "gh": 2,
-          "ga": 3,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo A3",
+          "away": "Equipo A1",
+          "gh": null,
+          "ga": null,
+          "hour": "Jue 19 nov · 08:00",
+          "place": "U. Politécnica · Campo F7 2"
         },
         {
-          "home": "AGUILAS PL07",
-          "away": "CARNEROS PL29",
-          "gh": 3,
-          "ga": 1,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo A1",
+          "away": "Equipo A2",
+          "gh": null,
+          "ga": null,
+          "hour": "Jue 19 nov · 12:00",
+          "place": "U. Politécnica · Campo F7 1"
         }
       ]
     },
     "B": {
       "teams": [
-        "LIEBRES PL01",
-        "GAVILANES PL38",
-        "COYOTES PL05"
+        "Equipo B1",
+        "Equipo B2",
+        "Equipo B3"
       ],
       "matches": [
         {
-          "home": "LIEBRES PL01",
-          "away": "GAVILANES PL38",
-          "gh": 0,
-          "ga": 3,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo B2",
+          "away": "Equipo B3",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 10:00",
+          "place": "U. Politécnica · Campo F7 2"
         },
         {
-          "home": "COYOTES PL05",
-          "away": "LIEBRES PL01",
-          "gh": 1,
-          "ga": 0,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo B3",
+          "away": "Equipo B1",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 12:00",
+          "place": "U. Politécnica · Campo F7 2"
         },
         {
-          "home": "GAVILANES PL38",
-          "away": "COYOTES PL05",
-          "gh": 2,
-          "ga": 1,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo B1",
+          "away": "Equipo B2",
+          "gh": null,
+          "ga": null,
+          "hour": "Jue 19 nov · 12:00",
+          "place": "U. Politécnica · Campo F7 2"
         }
       ]
     },
     "C": {
       "teams": [
-        "AGUILAS PL19",
-        "HUEHUES EM24",
-        "BUHOS PL25"
+        "Equipo C1",
+        "Equipo C2",
+        "Equipo C3"
       ],
       "matches": [
         {
-          "home": "AGUILAS PL19",
-          "away": "HUEHUES EM24",
-          "gh": 13,
-          "ga": 0,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo C1",
+          "away": "Equipo C2",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 11:00",
+          "place": "U. Politécnica · Campo F7 2"
         },
         {
-          "home": "BUHOS PL25",
-          "away": "AGUILAS PL19",
-          "gh": 1,
-          "ga": 3,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo C2",
+          "away": "Equipo C3",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 14:00",
+          "place": "U. Politécnica · Campo F7 1"
         },
         {
-          "home": "HUEHUES EM24",
-          "away": "BUHOS PL25",
-          "gh": 1,
-          "ga": 7,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo C3",
+          "away": "Equipo C1",
+          "gh": null,
+          "ga": null,
+          "hour": "Jue 19 nov · 09:00",
+          "place": "U. Politécnica · Campo F7 2"
         }
       ]
     },
     "D": {
       "teams": [
-        "CATANES PL22",
-        "MAPACHES PL24",
-        "TIGRILLOS PL14"
+        "Equipo D1",
+        "Equipo D2",
+        "Equipo D3"
       ],
       "matches": [
         {
-          "home": "CATANES PL22",
-          "away": "MAPACHES PL24",
-          "gh": 2,
-          "ga": 1,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo D1",
+          "away": "Equipo D2",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 08:00",
+          "place": "U. Politécnica · Campo F7 2"
         },
         {
-          "home": "TIGRILLOS PL14",
-          "away": "CATANES PL22",
-          "gh": 2,
-          "ga": 2,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo D3",
+          "away": "Equipo D1",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 14:00",
+          "place": "U. Politécnica · Campo F7 2"
         },
         {
-          "home": "MAPACHES PL24",
-          "away": "TIGRILLOS PL14",
-          "gh": 1,
-          "ga": 5,
-          "hour": "PARTIDO",
-          "place": "FINALIZADO"
+          "home": "Equipo D2",
+          "away": "Equipo D3",
+          "gh": null,
+          "ga": null,
+          "hour": "Jue 19 nov · 10:00",
+          "place": "U. Politécnica · Campo F7 2"
         }
       ]
-    }
-  },
-  "knockout": {
-    "sf1": {
-      "home": "AGUILAS PL07",
-      "away": "GAVILANES PL38",
-      "gh": 3,
-      "ga": 3,
-      "winner": "GAVILANES PL38",
-      "hour": "PL38",
-      "place": "GANA EN PENALES"
-    },
-    "sf2": {
-      "home": "AGUILAS PL19",
-      "away": "TIGRILLOS PL14",
-      "gh": 3,
-      "ga": 1,
-      "winner": "",
-      "hour": "PARTIDO",
-      "place": "FINALIZADO"
-    },
-    "final": {
-      "home": "GAVILANES PL38",
-      "away": "AGUILAS PL19",
-      "gh": 0,
-      "ga": 0,
-      "winner": "GAVILANES PL38",
-      "hour": "PL38",
-      "place": "GANA EN PENALES"
-    },
-    "third": {
-      "home": "TIGRILLOS PL14",
-      "away": "AGUILAS PL07",
-      "gh": 2,
-      "ga": 2,
-      "winner": "TIGRILLOS PL14",
-      "hour": "PL14",
-      "place": "GANA EN PENALES"
     }
   },
   "points": {
@@ -178,9 +138,49 @@
     "draw": 1,
     "loss": 0
   },
-  "updatedAtLocal": "21/11/2025, 12:44:05",
+  "knockout": {
+    "sf1": {
+      "home": "",
+      "away": "",
+      "gh": null,
+      "ga": null,
+      "winner": "",
+      "hour": "Jue 19 nov · 14:00",
+      "place": "U. Politécnica · Campo F7 1"
+    },
+    "sf2": {
+      "home": "",
+      "away": "",
+      "gh": null,
+      "ga": null,
+      "winner": "",
+      "hour": "Jue 19 nov · 14:00",
+      "place": "U. Politécnica · Campo F7 2"
+    },
+    "final": {
+      "home": "",
+      "away": "",
+      "gh": null,
+      "ga": null,
+      "winner": "",
+      "hour": "Vie 20 nov · 09:00",
+      "place": "U. Politécnica · Campo F7 1"
+    },
+    "third": {
+      "home": "",
+      "away": "",
+      "gh": null,
+      "ga": null,
+      "winner": "",
+      "hour": "Vie 20 nov · 09:00",
+      "place": "U. Politécnica · Campo F7 2"
+    }
+  },
+  "tournamentName": "Fútbol 7 Varonil 2026",
   "theme": {
     "color": "#01a6bc",
     "bg": "#194c57"
-  }
+  },
+  "teamProfiles": {},
+  "updatedAtLocal": "Programa preliminar · equipos por definir en el sorteo"
 }
