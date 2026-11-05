@@ -874,19 +874,10 @@ function teamIdentity(name){const p=teamProfiles[name]||{};const label=p.school|
         html += renderGroups(data.groups, data.points);
       }
       
-      // Fase eliminatoria
-      if (data.knockout && groupStageComplete(data.groups)) {
-        const knockout = JSON.parse(JSON.stringify(data.knockout));
-        for (const [key, side, groupKey] of [['sf1','home','A'],['sf1','away','B'],['sf2','home','C'],['sf2','away','D']]) {
-          const group = data.groups[groupKey];
-          const leader = computeTable(group.matches, group.teams, data.points)[0]?.team;
-          if (!knockout[key][side] && leader) knockout[key][side] = leader;
-        }
-        html += renderKnockout(knockout);
-      }
-      
-      if (!groupStageComplete(data.groups)) {
-        html += '<div class="card"><p>Fase de grupos en curso. Las semifinales se mostrarán al completar todos los resultados.</p></div>';
+      // Fase eliminatoria: siempre visible con horario y sede.
+      // Los equipos NO se calculan desde la tabla de grupos; aparecen cuando se capturan en el administrador.
+      if (data.knockout) {
+        html += renderKnockout(data.knockout);
       }
       document.getElementById('tournamentContent').innerHTML = html;
     }

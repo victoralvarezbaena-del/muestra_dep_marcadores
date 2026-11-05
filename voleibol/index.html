@@ -1049,7 +1049,8 @@ function teamIdentity(name){const p=teamProfiles[name]||{};const label=p.school|
           return r.homeSets !== r.awaySets;
         })) complete = false;
       });
-      const P = salaPairingFromTables(tables, complete);
+      // La carátula no adelanta cruces desde la tabla: los equipos se muestran cuando se capturan en el administrador.
+      const P = salaPairingFromTables(tables, false);
       
       let html = '';
       
