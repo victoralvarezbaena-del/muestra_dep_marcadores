@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Administrador — Torneo Softbol 3 Grupos + Semifinales</title>
+  <title>Administrador — Torneo Softbol 2 Grupos + Semifinales</title>
   <style>
     :root{ --bg:#f8fafc; --panel:#e2e8f0; --card:#ffffff; --muted:#475569; --text:#0f172a; --accent:#0284c7; --ok:#16a34a; --bad:#dc2626; --ring:0 0 0 2px var(--accent) inset; }
     *{box-sizing:border-box}
     body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text)}
     header{padding:20px 16px;border-bottom:2px solid #cbd5e1;background:linear-gradient(90deg,#e2e8f0,#f1f5f9);position:sticky;top:0;z-index:10}
-    .container{max-width:1400px;margin:0 auto;padding:16px}
+    .container{max-width:1200px;margin:0 auto;padding:16px}
     h1{margin:0;font-size:clamp(22px,3.2vw,34px)}
     .subtitle{color:var(--muted)}
 
@@ -29,12 +29,11 @@
     .spacer{flex:1}
 
     .groups{display:grid;gap:12px}
-    @media(min-width:700px){.groups{grid-template-columns:1fr 1fr 1fr}}
+    @media(min-width:700px){.groups{grid-template-columns:1fr 1fr}}
 
     /* Colores por grupo */
     .groupA{background:rgba(56,189,248,.12);border:1px solid rgba(56,189,248,.45)}
     .groupB{background:rgba(168,85,247,.12);border:1px solid rgba(168,85,247,.45)}
-    .groupC{background:rgba(34,197,94,.12);border:1px solid rgba(34,197,94,.45)}
 
     .groupBox{padding:12px;border-radius:12px;margin-bottom:12px}
 
@@ -56,7 +55,6 @@
     .pts{font-weight:800}
     .first{background:rgba(34,197,94,.15)}
     .second{background:rgba(251,191,36,.15)}
-    .third{background:rgba(248,113,113,.15)}
     .note{font-size:12px;color:var(--muted)}
     .pct{font-weight:600;color:var(--muted)}
 
@@ -133,20 +131,6 @@
       white-space: nowrap;
       z-index: 1000;
     }
-
-    /* Mejor segundo lugar */
-    .best-second {
-      background: rgba(251,191,36,.15);
-      border: 1px solid rgba(251,191,36,.45);
-      padding: 12px;
-      border-radius: 12px;
-      margin-top: 16px;
-    }
-
-    .best-second h4 {
-      margin: 0 0 8px;
-      font-size: 16px;
-    }
   .team-identity{display:inline-flex;flex-direction:column;align-items:center;gap:5px;max-width:100%;text-align:center;vertical-align:middle;white-space:normal}
 .team-identity img{width:96px;height:96px;object-fit:contain;background:white;border-radius:10px}
 .school-label{display:block;color:#102a20;background:#e6f4ed;border:1px solid #94bba8;border-radius:6px;padding:5px 9px;font:700 14px/1.3 system-ui;overflow-wrap:anywhere}
@@ -162,8 +146,8 @@ td .team-identity{flex-direction:row;text-align:left;gap:8px}td .team-identity i
 <body>
   <header>
     <div class="container">
-      <h1>Administrador — Torneo Softbol 3 Grupos + Semifinales</h1>
-      <div class="subtitle">Crea y gestiona tu torneo de softbol. Los datos se guardan localmente y puedes publicarlos online.</div>
+      <h1>Administrador — Torneo Softbol 2 Grupos + Semifinales</h1>
+      <div class="subtitle">Crea y gestiona tu torneo de softbol. <strong>2 grupos de 3 o 4 equipos</strong></div>
     </div>
   </header>
 
@@ -171,15 +155,13 @@ td .team-identity{flex-direction:row;text-align:left;gap:8px}td .team-identity i
     <section class="card">
       <h2>1) Equipos por grupo</h2>
       <div class="groups">
-        <div><label>Grupo A</label><textarea id="ga">Tigres
+        <div><label>Grupo A (3 o 4 equipos)</label><textarea id="ga">Tigres
 Leones
 Águilas</textarea></div>
-        <div><label>Grupo B</label><textarea id="gb">Osos
+        <div><label>Grupo B (3 o 4 equipos)</label><textarea id="gb">Osos
 Toros
-Lobos</textarea></div>
-        <div><label>Grupo C</label><textarea id="gc">Panteras
-Halcones
-Coyotes</textarea></div>
+Lobos
+Panteras</textarea></div>
       </div>
 
       <!-- Tema (colores) -->
@@ -238,22 +220,16 @@ Coyotes</textarea></div>
       <h2>Grupos y partidos</h2>
       <div id="groupsRoot"></div>
 
-      <!-- Mejor segundo lugar -->
-      <div id="bestSecondRoot" class="best-second">
-        <h4>Mejor Segundo Lugar</h4>
-        <div id="bestSecondInfo">Se calculará automáticamente después de ingresar los resultados</div>
-      </div>
-
       <div class="bracket">
         <div class="semi">
-          <h3>Semifinal 1 — 1° Grupo A vs Mejor 2°</h3>
+          <h3>Semifinal 1 — 1.º A vs 2.º B</h3>
           <div class="row">
-            <div class="team" style="flex:1"><span id="sf1h">1° Grupo A</span></div>
+            <div class="team" style="flex:1"><span id="sf1h">1.º A</span></div>
             <div class="team" style="justify-content:center">
               <input type="number" min="0" inputmode="numeric" id="sf1gh" style="max-width:80px"> <span class="dash">—</span>
               <input type="number" min="0" inputmode="numeric" id="sf1ga" style="max-width:80px">
             </div>
-            <div class="team" style="flex:1;justify-content:flex-end"><span id="sf1a">Mejor 2°</span></div>
+            <div class="team" style="flex:1;justify-content:flex-end"><span id="sf1a">2.º B</span></div>
           </div>
           <div class="row" style="margin-top:6px">
             <label style="flex:1">Si hay empate, elige ganador</label>
@@ -274,14 +250,14 @@ Coyotes</textarea></div>
         </div>
 
         <div class="semi">
-          <h3>Semifinal 2 — 1° Grupo B vs 1° Grupo C</h3>
+          <h3>Semifinal 2 — 1.º B vs 2.º A</h3>
           <div class="row">
-            <div class="team" style="flex:1"><span id="sf2h">1° Grupo B</span></div>
+            <div class="team" style="flex:1"><span id="sf2h">1.º B</span></div>
             <div class="team" style="justify-content:center">
               <input type="number" min="0" inputmode="numeric" id="sf2gh" style="max-width:80px"> <span class="dash">—</span>
               <input type="number" min="0" inputmode="numeric" id="sf2ga" style="max-width:80px">
             </div>
-            <div class="team" style="flex:1;justify-content:flex-end"><span id="sf2a">1° Grupo C</span></div>
+            <div class="team" style="flex:1;justify-content:flex-end"><span id="sf2a">2.º A</span></div>
           </div>
           <div class="row" style="margin-top:6px">
             <label style="flex:1">Si hay empate, elige ganador</label>
@@ -381,7 +357,7 @@ function renderIdentityEditors(){
 }
 
 // ===== CONFIGURACIÓN =====
-const STORAGE_KEY = 'torneo_softbol_v1';
+const STORAGE_KEY = 'torneo_softbol_v2_2grupos';
 const $ = (selector, root = document) => root.querySelector(selector);
 
 // ===== ESTADO INICIAL =====
@@ -389,8 +365,7 @@ let state = {
   teamProfiles: Object.create(null),
   groups: {
     A: { teams: ['Tigres', 'Leones', 'Águilas'], matches: [] },
-    B: { teams: ['Osos', 'Toros', 'Lobos'], matches: [] },
-    C: { teams: ['Panteras', 'Halcones', 'Coyotes'], matches: [] }
+    B: { teams: ['Osos', 'Toros', 'Lobos', 'Panteras'], matches: [] }
   },
   points: { win: 2, draw: 1, loss: 0 },
   knockout: {
@@ -408,11 +383,25 @@ function parseTeams(txt) {
   return String(txt || '').split('\n').map(s => s.trim()).filter(Boolean);
 }
 
+// NUEVO: Calendario para grupo de 3 equipos (todos contra todos)
 function roundRobin3(teams) {
   if (teams.length !== 3) return [];
   return [
     [teams[0], teams[1]],
     [teams[0], teams[2]],
+    [teams[1], teams[2]]
+  ];
+}
+
+// Calendario para grupo de 4 equipos (existente)
+function roundRobin4(teams) {
+  if (teams.length !== 4) return [];
+  return [
+    [teams[0], teams[1]],
+    [teams[2], teams[3]],
+    [teams[0], teams[2]],
+    [teams[1], teams[3]],
+    [teams[0], teams[3]],
     [teams[1], teams[2]]
   ];
 }
@@ -534,46 +523,6 @@ function groupRunnerUp(groupKey) {
   return rows[1]?.team || '';
 }
 
-// Función para calcular el mejor segundo lugar
-function getBestSecondPlace() {
-  const secondPlaces = [];
-  
-  // Obtener los segundos lugares de cada grupo
-  ['A', 'B', 'C'].forEach(groupKey => {
-    const group = state.groups[groupKey];
-    const rows = computeTable(group.matches, group.teams);
-    if (rows.length > 1) {
-      secondPlaces.push({
-        team: rows[1].team,
-        group: groupKey,
-        points: rows[1].Pts,
-        PCT: rows[1].PCT,
-        DIF: rows[1].DIF,
-        RA: rows[1].RA
-      });
-    }
-  });
-  
-  // Ordenar por criterios de desempate
-  if (secondPlaces.length > 0) {
-    secondPlaces.sort((a, b) => {
-      // 1. Puntos
-      if (b.points !== a.points) return b.points - a.points;
-      // 2. Porcentaje de victorias
-      if (b.PCT !== a.PCT) return b.PCT - a.PCT;
-      // 3. Diferencia de carreras
-      if (b.DIF !== a.DIF) return b.DIF - a.DIF;
-      // 4. Carreras a favor
-      if (b.RA !== a.RA) return b.RA - a.RA;
-      return 0;
-    });
-    
-    return secondPlaces[0];
-  }
-  
-  return null;
-}
-
 // ===== RENDER GRUPOS =====
 function renderGroups() {
   state.teamProfiles = normalizeProfiles(state.teamProfiles);
@@ -581,19 +530,27 @@ function renderGroups() {
   const root = $('#groupsRoot');
   root.innerHTML = '';
   
-  ['A', 'B', 'C'].forEach(groupKey => {
+  ['A', 'B'].forEach(groupKey => {
     const group = state.groups[groupKey];
     const teams = group.teams || [];
     
     const groupDiv = document.createElement('div');
     groupDiv.className = `groupBox group${groupKey}`;
-    groupDiv.innerHTML = `<h3>Grupo ${groupKey}</h3>`;
+    groupDiv.innerHTML = `<h3>Grupo ${groupKey} (${teams.length} equipos)</h3>`;
     
     const matchesContainer = document.createElement('div');
     matchesContainer.className = 'matches';
     
-    // Crear partidos
-    const calendar = roundRobin3(teams);
+    // Crear partidos según el tamaño del grupo
+    let calendar;
+    if (teams.length === 3) {
+      calendar = roundRobin3(teams);
+    } else if (teams.length === 4) {
+      calendar = roundRobin4(teams);
+    } else {
+      calendar = [];
+    }
+    
     calendar.forEach(([home, away]) => {
       const existingMatch = group.matches.find(m => m.home === home && m.away === away) || 
                           { home, away, gh: null, ga: null, hour: '', place: '' };
@@ -627,7 +584,7 @@ function renderGroups() {
     
     groupDiv.appendChild(matchesContainer);
     
-    // Tabla de posiciones con nuevas estadísticas
+    // Tabla de posiciones
     const rows = computeTable(group.matches, teams);
     const tableHTML = `
       <div class="table-wrap">
@@ -649,7 +606,7 @@ function renderGroups() {
           </thead>
           <tbody>
             ${rows.map((row, index) => `
-              <tr class="${index === 0 ? 'first' : index === 1 ? 'second' : index === 2 ? 'third' : ''}">
+              <tr class="${index === 0 ? 'first' : index === 1 ? 'second' : ''}">
                 <td class="pos">${index + 1}</td>
                 <td><strong>${teamIdentity(row.team)}</strong></td>
                 <td>${row.JJ}</td>
@@ -669,7 +626,7 @@ function renderGroups() {
       <div class="note">
         <strong>Clasificación:</strong> 
         <span style="background:rgba(34,197,94,.15); padding:2px 6px; border-radius:4px;">1º</span> Semifinales, 
-        <span style="background:rgba(251,191,36,.15); padding:2px 6px; border-radius:4px;">2º</span> Posible mejor segundo
+        <span style="background:rgba(251,191,36,.15); padding:2px 6px; border-radius:4px;">2º</span> Semifinales
       </div>
     `;
     
@@ -677,31 +634,7 @@ function renderGroups() {
     root.appendChild(groupDiv);
   });
   
-  // Actualizar mejor segundo lugar
-  updateBestSecondPlace();
-  
-  // Vincular eventos de los inputs de partidos
   setupGroupEventListeners();
-}
-
-function updateBestSecondPlace() {
-  const bestSecond = getBestSecondPlace();
-  const bestSecondRoot = $('#bestSecondRoot');
-  
-  if (bestSecond) {
-    bestSecondRoot.innerHTML = `
-      <h4>Mejor Segundo Lugar</h4>
-      <div><strong>${bestSecond.team}</strong> (Grupo ${bestSecond.group})</div>
-      <div style="font-size:14px; margin-top:4px">
-        Puntos: ${bestSecond.points} | %Victorias: ${bestSecond.PCT.toFixed(3)} | Diferencia: ${bestSecond.DIF > 0 ? '+' : ''}${bestSecond.DIF}
-      </div>
-    `;
-  } else {
-    bestSecondRoot.innerHTML = `
-      <h4>Mejor Segundo Lugar</h4>
-      <div>Se calculará automáticamente después de ingresar los resultados</div>
-    `;
-  }
 }
 
 // ===== EVENT LISTENERS PARA GRUPOS =====
@@ -757,22 +690,16 @@ function setupGroupEventListeners() {
 
 // ===== KNOCKOUT =====
 function updateKnockout() {
-  const A1 = groupWinner('A') || 'A1';
-  const A2 = groupRunnerUp('A') || 'A2';
-  const B1 = groupWinner('B') || 'B1';
-  const B2 = groupRunnerUp('B') || 'B2';
-  const C1 = groupWinner('C') || 'C1';
-  const C2 = groupRunnerUp('C') || 'C2';
-
-  // Obtener el mejor segundo lugar
-  const bestSecond = getBestSecondPlace();
-  const bestSecondTeam = bestSecond ? bestSecond.team : 'Mejor 2°';
+  const A1 = groupWinner('A') || '1.º A';
+  const A2 = groupRunnerUp('A') || '2.º A';
+  const B1 = groupWinner('B') || '1.º B';
+  const B2 = groupRunnerUp('B') || '2.º B';
 
   // Semifinales
   $('#sf1h').dataset.team = state.knockout.sf1.home || A1; $('#sf1h').innerHTML = teamIdentity($('#sf1h').dataset.team);
-  $('#sf1a').dataset.team = state.knockout.sf1.away || bestSecondTeam; $('#sf1a').innerHTML = teamIdentity($('#sf1a').dataset.team);
+  $('#sf1a').dataset.team = state.knockout.sf1.away || B2; $('#sf1a').innerHTML = teamIdentity($('#sf1a').dataset.team);
   $('#sf2h').dataset.team = state.knockout.sf2.home || B1; $('#sf2h').innerHTML = teamIdentity($('#sf2h').dataset.team);
-  $('#sf2a').dataset.team = state.knockout.sf2.away || C1; $('#sf2a').innerHTML = teamIdentity($('#sf2a').dataset.team);
+  $('#sf2a').dataset.team = state.knockout.sf2.away || A2; $('#sf2a').innerHTML = teamIdentity($('#sf2a').dataset.team);
 
   // Final y tercer lugar
   const sf1Winner = state.knockout.sf1.winner;
@@ -784,10 +711,10 @@ function updateKnockout() {
   
   // Para tercer lugar
   const sf1Loser = sf1Winner ? 
-    (sf1Winner === (state.knockout.sf1.home || A1) ? (state.knockout.sf1.away || bestSecondTeam) : (state.knockout.sf1.home || A1)) : 
+    (sf1Winner === (state.knockout.sf1.home || A1) ? (state.knockout.sf1.away || B2) : (state.knockout.sf1.home || A1)) : 
     'Perdedor SF1';
   const sf2Loser = sf2Winner ? 
-    (sf2Winner === (state.knockout.sf2.home || B1) ? (state.knockout.sf2.away || C1) : (state.knockout.sf2.home || B1)) : 
+    (sf2Winner === (state.knockout.sf2.home || B1) ? (state.knockout.sf2.away || A2) : (state.knockout.sf2.home || B1)) : 
     'Perdedor SF2';
   
   $('#thirdh').dataset.team = state.knockout.third.home || sf1Loser; $('#thirdh').innerHTML = teamIdentity($('#thirdh').dataset.team);
@@ -898,7 +825,7 @@ function exportData() {
   
   const a = document.createElement('a');
   a.href = url;
-  a.download = `torneo-beisbol-${new Date().toISOString().slice(0, 10)}.json`;
+  a.download = `torneo-softbol-${new Date().toISOString().slice(0, 10)}.json`;
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
@@ -929,7 +856,6 @@ function applyStateToUI() {
   // Equipos
   $('#ga').value = state.groups.A.teams.join('\n');
   $('#gb').value = state.groups.B.teams.join('\n');
-  $('#gc').value = state.groups.C.teams.join('\n');
   
   // Tema
   $('#tournamentName').value = state.tournamentName || '';
@@ -978,10 +904,8 @@ function init() {
   $('#btnGenerate').addEventListener('click', function() {
     state.groups.A.teams = parseTeams($('#ga').value);
     state.groups.B.teams = parseTeams($('#gb').value);
-    state.groups.C.teams = parseTeams($('#gc').value);
     state.groups.A.matches = [];
     state.groups.B.matches = [];
-    state.groups.C.matches = [];
     saveState();
     renderGroups();
     updateKnockout();

@@ -147,7 +147,7 @@ td .team-identity{flex-direction:row;text-align:left;gap:8px}td .team-identity i
   <header>
     <div class="container">
       <h1>Administrador — Torneo Béisbol 2 Grupos + Semifinales</h1>
-      <div class="subtitle">Crea y gestiona tu torneo de béisbol. <strong>Grupo A: 3 equipos | Grupo B: 4 equipos</strong></div>
+      <div class="subtitle">Crea y gestiona tu torneo de béisbol. <strong>2 grupos de 3 o 4 equipos</strong></div>
     </div>
   </header>
 
@@ -155,10 +155,10 @@ td .team-identity{flex-direction:row;text-align:left;gap:8px}td .team-identity i
     <section class="card">
       <h2>1) Equipos por grupo</h2>
       <div class="groups">
-        <div><label>Grupo A (3 equipos)</label><textarea id="ga">Tigres
+        <div><label>Grupo A (3 o 4 equipos)</label><textarea id="ga">Tigres
 Leones
 Águilas</textarea></div>
-        <div><label>Grupo B (4 equipos)</label><textarea id="gb">Osos
+        <div><label>Grupo B (3 o 4 equipos)</label><textarea id="gb">Osos
 Toros
 Lobos
 Panteras</textarea></div>
@@ -222,14 +222,14 @@ Panteras</textarea></div>
 
       <div class="bracket">
         <div class="semi">
-          <h3>Semifinal 1 — A1 vs B2</h3>
+          <h3>Semifinal 1 — 1.º A vs 2.º B</h3>
           <div class="row">
-            <div class="team" style="flex:1"><span id="sf1h">A1</span></div>
+            <div class="team" style="flex:1"><span id="sf1h">1.º A</span></div>
             <div class="team" style="justify-content:center">
               <input type="number" min="0" inputmode="numeric" id="sf1gh" style="max-width:80px"> <span class="dash">—</span>
               <input type="number" min="0" inputmode="numeric" id="sf1ga" style="max-width:80px">
             </div>
-            <div class="team" style="flex:1;justify-content:flex-end"><span id="sf1a">B2</span></div>
+            <div class="team" style="flex:1;justify-content:flex-end"><span id="sf1a">2.º B</span></div>
           </div>
           <div class="row" style="margin-top:6px">
             <label style="flex:1">Si hay empate, elige ganador</label>
@@ -250,14 +250,14 @@ Panteras</textarea></div>
         </div>
 
         <div class="semi">
-          <h3>Semifinal 2 — B1 vs A2</h3>
+          <h3>Semifinal 2 — 1.º B vs 2.º A</h3>
           <div class="row">
-            <div class="team" style="flex:1"><span id="sf2h">B1</span></div>
+            <div class="team" style="flex:1"><span id="sf2h">1.º B</span></div>
             <div class="team" style="justify-content:center">
               <input type="number" min="0" inputmode="numeric" id="sf2gh" style="max-width:80px"> <span class="dash">—</span>
               <input type="number" min="0" inputmode="numeric" id="sf2ga" style="max-width:80px">
             </div>
-            <div class="team" style="flex:1;justify-content:flex-end"><span id="sf2a">A2</span></div>
+            <div class="team" style="flex:1;justify-content:flex-end"><span id="sf2a">2.º A</span></div>
           </div>
           <div class="row" style="margin-top:6px">
             <label style="flex:1">Si hay empate, elige ganador</label>
@@ -690,10 +690,10 @@ function setupGroupEventListeners() {
 
 // ===== KNOCKOUT =====
 function updateKnockout() {
-  const A1 = groupWinner('A') || 'A1';
-  const A2 = groupRunnerUp('A') || 'A2';
-  const B1 = groupWinner('B') || 'B1';
-  const B2 = groupRunnerUp('B') || 'B2';
+  const A1 = groupWinner('A') || '1.º A';
+  const A2 = groupRunnerUp('A') || '2.º A';
+  const B1 = groupWinner('B') || '1.º B';
+  const B2 = groupRunnerUp('B') || '2.º B';
 
   // Semifinales
   $('#sf1h').dataset.team = state.knockout.sf1.home || A1; $('#sf1h').innerHTML = teamIdentity($('#sf1h').dataset.team);

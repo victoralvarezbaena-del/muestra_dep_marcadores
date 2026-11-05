@@ -733,8 +733,8 @@ function teamIdentity(name){const p=teamProfiles[name]||{};const label=p.school|
               <h3>Semifinal 1</h3>
               ${renderMatch(
                 k.sf1, 
-                k.sf1.home || 'A1', 
-                k.sf1.away || 'D1'
+                k.sf1.home || '1.º A', 
+                k.sf1.away || '1.º B'
               )}
               ${k.sf1.winner ? `<div class="info"><strong>Ganador: ${k.sf1.winner}</strong></div>` : ''}
             </div>
@@ -743,8 +743,8 @@ function teamIdentity(name){const p=teamProfiles[name]||{};const label=p.school|
               <h3>Semifinal 2</h3>
               ${renderMatch(
                 k.sf2, 
-                k.sf2.home || 'B1', 
-                k.sf2.away || 'C1'
+                k.sf2.home || '1.º C', 
+                k.sf2.away || '1.º D'
               )}
               ${k.sf2.winner ? `<div class="info"><strong>Ganador: ${k.sf2.winner}</strong></div>` : ''}
             </div>

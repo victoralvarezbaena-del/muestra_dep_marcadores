@@ -374,13 +374,13 @@ function teamIdentity(name){const p=teamProfiles[name]||{};const label=p.school|
           <h2>Fase Eliminatoria</h2>
           <div class="bracket">
             <div class="semi">
-              <h3>Semifinal 1 (A1 vs B2)</h3>
-              ${renderMatch(k.sf1, k.sf1.home || 'A1', k.sf1.away || 'B2')}
+              <h3>Semifinal 1 (1.º A vs 2.º B)</h3>
+              ${renderMatch(k.sf1, k.sf1.home || '1.º A', k.sf1.away || '2.º B')}
               ${k.sf1.winner ? `<div class="info"><strong>Ganador: ${k.sf1.winner}</strong></div>` : ''}
             </div>
             <div class="semi">
-              <h3>Semifinal 2 (B1 vs A2)</h3>
-              ${renderMatch(k.sf2, k.sf2.home || 'B1', k.sf2.away || 'A2')}
+              <h3>Semifinal 2 (1.º B vs 2.º A)</h3>
+              ${renderMatch(k.sf2, k.sf2.home || '1.º B', k.sf2.away || '2.º A')}
               ${k.sf2.winner ? `<div class="info"><strong>Ganador: ${k.sf2.winner}</strong></div>` : ''}
             </div>
             <div class="third">

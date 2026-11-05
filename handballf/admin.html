@@ -122,7 +122,7 @@ td .team-identity{flex-direction:row;text-align:left;gap:8px}td .team-identity i
   <header>
     <div class="container">
       <h1>Administrador — Torneo Handball 10 Equipos</h1>
-      <div class="subtitle">2 grupos de 3 equipos + 1 grupo de 4 equipos. Clasifican: 3 primeros + mejor 2º</div>
+      <div class="subtitle">2 grupos de 3 o 4 equipos. Semifinales: 1.º A vs 2.º B y 1.º B vs 2.º A</div>
     </div>
   </header>
 
@@ -131,23 +131,16 @@ td .team-identity{flex-direction:row;text-align:left;gap:8px}td .team-identity i
       <h2>1) Equipos por grupo</h2>
       <div class="groups">
         <div>
-          <label>Grupo A (3 equipos)</label>
+          <label>Grupo A (3 o 4 equipos)</label>
           <textarea id="ga">Equipo A1
 Equipo A2
 Equipo A3</textarea>
         </div>
         <div>
-          <label>Grupo B (3 equipos)</label>
+          <label>Grupo B (3 o 4 equipos)</label>
           <textarea id="gb">Equipo B1
 Equipo B2
 Equipo B3</textarea>
-        </div>
-        <div>
-          <label>Grupo C (4 equipos)</label>
-          <textarea id="gc">Equipo C1
-Equipo C2
-Equipo C3
-Equipo C4</textarea>
         </div>
       </div>
 
@@ -244,7 +237,7 @@ Equipo C4</textarea>
               <input type="number" min="0" inputmode="numeric" id="sf1gh" style="max-width:80px"> <span class="dash">—</span>
               <input type="number" min="0" inputmode="numeric" id="sf1ga" style="max-width:80px">
             </div>
-            <div class="team" style="flex:1;justify-content:flex-end"><span id="sf1a">2º Grupo C</span></div>
+            <div class="team" style="flex:1;justify-content:flex-end"><span id="sf1a">2º Grupo B</span></div>
           </div>
           <div class="row" style="margin-top:6px">
             <label style="flex:1">Si hay empate, elige ganador</label>
@@ -264,7 +257,7 @@ Equipo C4</textarea>
               <input type="number" min="0" inputmode="numeric" id="sf2gh" style="max-width:80px"> <span class="dash">—</span>
               <input type="number" min="0" inputmode="numeric" id="sf2ga" style="max-width:80px">
             </div>
-            <div class="team" style="flex:1;justify-content:flex-end"><span id="sf2a">1º Grupo C</span></div>
+            <div class="team" style="flex:1;justify-content:flex-end"><span id="sf2a">2º Grupo A</span></div>
           </div>
           <div class="row" style="margin-top:6px">
             <label style="flex:1">Si hay empate, elige ganador</label>
@@ -340,7 +333,7 @@ function renderIdentityEditors(){
 }
 
 // ===== CONFIGURACIÓN =====
-const STORAGE_KEY = 'torneo_handball_10_equipos_v3';
+const STORAGE_KEY = 'torneo_handball_f_2grupos_v1';
 const $ = (selector, root = document) => root.querySelector(selector);
 
 // ===== ESTADO INICIAL =====
@@ -348,8 +341,7 @@ let state = {
   teamProfiles: Object.create(null),
   groups: {
     A: { teams: ['Equipo A1', 'Equipo A2', 'Equipo A3'], matches: [] },
-    B: { teams: ['Equipo B1', 'Equipo B2', 'Equipo B3'], matches: [] },
-    C: { teams: ['Equipo C1', 'Equipo C2', 'Equipo C3', 'Equipo C4'], matches: [] }
+    B: { teams: ['Equipo B1', 'Equipo B2', 'Equipo B3'], matches: [] }
   },
   points: { win: 2, draw: 1, loss: 0 },
   knockout: {
@@ -455,12 +447,12 @@ function computeTable(matches, teams) {
 
 function getQualifiedTeams() {
   const qualified = {
-    firstA: '', firstB: '', firstC: '',
-    secondA: '', secondB: '', secondC: ''
+    firstA: '', firstB: '',
+    secondA: '', secondB: ''
   };
   
   // Obtener primeros y segundos de cada grupo
-  ['A', 'B', 'C'].forEach(groupKey => {
+  ['A', 'B'].forEach(groupKey => {
     const group = state.groups[groupKey];
     const table = computeTable(group.matches, group.teams);
     
@@ -479,10 +471,10 @@ function updateKnockout() {
   
   // Usar nombres personalizados si están definidos, sino los automáticos
   $('#sf1h').dataset.team = state.semifinalTeams.sf1Home || qualified.firstA || '1º Grupo A'; $('#sf1h').innerHTML = teamIdentity($('#sf1h').dataset.team);
-  $('#sf1a').dataset.team = state.semifinalTeams.sf1Away || qualified.secondC || '2º Grupo C'; $('#sf1a').innerHTML = teamIdentity($('#sf1a').dataset.team);
+  $('#sf1a').dataset.team = state.semifinalTeams.sf1Away || qualified.secondB || '2º Grupo B'; $('#sf1a').innerHTML = teamIdentity($('#sf1a').dataset.team);
   
   $('#sf2h').dataset.team = state.semifinalTeams.sf2Home || qualified.firstB || '1º Grupo B'; $('#sf2h').innerHTML = teamIdentity($('#sf2h').dataset.team);
-  $('#sf2a').dataset.team = state.semifinalTeams.sf2Away || qualified.firstC || '1º Grupo C'; $('#sf2a').innerHTML = teamIdentity($('#sf2a').dataset.team);
+  $('#sf2a').dataset.team = state.semifinalTeams.sf2Away || qualified.secondA || '2º Grupo A'; $('#sf2a').innerHTML = teamIdentity($('#sf2a').dataset.team);
   
   // Final y tercer lugar
   const sf1Winner = state.knockout.sf1.winner;
@@ -495,12 +487,12 @@ function updateKnockout() {
   // Para tercer lugar
   const sf1Loser = sf1Winner ? 
     (sf1Winner === (state.knockout.sf1.home || state.semifinalTeams.sf1Home || qualified.firstA) ? 
-     (state.knockout.sf1.away || state.semifinalTeams.sf1Away || qualified.secondC) : 
+     (state.knockout.sf1.away || state.semifinalTeams.sf1Away || qualified.secondB) : 
      (state.knockout.sf1.home || state.semifinalTeams.sf1Home || qualified.firstA)) : 
     'Perdedor SF1';
   const sf2Loser = sf2Winner ? 
     (sf2Winner === (state.knockout.sf2.home || state.semifinalTeams.sf2Home || qualified.firstB) ? 
-     (state.knockout.sf2.away || state.semifinalTeams.sf2Away || qualified.firstC) : 
+     (state.knockout.sf2.away || state.semifinalTeams.sf2Away || qualified.secondA) : 
      (state.knockout.sf2.home || state.semifinalTeams.sf2Home || qualified.firstB)) : 
     'Perdedor SF2';
   
@@ -517,7 +509,7 @@ function renderGroups() {
   const root = $('#groupsRoot');
   root.innerHTML = '';
   
-  ['A', 'B', 'C'].forEach(groupKey => {
+  ['A', 'B'].forEach(groupKey => {
     const group = state.groups[groupKey];
     const teams = group.teams || [];
     
@@ -880,7 +872,6 @@ function loadUIFromState() {
   // Grupos
   $('#ga').value = state.groups.A.teams.join('\n');
   $('#gb').value = state.groups.B.teams.join('\n');
-  $('#gc').value = state.groups.C.teams.join('\n');
   
   // Puntos
   $('#pointsWin').value = state.points.win;
@@ -927,11 +918,11 @@ function publishData() {
       semifinalTeams: state.semifinalTeams,
       knockout: state.knockout,
       lastUpdated: new Date().toISOString(),
-      format: '10_equipos_3_grupos'
+      format: '2_grupos_3o4_equipos'
     };
     
     // Procesar grupos
-    ['A', 'B', 'C'].forEach(groupKey => {
+    ['A', 'B'].forEach(groupKey => {
       const group = state.groups[groupKey];
       const table = computeTable(group.matches, group.teams);
       
@@ -1007,18 +998,17 @@ function init() {
   $('#btnGenerate').addEventListener('click', () => {
     state.groups.A.teams = parseTeams($('#ga').value);
     state.groups.B.teams = parseTeams($('#gb').value);
-    state.groups.C.teams = parseTeams($('#gc').value);
     
     // Validar estructura de grupos
-    if (state.groups.A.teams.length !== 3 || state.groups.B.teams.length !== 3 || state.groups.C.teams.length !== 4) {
-      alert('❌ Error: La estructura debe ser:\n- Grupo A: 3 equipos\n- Grupo B: 3 equipos\n- Grupo C: 4 equipos');
+    const okSize = n => n === 3 || n === 4;
+    if (!okSize(state.groups.A.teams.length) || !okSize(state.groups.B.teams.length)) {
+      alert('❌ Error: cada grupo (A y B) debe tener 3 o 4 equipos');
       return;
     }
     
     // Reiniciar partidos
     state.groups.A.matches = [];
     state.groups.B.matches = [];
-    state.groups.C.matches = [];
     
     saveState();
     renderGroups();

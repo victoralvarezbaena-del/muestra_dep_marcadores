@@ -1,4 +1,4 @@
-# 🏆 Plataforma de Torneos Deportivos - Muestra Deportiva 2025
+# 🏆 Plataforma de Torneos Deportivos - Muestra Deportiva
 
 Plataforma web unificada para gestionar y visualizar torneos multideportivos estudiantiles.
 
@@ -78,22 +78,23 @@ muestra-deportiva-2025/
     └── data.json                   # Datos del torneo (generado)
 ```
 
-## 🛠️ Funcionalidades por Deporte
+## 🛠️ Formatos (edición 2026, según el programa de torneos)
 
-### ⚾ Béisbol & 🥎 Softbol
-- **Formato**: 2 grupos de 4 equipos + eliminatoria
-- **Criterios**: Porcentaje de victorias, diferencia de carreras
-- **Regla Mercy**: 15+ carreras (3ra) / 10+ carreras (4ta)
-- **Semifinales**: A1 vs B2, B1 vs A2
+| Carpeta | Disciplina | Grupos | Semifinales |
+|---|---|---|---|
+| `futbol/` | Fútbol soccer y Fútbol 7 (V/F) | 4 grupos de 3 | 1.º A vs 1.º B · 1.º C vs 1.º D |
+| `basquetbol/` | Baloncesto 5x5 (V/F) | 4 grupos de 3 | 1.º A vs 1.º B · 1.º C vs 1.º D |
+| `3x3/` | Baloncesto 3x3 (V/F) | 4 grupos de 2 o 3 | 1.º A vs 1.º B · 1.º C vs 1.º D |
+| `handball/` | Balonmano varonil | 4 grupos de 1 a 3 | 1.º A vs 1.º B · 1.º C vs 1.º D |
+| `handballf/` | Balonmano femenil | 2 grupos de 3 o 4 | 1.º A vs 2.º B · 1.º B vs 2.º A |
+| `beisbol/` | Béisbol | 2 grupos de 3 o 4 | 1.º A vs 2.º B · 1.º B vs 2.º A |
+| `softbol/` | Softbol | 2 grupos de 3 o 4 | 1.º A vs 2.º B · 1.º B vs 2.º A |
+| `voleiplaya/` | Voleibol de playa (V/F) | 2 grupos de 3 o 4 | 1.º A vs 2.º B · 1.º B vs 2.º A |
+| `voleibol/` | Voleibol de sala (V/F) | A: 3, B: 3, C: 4 | Tres primeros + mejor 2.º (ver abajo) |
 
-### ⚽ Fútbol & 🏀 Basquetbol & 🏐 Voleibol
-- **Formato**: 4 grupos de 3 equipos + eliminatoria
-- **Criterios**: Puntos, diferencia de goles, goles a favor
-- **Sistema de puntos**: 3-1-0 (victoria-empate-derrota)
+**Voleibol de sala, mejor 2.º:** se compara puntos de clasificación por partido jugado, luego cociente de sets y luego cociente de puntos. Si el mejor 2.º es de A o B: SF1 1.º A vs 1.º B y SF2 1.º C vs mejor 2.º. Si es de C: SF1 1.º A vs 2.º C y SF2 1.º B vs 1.º C (evita revancha del mismo grupo).
 
-### 🤾 Handball
-- **Ramas**: Varonil y Femenil separadas
-- **Formato**: Grupos + eliminatoria según cantidad de equipos
+Cada página pública toma su archivo de datos con `?t=archivo.json` (por ejemplo `futbol/index.html?t=data-futbolv.json`); béisbol y softbol usan `data.json`.
 
 ## 📋 Instrucciones de Uso
 

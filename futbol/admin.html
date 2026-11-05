@@ -187,14 +187,14 @@ D3</textarea></div>
 
       <div class="bracket">
         <div class="semi">
-          <h3>Semifinal 1 — A1 vs D1</h3>
+          <h3>Semifinal 1 — 1.º A vs 1.º B</h3>
           <div class="row">
-            <div class="team" style="flex:1"><span id="sf1h">A1</span></div>
+            <div class="team" style="flex:1"><span id="sf1h">1.º A</span></div>
             <div class="team" style="justify-content:center">
               <input type="number" min="0" inputmode="numeric" id="sf1gh" style="max-width:80px"> <span class="dash">—</span>
               <input type="number" min="0" inputmode="numeric" id="sf1ga" style="max-width:80px">
             </div>
-            <div class="team" style="flex:1;justify-content:flex-end"><span id="sf1a">D1</span></div>
+            <div class="team" style="flex:1;justify-content:flex-end"><span id="sf1a">1.º B</span></div>
           </div>
           <div class="row" style="margin-top:6px">
             <label style="flex:1">Si hay empate, elige ganador</label>
@@ -212,14 +212,14 @@ D3</textarea></div>
         </div>
 
         <div class="semi">
-          <h3>Semifinal 2 — B1 vs C1</h3>
+          <h3>Semifinal 2 — 1.º C vs 1.º D</h3>
           <div class="row">
-            <div class="team" style="flex:1"><span id="sf2h">B1</span></div>
+            <div class="team" style="flex:1"><span id="sf2h">1.º C</span></div>
             <div class="team" style="justify-content:center">
               <input type="number" min="0" inputmode="numeric" id="sf2gh" style="max-width:80px"> <span class="dash">—</span>
               <input type="number" min="0" inputmode="numeric" id="sf2ga" style="max-width:80px">
             </div>
-            <div class="team" style="flex:1;justify-content:flex-end"><span id="sf2a">C1</span></div>
+            <div class="team" style="flex:1;justify-content:flex-end"><span id="sf2a">1.º D</span></div>
           </div>
           <div class="row" style="margin-top:6px">
             <label style="flex:1">Si hay empate, elige ganador</label>
@@ -561,9 +561,9 @@ function updateKnockout() {
 
   // Semifinales
   $('#sf1h').dataset.team = state.knockout.sf1.home || A1; $('#sf1h').innerHTML = teamIdentity($('#sf1h').dataset.team);
-  $('#sf1a').dataset.team = state.knockout.sf1.away || D1; $('#sf1a').innerHTML = teamIdentity($('#sf1a').dataset.team);
-  $('#sf2h').dataset.team = state.knockout.sf2.home || B1; $('#sf2h').innerHTML = teamIdentity($('#sf2h').dataset.team);
-  $('#sf2a').dataset.team = state.knockout.sf2.away || C1; $('#sf2a').innerHTML = teamIdentity($('#sf2a').dataset.team);
+  $('#sf1a').dataset.team = state.knockout.sf1.away || B1; $('#sf1a').innerHTML = teamIdentity($('#sf1a').dataset.team);
+  $('#sf2h').dataset.team = state.knockout.sf2.home || C1; $('#sf2h').innerHTML = teamIdentity($('#sf2h').dataset.team);
+  $('#sf2a').dataset.team = state.knockout.sf2.away || D1; $('#sf2a').innerHTML = teamIdentity($('#sf2a').dataset.team);
 
   // Final y tercer lugar
   const sf1Winner = state.knockout.sf1.winner;
@@ -575,10 +575,10 @@ function updateKnockout() {
   
   // Para tercer lugar
   const sf1Loser = sf1Winner ? 
-    (sf1Winner === (state.knockout.sf1.home || A1) ? (state.knockout.sf1.away || D1) : (state.knockout.sf1.home || A1)) : 
+    (sf1Winner === (state.knockout.sf1.home || A1) ? (state.knockout.sf1.away || B1) : (state.knockout.sf1.home || A1)) : 
     'Perdedor SF1';
   const sf2Loser = sf2Winner ? 
-    (sf2Winner === (state.knockout.sf2.home || B1) ? (state.knockout.sf2.away || C1) : (state.knockout.sf2.home || B1)) : 
+    (sf2Winner === (state.knockout.sf2.home || C1) ? (state.knockout.sf2.away || D1) : (state.knockout.sf2.home || C1)) : 
     'Perdedor SF2';
   
   $('#thirdh').dataset.team = state.knockout.third.home || sf1Loser; $('#thirdh').innerHTML = teamIdentity($('#thirdh').dataset.team);

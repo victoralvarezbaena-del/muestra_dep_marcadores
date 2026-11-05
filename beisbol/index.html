@@ -262,7 +262,7 @@ td .team-identity{flex-direction:row;text-align:left;gap:8px}td .team-identity i
   <header>
     <div class="container">
       <h1 id="tournamentTitle">Torneo de Béisbol — 2 Grupos + Semifinales</h1>
-      <div class="subtitle" id="tournamentSubtitle">Grupo A: 3 equipos | Grupo B: 4 equipos | Todos contra todos + Semifinales, Final y Tercer Lugar</div>
+      <div class="subtitle" id="tournamentSubtitle">2 grupos | Todos contra todos + Semifinales, Final y Tercer Lugar</div>
     </div>
   </header>
 
@@ -315,7 +315,7 @@ function normalizeData(data) {
   // Estructura básica esperada del admin
   const normalized = {
     tournamentName: data.tournamentName || 'Torneo de Béisbol',
-    subtitle: data.subtitle || 'Grupo A: 3 equipos | Grupo B: 4 equipos | Todos contra todos + Semifinales, Final y Tercer Lugar',
+    subtitle: data.subtitle || '2 grupos | Todos contra todos + Semifinales, Final y Tercer Lugar',
     theme: data.theme || { color: '#0284c7', bg: '#f8fafc' },
     points: data.points || { win: 2, draw: 1, loss: 0 },
     groups: {
@@ -560,8 +560,8 @@ function renderKnockout() {
       <h2>Fase Final</h2>
       <div class="bracket">
         <div class="semi">
-          <h3>Semifinal 1 — A1 vs B2</h3>
-          ${renderKnockoutMatch(k.sf1, k.sf1.homeName || k.sf1.home || 'A1', k.sf1.awayName || k.sf1.away || 'B2')}
+          <h3>Semifinal 1 — 1.º A vs 2.º B</h3>
+          ${renderKnockoutMatch(k.sf1, k.sf1.homeName || k.sf1.home || '1.º A', k.sf1.awayName || k.sf1.away || '2.º B')}
           ${k.sf1.winner ? `<div class="info"><strong>✅ Ganador: ${k.sf1.winner}</strong></div>` : ''}
           <div class="mercy-rule">
             <strong>Regla Mercy:</strong> Diferencia de 15 carreras en la 3a entrada o 10 carreras en la 4a entrada
@@ -569,8 +569,8 @@ function renderKnockout() {
         </div>
 
         <div class="semi">
-          <h3>Semifinal 2 — B1 vs A2</h3>
-          ${renderKnockoutMatch(k.sf2, k.sf2.homeName || k.sf2.home || 'B1', k.sf2.awayName || k.sf2.away || 'A2')}
+          <h3>Semifinal 2 — 1.º B vs 2.º A</h3>
+          ${renderKnockoutMatch(k.sf2, k.sf2.homeName || k.sf2.home || '1.º B', k.sf2.awayName || k.sf2.away || '2.º A')}
           ${k.sf2.winner ? `<div class="info"><strong>✅ Ganador: ${k.sf2.winner}</strong></div>` : ''}
           <div class="mercy-rule">
             <strong>Regla Mercy:</strong> Diferencia de 15 carreras en la 3a entrada o 10 carreras en la 4a entrada

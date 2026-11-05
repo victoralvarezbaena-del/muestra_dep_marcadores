@@ -801,21 +801,21 @@ function teamIdentity(name){const p=teamProfiles[name]||{};const label=p.school|
           <h2>Fase Eliminatoria</h2>
           <div class="bracket">
             <div class="semi">
-              <h3>Semifinal 1 — A1 vs D1</h3>
+              <h3>Semifinal 1 — 1.º A vs 1.º B</h3>
               ${renderMatch(
                 k.sf1, 
-                k.sf1.home || 'A1', 
-                k.sf1.away || 'D1'
+                k.sf1.home || '1.º A', 
+                k.sf1.away || '1.º B'
               )}
               ${k.sf1.winner ? `<div class="info"><strong>Ganador: ${k.sf1.winner}</strong></div>` : ''}
             </div>
             
             <div class="semi">
-              <h3>Semifinal 2 — B1 vs C1</h3>
+              <h3>Semifinal 2 — 1.º C vs 1.º D</h3>
               ${renderMatch(
                 k.sf2, 
-                k.sf2.home || 'B1', 
-                k.sf2.away || 'C1'
+                k.sf2.home || '1.º C', 
+                k.sf2.away || '1.º D'
               )}
               ${k.sf2.winner ? `<div class="info"><strong>Ganador: ${k.sf2.winner}</strong></div>` : ''}
             </div>
@@ -877,7 +877,7 @@ function teamIdentity(name){const p=teamProfiles[name]||{};const label=p.school|
       // Fase eliminatoria
       if (data.knockout && groupStageComplete(data.groups)) {
         const knockout = JSON.parse(JSON.stringify(data.knockout));
-        for (const [key, side, groupKey] of [['sf1','home','A'],['sf1','away','D'],['sf2','home','B'],['sf2','away','C']]) {
+        for (const [key, side, groupKey] of [['sf1','home','A'],['sf1','away','B'],['sf2','home','C'],['sf2','away','D']]) {
           const group = data.groups[groupKey];
           const leader = computeTable(group.matches, group.teams, data.points)[0]?.team;
           if (!knockout[key][side] && leader) knockout[key][side] = leader;
