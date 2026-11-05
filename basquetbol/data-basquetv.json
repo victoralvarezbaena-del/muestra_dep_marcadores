@@ -1,5 +1,7 @@
 {
+  "tournamentName": "Baloncesto 5x5 Varonil 2026",
   "teamProfiles": {},
+  "subtitle": "Torneo de Baloncesto",
   "groups": {
     "A": {
       "teams": [
@@ -110,8 +112,8 @@
         {
           "home": "Equipo D1",
           "away": "Equipo D2",
-          "gh": null,
-          "ga": null,
+          "gh": 25,
+          "ga": 16,
           "hour": "Mié 18 nov · 09:10",
           "place": "U. Politécnica · Cancha 2"
         },
@@ -133,10 +135,6 @@
         }
       ]
     }
-  },
-  "points": {
-    "win": 2,
-    "loss": 0
   },
   "knockout": {
     "sf1": {
@@ -176,10 +174,14 @@
       "place": "U. Politécnica · Cancha 2"
     }
   },
-  "tournamentName": "Baloncesto 5x5 Varonil 2026",
+  "updatedAtLocal": "5/11/2026, 14:48:58",
   "theme": {
     "color": "#db6a00",
     "bg": "#eed48b"
   },
-  "updatedAtLocal": "Programa preliminar · equipos por definir en el sorteo"
+  "points": {
+    "win": 2,
+    "loss": 0
+  },
+  "sport": "basketball"
 }
