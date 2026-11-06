@@ -4,13 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#08713d">
-<title>Captura de resultados · Muestra Deportiva</title>
+<title>Captura de resultados · Marcadores Cobach</title>
 <style>
 :root{--verde:#08713d;--verde-osc:#05512b;--claro:#e8f3ec;--linea:#d6e3da;--tinta:#16302a;--suave:#5d7268;--rojo:#b42318;--ambar:#9a6700;--fondo:#f4f7f5}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--fondo);color:var(--tinta);line-height:1.4}
-header{background:var(--verde);color:#fff;padding:16px 16px 14px;position:sticky;top:0;z-index:5}
+header{background:var(--verde);color:#fff;padding:12px 16px;position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:12px}
+header .logo{width:52px;height:52px;flex:0 0 52px;border-radius:50%;background:#fff;display:grid;place-items:center;box-shadow:0 1px 4px #0003}
+header .logo img{width:42px;height:42px;object-fit:contain}
 header h1{margin:0;font-size:19px;font-weight:800}
 header p{margin:2px 0 0;font-size:13px;opacity:.85}
 main{max-width:560px;margin:0 auto;padding:14px 14px 40px}
@@ -44,11 +46,20 @@ pre{white-space:pre-wrap;word-break:break-word;background:#f6faf7;border:1px das
 .chk input{width:auto}
 [hidden]{display:none!important}
 </style>
+  <link rel="icon" type="image/png" sizes="32x32" href="../comun/icono-32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="../comun/icono-48.png">
+  <link rel="apple-touch-icon" href="../comun/icono-180.png">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <meta name="apple-mobile-web-app-title" content="Marcadores Cobach">
+  <meta name="application-name" content="Marcadores Cobach">
 </head>
 <body>
 <header>
-  <h1>📲 Captura de resultados</h1>
-  <p>Muestra Deportiva · comisionados de campo</p>
+  <div class="logo"><img src="../comun/logo.png" alt="Logo Muestra Cívico-Deportiva Cobach"></div>
+  <div>
+    <h1>Captura de resultados</h1>
+    <p>Marcadores Cobach · comisionados de campo</p>
+  </div>
 </header>
 <main>
   <section class="card">

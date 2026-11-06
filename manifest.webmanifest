@@ -1,0 +1,14 @@
+{
+  "name": "Marcadores Cobach",
+  "short_name": "Marcadores Cobach",
+  "description": "Marcadores y captura de resultados · Muestra Cívico-Deportiva Cobach SLP",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#08713d",
+  "background_color": "#ffffff",
+  "lang": "es-MX",
+  "icons": [
+    { "src": "comun/icono-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "comun/icono-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
