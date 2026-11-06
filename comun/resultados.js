@@ -187,13 +187,30 @@
       else if (p.previo) { p.estado = 'warn'; p.motivo = `Cambia el resultado anterior (${p.previo}).`; p.marcar = false; }
       else { p.estado = 'ok'; p.motivo = 'Listo para aplicar.'; p.marcar = true; }
     }
-    // Si llegan dos mensajes del mismo partido, vale el último
-    const vistos = {};
+    // Varios mensajes del mismo partido en un mismo pegado
+    const canon = p => {
+      // Marcador en un orden fijo de equipos (alfabético) para poder comparar
+      const inv = N(p.home) > N(p.away);
+      const m = String(p.marcador).split(',').map(x => { const [a, b] = x.split('-'); return inv ? `${b}-${a}` : `${a}-${b}`; }).join(',');
+      return m + '|' + N(p.ganador);
+    };
+    const grupos = {};
     propuestas.forEach((p, i) => {
       if (!p.destino) return;
       const k = p.destino.tipo === 'G' ? `G${p.destino.grupo}|${[N(p.home), N(p.away)].sort().join('|')}` : `KO${p.destino.clave}`;
-      if (vistos[k] != null) { const prev = propuestas[vistos[k]]; prev.estado = 'mute'; prev.marcar = false; prev.motivo = 'Reemplazado por un mensaje posterior del mismo partido.'; }
-      vistos[k] = i;
+      (grupos[k] = grupos[k] || []).push(i);
+    });
+    Object.values(grupos).forEach(ids => {
+      if (ids.length < 2) return;
+      const ps = ids.map(i => propuestas[i]);
+      const distintos = new Set(ps.map(canon)).size > 1;
+      if (!distintos) {
+        // Mismo resultado repetido: se usa el último, los demás se marcan como duplicados
+        ps.slice(0, -1).forEach(p => { p.estado = 'mute'; p.marcar = false; p.motivo = `Duplicado: ${ps[ps.length - 1].comisionado} reportó el mismo resultado.`; });
+        return;
+      }
+      const resumen = ps.map(p => `${p.comisionado}: ${p.marcador}${p.ganador && p.destino.tipo === 'KO' ? ' (gana ' + p.ganador + ')' : ''}`).join(' · ');
+      ps.forEach(p => { p.estado = 'warn'; p.marcar = false; p.conflicto = true; p.motivo = `Resultados distintos para este partido (${resumen}). Marca solo el correcto.`; });
     });
     pintarPropuestas();
   };
@@ -218,6 +235,8 @@
     const tor = torneoActual();
     const sel = propuestas.filter(p => p.marcar && (p.estado === 'ok' || p.estado === 'warn'));
     if (!sel.length) { alert('No hay resultados seleccionados.'); return; }
+    const claves = sel.map(p => p.destino.tipo === 'G' ? `G${p.destino.grupo}|${[N(p.home), N(p.away)].sort().join('|')}` : `KO${p.destino.clave}`);
+    if (new Set(claves).size !== claves.length) { alert('Marcaste más de un resultado para el mismo partido. Deja marcado solo el correcto.'); return; }
     let n = 0;
     for (const p of sel) {
       const val = JSON.parse(JSON.stringify(p.nuevo));
