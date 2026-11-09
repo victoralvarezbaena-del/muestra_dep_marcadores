@@ -44,6 +44,8 @@ pre{white-space:pre-wrap;word-break:break-word;background:#f6faf7;border:1px das
 .pin{letter-spacing:.3em}
 .chk{display:flex;gap:8px;align-items:center;font-size:14px;margin-top:8px;font-weight:600;color:var(--tinta)}
 .chk input{width:auto}
+.otras{border-left:3px solid #b9cfc1;padding-left:10px;margin-top:4px}
+a.sec{display:block;text-align:center;text-decoration:none;font-weight:800;font-size:16px;border-radius:12px;padding:14px}
 [hidden]{display:none!important}
 </style>
   <link rel="icon" type="image/png" sizes="32x32" href="../comun/icono-32.png">
@@ -97,7 +99,12 @@ pre{white-space:pre-wrap;word-break:break-word;background:#f6faf7;border:1px das
     <h2><span class="paso">4</span> Enviar</h2>
     <pre id="mensaje"></pre>
     <button class="whats" id="btnWhats">Enviar por WhatsApp</button>
-    <button class="sec" id="btnCompartir">Compartir por otra app</button>
+    <button class="sec" id="btnCompartir" aria-expanded="false" aria-controls="otrasApps">Compartir por otra app</button>
+    <div class="otras" id="otrasApps" hidden>
+      <a class="sec" id="btnSms" href="#">📱 Enviar por SMS al coordinador</a>
+      <a class="sec" id="btnMail" href="#">✉️ Enviar por correo al coordinador</a>
+      <button class="sec" id="btnNativo" type="button">Otra app del celular…</button>
+    </div>
     <button class="sec" id="btnCopiar">Copiar mensaje</button>
     <div class="info">Revisa el mensaje antes de enviarlo. No modifiques la última línea: el coordinador la usa para cargar el resultado.</div>
   </section>
@@ -109,6 +116,9 @@ pre{white-space:pre-wrap;word-break:break-word;background:#f6faf7;border:1px das
 <script>
 // Número de WhatsApp del coordinador (con lada de país, sin + ni espacios). Vacío = el comisionado elige el chat.
 const WHATSAPP_COORDINADOR = '524444260469';
+// Destinos de "Compartir por otra app"
+const SMS_COORDINADOR = '+524444260469';
+const CORREO_COORDINADOR = 'victor.alvarez@cbslp.edu.mx';
 
 const $ = id => document.getElementById(id);
 const T = window.MCD_TORNEOS;
@@ -274,6 +284,7 @@ function validar() {
   $('avisos').innerHTML = html;
   $('btnRevisar').disabled = !!(faltan.length || r.errores.length);
   $('cardEnvio').hidden = true;
+  $('otrasApps').hidden = true; $('btnCompartir').setAttribute('aria-expanded', 'false');
   return r;
 }
 ['nombre', 'pin', 'obs', 'ganador'].forEach(id => $(id).addEventListener('input', validar));
@@ -308,7 +319,17 @@ $('btnWhats').addEventListener('click', () => {
   const base = WHATSAPP_COORDINADOR ? `https://wa.me/${WHATSAPP_COORDINADOR}` : 'https://wa.me/';
   location.href = `${base}?text=${encodeURIComponent(mensajeFinal)}`;
 });
-$('btnCompartir').addEventListener('click', async () => {
+// "Compartir por otra app": SMS y correo directo al coordinador, o el menú del celular
+$('btnCompartir').addEventListener('click', () => {
+  const abrir = $('otrasApps').hidden;
+  $('otrasApps').hidden = !abrir;
+  $('btnCompartir').setAttribute('aria-expanded', abrir);
+  if (!abrir) return;
+  const asunto = `Resultado · ${torneo.nombre} · ${partido.home} vs ${partido.away}`;
+  $('btnSms').href  = `sms:${SMS_COORDINADOR}?&body=${encodeURIComponent(mensajeFinal)}`;
+  $('btnMail').href = `mailto:${CORREO_COORDINADOR}?subject=${encodeURIComponent(asunto)}&body=${encodeURIComponent(mensajeFinal)}`;
+});
+$('btnNativo').addEventListener('click', async () => {
   if (navigator.share) { try { await navigator.share({ text: mensajeFinal }); } catch (e) {} }
   else $('btnCopiar').click();
 });
