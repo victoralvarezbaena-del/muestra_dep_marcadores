@@ -45,12 +45,12 @@ muestra-deportiva-2025/
 ├── beisbol/                        # Sistema de torneos de béisbol
 │   ├── admin.html                  # Panel de administración
 │   ├── index.html                  # Vista pública
-│   └── data.json                   # Datos del torneo (generado)
+│   └── data-beisbol.json           # Datos del torneo (generado)
 │
 ├── softbol/                        # Sistema de torneos de softbol
 │   ├── admin.html                  # Panel de administración
 │   ├── index.html                  # Vista pública
-│   └── data.json                   # Datos del torneo (generado)
+│   └── data-softbol.json           # Datos del torneo (generado)
 │
 ├── futbol/                         # Sistema de torneos de fútbol
 │   ├── admin.html                  # Panel de administración
@@ -94,7 +94,7 @@ muestra-deportiva-2025/
 
 **Voleibol de sala, mejor 2.º:** se compara puntos de clasificación por partido jugado, luego cociente de sets y luego cociente de puntos. Si el mejor 2.º es de A o B: SF1 1.º A vs 1.º B y SF2 1.º C vs mejor 2.º. Si es de C: SF1 1.º A vs 2.º C y SF2 1.º B vs 1.º C (evita revancha del mismo grupo).
 
-Cada página pública toma su archivo de datos con `?t=archivo.json` (por ejemplo `futbol/index.html?t=data-futbolv.json`); béisbol y softbol usan `data.json`.
+Cada página pública toma su archivo de datos con `?t=archivo.json` (por ejemplo `futbol/index.html?t=data-futbolv.json`); béisbol y softbol usan `data-beisbol.json` y `data-softbol.json` sin parámetro.
 
 ## 🔗 Archivos de datos y enlaces públicos (2026)
 
@@ -110,8 +110,8 @@ Cada página pública toma su archivo de datos con `?t=archivo.json` (por ejempl
 | Baloncesto 3x3 Femenil | `3x3/data-3x3f.json` | `3x3/index.html?t=data-3x3f.json` |
 | Balonmano Varonil | `handball/data-handballv.json` | `handball/index.html?t=data-handballv.json` |
 | Balonmano Femenil | `handballf/data-handballf.json` | `handballf/index.html?t=data-handballf.json` |
-| Béisbol | `beisbol/data.json` | `beisbol/index.html` |
-| Softbol | `softbol/data.json` | `softbol/index.html` |
+| Béisbol | `beisbol/data-beisbol.json` | `beisbol/index.html` |
+| Softbol | `softbol/data-softbol.json` | `softbol/index.html` |
 | Voleibol de Sala Varonil | `voleibol/data-voleibolv.json` | `voleibol/index.html?t=data-voleibolv.json` |
 | Voleibol de Sala Femenil | `voleibol/data-voleibolf.json` | `voleibol/index.html?t=data-voleibolf.json` |
 | Voleibol de Playa Varonil | `voleiplaya/data-playav.json` | `voleiplaya/index.html?t=data-playav.json` |
