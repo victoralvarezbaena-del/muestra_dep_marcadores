@@ -16,9 +16,9 @@
       "school": "",
       "image": "../mascotas/PL-05.webp"
     },
-    "PL-06 Valles I": {
+    "PL-24 Valles II": {
       "school": "",
-      "image": "../mascotas/PL-06.webp"
+      "image": "../mascotas/PL-24.webp"
     },
     "PL-31 Aquismón": {
       "school": "",
@@ -86,12 +86,12 @@
     "B": {
       "teams": [
         "PL-05 Cd. Fernández",
-        "PL-06 Valles I",
+        "PL-24 Valles II",
         "PL-31 Aquismón"
       ],
       "matches": [
         {
-          "home": "PL-06 Valles I",
+          "home": "PL-24 Valles II",
           "away": "PL-31 Aquismón",
           "gh": null,
           "ga": null,
@@ -108,7 +108,7 @@
         },
         {
           "home": "PL-05 Cd. Fernández",
-          "away": "PL-06 Valles I",
+          "away": "PL-24 Valles II",
           "gh": null,
           "ga": null,
           "hour": "Jue 19 nov · 13:10",
