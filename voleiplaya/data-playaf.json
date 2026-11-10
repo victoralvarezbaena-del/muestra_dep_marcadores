@@ -2,50 +2,50 @@
   "groups": {
     "A": {
       "teams": [
-        "Equipo A1",
-        "Equipo A2",
-        "Equipo A3",
-        "Equipo A4"
+        "PL-22 Tamuín",
+        "PL-03 Cedral",
+        "PL-28 San Luis V",
+        "CE-21 La Pila"
       ],
       "matches": [
         {
-          "home": "Equipo A2",
-          "away": "Equipo A3",
+          "home": "PL-03 Cedral",
+          "away": "PL-28 San Luis V",
           "sets": [],
           "hour": "Mié 18 nov · 08:00",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "Equipo A1",
-          "away": "Equipo A2",
+          "home": "PL-22 Tamuín",
+          "away": "PL-03 Cedral",
           "sets": [],
           "hour": "Mié 18 nov · 10:00",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "Equipo A3",
-          "away": "Equipo A4",
+          "home": "PL-28 San Luis V",
+          "away": "CE-21 La Pila",
           "sets": [],
           "hour": "Mié 18 nov · 11:20",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "Equipo A1",
-          "away": "Equipo A4",
+          "home": "PL-22 Tamuín",
+          "away": "CE-21 La Pila",
           "sets": [],
           "hour": "Jue 19 nov · 08:40",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "Equipo A2",
-          "away": "Equipo A4",
+          "home": "PL-03 Cedral",
+          "away": "CE-21 La Pila",
           "sets": [],
           "hour": "Jue 19 nov · 10:00",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "Equipo A1",
-          "away": "Equipo A3",
+          "home": "PL-22 Tamuín",
+          "away": "PL-28 San Luis V",
           "sets": [],
           "hour": "Jue 19 nov · 12:00",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
@@ -54,50 +54,50 @@
     },
     "B": {
       "teams": [
-        "Equipo B1",
-        "Equipo B2",
-        "Equipo B3",
-        "Equipo B4"
+        "PL-26 San Luis IV",
+        "PL-37 Tamapatz",
+        "PL-05 Cd. Fernández",
+        "PL-19 San Luis II"
       ],
       "matches": [
         {
-          "home": "Equipo B1",
-          "away": "Equipo B2",
+          "home": "PL-26 San Luis IV",
+          "away": "PL-37 Tamapatz",
           "sets": [],
           "hour": "Mié 18 nov · 08:40",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "Equipo B2",
-          "away": "Equipo B4",
+          "home": "PL-37 Tamapatz",
+          "away": "PL-19 San Luis II",
           "sets": [],
           "hour": "Mié 18 nov · 12:40",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "Equipo B3",
-          "away": "Equipo B4",
+          "home": "PL-05 Cd. Fernández",
+          "away": "PL-19 San Luis II",
           "sets": [],
           "hour": "Mié 18 nov · 14:00",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "Equipo B2",
-          "away": "Equipo B3",
+          "home": "PL-37 Tamapatz",
+          "away": "PL-05 Cd. Fernández",
           "sets": [],
           "hour": "Mié 18 nov · 16:40",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "Equipo B1",
-          "away": "Equipo B4",
+          "home": "PL-26 San Luis IV",
+          "away": "PL-19 San Luis II",
           "sets": [],
           "hour": "Jue 19 nov · 10:40",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "Equipo B1",
-          "away": "Equipo B3",
+          "home": "PL-26 San Luis IV",
+          "away": "PL-05 Cd. Fernández",
           "sets": [],
           "hour": "Jue 19 nov · 12:40",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
@@ -148,6 +148,39 @@
     "color": "#ab75d7",
     "bg": "#4c2361"
   },
-  "teamProfiles": {},
-  "updatedAtLocal": "Programa preliminar · equipos por definir en el sorteo"
+  "teamProfiles": {
+    "PL-22 Tamuín": {
+      "school": "",
+      "image": "../mascotas/PL-22.webp"
+    },
+    "PL-03 Cedral": {
+      "school": "",
+      "image": "../mascotas/PL-03.webp"
+    },
+    "PL-28 San Luis V": {
+      "school": "",
+      "image": "../mascotas/PL-28.webp"
+    },
+    "CE-21 La Pila": {
+      "school": "",
+      "image": "../mascotas/CE-21.webp"
+    },
+    "PL-26 San Luis IV": {
+      "school": "",
+      "image": "../mascotas/PL-26.webp"
+    },
+    "PL-37 Tamapatz": {
+      "school": "",
+      "image": "../mascotas/PL-37.webp"
+    },
+    "PL-05 Cd. Fernández": {
+      "school": "",
+      "image": "../mascotas/PL-05.webp"
+    },
+    "PL-19 San Luis II": {
+      "school": "",
+      "image": "../mascotas/PL-19.webp"
+    }
+  },
+  "updatedAtLocal": "Sorteo del 10/11/2026 · grupos definidos"
 }

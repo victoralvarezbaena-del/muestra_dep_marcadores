@@ -1,32 +1,77 @@
 {
-  "teamProfiles": {},
+  "teamProfiles": {
+    "PL-19 San Luis II": {
+      "school": "",
+      "image": "../mascotas/PL-19.webp"
+    },
+    "PL-14 Tancanhuitz": {
+      "school": "",
+      "image": "../mascotas/PL-14.webp"
+    },
+    "PL-05 Cd. Fernández": {
+      "school": "",
+      "image": "../mascotas/PL-05.webp"
+    },
+    "PL-33 Axtla": {
+      "school": "",
+      "image": "../mascotas/PL-33.webp"
+    },
+    "PL-17 San Luis I Pavón": {
+      "school": "",
+      "image": "../mascotas/PL-17.webp"
+    },
+    "PL-25 San Luis III": {
+      "school": "",
+      "image": "../mascotas/PL-25.webp"
+    },
+    "PL-35 Tambaca": {
+      "school": "",
+      "image": "../mascotas/PL-35.webp"
+    },
+    "PL-10 Moctezuma": {
+      "school": "",
+      "image": "../mascotas/PL-10.webp"
+    },
+    "PL-31 Aquismón": {
+      "school": "",
+      "image": "../mascotas/PL-31.webp"
+    },
+    "PL-29 V. Zaragoza": {
+      "school": "",
+      "image": "../mascotas/PL-29.webp"
+    },
+    "PL-27 San Martín CH.": {
+      "school": "",
+      "image": "../mascotas/PL-27.webp"
+    }
+  },
   "groups": {
     "A": {
       "teams": [
-        "Equipo A1",
-        "Equipo A2",
-        "Equipo A3"
+        "PL-19 San Luis II",
+        "PL-14 Tancanhuitz",
+        "PL-05 Cd. Fernández"
       ],
       "matches": [
         {
-          "home": "Equipo A1",
-          "away": "Equipo A2",
+          "home": "PL-19 San Luis II",
+          "away": "PL-14 Tancanhuitz",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 08:00",
           "place": "U. Politécnica · Media cancha 1"
         },
         {
-          "home": "Equipo A3",
-          "away": "Equipo A1",
+          "home": "PL-05 Cd. Fernández",
+          "away": "PL-19 San Luis II",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 08:30",
           "place": "U. Politécnica · Media cancha 1"
         },
         {
-          "home": "Equipo A2",
-          "away": "Equipo A3",
+          "home": "PL-14 Tancanhuitz",
+          "away": "PL-05 Cd. Fernández",
           "gh": null,
           "ga": null,
           "hour": "Jue 19 nov · 08:00",
@@ -36,30 +81,30 @@
     },
     "B": {
       "teams": [
-        "Equipo B1",
-        "Equipo B2",
-        "Equipo B3"
+        "PL-33 Axtla",
+        "PL-17 San Luis I Pavón",
+        "PL-25 San Luis III"
       ],
       "matches": [
         {
-          "home": "Equipo B1",
-          "away": "Equipo B2",
+          "home": "PL-33 Axtla",
+          "away": "PL-17 San Luis I Pavón",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 08:00",
           "place": "U. Politécnica · Media cancha 2"
         },
         {
-          "home": "Equipo B3",
-          "away": "Equipo B1",
+          "home": "PL-25 San Luis III",
+          "away": "PL-33 Axtla",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 08:30",
           "place": "U. Politécnica · Media cancha 2"
         },
         {
-          "home": "Equipo B2",
-          "away": "Equipo B3",
+          "home": "PL-17 San Luis I Pavón",
+          "away": "PL-25 San Luis III",
           "gh": null,
           "ga": null,
           "hour": "Jue 19 nov · 08:00",
@@ -69,30 +114,30 @@
     },
     "C": {
       "teams": [
-        "Equipo C1",
-        "Equipo C2",
-        "Equipo C3"
+        "PL-35 Tambaca",
+        "PL-10 Moctezuma",
+        "PL-31 Aquismón"
       ],
       "matches": [
         {
-          "home": "Equipo C1",
-          "away": "Equipo C2",
+          "home": "PL-35 Tambaca",
+          "away": "PL-10 Moctezuma",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 08:00",
           "place": "U. Politécnica · Media cancha 3"
         },
         {
-          "home": "Equipo C3",
-          "away": "Equipo C1",
+          "home": "PL-31 Aquismón",
+          "away": "PL-35 Tambaca",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 08:30",
           "place": "U. Politécnica · Media cancha 3"
         },
         {
-          "home": "Equipo C2",
-          "away": "Equipo C3",
+          "home": "PL-10 Moctezuma",
+          "away": "PL-31 Aquismón",
           "gh": null,
           "ga": null,
           "hour": "Jue 19 nov · 08:00",
@@ -102,13 +147,13 @@
     },
     "D": {
       "teams": [
-        "Equipo D1",
-        "Equipo D2"
+        "PL-29 V. Zaragoza",
+        "PL-27 San Martín CH."
       ],
       "matches": [
         {
-          "home": "Equipo D1",
-          "away": "Equipo D2",
+          "home": "PL-29 V. Zaragoza",
+          "away": "PL-27 San Martín CH.",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 08:15",
@@ -164,5 +209,5 @@
     "color": "#df944e",
     "bg": "#ecb009"
   },
-  "updatedAtLocal": "Programa preliminar · equipos por definir en el sorteo"
+  "updatedAtLocal": "Sorteo del 10/11/2026 · grupos definidos"
 }

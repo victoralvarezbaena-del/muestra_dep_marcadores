@@ -2,50 +2,50 @@
   "groups": {
     "A": {
       "teams": [
-        "Equipo A1",
-        "Equipo A2",
-        "Equipo A3",
-        "Equipo A4"
+        "CE-06 Palomas",
+        "PL-28 San Luis V",
+        "PL-06 Valles I",
+        "PL-01 Soledad"
       ],
       "matches": [
         {
-          "home": "Equipo A1",
-          "away": "Equipo A3",
+          "home": "CE-06 Palomas",
+          "away": "PL-06 Valles I",
           "sets": [],
           "hour": "Mié 18 nov · 09:20",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "Equipo A2",
-          "away": "Equipo A3",
+          "home": "PL-28 San Luis V",
+          "away": "PL-06 Valles I",
           "sets": [],
           "hour": "Mié 18 nov · 14:40",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "Equipo A3",
-          "away": "Equipo A4",
+          "home": "PL-06 Valles I",
+          "away": "PL-01 Soledad",
           "sets": [],
           "hour": "Mié 18 nov · 16:00",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "Equipo A1",
-          "away": "Equipo A4",
+          "home": "CE-06 Palomas",
+          "away": "PL-01 Soledad",
           "sets": [],
           "hour": "Jue 19 nov · 08:00",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "Equipo A1",
-          "away": "Equipo A2",
+          "home": "CE-06 Palomas",
+          "away": "PL-28 San Luis V",
           "sets": [],
           "hour": "Jue 19 nov · 09:20",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "Equipo A2",
-          "away": "Equipo A4",
+          "home": "PL-28 San Luis V",
+          "away": "PL-01 Soledad",
           "sets": [],
           "hour": "Jue 19 nov · 14:00",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
@@ -54,50 +54,50 @@
     },
     "B": {
       "teams": [
-        "Equipo B1",
-        "Equipo B2",
-        "Equipo B3",
-        "Equipo B4"
+        "PL-37 Tamapatz",
+        "PL-11 Rayón",
+        "CE-21 La Pila",
+        "PL-03 Cedral"
       ],
       "matches": [
         {
-          "home": "Equipo B2",
-          "away": "Equipo B4",
+          "home": "PL-11 Rayón",
+          "away": "PL-03 Cedral",
           "sets": [],
           "hour": "Mié 18 nov · 10:40",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "Equipo B1",
-          "away": "Equipo B2",
+          "home": "PL-37 Tamapatz",
+          "away": "PL-11 Rayón",
           "sets": [],
           "hour": "Mié 18 nov · 12:00",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "Equipo B1",
-          "away": "Equipo B4",
+          "home": "PL-37 Tamapatz",
+          "away": "PL-03 Cedral",
           "sets": [],
           "hour": "Mié 18 nov · 13:20",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "Equipo B2",
-          "away": "Equipo B3",
+          "home": "PL-11 Rayón",
+          "away": "CE-21 La Pila",
           "sets": [],
           "hour": "Mié 18 nov · 15:20",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "Equipo B3",
-          "away": "Equipo B4",
+          "home": "CE-21 La Pila",
+          "away": "PL-03 Cedral",
           "sets": [],
           "hour": "Jue 19 nov · 11:20",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
         {
-          "home": "Equipo B1",
-          "away": "Equipo B3",
+          "home": "PL-37 Tamapatz",
+          "away": "CE-21 La Pila",
           "sets": [],
           "hour": "Jue 19 nov · 13:20",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
@@ -148,6 +148,39 @@
     "color": "#8308e7",
     "bg": "#4c2361"
   },
-  "teamProfiles": {},
-  "updatedAtLocal": "Programa preliminar · equipos por definir en el sorteo"
+  "teamProfiles": {
+    "CE-06 Palomas": {
+      "school": "",
+      "image": "../mascotas/CE-06.webp"
+    },
+    "PL-28 San Luis V": {
+      "school": "",
+      "image": "../mascotas/PL-28.webp"
+    },
+    "PL-06 Valles I": {
+      "school": "",
+      "image": "../mascotas/PL-06.webp"
+    },
+    "PL-01 Soledad": {
+      "school": "",
+      "image": "../mascotas/PL-01.webp"
+    },
+    "PL-37 Tamapatz": {
+      "school": "",
+      "image": "../mascotas/PL-37.webp"
+    },
+    "PL-11 Rayón": {
+      "school": "",
+      "image": "../mascotas/PL-11.webp"
+    },
+    "CE-21 La Pila": {
+      "school": "",
+      "image": "../mascotas/CE-21.webp"
+    },
+    "PL-03 Cedral": {
+      "school": "",
+      "image": "../mascotas/PL-03.webp"
+    }
+  },
+  "updatedAtLocal": "Sorteo del 10/11/2026 · grupos definidos"
 }

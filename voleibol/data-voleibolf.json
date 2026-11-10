@@ -1,30 +1,71 @@
 {
-  "teamProfiles": {},
+  "teamProfiles": {
+    "PL-26 San Luis IV": {
+      "school": "",
+      "image": "../mascotas/PL-26.webp"
+    },
+    "PL-03 Cedral": {
+      "school": "",
+      "image": "../mascotas/PL-03.webp"
+    },
+    "PL-16 San Vicente": {
+      "school": "",
+      "image": "../mascotas/PL-16.webp"
+    },
+    "PL-06 Valles I": {
+      "school": "",
+      "image": "../mascotas/PL-06.webp"
+    },
+    "PL-05 Cd. Fernández": {
+      "school": "",
+      "image": "../mascotas/PL-05.webp"
+    },
+    "PL-01 Soledad": {
+      "school": "",
+      "image": "../mascotas/PL-01.webp"
+    },
+    "PL-13 Tanquián": {
+      "school": "",
+      "image": "../mascotas/PL-13.webp"
+    },
+    "PL-28 San Luis V": {
+      "school": "",
+      "image": "../mascotas/PL-28.webp"
+    },
+    "PL-17 San Luis I Pavón": {
+      "school": "",
+      "image": "../mascotas/PL-17.webp"
+    },
+    "PL-22 Tamuín": {
+      "school": "",
+      "image": "../mascotas/PL-22.webp"
+    }
+  },
   "groups": {
     "A": {
       "teams": [
-        "Equipo A1",
-        "Equipo A2",
-        "Equipo A3"
+        "PL-26 San Luis IV",
+        "PL-03 Cedral",
+        "PL-16 San Vicente"
       ],
       "matches": [
         {
-          "home": "Equipo A1",
-          "away": "Equipo A2",
+          "home": "PL-26 San Luis IV",
+          "away": "PL-03 Cedral",
           "sets": [],
           "hour": "Mié 18 nov · 08:00",
           "place": "Plantel 26 San Luis IV · Cancha 1"
         },
         {
-          "home": "Equipo A3",
-          "away": "Equipo A1",
+          "home": "PL-16 San Vicente",
+          "away": "PL-26 San Luis IV",
           "sets": [],
           "hour": "Mié 18 nov · 11:20",
           "place": "Plantel 26 San Luis IV · Cancha 1"
         },
         {
-          "home": "Equipo A2",
-          "away": "Equipo A3",
+          "home": "PL-03 Cedral",
+          "away": "PL-16 San Vicente",
           "sets": [],
           "hour": "Jue 19 nov · 08:50",
           "place": "Plantel 26 San Luis IV · Cancha 1"
@@ -33,28 +74,28 @@
     },
     "B": {
       "teams": [
-        "Equipo B1",
-        "Equipo B2",
-        "Equipo B3"
+        "PL-06 Valles I",
+        "PL-05 Cd. Fernández",
+        "PL-01 Soledad"
       ],
       "matches": [
         {
-          "home": "Equipo B1",
-          "away": "Equipo B2",
+          "home": "PL-06 Valles I",
+          "away": "PL-05 Cd. Fernández",
           "sets": [],
           "hour": "Mié 18 nov · 08:50",
           "place": "Plantel 26 San Luis IV · Cancha 1"
         },
         {
-          "home": "Equipo B3",
-          "away": "Equipo B1",
+          "home": "PL-01 Soledad",
+          "away": "PL-06 Valles I",
           "sets": [],
           "hour": "Mié 18 nov · 10:30",
           "place": "Plantel 26 San Luis IV · Cancha 1"
         },
         {
-          "home": "Equipo B2",
-          "away": "Equipo B3",
+          "home": "PL-05 Cd. Fernández",
+          "away": "PL-01 Soledad",
           "sets": [],
           "hour": "Jue 19 nov · 08:00",
           "place": "Plantel 26 San Luis IV · Cancha 1"
@@ -63,50 +104,50 @@
     },
     "C": {
       "teams": [
-        "Equipo C1",
-        "Equipo C2",
-        "Equipo C3",
-        "Equipo C4"
+        "PL-13 Tanquián",
+        "PL-28 San Luis V",
+        "PL-17 San Luis I Pavón",
+        "PL-22 Tamuín"
       ],
       "matches": [
         {
-          "home": "Equipo C2",
-          "away": "Equipo C4",
+          "home": "PL-28 San Luis V",
+          "away": "PL-22 Tamuín",
           "sets": [],
           "hour": "Mié 18 nov · 08:00",
           "place": "Plantel 26 San Luis IV · Cancha 2"
         },
         {
-          "home": "Equipo C1",
-          "away": "Equipo C3",
+          "home": "PL-13 Tanquián",
+          "away": "PL-17 San Luis I Pavón",
           "sets": [],
           "hour": "Mié 18 nov · 08:50",
           "place": "Plantel 26 San Luis IV · Cancha 2"
         },
         {
-          "home": "Equipo C1",
-          "away": "Equipo C4",
+          "home": "PL-13 Tanquián",
+          "away": "PL-22 Tamuín",
           "sets": [],
           "hour": "Mié 18 nov · 10:30",
           "place": "Plantel 26 San Luis IV · Cancha 2"
         },
         {
-          "home": "Equipo C2",
-          "away": "Equipo C3",
+          "home": "PL-28 San Luis V",
+          "away": "PL-17 San Luis I Pavón",
           "sets": [],
           "hour": "Mié 18 nov · 10:30",
           "place": "Plantel 26 San Luis IV · Cancha 3"
         },
         {
-          "home": "Equipo C1",
-          "away": "Equipo C2",
+          "home": "PL-13 Tanquián",
+          "away": "PL-28 San Luis V",
           "sets": [],
           "hour": "Jue 19 nov · 08:50",
           "place": "Plantel 26 San Luis IV · Cancha 2"
         },
         {
-          "home": "Equipo C3",
-          "away": "Equipo C4",
+          "home": "PL-17 San Luis I Pavón",
+          "away": "PL-22 Tamuín",
           "sets": [],
           "hour": "Jue 19 nov · 08:50",
           "place": "Plantel 26 San Luis IV · Cancha 3"
@@ -157,5 +198,5 @@
     "color": "#ab75d7",
     "bg": "#dcc8ea"
   },
-  "updatedAtLocal": "Programa preliminar · equipos por definir en el sorteo"
+  "updatedAtLocal": "Sorteo del 10/11/2026 · grupos definidos"
 }
