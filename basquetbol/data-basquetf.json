@@ -1,32 +1,81 @@
 {
-  "teamProfiles": {},
+  "teamProfiles": {
+    "PL-05 Cd. Fernández": {
+      "school": "",
+      "image": "../mascotas/PL-05.webp"
+    },
+    "PL-12 Tampacán": {
+      "school": "",
+      "image": "../mascotas/PL-12.webp"
+    },
+    "PL-14 Tancanhuitz": {
+      "school": "",
+      "image": "../mascotas/PL-14.webp"
+    },
+    "PL-01 Soledad": {
+      "school": "",
+      "image": "../mascotas/PL-01.webp"
+    },
+    "PL-04 El Naranjo": {
+      "school": "",
+      "image": "../mascotas/PL-04.webp"
+    },
+    "CE-13 Tampaxal": {
+      "school": "",
+      "image": "../mascotas/CE-13.webp"
+    },
+    "PL-03 Cedral": {
+      "school": "",
+      "image": "../mascotas/PL-03.webp"
+    },
+    "PL-08 Xilitla": {
+      "school": "",
+      "image": "../mascotas/PL-08.webp"
+    },
+    "PL-23 Tierra Nueva": {
+      "school": "",
+      "image": "../mascotas/PL-23.webp"
+    },
+    "PL-24 Valles II": {
+      "school": "",
+      "image": "../mascotas/PL-24.webp"
+    },
+    "PL-26 San Luis IV": {
+      "school": "",
+      "image": "../mascotas/PL-26.webp"
+    },
+    "PL-28 San Luis V": {
+      "school": "",
+      "image": "../mascotas/PL-28.webp"
+    }
+  },
   "groups": {
     "A": {
       "teams": [
-        "Equipo A1",
-        "Equipo A2",
-        "Equipo A3"
+        "PL-05 Cd. Fernández",
+        "PL-12 Tampacán",
+        "PL-14 Tancanhuitz"
       ],
       "matches": [
         {
-          "home": "Equipo A1",
-          "away": "Equipo A2",
+          "home": "PL-05 Cd. Fernández",
+          "away": "PL-12 Tampacán",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 09:10",
           "place": "U. Politécnica · Cancha 1"
         },
         {
-          "home": "Equipo A2",
-          "away": "Equipo A3",
+          "home": "PL-12 Tampacán",
+          "away": "PL-14 Tancanhuitz",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 13:10",
           "place": "U. Politécnica · Cancha 1"
         },
         {
-          "home": "Equipo A3",
-          "away": "Equipo A1",
+          "home": "PL-14 Tancanhuitz",
+          "away": "PL-05 Cd. Fernández",
           "gh": null,
           "ga": null,
           "hour": "Jue 19 nov · 10:10",
@@ -36,30 +85,30 @@
     },
     "B": {
       "teams": [
-        "Equipo B1",
-        "Equipo B2",
-        "Equipo B3"
+        "PL-01 Soledad",
+        "PL-04 El Naranjo",
+        "CE-13 Tampaxal"
       ],
       "matches": [
         {
-          "home": "Equipo B1",
-          "away": "Equipo B2",
+          "home": "PL-01 Soledad",
+          "away": "PL-04 El Naranjo",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 10:10",
           "place": "U. Politécnica · Cancha 1"
         },
         {
-          "home": "Equipo B2",
-          "away": "Equipo B3",
+          "home": "PL-04 El Naranjo",
+          "away": "CE-13 Tampaxal",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 14:10",
           "place": "U. Politécnica · Cancha 1"
         },
         {
-          "home": "Equipo B3",
-          "away": "Equipo B1",
+          "home": "CE-13 Tampaxal",
+          "away": "PL-01 Soledad",
           "gh": null,
           "ga": null,
           "hour": "Jue 19 nov · 12:10",
@@ -69,30 +118,30 @@
     },
     "C": {
       "teams": [
-        "Equipo C1",
-        "Equipo C2",
-        "Equipo C3"
+        "PL-03 Cedral",
+        "PL-08 Xilitla",
+        "PL-23 Tierra Nueva"
       ],
       "matches": [
         {
-          "home": "Equipo C1",
-          "away": "Equipo C2",
+          "home": "PL-03 Cedral",
+          "away": "PL-08 Xilitla",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 12:10",
           "place": "U. Politécnica · Cancha 1"
         },
         {
-          "home": "Equipo C2",
-          "away": "Equipo C3",
+          "home": "PL-08 Xilitla",
+          "away": "PL-23 Tierra Nueva",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 14:10",
           "place": "U. Politécnica · Cancha 2"
         },
         {
-          "home": "Equipo C3",
-          "away": "Equipo C1",
+          "home": "PL-23 Tierra Nueva",
+          "away": "PL-03 Cedral",
           "gh": null,
           "ga": null,
           "hour": "Jue 19 nov · 12:10",
@@ -102,30 +151,30 @@
     },
     "D": {
       "teams": [
-        "Equipo D1",
-        "Equipo D2",
-        "Equipo D3"
+        "PL-24 Valles II",
+        "PL-26 San Luis IV",
+        "PL-28 San Luis V"
       ],
       "matches": [
         {
-          "home": "Equipo D3",
-          "away": "Equipo D1",
+          "home": "PL-28 San Luis V",
+          "away": "PL-24 Valles II",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 10:10",
           "place": "U. Politécnica · Cancha 2"
         },
         {
-          "home": "Equipo D2",
-          "away": "Equipo D3",
+          "home": "PL-26 San Luis IV",
+          "away": "PL-28 San Luis V",
           "gh": null,
           "ga": null,
           "hour": "Jue 19 nov · 09:10",
           "place": "U. Politécnica · Cancha 1"
         },
         {
-          "home": "Equipo D1",
-          "away": "Equipo D2",
+          "home": "PL-24 Valles II",
+          "away": "PL-26 San Luis IV",
           "gh": null,
           "ga": null,
           "hour": "Jue 19 nov · 11:10",
@@ -181,5 +230,5 @@
     "color": "#dc2626",
     "bg": "#f8fafc"
   },
-  "updatedAtLocal": "Programa preliminar · equipos por definir en el sorteo"
+  "updatedAtLocal": "Sorteo del 10/11/2026 · grupos definidos"
 }

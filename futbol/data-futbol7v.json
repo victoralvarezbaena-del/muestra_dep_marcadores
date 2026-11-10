@@ -2,30 +2,30 @@
   "groups": {
     "A": {
       "teams": [
-        "Equipo A1",
-        "Equipo A2",
-        "Equipo A3"
+        "PL-38 Mecatlán",
+        "PL-26 San Luis IV",
+        "PL-25 San Luis III"
       ],
       "matches": [
         {
-          "home": "Equipo A2",
-          "away": "Equipo A3",
+          "home": "PL-26 San Luis IV",
+          "away": "PL-25 San Luis III",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 10:00",
           "place": "U. Politécnica · Campo F7 1"
         },
         {
-          "home": "Equipo A3",
-          "away": "Equipo A1",
+          "home": "PL-25 San Luis III",
+          "away": "PL-38 Mecatlán",
           "gh": null,
           "ga": null,
           "hour": "Jue 19 nov · 08:00",
           "place": "U. Politécnica · Campo F7 2"
         },
         {
-          "home": "Equipo A1",
-          "away": "Equipo A2",
+          "home": "PL-38 Mecatlán",
+          "away": "PL-26 San Luis IV",
           "gh": null,
           "ga": null,
           "hour": "Jue 19 nov · 12:00",
@@ -35,30 +35,30 @@
     },
     "B": {
       "teams": [
-        "Equipo B1",
-        "Equipo B2",
-        "Equipo B3"
+        "CE-07 Sto. Domingo",
+        "CE-05 Tlaletla",
+        "CE-22 San Nicolás"
       ],
       "matches": [
         {
-          "home": "Equipo B2",
-          "away": "Equipo B3",
+          "home": "CE-05 Tlaletla",
+          "away": "CE-22 San Nicolás",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 10:00",
           "place": "U. Politécnica · Campo F7 2"
         },
         {
-          "home": "Equipo B3",
-          "away": "Equipo B1",
+          "home": "CE-22 San Nicolás",
+          "away": "CE-07 Sto. Domingo",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 12:00",
           "place": "U. Politécnica · Campo F7 2"
         },
         {
-          "home": "Equipo B1",
-          "away": "Equipo B2",
+          "home": "CE-07 Sto. Domingo",
+          "away": "CE-05 Tlaletla",
           "gh": null,
           "ga": null,
           "hour": "Jue 19 nov · 12:00",
@@ -68,30 +68,30 @@
     },
     "C": {
       "teams": [
-        "Equipo C1",
-        "Equipo C2",
-        "Equipo C3"
+        "PL-01 Soledad",
+        "PL-07 Ahualulco",
+        "CE-19 Coyoles"
       ],
       "matches": [
         {
-          "home": "Equipo C1",
-          "away": "Equipo C2",
+          "home": "PL-01 Soledad",
+          "away": "PL-07 Ahualulco",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 11:00",
           "place": "U. Politécnica · Campo F7 2"
         },
         {
-          "home": "Equipo C2",
-          "away": "Equipo C3",
+          "home": "PL-07 Ahualulco",
+          "away": "CE-19 Coyoles",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 14:00",
           "place": "U. Politécnica · Campo F7 1"
         },
         {
-          "home": "Equipo C3",
-          "away": "Equipo C1",
+          "home": "CE-19 Coyoles",
+          "away": "PL-01 Soledad",
           "gh": null,
           "ga": null,
           "hour": "Jue 19 nov · 09:00",
@@ -101,30 +101,30 @@
     },
     "D": {
       "teams": [
-        "Equipo D1",
-        "Equipo D2",
-        "Equipo D3"
+        "PL-29 V. Zaragoza",
+        "PL-22 Tamuín",
+        "PL-37 Tamapatz"
       ],
       "matches": [
         {
-          "home": "Equipo D1",
-          "away": "Equipo D2",
+          "home": "PL-29 V. Zaragoza",
+          "away": "PL-22 Tamuín",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 08:00",
           "place": "U. Politécnica · Campo F7 2"
         },
         {
-          "home": "Equipo D3",
-          "away": "Equipo D1",
+          "home": "PL-37 Tamapatz",
+          "away": "PL-29 V. Zaragoza",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 14:00",
           "place": "U. Politécnica · Campo F7 2"
         },
         {
-          "home": "Equipo D2",
-          "away": "Equipo D3",
+          "home": "PL-22 Tamuín",
+          "away": "PL-37 Tamapatz",
           "gh": null,
           "ga": null,
           "hour": "Jue 19 nov · 10:00",
@@ -181,6 +181,55 @@
     "color": "#01a6bc",
     "bg": "#194c57"
   },
-  "teamProfiles": {},
-  "updatedAtLocal": "Programa preliminar · equipos por definir en el sorteo"
+  "teamProfiles": {
+    "PL-38 Mecatlán": {
+      "school": "",
+      "image": "../mascotas/PL-38.webp"
+    },
+    "PL-26 San Luis IV": {
+      "school": "",
+      "image": "../mascotas/PL-26.webp"
+    },
+    "PL-25 San Luis III": {
+      "school": "",
+      "image": "../mascotas/PL-25.webp"
+    },
+    "CE-07 Sto. Domingo": {
+      "school": "",
+      "image": "../mascotas/CE-07.webp"
+    },
+    "CE-05 Tlaletla": {
+      "school": "",
+      "image": "../mascotas/CE-05.webp"
+    },
+    "CE-22 San Nicolás": {
+      "school": "",
+      "image": "../mascotas/CE-22.webp"
+    },
+    "PL-01 Soledad": {
+      "school": "",
+      "image": "../mascotas/PL-01.webp"
+    },
+    "PL-07 Ahualulco": {
+      "school": "",
+      "image": "../mascotas/PL-07.webp"
+    },
+    "CE-19 Coyoles": {
+      "school": "",
+      "image": "../mascotas/CE-19.webp"
+    },
+    "PL-29 V. Zaragoza": {
+      "school": "",
+      "image": "../mascotas/PL-29.webp"
+    },
+    "PL-22 Tamuín": {
+      "school": "",
+      "image": "../mascotas/PL-22.webp"
+    },
+    "PL-37 Tamapatz": {
+      "school": "",
+      "image": "../mascotas/PL-37.webp"
+    }
+  },
+  "updatedAtLocal": "Sorteo del 10/11/2026 · grupos definidos"
 }

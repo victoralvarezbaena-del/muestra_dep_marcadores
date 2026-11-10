@@ -1,57 +1,86 @@
 {
-  "teamProfiles": {},
+  "teamProfiles": {
+    "PL-07 Ahualulco": {
+      "school": "",
+      "image": "../mascotas/PL-07.webp"
+    },
+    "PL-28 San Luis V": {
+      "school": "",
+      "image": "../mascotas/PL-28.webp"
+    },
+    "PL-04 El Naranjo": {
+      "school": "",
+      "image": "../mascotas/PL-04.webp"
+    },
+    "PL-03 Cedral": {
+      "school": "",
+      "image": "../mascotas/PL-03.webp"
+    },
+    "PL-06 Valles I": {
+      "school": "",
+      "image": "../mascotas/PL-06.webp"
+    },
+    "PL-17 San Luis I Pavón": {
+      "school": "",
+      "image": "../mascotas/PL-17.webp"
+    },
+    "PL-11 Rayón": {
+      "school": "",
+      "image": "../mascotas/PL-11.webp"
+    }
+  },
   "groups": {
     "A": {
       "teams": [
-        "Equipo A1",
-        "Equipo A2",
-        "Equipo A3",
-        "Equipo A4"
+        "PL-07 Ahualulco",
+        "PL-28 San Luis V",
+        "PL-04 El Naranjo",
+        "PL-03 Cedral"
       ],
       "matches": [
         {
-          "home": "Equipo A1",
-          "away": "Equipo A2",
+          "home": "PL-07 Ahualulco",
+          "away": "PL-28 San Luis V",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 08:00",
           "place": "Tangamanga I · Campo 1"
         },
         {
-          "home": "Equipo A3",
-          "away": "Equipo A4",
+          "home": "PL-04 El Naranjo",
+          "away": "PL-03 Cedral",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 08:00",
           "place": "Tangamanga I · Campo 2"
         },
         {
-          "home": "Equipo A1",
-          "away": "Equipo A3",
+          "home": "PL-07 Ahualulco",
+          "away": "PL-04 El Naranjo",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 11:40",
           "place": "Tangamanga I · Campo 1"
         },
         {
-          "home": "Equipo A2",
-          "away": "Equipo A4",
+          "home": "PL-28 San Luis V",
+          "away": "PL-03 Cedral",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 11:40",
           "place": "Tangamanga I · Campo 2"
         },
         {
-          "home": "Equipo A1",
-          "away": "Equipo A4",
+          "home": "PL-07 Ahualulco",
+          "away": "PL-03 Cedral",
           "gh": null,
           "ga": null,
           "hour": "Jue 19 nov · 08:00",
           "place": "Tangamanga I · Campo 1"
         },
         {
-          "home": "Equipo A2",
-          "away": "Equipo A3",
+          "home": "PL-28 San Luis V",
+          "away": "PL-04 El Naranjo",
           "gh": null,
           "ga": null,
           "hour": "Jue 19 nov · 08:00",
@@ -61,30 +90,30 @@
     },
     "B": {
       "teams": [
-        "Equipo B1",
-        "Equipo B2",
-        "Equipo B3"
+        "PL-06 Valles I",
+        "PL-17 San Luis I Pavón",
+        "PL-11 Rayón"
       ],
       "matches": [
         {
-          "home": "Equipo B1",
-          "away": "Equipo B2",
+          "home": "PL-06 Valles I",
+          "away": "PL-17 San Luis I Pavón",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 09:50",
           "place": "Tangamanga I · Campo 1"
         },
         {
-          "home": "Equipo B1",
-          "away": "Equipo B3",
+          "home": "PL-06 Valles I",
+          "away": "PL-11 Rayón",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 13:30",
           "place": "Tangamanga I · Campo 1"
         },
         {
-          "home": "Equipo B2",
-          "away": "Equipo B3",
+          "home": "PL-17 San Luis I Pavón",
+          "away": "PL-11 Rayón",
           "gh": null,
           "ga": null,
           "hour": "Jue 19 nov · 09:50",
@@ -149,5 +178,5 @@
     "color": "#487a93",
     "bg": "#cce0f5"
   },
-  "updatedAtLocal": "Programa preliminar · equipos por definir en el sorteo"
+  "updatedAtLocal": "Sorteo del 10/11/2026 · grupos definidos"
 }

@@ -2,30 +2,30 @@
   "groups": {
     "A": {
       "teams": [
-        "Equipo A1",
-        "Equipo A2",
-        "Equipo A3"
+        "PL-23 Tierra Nueva",
+        "PL-04 El Naranjo",
+        "CE-12 La Parada"
       ],
       "matches": [
         {
-          "home": "Equipo A1",
-          "away": "Equipo A2",
+          "home": "PL-23 Tierra Nueva",
+          "away": "PL-04 El Naranjo",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 08:00",
           "place": "Tangamanga I · Campo 1"
         },
         {
-          "home": "Equipo A2",
-          "away": "Equipo A3",
+          "home": "PL-04 El Naranjo",
+          "away": "CE-12 La Parada",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 12:40",
           "place": "Tangamanga I · Campo 1"
         },
         {
-          "home": "Equipo A3",
-          "away": "Equipo A1",
+          "home": "CE-12 La Parada",
+          "away": "PL-23 Tierra Nueva",
           "gh": null,
           "ga": null,
           "hour": "Jue 19 nov · 09:10",
@@ -35,30 +35,30 @@
     },
     "B": {
       "teams": [
-        "Equipo B1",
-        "Equipo B2",
-        "Equipo B3"
+        "PL-01 Soledad",
+        "PL-03 Cedral",
+        "PL-33 Axtla"
       ],
       "matches": [
         {
-          "home": "Equipo B1",
-          "away": "Equipo B2",
+          "home": "PL-01 Soledad",
+          "away": "PL-03 Cedral",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 09:10",
           "place": "Tangamanga I · Campo 1"
         },
         {
-          "home": "Equipo B2",
-          "away": "Equipo B3",
+          "home": "PL-03 Cedral",
+          "away": "PL-33 Axtla",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 13:50",
           "place": "Tangamanga I · Campo 1"
         },
         {
-          "home": "Equipo B3",
-          "away": "Equipo B1",
+          "home": "PL-33 Axtla",
+          "away": "PL-01 Soledad",
           "gh": null,
           "ga": null,
           "hour": "Jue 19 nov · 11:30",
@@ -68,30 +68,30 @@
     },
     "C": {
       "teams": [
-        "Equipo C1",
-        "Equipo C2",
-        "Equipo C3"
+        "PL-06 Valles I",
+        "PL-09 Tanlajás",
+        "PL-12 Tampacán"
       ],
       "matches": [
         {
-          "home": "Equipo C1",
-          "away": "Equipo C2",
+          "home": "PL-06 Valles I",
+          "away": "PL-09 Tanlajás",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 11:30",
           "place": "Tangamanga I · Campo 1"
         },
         {
-          "home": "Equipo C2",
-          "away": "Equipo C3",
+          "home": "PL-09 Tanlajás",
+          "away": "PL-12 Tampacán",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 13:50",
           "place": "Tangamanga I · Campo 2"
         },
         {
-          "home": "Equipo C3",
-          "away": "Equipo C1",
+          "home": "PL-12 Tampacán",
+          "away": "PL-06 Valles I",
           "gh": null,
           "ga": null,
           "hour": "Jue 19 nov · 11:30",
@@ -101,30 +101,30 @@
     },
     "D": {
       "teams": [
-        "Equipo D1",
-        "Equipo D2",
-        "Equipo D3"
+        "PL-28 San Luis V",
+        "PL-13 Tanquián",
+        "PL-26 San Luis IV"
       ],
       "matches": [
         {
-          "home": "Equipo D3",
-          "away": "Equipo D1",
+          "home": "PL-26 San Luis IV",
+          "away": "PL-28 San Luis V",
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 09:10",
           "place": "Tangamanga I · Campo 2"
         },
         {
-          "home": "Equipo D2",
-          "away": "Equipo D3",
+          "home": "PL-13 Tanquián",
+          "away": "PL-26 San Luis IV",
           "gh": null,
           "ga": null,
           "hour": "Jue 19 nov · 08:00",
           "place": "Tangamanga I · Campo 1"
         },
         {
-          "home": "Equipo D1",
-          "away": "Equipo D2",
+          "home": "PL-28 San Luis V",
+          "away": "PL-13 Tanquián",
           "gh": null,
           "ga": null,
           "hour": "Jue 19 nov · 10:20",
@@ -181,6 +181,55 @@
     "color": "#62d0df",
     "bg": "#b2e1eb"
   },
-  "teamProfiles": {},
-  "updatedAtLocal": "Programa preliminar · equipos por definir en el sorteo"
+  "teamProfiles": {
+    "PL-23 Tierra Nueva": {
+      "school": "",
+      "image": "../mascotas/PL-23.webp"
+    },
+    "PL-04 El Naranjo": {
+      "school": "",
+      "image": "../mascotas/PL-04.webp"
+    },
+    "CE-12 La Parada": {
+      "school": "",
+      "image": "../mascotas/CE-12.webp"
+    },
+    "PL-01 Soledad": {
+      "school": "",
+      "image": "../mascotas/PL-01.webp"
+    },
+    "PL-03 Cedral": {
+      "school": "",
+      "image": "../mascotas/PL-03.webp"
+    },
+    "PL-33 Axtla": {
+      "school": "",
+      "image": "../mascotas/PL-33.webp"
+    },
+    "PL-06 Valles I": {
+      "school": "",
+      "image": "../mascotas/PL-06.webp"
+    },
+    "PL-09 Tanlajás": {
+      "school": "",
+      "image": "../mascotas/PL-09.webp"
+    },
+    "PL-12 Tampacán": {
+      "school": "",
+      "image": "../mascotas/PL-12.webp"
+    },
+    "PL-28 San Luis V": {
+      "school": "",
+      "image": "../mascotas/PL-28.webp"
+    },
+    "PL-13 Tanquián": {
+      "school": "",
+      "image": "../mascotas/PL-13.webp"
+    },
+    "PL-26 San Luis IV": {
+      "school": "",
+      "image": "../mascotas/PL-26.webp"
+    }
+  },
+  "updatedAtLocal": "Sorteo del 10/11/2026 · grupos definidos"
 }
