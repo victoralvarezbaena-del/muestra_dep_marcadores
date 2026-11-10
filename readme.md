@@ -117,6 +117,8 @@ Cada página pública toma su archivo de datos con `?t=archivo.json` (por ejempl
 | Voleibol de Playa Varonil | `voleiplaya/data-playav.json` | `voleiplaya/index.html?t=data-playav.json` |
 | Voleibol de Playa Femenil | `voleiplaya/data-playaf.json` | `voleiplaya/index.html?t=data-playaf.json` |
 
+| Animación (Porra y Baile) | orden fijo en `animacion/index.html` | `animacion/` |
+
 Al publicar desde un administrador se descarga un archivo con otro nombre: renómbralo como en la tabla antes de subirlo.
 Las mascotas están en `mascotas/` (PL-26.webp, CE-15.webp…); en los datos se indican como `"image": "../mascotas/PL-26.webp"` dentro de `teamProfiles`.
 
