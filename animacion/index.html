@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animación Deportiva · Muestra Deportiva 2026</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="../comun/icono-32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="../comun/icono-48.png">
+  <link rel="apple-touch-icon" href="../comun/icono-180.png">
+  <style>body{margin:0;background:#fff}</style>
+</head>
+<body>
+<style>
+  .mcd-ab{--verde:#0d4a33;--verde2:#16694a;--oro:#c9a227;--tinta:#1d2a24;--gris:#66736c;--fondo:#f4f7f5;
+    font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--tinta);max-width:1100px;margin:0 auto;padding:8px}
+  .mcd-ab *{box-sizing:border-box}
+  .mcd-ab header{text-align:center;margin:4px 0 18px}
+  .mcd-ab h1{margin:0;font-size:clamp(20px,3.2vw,28px);color:var(--verde);letter-spacing:.3px}
+  .mcd-ab header p{margin:6px 0 0;color:var(--gris);font-size:14px}
+  .mcd-ab .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+  .mcd-ab .card{background:#fff;border:1px solid #dfe7e2;border-radius:14px;overflow:hidden;box-shadow:0 2px 8px rgba(13,74,51,.07)}
+  .mcd-ab .card h2{margin:0;padding:12px 16px;background:var(--verde);color:#fff;font-size:17px;display:flex;justify-content:space-between;align-items:center}
+  .mcd-ab .card h2 span{font-size:12px;font-weight:500;background:rgba(255,255,255,.16);padding:2px 9px;border-radius:20px;white-space:nowrap;margin-left:8px}
+  .mcd-ab .card.baile h2{background:var(--verde2)}
+  .mcd-ab ol{list-style:none;margin:0;padding:6px 0}
+  .mcd-ab li{display:flex;align-items:center;gap:12px;padding:8px 16px}
+  .mcd-ab li+li{border-top:1px solid #eef2ef}
+  .mcd-ab .n{flex:0 0 30px;height:30px;border-radius:50%;background:var(--fondo);color:var(--verde);font-weight:700;display:grid;place-items:center;font-size:14px;border:2px solid var(--oro)}
+  .mcd-ab img{width:34px;height:34px;object-fit:contain;flex:0 0 34px}
+  .mcd-ab .eq{font-size:15px;line-height:1.25}
+  .mcd-ab .eq small{display:block;color:var(--gris);font-size:12px}
+</style>
+
+<div class="mcd-ab">
+  <header>
+    <h1>Animación Deportiva · Orden de participación</h1>
+    <p>Muestra Deportiva 2026 · Sorteo del 10 de noviembre de 2026</p>
+  </header>
+  <div class="grid" id="mcd-ab-grid"></div>
+</div>
+
+<script>
+(function(){
+  var MASCOTAS = "../mascotas/";
+  var datos = [
+    {t:"Porra A Mixta", c:"", e:["PL-01 Soledad","PL-25 San Luis III","PL-26 San Luis IV","PL-19 San Luis II","PL-17 San Luis I Pavón"]},
+    {t:"Porra B Mixta", c:"", e:["PL-32 Villa de Arriaga","PL-03 Cedral","PL-15 Ébano","PL-08 Xilitla","PL-12 Tampacán"]},
+    {t:"Porra Femenil", c:"", e:["PL-26 San Luis IV","PL-17 San Luis I Pavón","PL-01 Soledad","PL-19 San Luis II","PL-25 San Luis III"]},
+    {t:"Baile Pompoms", c:"baile", e:["PL-28 San Luis V","PL-24 Valles II","PL-04 El Naranjo","PL-08 Xilitla","PL-05 Cd. Fernández","PL-03 Cedral"]},
+    {t:"Baile Hip-Hop Mixto", c:"baile", e:["PL-19 San Luis II","PL-17 San Luis I Pavón","PL-25 San Luis III","PL-26 San Luis IV","PL-01 Soledad"]}
+  ];
+  var grid = document.getElementById("mcd-ab-grid");
+  datos.forEach(function(d){
+    var card = document.createElement("section");
+    card.className = "card " + d.c;
+    var h = document.createElement("h2");
+    h.textContent = d.t;
+    var b = document.createElement("span");
+    b.textContent = d.e.length + " planteles";
+    h.appendChild(b);
+    card.appendChild(h);
+    var ol = document.createElement("ol");
+    d.e.forEach(function(eq, i){
+      var clave = eq.split(" ")[0];
+      var li = document.createElement("li");
+      var n = document.createElement("div"); n.className = "n"; n.textContent = i + 1;
+      var img = document.createElement("img");
+      img.src = MASCOTAS + clave + ".webp"; img.alt = ""; img.loading = "lazy";
+      img.onerror = function(){ this.style.visibility = "hidden"; };
+      var t = document.createElement("div"); t.className = "eq";
+      t.textContent = eq.slice(clave.length + 1);
+      var s = document.createElement("small");
+      s.textContent = (clave.indexOf("PL") === 0 ? "Plantel " : "EMSaD ") + clave.slice(3);
+      t.appendChild(s);
+      li.appendChild(n); li.appendChild(img); li.appendChild(t);
+      ol.appendChild(li);
+    });
+    card.appendChild(ol);
+    grid.appendChild(card);
+  });
+})();
+</script>
+
+</body>
+</html>
