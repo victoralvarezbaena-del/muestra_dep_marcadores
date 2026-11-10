@@ -175,3 +175,10 @@ Cada sistema deportivo incluye:
 
 **Desarrollado para la Muestra Deportiva 2025**  
 *Sistema unificado de gestión de torneos multideportivos*
+
+### Botón «Publicar» (comun/publicar.js)
+
+Todos los administradores cargan `comun/publicar.js`, que al publicar:
+
+- descarga el archivo con el nombre que espera el sitio según el torneo cargado (por ejemplo `data-futbol7f.json`), en lugar de `data.json`;
+- cuando ya terminó la fase de grupos, guarda en el JSON los nombres de semifinalistas (y de finalistas y tercer lugar cuando ya hay ganadores) que muestra la llave del administrador. Los nombres escritos a mano tienen prioridad y el estado del administrador no se modifica.

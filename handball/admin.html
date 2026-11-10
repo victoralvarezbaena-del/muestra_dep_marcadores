@@ -1026,8 +1026,11 @@ function init() {
 // ===== PUBLICACIÓN =====
 function resolvedKnockout() {
   if (!groupStageComplete(state.groups)) {
+    // Grupos sin terminar: se publican los cruces vacíos, pero se conservan horario y sede
     return Object.fromEntries(['sf1','sf2','final','third'].map(key => [key,
-      {home:'',away:'',gh:null,ga:null,winner:'',hour:'',place:''}]));
+      {home:'',away:'',gh:null,ga:null,winner:'',
+       hour:(state.knockout[key] && state.knockout[key].hour) || '',
+       place:(state.knockout[key] && state.knockout[key].place) || ''}]));
   }
   updateKnockout();
   const result = JSON.parse(JSON.stringify(state.knockout));
@@ -1113,5 +1116,6 @@ document.addEventListener('DOMContentLoaded', init);
 </script>
 <script src="../comun/torneos.js"></script>
 <script src="../comun/resultados.js"></script>
+<script src="../comun/publicar.js"></script>
 </body>
 </html>
