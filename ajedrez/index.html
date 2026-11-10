@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ajedrez · Participantes · Muestra Deportiva 2026</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="../comun/icono-32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="../comun/icono-48.png">
+  <link rel="apple-touch-icon" href="../comun/icono-180.png">
+  <style>
+    body{margin:0;background:#fff}
+    .mcd{--verde:#0d4a33;--verde2:#16694a;--oro:#c9a227;--tinta:#1d2a24;--gris:#66736c;--fondo:#f4f7f5;
+      font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--tinta);max-width:1100px;margin:0 auto;padding:8px}
+    .mcd *{box-sizing:border-box}
+    .mcd header{text-align:center;margin:4px 0 14px}
+    .mcd h1{margin:0;font-size:clamp(20px,3.2vw,28px);color:var(--verde)}
+    .mcd header p{margin:6px 0 0;color:var(--gris);font-size:14px}
+    .mcd .resumen{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:0 0 12px}
+    .mcd .resumen a{font-size:13px;text-decoration:none;color:var(--verde);background:var(--fondo);border:1px solid #dfe7e2;border-radius:20px;padding:5px 12px}
+    .mcd .resumen a b{color:var(--tinta)}
+    .mcd .buscar{display:block;width:100%;max-width:420px;margin:0 auto 16px;padding:10px 14px;font-size:15px;border:1px solid #cfdad3;border-radius:10px;outline:none}
+    .mcd .buscar:focus{border-color:var(--verde2);box-shadow:0 0 0 3px rgba(22,105,74,.15)}
+    .mcd .card{background:#fff;border:1px solid #dfe7e2;border-radius:14px;overflow:hidden;box-shadow:0 2px 8px rgba(13,74,51,.07);margin-bottom:16px;scroll-margin-top:8px}
+    .mcd .card h2{margin:0;padding:12px 16px;background:var(--verde);color:#fff;font-size:17px;display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+    .mcd .card.ind h2{background:var(--verde2)}
+    .mcd .card h2 span{font-size:12px;font-weight:500;background:rgba(255,255,255,.16);padding:3px 10px;border-radius:20px;white-space:nowrap}
+    .mcd ul{list-style:none;margin:0;padding:6px;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:2px 6px}
+    .mcd li{display:flex;align-items:center;gap:10px;padding:7px 10px;border-radius:8px}
+    .mcd li:nth-child(odd){background:#fafcfb}
+    .mcd img{width:34px;height:34px;object-fit:contain;flex:0 0 34px}
+    .mcd .eq{font-size:14.5px;line-height:1.25;flex:1;min-width:0}
+    .mcd .eq small{display:block;color:var(--gris);font-size:12px}
+    .mcd .k{font-size:11.5px;color:var(--verde);background:#fff7dc;border:1px solid #ecd98f;border-radius:12px;padding:1px 8px;white-space:nowrap}
+    .mcd .vacio{padding:14px 16px;color:var(--gris);font-size:14px;display:none}
+  </style>
+</head>
+<body>
+<div class="mcd">
+  <header>
+    <h1>Ajedrez · Planteles participantes</h1>
+    <p>Muestra Deportiva 2026</p>
+  </header>
+  <nav class="resumen" id="mcd-res"></nav>
+  <input class="buscar" id="mcd-q" type="search" placeholder="Buscar plantel o número…" aria-label="Buscar plantel">
+  <div id="mcd-grid"></div>
+</div>
+<script>
+(function(){
+  var MASCOTAS = "../mascotas/";
+  var datos = [{"titulo": "Ajedrez por Equipo · Femenil", "unidad": "jugadoras", "ind": false, "e": [{"c": "PL-01", "n": "Soledad", "t": "Plantel", "k": 4}, {"c": "PL-02", "n": "Villa Hidalgo", "t": "Plantel", "k": 4}, {"c": "PL-06", "n": "Ciudad Valles I", "t": "Plantel", "k": 4}, {"c": "PL-07", "n": "Ahualulco", "t": "Plantel", "k": 4}, {"c": "PL-08", "n": "Xilitla", "t": "Plantel", "k": 4}, {"c": "PL-10", "n": "Moctezuma", "t": "Plantel", "k": 4}, {"c": "PL-11", "n": "Rayón", "t": "Plantel", "k": 4}, {"c": "PL-12", "n": "Tampacán", "t": "Plantel", "k": 4}, {"c": "PL-14", "n": "Tancanhuitz de Santos", "t": "Plantel", "k": 4}, {"c": "PL-18", "n": "Mexquitic de Carmona", "t": "Plantel", "k": 4}, {"c": "PL-23", "n": "Tierra Nueva", "t": "Plantel", "k": 4}, {"c": "PL-27", "n": "San Martín Chalchicuautla", "t": "Plantel", "k": 4}, {"c": "PL-28", "n": "San Luis V", "t": "Plantel", "k": 4}, {"c": "PL-31", "n": "Aquismón", "t": "Plantel", "k": 4}, {"c": "PL-32", "n": "Villa de Arriaga", "t": "Plantel", "k": 4}, {"c": "PL-33", "n": "Axtla de Terrazas", "t": "Plantel", "k": 4}, {"c": "PL-34", "n": "El Pujal", "t": "Plantel", "k": 4}, {"c": "PL-37", "n": "Tamapatz", "t": "Plantel", "k": 4}, {"c": "PL-38", "n": "Mecatlán", "t": "Plantel", "k": 4}, {"c": "PL-40", "n": "Chalco", "t": "Plantel", "k": 4}, {"c": "CE-04", "n": "Santa Catarina", "t": "Centro EMSaD", "k": 4}, {"c": "CE-16", "n": "Ignacio Zaragoza", "t": "Centro EMSaD", "k": 4}, {"c": "CE-21", "n": "La Pila", "t": "Centro EMSaD", "k": 4}, {"c": "CE-26", "n": "Cerrito de Rojas", "t": "Centro EMSaD", "k": 4}, {"c": "CE-28", "n": "La Palma", "t": "Centro EMSaD", "k": 4}, {"c": "CE-29", "n": "El Carrizo", "t": "Centro EMSaD", "k": 4}]}, {"titulo": "Ajedrez por Equipo · Varonil", "unidad": "jugadores", "ind": false, "e": [{"c": "PL-01", "n": "Soledad", "t": "Plantel", "k": 4}, {"c": "PL-02", "n": "Villa Hidalgo", "t": "Plantel", "k": 4}, {"c": "PL-04", "n": "El Naranjo", "t": "Plantel", "k": 4}, {"c": "PL-06", "n": "Ciudad Valles I", "t": "Plantel", "k": 4}, {"c": "PL-07", "n": "Ahualulco", "t": "Plantel", "k": 4}, {"c": "PL-08", "n": "Xilitla", "t": "Plantel", "k": 4}, {"c": "PL-09", "n": "Tanlajás", "t": "Plantel", "k": 4}, {"c": "PL-10", "n": "Moctezuma", "t": "Plantel", "k": 4}, {"c": "PL-11", "n": "Rayón", "t": "Plantel", "k": 4}, {"c": "PL-12", "n": "Tampacán", "t": "Plantel", "k": 4}, {"c": "PL-13", "n": "Tanquián de Escobedo", "t": "Plantel", "k": 4}, {"c": "PL-14", "n": "Tancanhuitz de Santos", "t": "Plantel", "k": 4}, {"c": "PL-15", "n": "Ébano", "t": "Plantel", "k": 4}, {"c": "PL-16", "n": "San Vicente Tancuayalab", "t": "Plantel", "k": 4}, {"c": "PL-18", "n": "Mexquitic de Carmona", "t": "Plantel", "k": 4}, {"c": "PL-19", "n": "San Luis II", "t": "Plantel", "k": 4}, {"c": "PL-21", "n": "Matlapa", "t": "Plantel", "k": 4}, {"c": "PL-23", "n": "Tierra Nueva", "t": "Plantel", "k": 4}, {"c": "PL-25", "n": "San Luis III", "t": "Plantel", "k": 4}, {"c": "PL-26", "n": "San Luis IV", "t": "Plantel", "k": 4}, {"c": "PL-27", "n": "San Martín Chalchicuautla", "t": "Plantel", "k": 4}, {"c": "PL-28", "n": "San Luis V", "t": "Plantel", "k": 4}, {"c": "PL-29", "n": "Villa de Zaragoza", "t": "Plantel", "k": 4}, {"c": "PL-31", "n": "Aquismón", "t": "Plantel", "k": 4}, {"c": "PL-32", "n": "Villa de Arriaga", "t": "Plantel", "k": 4}, {"c": "PL-33", "n": "Axtla de Terrazas", "t": "Plantel", "k": 4}, {"c": "PL-37", "n": "Tamapatz", "t": "Plantel", "k": 4}, {"c": "PL-38", "n": "Mecatlán", "t": "Plantel", "k": 4}, {"c": "CE-03", "n": "Las Víboras", "t": "Centro EMSaD", "k": 4}, {"c": "CE-04", "n": "Santa Catarina", "t": "Centro EMSaD", "k": 4}, {"c": "CE-05", "n": "Tlaletla", "t": "Centro EMSaD", "k": 4}, {"c": "CE-07", "n": "Santo Domingo", "t": "Centro EMSaD", "k": 4}, {"c": "CE-08", "n": "Pozas de Santa Ana", "t": "Centro EMSaD", "k": 4}, {"c": "CE-12", "n": "La Parada", "t": "Centro EMSaD", "k": 4}, {"c": "CE-13", "n": "Tampaxal", "t": "Centro EMSaD", "k": 4}, {"c": "CE-19", "n": "Coyoles", "t": "Centro EMSaD", "k": 4}, {"c": "CE-21", "n": "La Pila", "t": "Centro EMSaD", "k": 4}, {"c": "CE-27", "n": "Plazuela", "t": "Centro EMSaD", "k": 4}, {"c": "CE-28", "n": "La Palma", "t": "Centro EMSaD", "k": 4}, {"c": "CE-29", "n": "El Carrizo", "t": "Centro EMSaD", "k": 4}, {"c": "CE-32", "n": "San Francisco", "t": "Centro EMSaD", "k": 4}]}, {"titulo": "Ajedrez Individual · Femenil", "unidad": "participantes", "ind": true, "e": [{"c": "PL-01", "n": "Soledad", "t": "Plantel", "k": 1}, {"c": "PL-02", "n": "Villa Hidalgo", "t": "Plantel", "k": 1}, {"c": "PL-03", "n": "Cedral", "t": "Plantel", "k": 1}, {"c": "PL-06", "n": "Ciudad Valles I", "t": "Plantel", "k": 1}, {"c": "PL-07", "n": "Ahualulco", "t": "Plantel", "k": 1}, {"c": "PL-08", "n": "Xilitla", "t": "Plantel", "k": 1}, {"c": "PL-11", "n": "Rayón", "t": "Plantel", "k": 1}, {"c": "PL-12", "n": "Tampacán", "t": "Plantel", "k": 1}, {"c": "PL-14", "n": "Tancanhuitz de Santos", "t": "Plantel", "k": 1}, {"c": "PL-15", "n": "Ébano", "t": "Plantel", "k": 1}, {"c": "PL-16", "n": "San Vicente Tancuayalab", "t": "Plantel", "k": 1}, {"c": "PL-19", "n": "San Luis II", "t": "Plantel", "k": 1}, {"c": "PL-21", "n": "Matlapa", "t": "Plantel", "k": 1}, {"c": "PL-23", "n": "Tierra Nueva", "t": "Plantel", "k": 1}, {"c": "PL-25", "n": "San Luis III", "t": "Plantel", "k": 1}, {"c": "PL-26", "n": "San Luis IV", "t": "Plantel", "k": 2}, {"c": "PL-27", "n": "San Martín Chalchicuautla", "t": "Plantel", "k": 1}, {"c": "PL-28", "n": "San Luis V", "t": "Plantel", "k": 1}, {"c": "PL-30", "n": "Illescas", "t": "Plantel", "k": 1}, {"c": "PL-31", "n": "Aquismón", "t": "Plantel", "k": 1}, {"c": "PL-32", "n": "Villa de Arriaga", "t": "Plantel", "k": 1}, {"c": "PL-33", "n": "Axtla de Terrazas", "t": "Plantel", "k": 1}, {"c": "PL-34", "n": "El Pujal", "t": "Plantel", "k": 1}, {"c": "CE-08", "n": "Pozas de Santa Ana", "t": "Centro EMSaD", "k": 1}, {"c": "CE-12", "n": "La Parada", "t": "Centro EMSaD", "k": 1}, {"c": "CE-16", "n": "Ignacio Zaragoza", "t": "Centro EMSaD", "k": 1}, {"c": "CE-19", "n": "Coyoles", "t": "Centro EMSaD", "k": 1}, {"c": "CE-20", "n": "Tamán", "t": "Centro EMSaD", "k": 1}, {"c": "CE-21", "n": "La Pila", "t": "Centro EMSaD", "k": 1}, {"c": "CE-32", "n": "San Francisco", "t": "Centro EMSaD", "k": 1}]}, {"titulo": "Ajedrez Individual · Varonil", "unidad": "participantes", "ind": true, "e": [{"c": "PL-01", "n": "Soledad", "t": "Plantel", "k": 1}, {"c": "PL-03", "n": "Cedral", "t": "Plantel", "k": 1}, {"c": "PL-06", "n": "Ciudad Valles I", "t": "Plantel", "k": 1}, {"c": "PL-07", "n": "Ahualulco", "t": "Plantel", "k": 1}, {"c": "PL-08", "n": "Xilitla", "t": "Plantel", "k": 1}, {"c": "PL-09", "n": "Tanlajás", "t": "Plantel", "k": 1}, {"c": "PL-11", "n": "Rayón", "t": "Plantel", "k": 1}, {"c": "PL-12", "n": "Tampacán", "t": "Plantel", "k": 1}, {"c": "PL-14", "n": "Tancanhuitz de Santos", "t": "Plantel", "k": 1}, {"c": "PL-15", "n": "Ébano", "t": "Plantel", "k": 1}, {"c": "PL-16", "n": "San Vicente Tancuayalab", "t": "Plantel", "k": 1}, {"c": "PL-18", "n": "Mexquitic de Carmona", "t": "Plantel", "k": 1}, {"c": "PL-19", "n": "San Luis II", "t": "Plantel", "k": 1}, {"c": "PL-22", "n": "Tamuín", "t": "Plantel", "k": 1}, {"c": "PL-23", "n": "Tierra Nueva", "t": "Plantel", "k": 1}, {"c": "PL-24", "n": "Ciudad Valles II", "t": "Plantel", "k": 1}, {"c": "PL-25", "n": "San Luis III", "t": "Plantel", "k": 1}, {"c": "PL-27", "n": "San Martín Chalchicuautla", "t": "Plantel", "k": 1}, {"c": "PL-28", "n": "San Luis V", "t": "Plantel", "k": 1}, {"c": "PL-30", "n": "Illescas", "t": "Plantel", "k": 1}, {"c": "PL-31", "n": "Aquismón", "t": "Plantel", "k": 1}, {"c": "PL-32", "n": "Villa de Arriaga", "t": "Plantel", "k": 1}, {"c": "PL-33", "n": "Axtla de Terrazas", "t": "Plantel", "k": 1}, {"c": "PL-34", "n": "El Pujal", "t": "Plantel", "k": 1}, {"c": "CE-08", "n": "Pozas de Santa Ana", "t": "Centro EMSaD", "k": 1}, {"c": "CE-12", "n": "La Parada", "t": "Centro EMSaD", "k": 1}, {"c": "CE-19", "n": "Coyoles", "t": "Centro EMSaD", "k": 1}, {"c": "CE-20", "n": "Tamán", "t": "Centro EMSaD", "k": 1}, {"c": "CE-21", "n": "La Pila", "t": "Centro EMSaD", "k": 1}, {"c": "CE-26", "n": "Cerrito de Rojas", "t": "Centro EMSaD", "k": 1}, {"c": "CE-31", "n": "Villa de Reyes", "t": "Centro EMSaD", "k": 1}]}];
+  var grid = document.getElementById("mcd-grid"), res = document.getElementById("mcd-res");
+  function sinAcentos(s){ return s.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase(); }
+  datos.forEach(function(d, i){
+    var total = d.e.reduce(function(a,x){ return a + x.k; }, 0);
+    var id = "mod" + i;
+    var a = document.createElement("a"); a.href = "#" + id;
+    a.innerHTML = d.titulo.replace("Ajedrez por ","").replace("Ajedrez ","") + ": <b>" + d.e.length + "</b>";
+    res.appendChild(a);
+    var card = document.createElement("section"); card.className = "card" + (d.ind ? " ind" : ""); card.id = id;
+    var h = document.createElement("h2"); h.textContent = d.titulo;
+    var b = document.createElement("span"); b.textContent = d.e.length + " planteles · " + total + " " + d.unidad;
+    h.appendChild(b); card.appendChild(h);
+    var ul = document.createElement("ul");
+    d.e.forEach(function(x){
+      var li = document.createElement("li");
+      li.dataset.q = sinAcentos(x.n + " " + x.t + " " + x.c + " " + parseInt(x.c.slice(3),10));
+      var img = document.createElement("img"); img.src = MASCOTAS + x.c + ".webp"; img.alt = ""; img.loading = "lazy";
+      img.onerror = function(){ this.style.visibility = "hidden"; };
+      var t = document.createElement("div"); t.className = "eq"; t.textContent = x.n;
+      var s = document.createElement("small"); s.textContent = (x.t === "Plantel" ? "Plantel " : "EMSaD ") + x.c.slice(3);
+      t.appendChild(s); li.appendChild(img); li.appendChild(t);
+      if (d.ind && x.k > 1) { var k = document.createElement("span"); k.className = "k"; k.textContent = x.k + " participantes"; li.appendChild(k); }
+      ul.appendChild(li);
+    });
+    card.appendChild(ul);
+    var v = document.createElement("div"); v.className = "vacio"; v.textContent = "Ningún plantel coincide en esta modalidad.";
+    card.appendChild(v);
+    grid.appendChild(card);
+  });
+  document.getElementById("mcd-q").addEventListener("input", function(){
+    var q = sinAcentos(this.value.trim());
+    grid.querySelectorAll(".card").forEach(function(card){
+      var vis = 0;
+      card.querySelectorAll("li").forEach(function(li){ var ok = !q || li.dataset.q.indexOf(q) >= 0; li.style.display = ok ? "" : "none"; if (ok) vis++; });
+      card.querySelector(".vacio").style.display = vis ? "none" : "block";
+    });
+  });
+})();
+</script>
+</body>
+</html>
