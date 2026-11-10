@@ -184,7 +184,7 @@ Panteras</textarea></div>
       <div class="row" style="margin-top:8px">
         <button id="btnGenerate">Generar rol por grupo</button>
 
-        <!-- PUBLICAR (para GH Pages descarga data.json) -->
+        <!-- PUBLICAR (para GH Pages descarga data-beisbol.json) -->
         <input type="url" id="publishURL" placeholder="(Opcional para otros backends)" style="flex:2; min-width:320px" />
         <button id="btnPublish">Publicar <span id="publishStatus"></span></button>
 
@@ -804,7 +804,7 @@ function publish() {
   
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'data.json';
+  a.download = 'data-beisbol.json';
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);

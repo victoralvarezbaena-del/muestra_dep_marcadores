@@ -286,7 +286,7 @@ function teamIdentity(name){const p=teamProfiles[name]||{};const label=p.school|
 
 
 // ===== CONFIGURACIÓN =====
-const DATA_URL = './data.json';
+const DATA_URL = './data-beisbol.json';
 
 // ===== ESTADO =====
 let tournamentData = null;
@@ -418,7 +418,7 @@ function showError(error) {
     <div class="error">
       <h3>Error al cargar el torneo</h3>
       <p>${error.message}</p>
-      <p>Verifica que el archivo <strong>data.json</strong> existe y contiene datos válidos.</p>
+      <p>Verifica que el archivo <strong>data-beisbol.json</strong> existe y contiene datos válidos.</p>
     </div>
   `;
 }
