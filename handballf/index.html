@@ -506,7 +506,8 @@ function teamIdentity(name,soloMascota){const p=teamProfiles[name]||{};const lab
           third:Object.assign({}, KO_DEF, data?.knockout?.third || {})
         },
         qualifiedTeams: data?.qualifiedTeams || {},
-        lastUpdated: data?.lastUpdated || '',
+        lastUpdated: data?.lastUpdated || data?.updatedAt || '',
+        updatedAtLocal: data?.updatedAtLocal || '',
         format: data?.format || '2_grupos_3o4_equipos'
       };
       
@@ -675,12 +676,12 @@ function teamIdentity(name,soloMascota){const p=teamProfiles[name]||{};const lab
     function renderCover(data) {
       const theme = data.theme || {};
       const accentColor = theme.color || '#0284c7';
-      const updatedAt = data.lastUpdated || '';
+      const updatedAt = data.updatedAtLocal ? '' : (data.lastUpdated || '');
       
       let updateInfo = '';
-      if (updatedAt) {
+      if (updatedAt && !Number.isNaN(new Date(updatedAt).getTime())) {
         const date = new Date(updatedAt);
-        const formattedDate = date.toLocaleDateString('es-ES', {
+        const formattedDate = date.toLocaleString('es-MX', {
           day: '2-digit',
           month: '2-digit',
           year: 'numeric',
@@ -695,6 +696,7 @@ function teamIdentity(name,soloMascota){const p=teamProfiles[name]||{};const lab
         `;
       }
       
+      if (!updateInfo && data.updatedAtLocal) updateInfo = `<div class="update-info">📅 Última actualización: ${escapeIdentity(data.updatedAtLocal)}</div>`;
       return `
         <div class="cover" style="background: linear-gradient(135deg, ${accentColor}, color-mix(in srgb, ${accentColor} 80%, black));">
           <h1>${data.tournamentName || 'Torneo Handball'}</h1>

@@ -692,7 +692,7 @@ function teamIdentity(name,soloMascota){const p=teamProfiles[name]||{};const lab
     function renderCover(data) {
       const theme = data.theme || {};
       const accentColor = theme.color || '#0284c7';
-      const updatedAt = data.lastUpdated || data.exportedAt || data.updatedAt || '';
+      const updatedAt = data.updatedAtLocal ? '' : (data.lastUpdated || data.exportedAt || data.updatedAt || '');
       
       let updateInfo = '';
       if (updatedAt && !Number.isNaN(new Date(updatedAt).getTime())) {
