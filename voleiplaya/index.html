@@ -182,9 +182,9 @@ function teamIdentity(name,soloMascota){const p=teamProfiles[name]||{};const lab
       if (!ts) return '';
       try {
         let val = ts;
-        if (typeof ts === 'string') val = ts.includes('-') ? ts : parseInt(ts);
+        if (typeof ts === 'string') { if (/^\d+$/.test(ts)) val = parseInt(ts); else if (!/^\d{4}-\d{2}-\d{2}/.test(ts)) return ts; }
         const d = new Date(val); 
-        if (isNaN(d.getTime())) return '';
+        if (isNaN(d.getTime())) return String(ts);
         const dd = String(d.getDate()).padStart(2,'0');
         const mm = String(d.getMonth()+1).padStart(2,'0');
         const yy = d.getFullYear();
@@ -297,7 +297,7 @@ function teamIdentity(name,soloMascota){const p=teamProfiles[name]||{};const lab
     function renderCover(data) {
       const theme = data.theme || {};
       const accent = theme.color || '#0284c7';
-      const updatedAt = data.updatedAtLocal || data.timestamp || '';
+      const updatedAt = data.updatedAt || data.updatedAtLocal || data.timestamp || '';
       const info = updatedAt ? `<div class="subtitle" style="color:rgba(255,255,255,0.95); font-size:14px;">📅 Última actualización: ${formatTimestamp(updatedAt)}</div>` : '';
       return `
         <div class="card" style="background: linear-gradient(135deg, ${accent}, color-mix(in srgb, ${accent} 80%, black)); color:white;">
@@ -430,7 +430,8 @@ function teamIdentity(name,soloMascota){const p=teamProfiles[name]||{};const lab
             B: (data.groups && data.groups.B) ? data.groups.B : { teams: [], matches: [] }
           },
           knockout: Object.assign({ sf1: {}, sf2: {}, final: {}, third: {} }, data.knockout || {}),
-          updatedAtLocal: data.updatedAtLocal || data.timestamp || ''
+          updatedAtLocal: data.updatedAtLocal || data.timestamp || '',
+          updatedAt: data.updatedAt || ''
         };
 
         applyTheme(normalizedData.theme);

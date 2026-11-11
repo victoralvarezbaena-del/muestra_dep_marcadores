@@ -73,6 +73,27 @@
     return clickOriginal.apply(this, arguments);
   };
 
+  // Fecha y hora de la última actualización: se sella en el JSON en el momento de publicar,
+  // con el mismo formato en todos los deportes (hora del centro de México).
+  function sello() {
+    const d = new Date();
+    let local;
+    try {
+      local = new Intl.DateTimeFormat('es-MX', { timeZone: 'America/Mexico_City', day: '2-digit', month: '2-digit',
+        year: 'numeric', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).format(d).replace(',', '');
+    } catch (e) { local = d.toLocaleString('es-MX'); }
+    return { iso: d.toISOString(), local };
+  }
+  const stringifyOriginal = JSON.stringify;
+  JSON.stringify = function (valor) {
+    if (publicando && valor && typeof valor === 'object' && !Array.isArray(valor) && valor.groups) {
+      const s = sello();
+      valor = Object.assign({}, valor, { updatedAt: s.iso, lastUpdated: s.iso, timestamp: s.iso, updatedAtLocal: s.local });
+      return stringifyOriginal.apply(this, [valor].concat([].slice.call(arguments, 1)));
+    }
+    return stringifyOriginal.apply(this, arguments);
+  };
+
   document.addEventListener('click', ev => {
     const btn = ev.target && ev.target.closest ? ev.target.closest('#btnPublish') : null;
     if (!btn) return;
