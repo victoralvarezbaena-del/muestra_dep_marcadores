@@ -3,84 +3,171 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Animación Deportiva · Muestra Deportiva 2026</title>
+  <title>Animación Deportiva · Horarios · Muestra Deportiva 2026</title>
   <link rel="icon" type="image/png" sizes="32x32" href="../comun/icono-32.png">
   <link rel="icon" type="image/png" sizes="48x48" href="../comun/icono-48.png">
   <link rel="apple-touch-icon" href="../comun/icono-180.png">
-  <style>body{margin:0;background:#fff}</style>
+  <style>
+    body{margin:0;background:#fff}
+    .mcd{--verde:#0d4a33;--verde2:#16694a;--oro:#c9a227;--tinta:#1d2a24;--gris:#66736c;--fondo:#f4f7f5;
+      font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--tinta);max-width:1100px;margin:0 auto;padding:8px}
+    .mcd *{box-sizing:border-box}
+    .mcd header{text-align:center;margin:4px 0 14px}
+    .mcd h1{margin:0;font-size:clamp(20px,3.2vw,28px);color:var(--verde)}
+    .mcd header p{margin:6px 0 0;color:var(--gris);font-size:14.5px}
+    .mcd header p b{color:var(--tinta)}
+    .mcd .tabs{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:0 0 14px}
+    .mcd .tabs button{font:inherit;font-size:14px;cursor:pointer;color:var(--verde);background:var(--fondo);border:1px solid #dfe7e2;border-radius:20px;padding:8px 16px}
+    .mcd .tabs button[aria-selected="true"]{background:var(--verde);color:#fff;border-color:var(--verde)}
+    .mcd .tabs small{opacity:.8;margin-left:4px}
+    .mcd .datos{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:0 0 12px}
+    .mcd .dato{background:var(--fondo);border:1px solid #e3ebe6;border-radius:12px;padding:10px 14px}
+    .mcd .dato span{display:block;font-size:12px;color:var(--gris);text-transform:uppercase;letter-spacing:.4px}
+    .mcd .dato b{font-size:15px}
+    .mcd .ruta{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:6px;font-size:13.5px;margin:0 0 14px;color:var(--gris)}
+    .mcd .ruta i{font-style:normal;background:#fff;border:1px solid #dfe7e2;border-radius:16px;padding:4px 10px;color:var(--tinta)}
+    .mcd .ruta i.e{border-color:var(--oro);font-weight:600}
+    .mcd .buscar{display:block;width:100%;max-width:420px;margin:0 auto 16px;padding:10px 14px;font-size:15px;border:1px solid #cfdad3;border-radius:10px;outline:none}
+    .mcd .buscar:focus{border-color:var(--verde2);box-shadow:0 0 0 3px rgba(22,105,74,.15)}
+    .mcd .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,500px),1fr));gap:16px}
+    .mcd .card{background:#fff;border:1px solid #dfe7e2;border-radius:14px;overflow:hidden;box-shadow:0 2px 8px rgba(13,74,51,.07)}
+    .mcd .card h2{margin:0;padding:11px 16px;background:var(--verde);color:#fff;font-size:16.5px;display:flex;justify-content:space-between;align-items:center;gap:8px}
+    .mcd .card.porra h2{background:var(--verde2)}
+    .mcd .card h2 span{font-size:12.5px;font-weight:500;background:rgba(255,255,255,.16);padding:3px 10px;border-radius:20px;white-space:nowrap}
+    .mcd .cols{display:grid;grid-template-columns:1fr repeat(3,72px);gap:6px;padding:6px 14px;font-size:11px;color:var(--gris);text-transform:uppercase;letter-spacing:.3px;border-bottom:1px solid #eef2ef}
+    .mcd .cols div:not(:first-child){text-align:center}
+    .mcd .fila{display:grid;grid-template-columns:1fr repeat(3,72px);gap:6px;align-items:center;padding:7px 14px;transition:background .2s,opacity .2s}
+    .mcd .fila+.fila,.mcd .nota+.fila,.mcd .fila+.nota{border-top:1px solid #eef2ef}
+    .mcd .eq{display:flex;align-items:center;gap:10px;min-width:0}
+    .mcd .n{flex:0 0 24px;height:24px;border-radius:50%;background:var(--fondo);color:var(--verde);font-weight:700;display:grid;place-items:center;font-size:12px;border:2px solid var(--oro)}
+    .mcd img{width:32px;height:32px;object-fit:contain;flex:0 0 32px}
+    .mcd .nom{font-size:14.5px;line-height:1.2;min-width:0}
+    .mcd .nom small{display:block;color:var(--gris);font-size:12px}
+    .mcd .h{text-align:center;font-size:13.5px;color:var(--gris);font-variant-numeric:tabular-nums}
+    .mcd .h.e{color:var(--tinta);font-weight:700;background:#fff7dc;border-radius:8px;padding:3px 0}
+    .mcd .fila.ex .nom{font-style:italic}
+    .mcd .fila.ex .n{border-color:#dfe7e2;color:var(--oro)}
+    .mcd .nota{display:flex;gap:10px;align-items:flex-start;padding:9px 14px;font-size:13.5px;line-height:1.35}
+    .mcd .nota.exh{background:#fffbea;color:#6b5512}
+    .mcd .nota.pau{background:var(--fondo);color:var(--gris)}
+    .mcd .nota b{white-space:nowrap}
+    .mcd .premio{margin-top:16px;text-align:center;background:linear-gradient(135deg,var(--verde),var(--verde2));color:#fff;border-radius:14px;padding:16px}
+    .mcd .premio b{display:block;font-size:18px;margin-bottom:2px}
+    .mcd .fila.tenue,.mcd .nota.tenue{opacity:.28}
+    .mcd .fila.marca{background:#eaf5ef}
+    .mcd .pie{text-align:center;color:var(--gris);font-size:12.5px;margin:14px 0 0}
+    @media (max-width:560px){
+      .mcd .cols{display:none}
+      .mcd .fila{grid-template-columns:repeat(3,1fr);row-gap:6px}
+      .mcd .fila .eq{grid-column:1/-1}
+      .mcd .h::before{content:attr(data-l);display:block;font-size:10.5px;text-transform:uppercase;color:var(--gris);font-weight:400;letter-spacing:.3px}
+    }
+  </style>
 </head>
 <body>
-<style>
-  .mcd-ab{--verde:#0d4a33;--verde2:#16694a;--oro:#c9a227;--tinta:#1d2a24;--gris:#66736c;--fondo:#f4f7f5;
-    font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--tinta);max-width:1100px;margin:0 auto;padding:8px}
-  .mcd-ab *{box-sizing:border-box}
-  .mcd-ab header{text-align:center;margin:4px 0 18px}
-  .mcd-ab h1{margin:0;font-size:clamp(20px,3.2vw,28px);color:var(--verde);letter-spacing:.3px}
-  .mcd-ab header p{margin:6px 0 0;color:var(--gris);font-size:14px}
-  .mcd-ab .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
-  .mcd-ab .card{background:#fff;border:1px solid #dfe7e2;border-radius:14px;overflow:hidden;box-shadow:0 2px 8px rgba(13,74,51,.07)}
-  .mcd-ab .card h2{margin:0;padding:12px 16px;background:var(--verde);color:#fff;font-size:17px;display:flex;justify-content:space-between;align-items:center}
-  .mcd-ab .card h2 span{font-size:12px;font-weight:500;background:rgba(255,255,255,.16);padding:2px 9px;border-radius:20px;white-space:nowrap;margin-left:8px}
-  .mcd-ab .card.baile h2{background:var(--verde2)}
-  .mcd-ab ol{list-style:none;margin:0;padding:6px 0}
-  .mcd-ab li{display:flex;align-items:center;gap:12px;padding:8px 16px}
-  .mcd-ab li+li{border-top:1px solid #eef2ef}
-  .mcd-ab .n{flex:0 0 30px;height:30px;border-radius:50%;background:var(--fondo);color:var(--verde);font-weight:700;display:grid;place-items:center;font-size:14px;border:2px solid var(--oro)}
-  .mcd-ab img{width:34px;height:34px;object-fit:contain;flex:0 0 34px}
-  .mcd-ab .eq{font-size:15px;line-height:1.25}
-  .mcd-ab .eq small{display:block;color:var(--gris);font-size:12px}
-</style>
-
-<div class="mcd-ab">
+<div class="mcd">
   <header>
-    <h1>Animación Deportiva · Orden de participación</h1>
-    <p>Muestra Deportiva 2026 · Sorteo del 10 de noviembre de 2026</p>
-    <p class="actualizacion">📅 Última actualización: 10/11/2026 11:06</p>
+    <h1>Animación Deportiva · Competencia Estatal</h1>
+    <p><b>Miércoles 18 de noviembre</b> · Auditorio Miguel Barragán</p>
   </header>
-  <div class="grid" id="mcd-ab-grid"></div>
+  <div class="tabs" role="tablist" id="mcd-tabs"></div>
+  <div class="datos" id="mcd-datos"></div>
+  <div class="ruta" id="mcd-ruta"></div>
+  <input class="buscar" id="mcd-q" type="search" placeholder="Buscar plantel (nombre o número)…" aria-label="Buscar plantel">
+  <div class="grid" id="mcd-grid"></div>
+  <div id="mcd-premio"></div>
+  <p class="pie" id="mcd-pie"></p>
 </div>
-
 <script>
 (function(){
   var MASCOTAS = "../mascotas/";
-  var datos = [
-    {t:"Porra A Mixta", c:"", e:["PL-01 Soledad","PL-25 San Luis III","PL-26 San Luis IV","PL-19 San Luis II","PL-17 San Luis I Pavón"]},
-    {t:"Porra B Mixta", c:"", e:["PL-32 Villa de Arriaga","PL-03 Cedral","PL-15 Ébano","PL-08 Xilitla","PL-12 Tampacán"]},
-    {t:"Porra Femenil", c:"", e:["PL-26 San Luis IV","PL-17 San Luis I Pavón","PL-01 Soledad","PL-19 San Luis II","PL-25 San Luis III"]},
-    {t:"Baile Pompoms", c:"baile", e:["PL-28 San Luis V","PL-24 Valles II","PL-04 El Naranjo","PL-08 Xilitla","PL-05 Cd. Fernández","PL-03 Cedral"]},
-    {t:"Baile Hip-Hop Mixto", c:"baile", e:["PL-19 San Luis II","PL-17 San Luis I Pavón","PL-25 San Luis III","PL-26 San Luis IV","PL-01 Soledad"]}
+  var D = {"competencia": [{"titulo": "Baile Pom Poms", "items": [{"tipo": "equipo", "nombre": "San Luis V", "cod": "PL-28", "esc": "3:00 pm", "reg": "2:50 pm", "cal": "2:40 pm"}, {"tipo": "equipo", "nombre": "Valles II", "cod": "PL-24", "esc": "3:08 pm", "reg": "2:58 pm", "cal": "2:48 pm"}, {"tipo": "equipo", "nombre": "El Naranjo", "cod": "PL-04", "esc": "3:16 pm", "reg": "3:06 pm", "cal": "2:56 pm"}, {"tipo": "equipo", "nombre": "Xilitla", "cod": "PL-08", "esc": "3:24 pm", "reg": "3:14 pm", "cal": "3:04 pm"}, {"tipo": "equipo", "nombre": "Cd. Fernández", "cod": "PL-05", "esc": "3:32 pm", "reg": "3:22 pm", "cal": "3:12 pm"}, {"tipo": "equipo", "nombre": "Cedral", "cod": "PL-03", "esc": "3:40 pm", "reg": "3:30 pm", "cal": "3:20 pm"}, {"tipo": "exhibicion_nota", "texto": "Exhibición grupo de Hip-Hop del plantel 01, Liebres"}]}, {"titulo": "Baile Hip-Hop Mixto", "items": [{"tipo": "equipo", "nombre": "San Luis II", "cod": "PL-19", "esc": "3:48 pm", "reg": "3:38 pm", "cal": "3:28 pm"}, {"tipo": "equipo", "nombre": "San Luis I Pavón", "cod": "PL-17", "esc": "3:56 pm", "reg": "3:46 pm", "cal": "3:36 pm"}, {"tipo": "equipo", "nombre": "San Luis III", "cod": "PL-25", "esc": "4:04 pm", "reg": "3:54 pm", "cal": "3:44 pm"}, {"tipo": "equipo", "nombre": "San Luis IV", "cod": "PL-26", "esc": "4:12 pm", "reg": "4:02 pm", "cal": "3:52 pm"}, {"tipo": "equipo", "nombre": "Soledad", "cod": "PL-01", "esc": "4:20 pm", "reg": "4:10 pm", "cal": "4:00 pm"}, {"tipo": "pausa", "texto": "Hip-Hop termina a las 4:28 pm. Pausa de 15 minutos, de 4:28 a 4:43 pm, para acomodar el piso de porra"}]}, {"titulo": "Porra Mixta B", "items": [{"tipo": "equipo", "nombre": "Villa de Arriaga", "cod": "PL-32", "esc": "4:43 pm", "reg": "4:33 pm", "cal": "4:23 pm"}, {"tipo": "equipo", "nombre": "Cedral", "cod": "PL-03", "esc": "4:52 pm", "reg": "4:42 pm", "cal": "4:32 pm"}, {"tipo": "equipo", "nombre": "Ébano", "cod": "PL-15", "esc": "5:02 pm", "reg": "4:52 pm", "cal": "4:42 pm"}, {"tipo": "exhibicion_nota", "texto": "EXHIBICIÓN —  mixto del Plantel 01, nivel 1"}, {"tipo": "equipo", "nombre": "Xilitla", "cod": "PL-08", "esc": "5:11 pm", "reg": "5:01 pm", "cal": "4:51 pm"}, {"tipo": "equipo", "nombre": "Tampacán", "cod": "PL-12", "esc": "5:21 pm", "reg": "5:11 pm", "cal": "5:01 pm"}, {"tipo": "equipo", "nombre": "San Luis I Pavón", "cod": "PL-17", "esc": "5:30 pm", "reg": "5:20 pm", "cal": "5:10 pm"}, {"tipo": "exhibicion_nota", "texto": "EXHIBICIÓN — Grupo mixto del COBACH 25, nivel 1"}]}, {"titulo": "Porra Femenil", "items": [{"tipo": "equipo", "nombre": "San Luis IV", "cod": "PL-26", "esc": "5:40 pm", "reg": "5:30 pm", "cal": "5:20 pm"}, {"tipo": "equipo", "nombre": "San Luis I Pavón", "cod": "PL-17", "esc": "5:49 pm", "reg": "5:39 pm", "cal": "5:29 pm"}, {"tipo": "equipo", "nombre": "Soledad", "cod": "PL-01", "esc": "5:59 pm", "reg": "5:49 pm", "cal": "5:39 pm"}, {"tipo": "exhibicion_nota", "texto": "EXHIBICIÓN — Instituto Hispano Inglés"}, {"tipo": "equipo", "nombre": "San Luis II", "cod": "PL-19", "esc": "6:08 pm", "reg": "5:58 pm", "cal": "5:48 pm"}, {"tipo": "equipo", "nombre": "San Luis III", "cod": "PL-25", "esc": "6:18 pm", "reg": "6:08 pm", "cal": "5:58 pm"}, {"tipo": "exhibicion_nota", "texto": "Exhibición grupo mixto del COBACH 26, nivel 1"}]}, {"titulo": "Porra Mixta A", "items": [{"tipo": "equipo", "nombre": "Soledad", "cod": "PL-01", "esc": "6:27 pm", "reg": "6:17 pm", "cal": "6:07 pm"}, {"tipo": "equipo", "nombre": "San Luis III", "cod": "PL-25", "esc": "6:37 pm", "reg": "6:27 pm", "cal": "6:17 pm"}, {"tipo": "equipo", "nombre": "San Luis IV", "cod": "PL-26", "esc": "6:46 pm", "reg": "6:36 pm", "cal": "6:26 pm"}, {"tipo": "equipo", "nombre": "San Luis II", "cod": "PL-19", "esc": "6:56 pm", "reg": "6:46 pm", "cal": "6:36 pm"}, {"tipo": "exhibicion_nota", "texto": "EXHIBICIÓN Y CIERRE — Porra femenil del Plantel 01, nivel 1"}]}, {"titulo": "Premiación", "nota": "PREMIACIÓN — CIERRE DEL EVENTO:  7:05 – 7:35 pm  (30 minutos)", "items": []}], "ensayo": [{"titulo": "Baile Pom Poms", "items": [{"tipo": "equipo", "nombre": "San Luis V", "cod": "PL-28", "esc": "9:00 am", "reg": "8:50 am", "cal": "8:40 am"}, {"tipo": "equipo", "nombre": "Valles II", "cod": "PL-24", "esc": "9:07 am", "reg": "8:57 am", "cal": "8:47 am"}, {"tipo": "equipo", "nombre": "El Naranjo", "cod": "PL-04", "esc": "9:14 am", "reg": "9:04 am", "cal": "8:54 am"}, {"tipo": "equipo", "nombre": "Xilitla", "cod": "PL-08", "esc": "9:21 am", "reg": "9:11 am", "cal": "9:01 am"}, {"tipo": "equipo", "nombre": "Cd. Fernández", "cod": "PL-05", "esc": "9:28 am", "reg": "9:18 am", "cal": "9:08 am"}, {"tipo": "equipo", "nombre": "Cedral", "cod": "PL-03", "esc": "9:35 am", "reg": "9:25 am", "cal": "9:15 am"}]}, {"titulo": "Baile Hip-Hop Mixto", "items": [{"tipo": "equipo", "nombre": "San Luis II", "cod": "PL-19", "esc": "9:42 am", "reg": "9:32 am", "cal": "9:22 am"}, {"tipo": "equipo", "nombre": "San Luis I Pavón", "cod": "PL-17", "esc": "9:49 am", "reg": "9:39 am", "cal": "9:29 am"}, {"tipo": "equipo", "nombre": "San Luis III", "cod": "PL-25", "esc": "9:56 am", "reg": "9:46 am", "cal": "9:36 am"}, {"tipo": "equipo", "nombre": "San Luis IV", "cod": "PL-26", "esc": "10:03 am", "reg": "9:53 am", "cal": "9:43 am"}, {"tipo": "equipo", "nombre": "Soledad", "cod": "PL-01", "esc": "10:10 am", "reg": "10:00 am", "cal": "9:50 am"}, {"tipo": "exhibicion", "nombre": "Exhibición Hip-Hop — COBACH 01", "cod": "", "esc": "10:17 am", "reg": "10:07 am", "cal": "9:57 am"}, {"tipo": "pausa", "texto": "PAUSA de 10:24 a 10:39 am para acomodar el piso de porristas, entre Hip-Hop y Porra"}]}, {"titulo": "Porra Mixta B", "items": [{"tipo": "equipo", "nombre": "Villa de Arriaga", "cod": "PL-32", "esc": "10:39 am", "reg": "10:29 am", "cal": "10:19 am"}, {"tipo": "equipo", "nombre": "Cedral", "cod": "PL-03", "esc": "10:46 am", "reg": "10:36 am", "cal": "10:26 am"}, {"tipo": "equipo", "nombre": "Ébano", "cod": "PL-15", "esc": "10:53 am", "reg": "10:43 am", "cal": "10:33 am"}, {"tipo": "equipo", "nombre": "Xilitla", "cod": "PL-08", "esc": "11:00 am", "reg": "10:50 am", "cal": "10:40 am"}, {"tipo": "equipo", "nombre": "Tampacán", "cod": "PL-12", "esc": "11:07 am", "reg": "10:57 am", "cal": "10:47 am"}, {"tipo": "equipo", "nombre": "San Luis I Pavón", "cod": "PL-17", "esc": "11:14 am", "reg": "11:04 am", "cal": "10:54 am"}]}, {"titulo": "Porra Femenil", "items": [{"tipo": "equipo", "nombre": "San Luis IV", "cod": "PL-26", "esc": "11:21 am", "reg": "11:11 am", "cal": "11:01 am"}, {"tipo": "equipo", "nombre": "San Luis I Pavón", "cod": "PL-17", "esc": "11:28 am", "reg": "11:18 am", "cal": "11:08 am"}, {"tipo": "equipo", "nombre": "Soledad", "cod": "PL-01", "esc": "11:35 am", "reg": "11:25 am", "cal": "11:15 am"}, {"tipo": "equipo", "nombre": "San Luis II", "cod": "PL-19", "esc": "11:42 am", "reg": "11:32 am", "cal": "11:22 am"}, {"tipo": "equipo", "nombre": "San Luis III", "cod": "PL-25", "esc": "11:49 am", "reg": "11:39 am", "cal": "11:29 am"}]}, {"titulo": "Porra Mixta A", "items": [{"tipo": "equipo", "nombre": "Soledad", "cod": "PL-01", "esc": "11:56 am", "reg": "11:46 am", "cal": "11:36 am"}, {"tipo": "equipo", "nombre": "San Luis III", "cod": "PL-25", "esc": "12:03 pm", "reg": "11:53 am", "cal": "11:43 am"}, {"tipo": "equipo", "nombre": "San Luis IV", "cod": "PL-26", "esc": "12:10 pm", "reg": "12:00 pm", "cal": "11:50 am"}, {"tipo": "equipo", "nombre": "San Luis II", "cod": "PL-19", "esc": "12:17 pm", "reg": "12:07 pm", "cal": "11:57 am"}]}, {"titulo": "Exhibiciones al final del ensayo", "items": [{"tipo": "exhibicion", "nombre": "COBACH 01 — Porra femenil (exhibición)", "cod": "", "esc": "12:24 pm", "reg": "12:14 pm", "cal": "12:04 pm"}, {"tipo": "exhibicion", "nombre": "COBACH 01 — Porra mixta (exhibición)", "cod": "", "esc": "12:31 pm", "reg": "12:21 pm", "cal": "12:11 pm"}, {"tipo": "exhibicion", "nombre": "COBACH 25 — Mixto (exhibición)", "cod": "", "esc": "12:38 pm", "reg": "12:28 pm", "cal": "12:18 pm"}, {"tipo": "exhibicion", "nombre": "COBACH 26 — Mixto (exhibición)", "cod": "", "esc": "12:45 pm", "reg": "12:35 pm", "cal": "12:25 pm"}]}]};
+  var vistas = [
+    { id: "competencia", etiqueta: "Competencia", hora: "3:00 pm", paso: "Registro",
+      datos: [["Horario", "3:00 – 7:05 pm"], ["Premiación", "7:05 – 7:35 pm"], ["Baile", "8 min por equipo"], ["Porra", "9:30 min por equipo"]],
+      pie: "Cada tiempo por equipo incluye la rutina (aprox. 2:30) y la deliberación de los jueces. Las exhibiciones se presentan durante la deliberación, sin tiempo extra." },
+    { id: "ensayo", etiqueta: "Ensayo general", hora: "9:00 am", paso: "Puerta",
+      datos: [["Horario", "9:00 am – 12:52 pm"], ["Organizadores", "Llegan 8:00 am"], ["Por equipo", "7 min en escenario"], ["Pausa", "10:24 – 10:39 am"]],
+      pie: "Cada equipo sale del escenario 7 minutos después de su hora de entrada." }
   ];
-  var grid = document.getElementById("mcd-ab-grid");
-  datos.forEach(function(d){
-    var card = document.createElement("section");
-    card.className = "card " + d.c;
-    var h = document.createElement("h2");
-    h.textContent = d.t;
-    var b = document.createElement("span");
-    b.textContent = d.e.length + " planteles";
-    h.appendChild(b);
-    card.appendChild(h);
-    var ol = document.createElement("ol");
-    d.e.forEach(function(eq, i){
-      var clave = eq.split(" ")[0];
-      var li = document.createElement("li");
-      var n = document.createElement("div"); n.className = "n"; n.textContent = i + 1;
-      var img = document.createElement("img");
-      img.src = MASCOTAS + clave + ".webp"; img.alt = ""; img.loading = "lazy";
-      img.onerror = function(){ this.style.visibility = "hidden"; };
-      var t = document.createElement("div"); t.className = "eq";
-      t.textContent = eq.slice(clave.length + 1);
-      var s = document.createElement("small");
-      s.textContent = (clave.indexOf("PL") === 0 ? "Plantel " : "EMSaD ") + clave.slice(3);
-      t.appendChild(s);
-      li.appendChild(n); li.appendChild(img); li.appendChild(t);
-      ol.appendChild(li);
+  var actual = 0;
+  var tabs = document.getElementById("mcd-tabs"), grid = document.getElementById("mcd-grid"), q = document.getElementById("mcd-q");
+  function norm(s){ return String(s).normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase(); }
+  function el(tag, cls, txt){ var e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; }
+  function limpiaExh(t){
+    var cierre = /y cierre/i.test(t);
+    t = t.replace(/^EXHIBICI[OÓ]N( Y CIERRE)?\s*—\s*/i, "").replace(/^Exhibici[oó]n\s+/i, "").replace(/\s+/g, " ").trim();
+    t = t.charAt(0).toUpperCase() + t.slice(1);
+    return { txt: t.replace(/plantel/g, "Plantel"), cierre: cierre };
+  }
+  function pintar(){
+    var v = vistas[actual], secciones = D[v.id];
+    var datos = document.getElementById("mcd-datos"); datos.innerHTML = "";
+    v.datos.forEach(function(d){ var x = el("div", "dato"); x.appendChild(el("span", null, d[0])); x.appendChild(el("b", null, d[1])); datos.appendChild(x); });
+    var ruta = document.getElementById("mcd-ruta"); ruta.innerHTML = "";
+    ruta.appendChild(el("span", null, "Recorrido de cada equipo:"));
+    [["Calentamiento", "20 min antes"], [v.paso, "10 min antes"], ["Escenario", "a su hora"]].forEach(function(p, i){
+      if (i) ruta.appendChild(el("span", null, "→"));
+      ruta.appendChild(el("i", i === 2 ? "e" : null, p[0] + " · " + p[1]));
     });
-    card.appendChild(ol);
-    grid.appendChild(card);
+    grid.innerHTML = ""; document.getElementById("mcd-premio").innerHTML = "";
+    secciones.forEach(function(s){
+      if (s.titulo === "Premiación") {
+        var p = el("div", "premio"); p.appendChild(el("b", null, "Premiación y cierre del evento")); p.appendChild(el("span", null, "7:05 – 7:35 pm"));
+        document.getElementById("mcd-premio").appendChild(p); return;
+      }
+      var card = el("section", "card" + (/porra/i.test(s.titulo) ? " porra" : ""));
+      var h = el("h2", null, s.titulo);
+      var primero = s.items.filter(function(it){ return it.esc; })[0];
+      if (primero) h.appendChild(el("span", null, "Inicia " + primero.esc));
+      card.appendChild(h);
+      var cols = el("div", "cols"); ["Plantel", "Calent.", v.paso, "Escenario"].forEach(function(c){ cols.appendChild(el("div", null, c)); }); card.appendChild(cols);
+      var k = 0;
+      s.items.forEach(function(it){
+        if (it.tipo === "equipo" || it.tipo === "exhibicion") {
+          var f = el("div", "fila" + (it.tipo === "exhibicion" ? " ex" : ""));
+          f.dataset.q = norm(it.nombre + " " + it.cod + " plantel " + (it.cod ? parseInt(it.cod.slice(3), 10) : ""));
+          var eq = el("div", "eq");
+          eq.appendChild(el("div", "n", it.tipo === "equipo" ? String(++k) : "★"));
+          if (it.cod) { var img = el("img"); img.src = MASCOTAS + it.cod + ".webp"; img.alt = ""; img.loading = "lazy"; img.onerror = function(){ this.style.visibility = "hidden"; }; eq.appendChild(img); }
+          var nom = el("div", "nom", it.tipo === "equipo" ? it.nombre : it.nombre.replace(/\s*\(exhibici[oó]n\)/i, ""));
+          nom.appendChild(el("small", null, it.tipo === "equipo" ? "Plantel " + it.cod.slice(3) : "Exhibición"));
+          eq.appendChild(nom); f.appendChild(eq);
+          [["cal", "Calent."], ["reg", v.paso], ["esc", "Escenario"]].forEach(function(c, i){ var x = el("div", "h" + (i === 2 ? " e" : ""), it[c[0]]); x.dataset.l = c[1]; f.appendChild(x); });
+          card.appendChild(f);
+        } else if (it.tipo === "exhibicion_nota") {
+          var e = limpiaExh(it.texto), n = el("div", "nota exh");
+          n.dataset.q = norm(e.txt);
+          n.appendChild(el("b", null, e.cierre ? "★ Exhibición y cierre" : "★ Exhibición")); n.appendChild(el("span", null, e.txt));
+          card.appendChild(n);
+        } else if (it.tipo === "pausa") {
+          var p2 = el("div", "nota pau"); p2.appendChild(el("b", null, "Pausa")); p2.appendChild(el("span", null, it.texto.replace(/^PAUSA\s*/i, "").replace(/^\w/, function(c){ return c.toUpperCase(); }) + "."));
+          card.appendChild(p2);
+        }
+      });
+      grid.appendChild(card);
+    });
+    document.getElementById("mcd-pie").textContent = v.pie;
+    filtrar();
+  }
+  function filtrar(){
+    var f = norm(q.value.trim());
+    grid.querySelectorAll(".fila, .nota").forEach(function(r){
+      var ok = !f || (r.dataset.q || "").indexOf(f) >= 0;
+      r.classList.toggle("tenue", !!f && !ok);
+      r.classList.toggle("marca", !!f && ok && r.classList.contains("fila"));
+    });
+  }
+  vistas.forEach(function(v, i){
+    var b = el("button"); b.type = "button"; b.setAttribute("role", "tab");
+    b.textContent = v.etiqueta; b.appendChild(el("small", null, "· " + v.hora));
+    b.setAttribute("aria-selected", i === 0 ? "true" : "false");
+    b.onclick = function(){ actual = i; tabs.querySelectorAll("button").forEach(function(x, j){ x.setAttribute("aria-selected", j === i ? "true" : "false"); }); pintar(); };
+    tabs.appendChild(b);
   });
+  q.addEventListener("input", filtrar);
+  pintar();
 })();
 </script>
-
 </body>
 </html>
