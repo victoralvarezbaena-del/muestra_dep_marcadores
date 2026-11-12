@@ -59,7 +59,7 @@
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 08:00",
-          "place": "U. Politécnica · Media cancha 1"
+          "place": "U. Politécnica · Cancha externa 3 · Tablero 1"
         },
         {
           "home": "PL-05 Cd. Fernández",
@@ -67,7 +67,7 @@
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 08:30",
-          "place": "U. Politécnica · Media cancha 1"
+          "place": "U. Politécnica · Cancha externa 3 · Tablero 1"
         },
         {
           "home": "PL-14 Tancanhuitz",
@@ -91,16 +91,16 @@
           "away": "PL-17 San Luis I Pavón",
           "gh": null,
           "ga": null,
-          "hour": "Mié 18 nov · 08:00",
-          "place": "U. Politécnica · Media cancha 2"
+          "hour": "Mié 18 nov · 08:15",
+          "place": "U. Politécnica · Cancha externa 3 · Tablero 1"
         },
         {
           "home": "PL-25 San Luis III",
           "away": "PL-33 Axtla",
           "gh": null,
           "ga": null,
-          "hour": "Mié 18 nov · 08:30",
-          "place": "U. Politécnica · Media cancha 2"
+          "hour": "Mié 18 nov · 08:45",
+          "place": "U. Politécnica · Cancha externa 3 · Tablero 1"
         },
         {
           "home": "PL-17 San Luis I Pavón",
@@ -124,16 +124,16 @@
           "away": "PL-10 Moctezuma",
           "gh": null,
           "ga": null,
-          "hour": "Mié 18 nov · 08:00",
-          "place": "U. Politécnica · Media cancha 3"
+          "hour": "Mié 18 nov · 09:00",
+          "place": "U. Politécnica · Cancha externa 3 · Tablero 1"
         },
         {
           "home": "PL-31 Aquismón",
           "away": "PL-35 Tambaca",
           "gh": null,
           "ga": null,
-          "hour": "Mié 18 nov · 08:30",
-          "place": "U. Politécnica · Media cancha 3"
+          "hour": "Mié 18 nov · 09:30",
+          "place": "U. Politécnica · Cancha externa 3 · Tablero 1"
         },
         {
           "home": "PL-10 Moctezuma",
@@ -156,8 +156,8 @@
           "away": "PL-27 San Martín CH.",
           "gh": null,
           "ga": null,
-          "hour": "Mié 18 nov · 08:15",
-          "place": "U. Politécnica · Media cancha 4"
+          "hour": "Mié 18 nov · 09:15",
+          "place": "U. Politécnica · Cancha externa 3 · Tablero 1"
         }
       ]
     }
