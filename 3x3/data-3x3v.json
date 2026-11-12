@@ -63,7 +63,7 @@
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 08:00",
-          "place": "U. Politécnica · Media cancha 4"
+          "place": "U. Politécnica · Cancha externa 3 · Tablero 2"
         },
         {
           "home": "PL-27 San Martín CH.",
@@ -71,7 +71,7 @@
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 08:30",
-          "place": "U. Politécnica · Media cancha 4"
+          "place": "U. Politécnica · Cancha externa 3 · Tablero 2"
         },
         {
           "home": "PL-37 Tamapatz",
@@ -96,7 +96,7 @@
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 08:15",
-          "place": "U. Politécnica · Media cancha 1"
+          "place": "U. Politécnica · Cancha externa 3 · Tablero 2"
         },
         {
           "home": "PL-17 San Luis I Pavón",
@@ -104,7 +104,7 @@
           "gh": null,
           "ga": null,
           "hour": "Mié 18 nov · 08:45",
-          "place": "U. Politécnica · Media cancha 1"
+          "place": "U. Politécnica · Cancha externa 3 · Tablero 2"
         },
         {
           "home": "CE-20 Tamán",
@@ -128,16 +128,16 @@
           "away": "PL-13 Tanquián",
           "gh": null,
           "ga": null,
-          "hour": "Mié 18 nov · 08:15",
-          "place": "U. Politécnica · Media cancha 2"
+          "hour": "Mié 18 nov · 09:00",
+          "place": "U. Politécnica · Cancha externa 3 · Tablero 2"
         },
         {
           "home": "PL-19 San Luis II",
           "away": "PL-07 Ahualulco",
           "gh": null,
           "ga": null,
-          "hour": "Mié 18 nov · 08:45",
-          "place": "U. Politécnica · Media cancha 2"
+          "hour": "Mié 18 nov · 09:30",
+          "place": "U. Politécnica · Cancha externa 3 · Tablero 2"
         },
         {
           "home": "PL-13 Tanquián",
@@ -161,16 +161,16 @@
           "away": "PL-04 El Naranjo",
           "gh": null,
           "ga": null,
-          "hour": "Mié 18 nov · 08:15",
-          "place": "U. Politécnica · Media cancha 3"
+          "hour": "Mié 18 nov · 09:15",
+          "place": "U. Politécnica · Cancha externa 3 · Tablero 2"
         },
         {
           "home": "PL-26 San Luis IV",
           "away": "PL-28 San Luis V",
           "gh": null,
           "ga": null,
-          "hour": "Mié 18 nov · 08:45",
-          "place": "U. Politécnica · Media cancha 3"
+          "hour": "Mié 18 nov · 09:45",
+          "place": "U. Politécnica · Cancha externa 3 · Tablero 2"
         },
         {
           "home": "PL-04 El Naranjo",
