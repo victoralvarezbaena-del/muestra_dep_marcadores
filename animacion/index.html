@@ -27,6 +27,12 @@
     .mcd .ruta{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:6px;font-size:13.5px;margin:0 0 14px;color:var(--gris)}
     .mcd .ruta i{font-style:normal;background:#fff;border:1px solid #dfe7e2;border-radius:16px;padding:4px 10px;color:var(--tinta)}
     .mcd .ruta i.e{border-color:var(--oro);font-weight:600}
+    .mcd .reglas{border:2px solid var(--oro);background:#fffdf5;border-radius:14px;padding:14px 16px;margin:0 0 14px}
+    .mcd .reglas h3{margin:0 0 4px;font-size:16px;color:var(--verde)}
+    .mcd .reglas p{margin:0 0 10px;font-size:13.5px;color:var(--gris)}
+    .mcd .reglas ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:8px 18px}
+    .mcd .reglas li{display:flex;gap:10px;align-items:flex-start;font-size:14px;line-height:1.35}
+    .mcd .reglas li span{flex:0 0 22px;font-size:17px;line-height:1.1;text-align:center}
     .mcd .buscar{display:block;width:100%;max-width:420px;margin:0 auto 16px;padding:10px 14px;font-size:15px;border:1px solid #cfdad3;border-radius:10px;outline:none}
     .mcd .buscar:focus{border-color:var(--verde2);box-shadow:0 0 0 3px rgba(22,105,74,.15)}
     .mcd .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,500px),1fr));gap:16px}
@@ -72,6 +78,7 @@
   </header>
   <div class="tabs" role="tablist" id="mcd-tabs"></div>
   <div class="datos" id="mcd-datos"></div>
+  <div id="mcd-reglas"></div>
   <div class="ruta" id="mcd-ruta"></div>
   <input class="buscar" id="mcd-q" type="search" placeholder="Buscar plantel (nombre o número)…" aria-label="Buscar plantel">
   <div class="grid" id="mcd-grid"></div>
@@ -87,8 +94,15 @@
       datos: [["Horario", "3:00 – 7:05 pm"], ["Premiación", "7:05 – 7:35 pm"], ["Baile", "8 min por equipo"], ["Porra", "9:30 min por equipo"]],
       pie: "Cada tiempo por equipo incluye la rutina (aprox. 2:30) y la deliberación de los jueces. Las exhibiciones se presentan durante la deliberación, sin tiempo extra." },
     { id: "ensayo", etiqueta: "Ensayo general", hora: "9:00 am", paso: "Puerta",
-      datos: [["Horario", "9:00 am – 12:52 pm"], ["Organizadores", "Llegan 8:00 am"], ["Por equipo", "7 min en escenario"], ["Pausa", "10:24 – 10:39 am"]],
-      pie: "Cada equipo sale del escenario 7 minutos después de su hora de entrada." }
+      datos: [["Horario", "9:00 am – 12:52 pm"], ["Organizadores", "Llegan 8:00 am"], ["Por equipo", "7 min, entrada a salida"], ["Pausa", "10:24 – 10:39 am"]],
+      reglas: { titulo: "Reglas del ensayo general", intro: "Coaches: el ensayo es solamente para marcaje y chequeo de área.", items: [
+        ["📌", "No es obligatorio y no será evaluado."],
+        ["⏱️", "7 minutos por equipo, contados desde su entrada al auditorio hasta su salida. Sin excepciones."],
+        ["🚫", "No habrá prórrogas, por el poco tiempo entre el ensayo y la competencia."],
+        ["⚠️", "El equipo que no llegue a su horario pierde su turno."],
+        ["📢", "Si algún equipo no va a asistir, avisen con tiempo."],
+        ["🔇", "Si un equipo se pasa de los 7 minutos, se le apagará la música."] ] },
+      pie: "El ensayo termina a las 12:52 pm. Les pedimos llegar con tiempo y respetar su horario asignado. ¡Gracias por su apoyo!" }
   ];
   var actual = 0;
   var tabs = document.getElementById("mcd-tabs"), grid = document.getElementById("mcd-grid"), q = document.getElementById("mcd-q");
@@ -104,6 +118,12 @@
     var v = vistas[actual], secciones = D[v.id];
     var datos = document.getElementById("mcd-datos"); datos.innerHTML = "";
     v.datos.forEach(function(d){ var x = el("div", "dato"); x.appendChild(el("span", null, d[0])); x.appendChild(el("b", null, d[1])); datos.appendChild(x); });
+    var rg = document.getElementById("mcd-reglas"); rg.innerHTML = "";
+    if (v.reglas) {
+      var box = el("div", "reglas"); box.appendChild(el("h3", null, v.reglas.titulo)); box.appendChild(el("p", null, v.reglas.intro));
+      var ul = el("ul"); v.reglas.items.forEach(function(r){ var li = el("li"); li.appendChild(el("span", null, r[0])); li.appendChild(el("div", null, r[1])); ul.appendChild(li); });
+      box.appendChild(ul); rg.appendChild(box);
+    }
     var ruta = document.getElementById("mcd-ruta"); ruta.innerHTML = "";
     ruta.appendChild(el("span", null, "Recorrido de cada equipo:"));
     [["Calentamiento", "20 min antes"], [v.paso, "10 min antes"], ["Escenario", "a su hora"]].forEach(function(p, i){
