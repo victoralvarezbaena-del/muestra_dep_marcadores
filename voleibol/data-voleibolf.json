@@ -53,21 +53,21 @@
           "home": "PL-26 San Luis IV",
           "away": "PL-03 Cedral",
           "sets": [],
-          "hour": "Mié 18 nov · 08:00",
+          "hour": "Mié 18 nov · 10:00",
           "place": "Plantel 26 San Luis IV · Cancha 1"
         },
         {
           "home": "PL-16 San Vicente",
           "away": "PL-26 San Luis IV",
           "sets": [],
-          "hour": "Mié 18 nov · 11:20",
+          "hour": "Mié 18 nov · 13:20",
           "place": "Plantel 26 San Luis IV · Cancha 1"
         },
         {
           "home": "PL-03 Cedral",
           "away": "PL-16 San Vicente",
           "sets": [],
-          "hour": "Jue 19 nov · 08:50",
+          "hour": "Jue 19 nov · 10:50",
           "place": "Plantel 26 San Luis IV · Cancha 1"
         }
       ]
@@ -83,21 +83,21 @@
           "home": "PL-06 Valles I",
           "away": "PL-05 Cd. Fernández",
           "sets": [],
-          "hour": "Mié 18 nov · 08:50",
+          "hour": "Mié 18 nov · 10:50",
           "place": "Plantel 26 San Luis IV · Cancha 1"
         },
         {
           "home": "PL-01 Soledad",
           "away": "PL-06 Valles I",
           "sets": [],
-          "hour": "Mié 18 nov · 10:30",
+          "hour": "Mié 18 nov · 12:30",
           "place": "Plantel 26 San Luis IV · Cancha 1"
         },
         {
           "home": "PL-05 Cd. Fernández",
           "away": "PL-01 Soledad",
           "sets": [],
-          "hour": "Jue 19 nov · 08:00",
+          "hour": "Jue 19 nov · 10:00",
           "place": "Plantel 26 San Luis IV · Cancha 1"
         }
       ]
@@ -114,42 +114,42 @@
           "home": "PL-28 San Luis V",
           "away": "PL-22 Tamuín",
           "sets": [],
-          "hour": "Mié 18 nov · 08:00",
+          "hour": "Mié 18 nov · 10:00",
           "place": "Plantel 26 San Luis IV · Cancha 2"
         },
         {
           "home": "PL-13 Tanquián",
           "away": "PL-17 San Luis I Pavón",
           "sets": [],
-          "hour": "Mié 18 nov · 08:50",
+          "hour": "Mié 18 nov · 10:50",
           "place": "Plantel 26 San Luis IV · Cancha 2"
         },
         {
           "home": "PL-13 Tanquián",
           "away": "PL-22 Tamuín",
           "sets": [],
-          "hour": "Mié 18 nov · 10:30",
+          "hour": "Mié 18 nov · 12:30",
           "place": "Plantel 26 San Luis IV · Cancha 2"
         },
         {
           "home": "PL-28 San Luis V",
           "away": "PL-17 San Luis I Pavón",
           "sets": [],
-          "hour": "Mié 18 nov · 10:30",
+          "hour": "Mié 18 nov · 12:30",
           "place": "Plantel 26 San Luis IV · Cancha 3"
         },
         {
           "home": "PL-13 Tanquián",
           "away": "PL-28 San Luis V",
           "sets": [],
-          "hour": "Jue 19 nov · 08:50",
+          "hour": "Jue 19 nov · 10:50",
           "place": "Plantel 26 San Luis IV · Cancha 2"
         },
         {
           "home": "PL-17 San Luis I Pavón",
           "away": "PL-22 Tamuín",
           "sets": [],
-          "hour": "Jue 19 nov · 08:50",
+          "hour": "Jue 19 nov · 10:50",
           "place": "Plantel 26 San Luis IV · Cancha 3"
         }
       ]
@@ -165,7 +165,7 @@
       "away": "",
       "sets": [],
       "winner": "",
-      "hour": "Jue 19 nov · 10:30",
+      "hour": "Jue 19 nov · 12:30",
       "place": "Plantel 26 San Luis IV · Cancha 1"
     },
     "sf2": {
@@ -173,7 +173,7 @@
       "away": "",
       "sets": [],
       "winner": "",
-      "hour": "Jue 19 nov · 11:20",
+      "hour": "Jue 19 nov · 13:20",
       "place": "Plantel 26 San Luis IV · Cancha 1"
     },
     "final": {
@@ -181,7 +181,7 @@
       "away": "",
       "sets": [],
       "winner": "",
-      "hour": "Vie 20 nov · 08:00",
+      "hour": "Vie 20 nov · 10:00",
       "place": "Plantel 26 San Luis IV · Cancha 1"
     },
     "third": {
@@ -189,7 +189,7 @@
       "away": "",
       "sets": [],
       "winner": "",
-      "hour": "Vie 20 nov · 08:00",
+      "hour": "Vie 20 nov · 10:00",
       "place": "Plantel 26 San Luis IV · Cancha 2"
     }
   },
