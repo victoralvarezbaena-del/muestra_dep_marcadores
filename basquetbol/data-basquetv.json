@@ -66,20 +66,20 @@
           "place": "U. Politécnica · Cancha 1"
         },
         {
+          "home": "PL-26 San Luis IV",
+          "away": "PL-35 Tambaca",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 16:10",
+          "place": "U. Politécnica · Cancha 1"
+        },
+        {
           "home": "PL-28 San Luis V",
           "away": "PL-26 San Luis IV",
           "gh": null,
           "ga": null,
           "hour": "Jue 19 nov · 09:10",
           "place": "U. Politécnica · Cancha 2"
-        },
-        {
-          "home": "PL-26 San Luis IV",
-          "away": "PL-35 Tambaca",
-          "gh": null,
-          "ga": null,
-          "hour": "Jue 19 nov · 13:10",
-          "place": "U. Politécnica · Cancha 1"
         }
       ]
     },

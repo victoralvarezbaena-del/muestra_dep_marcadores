@@ -16,20 +16,20 @@
           "place": "Tangamanga I · Campo 1"
         },
         {
+          "home": "PL-26 San Luis IV",
+          "away": "PL-28 San Luis V",
+          "gh": null,
+          "ga": null,
+          "hour": "Mié 18 nov · 16:10",
+          "place": "Tangamanga I · Campo 1"
+        },
+        {
           "home": "PL-04 El Naranjo",
           "away": "PL-26 San Luis IV",
           "gh": null,
           "ga": null,
           "hour": "Jue 19 nov · 08:00",
           "place": "Tangamanga I · Campo 2"
-        },
-        {
-          "home": "PL-26 San Luis IV",
-          "away": "PL-28 San Luis V",
-          "gh": null,
-          "ga": null,
-          "hour": "Jue 19 nov · 12:40",
-          "place": "Tangamanga I · Campo 1"
         }
       ]
     },
