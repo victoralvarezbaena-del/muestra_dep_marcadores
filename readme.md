@@ -117,7 +117,7 @@ Cada página pública toma su archivo de datos con `?t=archivo.json` (por ejempl
 | Voleibol de Playa Varonil | `voleiplaya/data-playav.json` | `voleiplaya/index.html?t=data-playav.json` |
 | Voleibol de Playa Femenil | `voleiplaya/data-playaf.json` | `voleiplaya/index.html?t=data-playaf.json` |
 
-| Ajedrez (participantes) | clasificados fijos en `ajedrez/index.html` (de clasificados-2026) | `ajedrez/` |
+| Ajedrez (alineaciones y clasificados) | datos fijos en `ajedrez/alineaciones/index.html`; `ajedrez/` redirige ahí | `ajedrez/alineaciones/` |
 | Animación (Porra y Baile) | orden fijo en `animacion/index.html` | `animacion/` |
 
 Al publicar desde un administrador se descarga un archivo con otro nombre: renómbralo como en la tabla antes de subirlo.

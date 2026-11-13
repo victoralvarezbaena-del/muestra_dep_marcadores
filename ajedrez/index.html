@@ -2,101 +2,11 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ajedrez · Participantes · Muestra Deportiva 2026</title>
-  <link rel="icon" type="image/png" sizes="32x32" href="../comun/icono-32.png">
-  <link rel="icon" type="image/png" sizes="48x48" href="../comun/icono-48.png">
-  <link rel="apple-touch-icon" href="../comun/icono-180.png">
-  <style>
-    body{margin:0;background:#fff}
-    .mcd{--verde:#0d4a33;--verde2:#16694a;--oro:#c9a227;--tinta:#1d2a24;--gris:#66736c;--fondo:#f4f7f5;
-      font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--tinta);max-width:1100px;margin:0 auto;padding:8px}
-    .mcd *{box-sizing:border-box}
-    .mcd header{text-align:center;margin:4px 0 14px}
-    .mcd h1{margin:0;font-size:clamp(20px,3.2vw,28px);color:var(--verde)}
-    .mcd header p{margin:6px 0 0;color:var(--gris);font-size:14px}
-    .mcd .tabs{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin:0 0 14px}
-    .mcd .tabs button{font:inherit;font-size:14px;cursor:pointer;color:var(--verde);background:var(--fondo);border:1px solid #dfe7e2;border-radius:20px;padding:7px 14px}
-    .mcd .tabs button[aria-selected="true"]{background:var(--verde);color:#fff;border-color:var(--verde)}
-    .mcd .buscar{display:block;width:100%;max-width:420px;margin:0 auto 16px;padding:10px 14px;font-size:15px;border:1px solid #cfdad3;border-radius:10px;outline:none}
-    .mcd .buscar:focus{border-color:var(--verde2);box-shadow:0 0 0 3px rgba(22,105,74,.15)}
-    .mcd .panel{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
-    .mcd .card{background:#fff;border:1px solid #dfe7e2;border-radius:14px;overflow:hidden;box-shadow:0 2px 8px rgba(13,74,51,.07)}
-    .mcd .card h2{margin:0;padding:12px 16px;background:var(--verde);color:#fff;font-size:16px;line-height:1.3}
-    .mcd .card h2 small{display:block;font-weight:500;font-size:12.5px;opacity:.85}
-    .mcd .card.fem h2{background:var(--verde2)}
-    .mcd ol{list-style:none;margin:0;padding:4px 0}
-    .mcd li{display:flex;align-items:center;gap:12px;padding:7px 16px}
-    .mcd li+li{border-top:1px solid #eef2ef}
-    .mcd .n{flex:0 0 28px;height:28px;border-radius:50%;background:var(--fondo);color:var(--verde);font-weight:700;display:grid;place-items:center;font-size:13px;border:2px solid var(--oro)}
-    .mcd img{width:32px;height:32px;object-fit:contain;flex:0 0 32px}
-    .mcd .eq{font-size:14.5px;line-height:1.25}
-    .mcd .eq small{display:block;color:var(--gris);font-size:12px}
-    .mcd .vacio{padding:12px 16px;color:var(--gris);font-size:14px;display:none}
-    .mcd .nota{text-align:center;color:var(--gris);font-size:12.5px;margin:14px 0 0}
-  </style>
+  <meta http-equiv="refresh" content="0; url=alineaciones/">
+  <link rel="canonical" href="alineaciones/">
+  <title>Ajedrez · Muestra Deportiva 2026</title>
 </head>
 <body>
-<div class="mcd">
-  <header>
-    <h1>Ajedrez · Participantes Fase Estatal</h1>
-    <p>Muestra Deportiva 2026 · Clasificados por modalidad, rama y macrorregión</p>
-  </header>
-  <div class="tabs" role="tablist" id="mcd-tabs"></div>
-  <input class="buscar" id="mcd-q" type="search" placeholder="Buscar nombre o plantel…" aria-label="Buscar">
-  <div class="panel" id="mcd-panel"></div>
-  <p class="nota">Planteles y alumnos clasificados a la fase estatal, en orden alfabético.</p>
-</div>
-<script>
-(function(){
-  var MASCOTAS = "../mascotas/";
-  var datos = [{"t": "Individual · Varonil", "eq": false, "fem": false, "m": [{"m": "Centro (Altiplano, Periferia y Media)", "l": [{"n": "Cardona Aguilar Pedro Jonathan", "c": "PL-19", "pl": "San Luis II"}, {"n": "Cerda Vazquez Jose Manuel", "c": "PL-01", "pl": "Soledad"}, {"n": "Esparza Esquivel Pablo Cesar", "c": "CE-26", "pl": "Cerrito de Rojas"}, {"n": "Guel Torres Jordan Alexis", "c": "PL-07", "pl": "Ahualulco"}, {"n": "Martinez Gallegos Oscar", "c": "CE-08", "pl": "Pozas de Sta. Ana"}, {"n": "Martinez Perez Jose Candelario", "c": "PL-11", "pl": "Rayón"}, {"n": "Olmos Macedo Santiago", "c": "PL-28", "pl": "San Luis V"}, {"n": "Perez Mares Leoncio Bruno", "c": "CE-31", "pl": "Villa de Reyes"}, {"n": "Rivera Padron Joel Arturo", "c": "PL-23", "pl": "Tierra Nueva"}, {"n": "Vazquez Rodriguez Jose Emilio", "c": "PL-32", "pl": "Villa de Arriaga"}]}, {"m": "Huasteca", "l": [{"n": "Angel Terrazas Jordan Yael", "c": "PL-08", "pl": "Xilitla"}, {"n": "Barrios Lazaro Angel Abisai", "c": "PL-06", "pl": "Valles I"}, {"n": "Martinez Francisco Johan Gamaliel", "c": "PL-33", "pl": "Axtla"}, {"n": "Meraz Oyarvide Carlos Rodrigo", "c": "PL-24", "pl": "Ciudad Valles II"}, {"n": "Perez Zamora Iker", "c": "CE-19", "pl": "Coyoles"}, {"n": "Ramos Morales Luis Abraham", "c": "PL-09", "pl": "Tanlajás"}, {"n": "Reyes Climaco Carlos Gerardo", "c": "PL-12", "pl": "Tampacán"}, {"n": "Rocha Avalos Juan Antonio", "c": "PL-22", "pl": "Tamuín"}, {"n": "Rubio Hernandez Brian Yostin", "c": "CE-20", "pl": "Tamán"}, {"n": "Sanchez Sanchez Eliezer Forlan", "c": "PL-27", "pl": "San Martín CH."}]}]}, {"t": "Individual · Femenil", "eq": false, "fem": true, "m": [{"m": "Centro (Altiplano, Periferia y Media)", "l": [{"n": "Castillo Balderas Thaira Saray", "c": "PL-02", "pl": "Villa Hidalgo"}, {"n": "Gutierrez Nieto Areli Yuliana", "c": "PL-26", "pl": "San Luis IV"}, {"n": "Lopez Guerrero Evelyn Fernanda", "c": "PL-19", "pl": "San Luis II"}, {"n": "Lopez Velazquez Zoe", "c": "PL-28", "pl": "San Luis V"}, {"n": "Mendez Bautista Ximena Sarahi", "c": "PL-25", "pl": "San Luis III"}, {"n": "Molina Martinez Brisey Monserrat", "c": "CE-32", "pl": "San Francisco"}, {"n": "Rangel Montantes Maria Fernanda", "c": "PL-01", "pl": "Soledad"}, {"n": "Rivera Zacarias Damaris Esmeralda", "c": "CE-08", "pl": "Pozas de Sta. Ana"}, {"n": "Salazar Mendieta Jose Abdala", "c": "PL-07", "pl": "Ahualulco"}, {"n": "Serna Zuvieta Maria Elena", "c": "PL-23", "pl": "Tierra Nueva"}]}, {"m": "Huasteca", "l": [{"n": "De La Cruz Albañil Dasha Libia", "c": "PL-14", "pl": "Tancanhuitz de Santos"}, {"n": "Gonzalez Cabrera Ilse", "c": "PL-06", "pl": "Valles I"}, {"n": "Martinez Perez Ana Karen", "c": "PL-27", "pl": "San Martín CH."}, {"n": "Meraz Garcia Mireya Guadalupe", "c": "PL-16", "pl": "San Vicente Tancuayalab"}, {"n": "Ortiz Ortega Katya", "c": "CE-16", "pl": "Ignacio Zaragoza"}, {"n": "Resendiz Trejo Lizzeth Amayrani", "c": "PL-08", "pl": "Xilitla"}, {"n": "Rivera Sanchez Silvia Guadalupe", "c": "PL-12", "pl": "Tampacán"}, {"n": "Salazar Martinez Mayte", "c": "CE-21", "pl": "La Pila"}, {"n": "Sanchez Hernandez Yoselyn", "c": "CE-20", "pl": "Tamán"}, {"n": "Santiago Hernandez Andrea Berenice", "c": "PL-33", "pl": "Axtla"}]}]}, {"t": "Por equipos · Varonil", "eq": true, "fem": false, "m": [{"m": "Centro (Altiplano, Periferia y Media)", "l": [{"n": "Ahualulco", "c": "PL-07", "pl": ""}, {"n": "Moctezuma", "c": "PL-10", "pl": ""}, {"n": "Pozas de Sta. Ana", "c": "CE-08", "pl": ""}, {"n": "Rayón", "c": "PL-11", "pl": ""}, {"n": "San Francisco", "c": "CE-32", "pl": ""}, {"n": "San Luis II", "c": "PL-19", "pl": ""}, {"n": "San Luis III", "c": "PL-25", "pl": ""}, {"n": "San Luis IV", "c": "PL-26", "pl": ""}, {"n": "San Luis V", "c": "PL-28", "pl": ""}, {"n": "Soledad", "c": "PL-01", "pl": ""}]}, {"m": "Huasteca", "l": [{"n": "Aquismón", "c": "PL-31", "pl": ""}, {"n": "La Pila", "c": "CE-21", "pl": ""}, {"n": "Matlapa", "c": "PL-21", "pl": ""}, {"n": "Mecatlán", "c": "PL-38", "pl": ""}, {"n": "San Martín CH.", "c": "PL-27", "pl": ""}, {"n": "Tamapatz", "c": "PL-37", "pl": ""}, {"n": "Tampacán", "c": "PL-12", "pl": ""}, {"n": "Tanquián", "c": "PL-13", "pl": ""}, {"n": "Valles I", "c": "PL-06", "pl": ""}, {"n": "Ébano", "c": "PL-15", "pl": ""}]}]}, {"t": "Por equipos · Femenil", "eq": true, "fem": true, "m": [{"m": "Centro (Altiplano, Periferia y Media)", "l": [{"n": "Ahualulco", "c": "PL-07", "pl": ""}, {"n": "Cerrito de Rojas", "c": "CE-26", "pl": ""}, {"n": "Mexquitic", "c": "PL-18", "pl": ""}, {"n": "Moctezuma", "c": "PL-10", "pl": ""}, {"n": "Rayón", "c": "PL-11", "pl": ""}, {"n": "San Luis V", "c": "PL-28", "pl": ""}, {"n": "Soledad", "c": "PL-01", "pl": ""}, {"n": "Tierra Nueva", "c": "PL-23", "pl": ""}, {"n": "Villa Hidalgo", "c": "PL-02", "pl": ""}, {"n": "Villa de Arriaga", "c": "PL-32", "pl": ""}]}, {"m": "Huasteca", "l": [{"n": "Aquismón", "c": "PL-31", "pl": ""}, {"n": "Axtla", "c": "PL-33", "pl": ""}, {"n": "Chalco", "c": "PL-40", "pl": ""}, {"n": "El Carrizo", "c": "CE-29", "pl": ""}, {"n": "La Pila", "c": "CE-21", "pl": ""}, {"n": "Mecatlán", "c": "PL-38", "pl": ""}, {"n": "San Martín CH.", "c": "PL-27", "pl": ""}, {"n": "Tamapatz", "c": "PL-37", "pl": ""}, {"n": "Valles I", "c": "PL-06", "pl": ""}, {"n": "Xilitla", "c": "PL-08", "pl": ""}]}]}];
-  var tabs = document.getElementById("mcd-tabs"), panel = document.getElementById("mcd-panel"), q = document.getElementById("mcd-q");
-  var actual = 0;
-  function norm(s){ return s.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase(); }
-  function pintar(){
-    panel.innerHTML = "";
-    var d = datos[actual], f = norm(q.value.trim());
-    d.m.forEach(function(m){
-      var card = document.createElement("section"); card.className = "card" + (d.fem ? " fem" : "");
-      var h = document.createElement("h2"); h.textContent = d.t;
-      var s = document.createElement("small"); s.textContent = "Macrorregión " + m.m; h.appendChild(s); card.appendChild(h);
-      var ol = document.createElement("ol"), vis = 0;
-      m.l.forEach(function(x){
-        var texto = x.n + " " + (x.pl || "") + (x.c ? " " + x.c + " " + (x.c[0] === "P" ? "plantel " : "emsad ") + parseInt(x.c.slice(3),10) : "");
-        if (f && norm(texto).indexOf(f) < 0) return;
-        vis++;
-        var li = document.createElement("li");
-        if (x.c) {
-          var img = document.createElement("img"); img.src = MASCOTAS + x.c + ".webp"; img.alt = ""; img.loading = "lazy";
-          img.onerror = function(){ this.style.visibility = "hidden"; }; li.appendChild(img);
-        }
-        var t = document.createElement("div"); t.className = "eq"; t.textContent = x.n;
-        if (x.c) { var sm = document.createElement("small"); sm.textContent = (x.pl ? x.pl + " · " : "") + (x.c[0] === "P" ? "Plantel " : "EMSaD ") + x.c.slice(3); t.appendChild(sm); }
-        li.appendChild(t); ol.appendChild(li);
-      });
-      card.appendChild(ol);
-      var v = document.createElement("div"); v.className = "vacio"; v.textContent = "Sin coincidencias."; v.style.display = vis ? "none" : "block";
-      card.appendChild(v); panel.appendChild(card);
-    });
-  }
-  datos.forEach(function(d, i){
-    var b = document.createElement("button"); b.type = "button"; b.setAttribute("role","tab"); b.textContent = d.t;
-    b.setAttribute("aria-selected", i === 0 ? "true" : "false");
-    b.onclick = function(){ actual = i; tabs.querySelectorAll("button").forEach(function(x,j){ x.setAttribute("aria-selected", j === i ? "true" : "false"); }); pintar(); };
-    tabs.appendChild(b);
-  });
-  q.addEventListener("input", function(){
-    var f = norm(q.value.trim());
-    if (f && !datos[actual].m.some(function(m){ return m.l.some(function(x){ return norm(x.n + " " + (x.pl || "") + " " + x.c).indexOf(f) >= 0; }); })) {
-      for (var i = 0; i < datos.length; i++) {
-        if (datos[i].m.some(function(m){ return m.l.some(function(x){ return norm(x.n + " " + (x.pl || "") + " " + x.c).indexOf(f) >= 0; }); })) { tabs.children[i].click(); return; }
-      }
-    }
-    pintar();
-  });
-  pintar();
-})();
-</script>
+  <p>Esta página se movió a <a href="alineaciones/">Ajedrez · Alineaciones y clasificados</a>.</p>
 </body>
 </html>
