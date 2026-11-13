@@ -86,12 +86,12 @@
     panel.innerHTML = ""; var f = norm(q.value.trim()), total = 0;
     nota.textContent = vistas[actual].tipo === "eq" ? "T1 a T4: orden de tableros. «C»: capitán del equipo." : "Clasificados en orden alfabético por apellido.";
     if (vistas[actual].tipo === "ind") { vacio.style.display = pintarInd(f) ? "none" : "block"; return; }
-    ["Centro", "Huasteca"].forEach(function(m){
-      var lista = datos.filter(function(e){ return e.rama === vistas[actual].rama && e.macro === m && (!f || texto(e).indexOf(f) >= 0); })
+    (function(){
+      var lista = datos.filter(function(e){ return e.rama === vistas[actual].rama && (!f || texto(e).indexOf(f) >= 0); })
                        .sort(function(a,b){ return a.plantel.localeCompare(b.plantel, "es"); });
       if (!lista.length) return;
       total += lista.length;
-      var h = document.createElement("h2"); h.textContent = "Macrorregión " + m; panel.appendChild(h);
+      var h = document.createElement("h2"); h.textContent = "Equipos " + vistas[actual].rama.toLowerCase() + " · " + lista.length + (lista.length === 1 ? " equipo" : " equipos"); panel.appendChild(h);
       var g = document.createElement("div"); g.className = "grid";
       lista.forEach(function(e){
         var card = document.createElement("section"); card.className = "card";
@@ -113,7 +113,7 @@
         card.appendChild(ol); g.appendChild(card);
       });
       panel.appendChild(g);
-    });
+    })();
     vacio.style.display = total ? "none" : "block";
   }
   vistas.forEach(function(v, i){
