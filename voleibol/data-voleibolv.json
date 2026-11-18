@@ -107,7 +107,20 @@
         {
           "home": "PL-13 Tanquián",
           "away": "PL-04 El Naranjo",
-          "sets": [],
+          "sets": [
+            {
+              "home": 25,
+              "away": 16
+            },
+            {
+              "home": 21,
+              "away": 25
+            },
+            {
+              "home": 15,
+              "away": 17
+            }
+          ],
           "hour": "Mié 18 nov · 11:40",
           "place": "Plantel 26 San Luis IV · Cancha 1"
         },
@@ -229,8 +242,8 @@
     "color": "#8308e7",
     "bg": "#dcc8ea"
   },
-  "updatedAtLocal": "18/11/2026 13:09",
-  "updatedAt": "2026-11-18T19:09:06.512Z",
-  "lastUpdated": "2026-11-18T19:09:06.512Z",
-  "timestamp": "2026-11-18T19:09:06.512Z"
+  "updatedAtLocal": "18/11/2026 13:28",
+  "updatedAt": "2026-11-18T19:28:09.040Z",
+  "lastUpdated": "2026-11-18T19:28:09.040Z",
+  "timestamp": "2026-11-18T19:28:09.040Z"
 }
