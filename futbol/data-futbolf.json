@@ -136,8 +136,8 @@
         {
           "home": "PL-09 Tanlajás",
           "away": "PL-12 Tampacán",
-          "gh": null,
-          "ga": null,
+          "gh": 0,
+          "ga": 2,
           "hour": "Mié 18 nov · 13:50",
           "place": "Tangamanga I · Campo 2"
         },
@@ -228,12 +228,12 @@
     "draw": 1,
     "loss": 0
   },
-  "updatedAtLocal": "18/11/2026 15:19",
+  "updatedAtLocal": "18/11/2026 15:31",
   "theme": {
     "color": "#62d0df",
     "bg": "#b2e1eb"
   },
-  "updatedAt": "2026-11-18T21:19:25.064Z",
-  "lastUpdated": "2026-11-18T21:19:25.064Z",
-  "timestamp": "2026-11-18T21:19:25.064Z"
+  "updatedAt": "2026-11-18T21:31:56.657Z",
+  "lastUpdated": "2026-11-18T21:31:56.657Z",
+  "timestamp": "2026-11-18T21:31:56.657Z"
 }
