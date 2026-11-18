@@ -75,8 +75,8 @@
         {
           "home": "PL-03 Cedral",
           "away": "PL-17 San Luis I Pavón",
-          "gh": null,
-          "ga": null,
+          "gh": 16,
+          "ga": 10,
           "hour": "Mié 18 nov · 14:00",
           "place": "CEDETAR · Cancha 1"
         },
@@ -100,14 +100,14 @@
       "table": [
         {
           "team": "PL-03 Cedral",
-          "PJ": 1,
-          "G": 1,
+          "PJ": 2,
+          "G": 2,
           "E": 0,
           "P": 0,
-          "GF": 25,
-          "GC": 1,
-          "DG": 24,
-          "Pts": 2
+          "GF": 41,
+          "GC": 11,
+          "DG": 30,
+          "Pts": 4
         },
         {
           "team": "PL-06 Valles I",
@@ -122,13 +122,13 @@
         },
         {
           "team": "PL-17 San Luis I Pavón",
-          "PJ": 1,
+          "PJ": 2,
           "G": 1,
           "E": 0,
-          "P": 0,
-          "GF": 10,
-          "GC": 5,
-          "DG": 5,
+          "P": 1,
+          "GF": 20,
+          "GC": 21,
+          "DG": -1,
           "Pts": 2
         },
         {
@@ -263,9 +263,9 @@
       "place": "CEDETAR · Cancha 2"
     }
   },
-  "lastUpdated": "2026-11-18T19:53:33.503Z",
+  "lastUpdated": "2026-11-18T20:06:17.547Z",
   "format": "2_grupos_3o4_equipos",
-  "updatedAt": "2026-11-18T19:53:33.503Z",
-  "timestamp": "2026-11-18T19:53:33.503Z",
-  "updatedAtLocal": "18/11/2026 13:53"
+  "updatedAt": "2026-11-18T20:06:17.547Z",
+  "timestamp": "2026-11-18T20:06:17.547Z",
+  "updatedAtLocal": "18/11/2026 14:06"
 }
