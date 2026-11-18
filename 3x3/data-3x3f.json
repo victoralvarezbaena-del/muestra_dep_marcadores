@@ -132,8 +132,8 @@
         {
           "home": "PL-31 Aquismón",
           "away": "PL-35 Tambaca",
-          "gh": null,
-          "ga": null,
+          "gh": 2,
+          "ga": 0,
           "hour": "Mié 18 nov · 09:30",
           "place": "U. Politécnica · Cancha externa 3 · Tablero 1"
         },
@@ -202,7 +202,7 @@
       "place": "U. Politécnica · Media cancha 2"
     }
   },
-  "updatedAtLocal": "18/11/2026 09:44",
+  "updatedAtLocal": "18/11/2026 09:55",
   "theme": {
     "color": "#df944e",
     "bg": "#ecb009"
@@ -212,7 +212,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-18T15:44:44.780Z",
-  "lastUpdated": "2026-11-18T15:44:44.780Z",
-  "timestamp": "2026-11-18T15:44:44.780Z"
+  "updatedAt": "2026-11-18T15:55:29.533Z",
+  "lastUpdated": "2026-11-18T15:55:29.533Z",
+  "timestamp": "2026-11-18T15:55:29.533Z"
 }
