@@ -136,8 +136,8 @@
         {
           "home": "PL-01 Soledad",
           "away": "PL-27 San Martín CH.",
-          "gh": null,
-          "ga": null,
+          "gh": 55,
+          "ga": 20,
           "hour": "Mié 18 nov · 15:10",
           "place": "U. Politécnica · Cancha 1"
         },
@@ -223,7 +223,7 @@
       "place": "U. Politécnica · Cancha 2"
     }
   },
-  "updatedAtLocal": "18/11/2026 17:00",
+  "updatedAtLocal": "18/11/2026 17:02",
   "theme": {
     "color": "#db6a00",
     "bg": "#eed48b"
@@ -233,7 +233,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-18T23:00:30.694Z",
-  "lastUpdated": "2026-11-18T23:00:30.694Z",
-  "timestamp": "2026-11-18T23:00:30.694Z"
+  "updatedAt": "2026-11-18T23:02:45.033Z",
+  "lastUpdated": "2026-11-18T23:02:45.033Z",
+  "timestamp": "2026-11-18T23:02:45.033Z"
 }
