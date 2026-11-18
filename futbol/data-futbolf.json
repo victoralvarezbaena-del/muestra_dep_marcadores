@@ -128,8 +128,8 @@
         {
           "home": "PL-06 Valles I",
           "away": "PL-09 Tanlajás",
-          "gh": null,
-          "ga": null,
+          "gh": 3,
+          "ga": 1,
           "hour": "Mié 18 nov · 11:30",
           "place": "Tangamanga I · Campo 1"
         },
@@ -228,12 +228,12 @@
     "draw": 1,
     "loss": 0
   },
-  "updatedAtLocal": "18/11/2026 10:54",
+  "updatedAtLocal": "18/11/2026 13:03",
   "theme": {
     "color": "#62d0df",
     "bg": "#b2e1eb"
   },
-  "updatedAt": "2026-11-18T16:54:46.306Z",
-  "lastUpdated": "2026-11-18T16:54:46.306Z",
-  "timestamp": "2026-11-18T16:54:46.306Z"
+  "updatedAt": "2026-11-18T19:03:06.511Z",
+  "lastUpdated": "2026-11-18T19:03:06.511Z",
+  "timestamp": "2026-11-18T19:03:06.511Z"
 }
