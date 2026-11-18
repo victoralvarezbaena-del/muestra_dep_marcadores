@@ -183,7 +183,16 @@
         {
           "home": "PL-28 San Luis V",
           "away": "PL-17 San Luis I Pavón",
-          "sets": [],
+          "sets": [
+            {
+              "home": 25,
+              "away": 5
+            },
+            {
+              "home": 25,
+              "away": 9
+            }
+          ],
           "hour": "Mié 18 nov · 12:30",
           "place": "Plantel 26 San Luis IV · Cancha 3"
         },
@@ -247,8 +256,8 @@
     "color": "#ab75d7",
     "bg": "#dcc8ea"
   },
-  "updatedAtLocal": "18/11/2026 14:14",
-  "updatedAt": "2026-11-18T20:14:00.347Z",
-  "lastUpdated": "2026-11-18T20:14:00.347Z",
-  "timestamp": "2026-11-18T20:14:00.347Z"
+  "updatedAtLocal": "18/11/2026 14:15",
+  "updatedAt": "2026-11-18T20:15:01.147Z",
+  "lastUpdated": "2026-11-18T20:15:01.147Z",
+  "timestamp": "2026-11-18T20:15:01.147Z"
 }
