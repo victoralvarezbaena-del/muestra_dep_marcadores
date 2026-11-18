@@ -65,8 +65,8 @@
         {
           "home": "PL-28 San Luis V",
           "away": "PL-03 Cedral",
-          "gh": null,
-          "ga": null,
+          "gh": 0,
+          "ga": 15,
           "hour": "Mié 18 nov · 11:40",
           "place": "Tangamanga I · Campo 2"
         },
@@ -178,8 +178,8 @@
     "color": "#487a93",
     "bg": "#cce0f5"
   },
-  "updatedAtLocal": "18/11/2026 12:38",
-  "updatedAt": "2026-11-18T18:38:54.628Z",
-  "lastUpdated": "2026-11-18T18:38:54.628Z",
-  "timestamp": "2026-11-18T18:38:54.628Z"
+  "updatedAtLocal": "18/11/2026 13:10",
+  "updatedAt": "2026-11-18T19:10:14.397Z",
+  "lastUpdated": "2026-11-18T19:10:14.397Z",
+  "timestamp": "2026-11-18T19:10:14.397Z"
 }
