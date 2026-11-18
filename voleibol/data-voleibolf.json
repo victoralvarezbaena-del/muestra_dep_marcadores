@@ -147,7 +147,20 @@
         {
           "home": "PL-13 Tanquián",
           "away": "PL-17 San Luis I Pavón",
-          "sets": [],
+          "sets": [
+            {
+              "home": 25,
+              "away": 12
+            },
+            {
+              "home": 19,
+              "away": 25
+            },
+            {
+              "home": 15,
+              "away": 10
+            }
+          ],
           "hour": "Mié 18 nov · 10:50",
           "place": "Plantel 26 San Luis IV · Cancha 2"
         },
@@ -225,8 +238,8 @@
     "color": "#ab75d7",
     "bg": "#dcc8ea"
   },
-  "updatedAtLocal": "18/11/2026 12:10",
-  "updatedAt": "2026-11-18T18:10:43.849Z",
-  "lastUpdated": "2026-11-18T18:10:43.849Z",
-  "timestamp": "2026-11-18T18:10:43.849Z"
+  "updatedAtLocal": "18/11/2026 12:27",
+  "updatedAt": "2026-11-18T18:27:28.530Z",
+  "lastUpdated": "2026-11-18T18:27:28.530Z",
+  "timestamp": "2026-11-18T18:27:28.530Z"
 }
