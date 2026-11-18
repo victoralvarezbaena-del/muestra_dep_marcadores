@@ -98,8 +98,8 @@
         {
           "home": "PL-06 Valles I",
           "away": "PL-17 San Luis I Pavón",
-          "gh": null,
-          "ga": null,
+          "gh": 12,
+          "ga": 0,
           "hour": "Mié 18 nov · 09:50",
           "place": "Tangamanga I · Campo 1"
         },
@@ -178,8 +178,8 @@
     "color": "#487a93",
     "bg": "#cce0f5"
   },
-  "updatedAtLocal": "18/11/2026 10:14",
-  "updatedAt": "2026-11-18T16:14:21.804Z",
-  "lastUpdated": "2026-11-18T16:14:21.804Z",
-  "timestamp": "2026-11-18T16:14:21.804Z"
+  "updatedAtLocal": "18/11/2026 11:20",
+  "updatedAt": "2026-11-18T17:20:36.015Z",
+  "lastUpdated": "2026-11-18T17:20:36.015Z",
+  "timestamp": "2026-11-18T17:20:36.015Z"
 }
