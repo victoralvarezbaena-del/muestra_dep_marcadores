@@ -69,8 +69,8 @@
         {
           "home": "PL-19 San Luis II",
           "away": "PL-11 Rayón",
-          "gh": null,
-          "ga": null,
+          "gh": 7,
+          "ga": 0,
           "hour": "Mié 18 nov · 11:40",
           "place": "Tangamanga I · Campo 2"
         },
@@ -207,8 +207,8 @@
     "color": "#004b70",
     "bg": "#f8fafc"
   },
-  "updatedAtLocal": "18/11/2026 14:50",
-  "updatedAt": "2026-11-18T20:50:26.171Z",
-  "lastUpdated": "2026-11-18T20:50:26.171Z",
-  "timestamp": "2026-11-18T20:50:26.171Z"
+  "updatedAtLocal": "18/11/2026 15:05",
+  "updatedAt": "2026-11-18T21:05:59.106Z",
+  "lastUpdated": "2026-11-18T21:05:59.106Z",
+  "timestamp": "2026-11-18T21:05:59.106Z"
 }
