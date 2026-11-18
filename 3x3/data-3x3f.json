@@ -156,8 +156,8 @@
         {
           "home": "PL-29 V. Zaragoza",
           "away": "PL-27 San Martín CH.",
-          "gh": null,
-          "ga": null,
+          "gh": 0,
+          "ga": 2,
           "hour": "Mié 18 nov · 09:15",
           "place": "U. Politécnica · Cancha externa 3 · Tablero 1"
         }
@@ -202,7 +202,7 @@
       "place": "U. Politécnica · Media cancha 2"
     }
   },
-  "updatedAtLocal": "18/11/2026 09:43",
+  "updatedAtLocal": "18/11/2026 09:44",
   "theme": {
     "color": "#df944e",
     "bg": "#ecb009"
@@ -212,7 +212,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-18T15:43:51.778Z",
-  "lastUpdated": "2026-11-18T15:43:51.778Z",
-  "timestamp": "2026-11-18T15:43:51.778Z"
+  "updatedAt": "2026-11-18T15:44:44.780Z",
+  "lastUpdated": "2026-11-18T15:44:44.780Z",
+  "timestamp": "2026-11-18T15:44:44.780Z"
 }
