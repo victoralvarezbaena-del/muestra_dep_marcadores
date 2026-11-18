@@ -1,4 +1,5 @@
 {
+  "tournamentName": "Baloncesto 5x5 Varonil 2026",
   "teamProfiles": {
     "PL-26 San Luis IV": {
       "school": "",
@@ -49,6 +50,7 @@
       "image": "../mascotas/PL-38.webp"
     }
   },
+  "subtitle": "Torneo de Baloncesto",
   "groups": {
     "A": {
       "teams": [
@@ -159,8 +161,8 @@
         {
           "home": "PL-14 Tancanhuitz",
           "away": "PL-10 Moctezuma",
-          "gh": null,
-          "ga": null,
+          "gh": 27,
+          "ga": 23,
           "hour": "Mié 18 nov · 09:10",
           "place": "U. Politécnica · Cancha 2"
         },
@@ -182,10 +184,6 @@
         }
       ]
     }
-  },
-  "points": {
-    "win": 2,
-    "loss": 0
   },
   "knockout": {
     "sf1": {
@@ -225,13 +223,17 @@
       "place": "U. Politécnica · Cancha 2"
     }
   },
-  "tournamentName": "Baloncesto 5x5 Varonil 2026",
+  "updatedAtLocal": "18/11/2026 10:36",
   "theme": {
     "color": "#db6a00",
     "bg": "#eed48b"
   },
-  "updatedAtLocal": "10/11/2026 10:58",
-  "updatedAt": "2026-11-10T10:58:06-06:00",
-  "lastUpdated": "2026-11-10T10:58:06-06:00",
-  "timestamp": "2026-11-10T10:58:06-06:00"
+  "points": {
+    "win": 2,
+    "loss": 0
+  },
+  "sport": "basketball",
+  "updatedAt": "2026-11-18T16:36:59.941Z",
+  "lastUpdated": "2026-11-18T16:36:59.941Z",
+  "timestamp": "2026-11-18T16:36:59.941Z"
 }
