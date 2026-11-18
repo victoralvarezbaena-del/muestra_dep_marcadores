@@ -52,7 +52,16 @@
         {
           "home": "PL-26 San Luis IV",
           "away": "PL-03 Cedral",
-          "sets": [],
+          "sets": [
+            {
+              "home": 25,
+              "away": 7
+            },
+            {
+              "home": 25,
+              "away": 16
+            }
+          ],
           "hour": "Mié 18 nov · 10:00",
           "place": "Plantel 26 San Luis IV · Cancha 1"
         },
@@ -198,8 +207,8 @@
     "color": "#ab75d7",
     "bg": "#dcc8ea"
   },
-  "updatedAtLocal": "10/11/2026 10:56",
-  "updatedAt": "2026-11-10T10:56:51-06:00",
-  "lastUpdated": "2026-11-10T10:56:51-06:00",
-  "timestamp": "2026-11-10T10:56:51-06:00"
+  "updatedAtLocal": "18/11/2026 10:54",
+  "updatedAt": "2026-11-18T16:54:51.860Z",
+  "lastUpdated": "2026-11-18T16:54:51.860Z",
+  "timestamp": "2026-11-18T16:54:51.860Z"
 }

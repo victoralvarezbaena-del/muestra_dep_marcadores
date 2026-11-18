@@ -161,8 +161,8 @@
         {
           "home": "PL-26 San Luis IV",
           "away": "PL-28 San Luis V",
-          "gh": null,
-          "ga": null,
+          "gh": 0,
+          "ga": 2,
           "hour": "Mié 18 nov · 09:10",
           "place": "Tangamanga I · Campo 2"
         },
@@ -228,12 +228,12 @@
     "draw": 1,
     "loss": 0
   },
-  "updatedAtLocal": "18/11/2026 10:53",
+  "updatedAtLocal": "18/11/2026 10:54",
   "theme": {
     "color": "#62d0df",
     "bg": "#b2e1eb"
   },
-  "updatedAt": "2026-11-18T16:53:49.957Z",
-  "lastUpdated": "2026-11-18T16:53:49.957Z",
-  "timestamp": "2026-11-18T16:53:49.957Z"
+  "updatedAt": "2026-11-18T16:54:46.306Z",
+  "lastUpdated": "2026-11-18T16:54:46.306Z",
+  "timestamp": "2026-11-18T16:54:46.306Z"
 }
