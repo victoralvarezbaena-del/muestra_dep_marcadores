@@ -1,4 +1,56 @@
 {
+  "tournamentName": "Fútbol Soccer Varonil 2026",
+  "subtitle": "",
+  "teamProfiles": {
+    "PL-26 San Luis IV": {
+      "school": "",
+      "image": "../mascotas/PL-26.webp"
+    },
+    "PL-28 San Luis V": {
+      "school": "",
+      "image": "../mascotas/PL-28.webp"
+    },
+    "PL-04 El Naranjo": {
+      "school": "",
+      "image": "../mascotas/PL-04.webp"
+    },
+    "PL-25 San Luis III": {
+      "school": "",
+      "image": "../mascotas/PL-25.webp"
+    },
+    "CE-07 Sto. Domingo": {
+      "school": "",
+      "image": "../mascotas/CE-07.webp"
+    },
+    "PL-21 Matlapa": {
+      "school": "",
+      "image": "../mascotas/PL-21.webp"
+    },
+    "PL-19 San Luis II": {
+      "school": "",
+      "image": "../mascotas/PL-19.webp"
+    },
+    "PL-16 San Vicente": {
+      "school": "",
+      "image": "../mascotas/PL-16.webp"
+    },
+    "PL-33 Axtla": {
+      "school": "",
+      "image": "../mascotas/PL-33.webp"
+    },
+    "PL-24 Valles II": {
+      "school": "",
+      "image": "../mascotas/PL-24.webp"
+    },
+    "PL-13 Tanquián": {
+      "school": "",
+      "image": "../mascotas/PL-13.webp"
+    },
+    "PL-03 Cedral": {
+      "school": "",
+      "image": "../mascotas/PL-03.webp"
+    }
+  },
   "groups": {
     "A": {
       "teams": [
@@ -109,8 +161,8 @@
         {
           "home": "PL-24 Valles II",
           "away": "PL-13 Tanquián",
-          "gh": null,
-          "ga": null,
+          "gh": 0,
+          "ga": 2,
           "hour": "Mié 18 nov · 08:00",
           "place": "Tangamanga I · Campo 2"
         },
@@ -132,11 +184,6 @@
         }
       ]
     }
-  },
-  "points": {
-    "win": 3,
-    "draw": 1,
-    "loss": 0
   },
   "knockout": {
     "sf1": {
@@ -176,63 +223,17 @@
       "place": "Tangamanga I · Campo 2"
     }
   },
-  "tournamentName": "Fútbol Soccer Varonil 2026",
+  "points": {
+    "win": 3,
+    "draw": 1,
+    "loss": 0
+  },
+  "updatedAtLocal": "18/11/2026 09:25",
   "theme": {
     "color": "#0284c7",
     "bg": "#f8fafc"
   },
-  "teamProfiles": {
-    "PL-26 San Luis IV": {
-      "school": "",
-      "image": "../mascotas/PL-26.webp"
-    },
-    "PL-28 San Luis V": {
-      "school": "",
-      "image": "../mascotas/PL-28.webp"
-    },
-    "PL-04 El Naranjo": {
-      "school": "",
-      "image": "../mascotas/PL-04.webp"
-    },
-    "PL-25 San Luis III": {
-      "school": "",
-      "image": "../mascotas/PL-25.webp"
-    },
-    "CE-07 Sto. Domingo": {
-      "school": "",
-      "image": "../mascotas/CE-07.webp"
-    },
-    "PL-21 Matlapa": {
-      "school": "",
-      "image": "../mascotas/PL-21.webp"
-    },
-    "PL-19 San Luis II": {
-      "school": "",
-      "image": "../mascotas/PL-19.webp"
-    },
-    "PL-16 San Vicente": {
-      "school": "",
-      "image": "../mascotas/PL-16.webp"
-    },
-    "PL-33 Axtla": {
-      "school": "",
-      "image": "../mascotas/PL-33.webp"
-    },
-    "PL-24 Valles II": {
-      "school": "",
-      "image": "../mascotas/PL-24.webp"
-    },
-    "PL-13 Tanquián": {
-      "school": "",
-      "image": "../mascotas/PL-13.webp"
-    },
-    "PL-03 Cedral": {
-      "school": "",
-      "image": "../mascotas/PL-03.webp"
-    }
-  },
-  "updatedAtLocal": "10/11/2026 10:56",
-  "updatedAt": "2026-11-10T10:56:51-06:00",
-  "lastUpdated": "2026-11-10T10:56:51-06:00",
-  "timestamp": "2026-11-10T10:56:51-06:00"
+  "updatedAt": "2026-11-18T15:25:59.799Z",
+  "lastUpdated": "2026-11-18T15:25:59.799Z",
+  "timestamp": "2026-11-18T15:25:59.799Z"
 }
