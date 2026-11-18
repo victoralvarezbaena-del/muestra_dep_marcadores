@@ -57,8 +57,8 @@
         {
           "home": "PL-07 Ahualulco",
           "away": "PL-04 El Naranjo",
-          "gh": null,
-          "ga": null,
+          "gh": 14,
+          "ga": 1,
           "hour": "Mié 18 nov · 11:40",
           "place": "Tangamanga I · Campo 1"
         },
@@ -178,8 +178,8 @@
     "color": "#487a93",
     "bg": "#cce0f5"
   },
-  "updatedAtLocal": "18/11/2026 11:20",
-  "updatedAt": "2026-11-18T17:20:36.015Z",
-  "lastUpdated": "2026-11-18T17:20:36.015Z",
-  "timestamp": "2026-11-18T17:20:36.015Z"
+  "updatedAtLocal": "18/11/2026 12:38",
+  "updatedAt": "2026-11-18T18:38:54.628Z",
+  "lastUpdated": "2026-11-18T18:38:54.628Z",
+  "timestamp": "2026-11-18T18:38:54.628Z"
 }
