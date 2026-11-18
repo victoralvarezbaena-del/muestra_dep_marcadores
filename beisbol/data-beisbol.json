@@ -103,8 +103,8 @@
         {
           "home": "CE-15 Ojo de Agua",
           "away": "CE-19 Coyoles",
-          "gh": null,
-          "ga": null,
+          "gh": 2,
+          "ga": 3,
           "hour": "Mié 18 nov · 09:50",
           "place": "Tangamanga I · Campo 1"
         },
@@ -207,8 +207,8 @@
     "color": "#004b70",
     "bg": "#f8fafc"
   },
-  "updatedAtLocal": "18/11/2026 11:00",
-  "updatedAt": "2026-11-18T17:00:55.985Z",
-  "lastUpdated": "2026-11-18T17:00:55.985Z",
-  "timestamp": "2026-11-18T17:00:55.985Z"
+  "updatedAtLocal": "18/11/2026 12:49",
+  "updatedAt": "2026-11-18T18:49:13.633Z",
+  "lastUpdated": "2026-11-18T18:49:13.633Z",
+  "timestamp": "2026-11-18T18:49:13.633Z"
 }
