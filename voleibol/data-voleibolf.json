@@ -107,7 +107,16 @@
         {
           "home": "PL-01 Soledad",
           "away": "PL-06 Valles I",
-          "sets": [],
+          "sets": [
+            {
+              "home": 22,
+              "away": 25
+            },
+            {
+              "home": 19,
+              "away": 25
+            }
+          ],
           "hour": "Mié 18 nov · 12:30",
           "place": "Plantel 26 San Luis IV · Cancha 1"
         },
@@ -256,8 +265,8 @@
     "color": "#ab75d7",
     "bg": "#dcc8ea"
   },
-  "updatedAtLocal": "18/11/2026 14:15",
-  "updatedAt": "2026-11-18T20:15:01.147Z",
-  "lastUpdated": "2026-11-18T20:15:01.147Z",
-  "timestamp": "2026-11-18T20:15:01.147Z"
+  "updatedAtLocal": "18/11/2026 14:25",
+  "updatedAt": "2026-11-18T20:25:21.218Z",
+  "lastUpdated": "2026-11-18T20:25:21.218Z",
+  "timestamp": "2026-11-18T20:25:21.218Z"
 }
