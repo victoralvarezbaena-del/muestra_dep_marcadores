@@ -66,8 +66,8 @@
         {
           "home": "PL-05 Cd. Fernández",
           "away": "PL-19 San Luis II",
-          "gh": null,
-          "ga": null,
+          "gh": 1,
+          "ga": 11,
           "hour": "Mié 18 nov · 08:30",
           "place": "U. Politécnica · Cancha externa 3 · Tablero 1"
         },
@@ -99,8 +99,8 @@
         {
           "home": "PL-25 San Luis III",
           "away": "PL-33 Axtla",
-          "gh": null,
-          "ga": null,
+          "gh": 3,
+          "ga": 2,
           "hour": "Mié 18 nov · 08:45",
           "place": "U. Politécnica · Cancha externa 3 · Tablero 1"
         },
@@ -202,7 +202,7 @@
       "place": "U. Politécnica · Media cancha 2"
     }
   },
-  "updatedAtLocal": "18/11/2026 09:39",
+  "updatedAtLocal": "18/11/2026 09:41",
   "theme": {
     "color": "#df944e",
     "bg": "#ecb009"
@@ -212,7 +212,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-18T15:39:54.667Z",
-  "lastUpdated": "2026-11-18T15:39:54.667Z",
-  "timestamp": "2026-11-18T15:39:54.667Z"
+  "updatedAt": "2026-11-18T15:41:00.869Z",
+  "lastUpdated": "2026-11-18T15:41:00.869Z",
+  "timestamp": "2026-11-18T15:41:00.869Z"
 }
