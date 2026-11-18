@@ -95,8 +95,8 @@
         {
           "home": "PL-01 Soledad",
           "away": "PL-03 Cedral",
-          "gh": null,
-          "ga": null,
+          "gh": 7,
+          "ga": 0,
           "hour": "Mié 18 nov · 09:10",
           "place": "Tangamanga I · Campo 1"
         },
@@ -228,12 +228,12 @@
     "draw": 1,
     "loss": 0
   },
-  "updatedAtLocal": "18/11/2026 09:27",
+  "updatedAtLocal": "18/11/2026 10:53",
   "theme": {
     "color": "#62d0df",
     "bg": "#b2e1eb"
   },
-  "updatedAt": "2026-11-18T15:27:16.530Z",
-  "lastUpdated": "2026-11-18T15:27:16.530Z",
-  "timestamp": "2026-11-18T15:27:16.530Z"
+  "updatedAt": "2026-11-18T16:53:49.957Z",
+  "lastUpdated": "2026-11-18T16:53:49.957Z",
+  "timestamp": "2026-11-18T16:53:49.957Z"
 }
