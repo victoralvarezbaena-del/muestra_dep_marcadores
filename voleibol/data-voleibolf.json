@@ -122,7 +122,16 @@
         {
           "home": "PL-28 San Luis V",
           "away": "PL-22 Tamuín",
-          "sets": [],
+          "sets": [
+            {
+              "home": 25,
+              "away": 14
+            },
+            {
+              "home": 25,
+              "away": 23
+            }
+          ],
           "hour": "Mié 18 nov · 10:00",
           "place": "Plantel 26 San Luis IV · Cancha 2"
         },
@@ -207,8 +216,8 @@
     "color": "#ab75d7",
     "bg": "#dcc8ea"
   },
-  "updatedAtLocal": "18/11/2026 10:54",
-  "updatedAt": "2026-11-18T16:54:51.860Z",
-  "lastUpdated": "2026-11-18T16:54:51.860Z",
-  "timestamp": "2026-11-18T16:54:51.860Z"
+  "updatedAtLocal": "18/11/2026 11:15",
+  "updatedAt": "2026-11-18T17:15:15.156Z",
+  "lastUpdated": "2026-11-18T17:15:15.156Z",
+  "timestamp": "2026-11-18T17:15:15.156Z"
 }
