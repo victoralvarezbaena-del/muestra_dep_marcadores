@@ -95,8 +95,8 @@
         {
           "home": "PL-24 Valles II",
           "away": "PL-31 Aquismón",
-          "gh": null,
-          "ga": null,
+          "gh": 44,
+          "ga": 23,
           "hour": "Mié 18 nov · 11:10",
           "place": "U. Politécnica · Cancha 2"
         },
@@ -223,7 +223,7 @@
       "place": "U. Politécnica · Cancha 2"
     }
   },
-  "updatedAtLocal": "18/11/2026 10:36",
+  "updatedAtLocal": "18/11/2026 12:48",
   "theme": {
     "color": "#db6a00",
     "bg": "#eed48b"
@@ -233,7 +233,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-18T16:36:59.941Z",
-  "lastUpdated": "2026-11-18T16:36:59.941Z",
-  "timestamp": "2026-11-18T16:36:59.941Z"
+  "updatedAt": "2026-11-18T18:48:00.539Z",
+  "lastUpdated": "2026-11-18T18:48:00.539Z",
+  "timestamp": "2026-11-18T18:48:00.539Z"
 }
