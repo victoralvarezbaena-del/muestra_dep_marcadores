@@ -124,8 +124,8 @@
         {
           "home": "PL-35 Tambaca",
           "away": "PL-10 Moctezuma",
-          "gh": null,
-          "ga": null,
+          "gh": 0,
+          "ga": 2,
           "hour": "Mié 18 nov · 09:00",
           "place": "U. Politécnica · Cancha externa 3 · Tablero 1"
         },
@@ -202,7 +202,7 @@
       "place": "U. Politécnica · Media cancha 2"
     }
   },
-  "updatedAtLocal": "18/11/2026 09:41",
+  "updatedAtLocal": "18/11/2026 09:43",
   "theme": {
     "color": "#df944e",
     "bg": "#ecb009"
@@ -212,7 +212,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-18T15:41:00.869Z",
-  "lastUpdated": "2026-11-18T15:41:00.869Z",
-  "timestamp": "2026-11-18T15:41:00.869Z"
+  "updatedAt": "2026-11-18T15:43:51.778Z",
+  "lastUpdated": "2026-11-18T15:43:51.778Z",
+  "timestamp": "2026-11-18T15:43:51.778Z"
 }
