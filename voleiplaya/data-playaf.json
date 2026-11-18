@@ -61,7 +61,16 @@
         {
           "home": "PL-22 Tamuín",
           "away": "PL-03 Cedral",
-          "sets": [],
+          "sets": [
+            {
+              "home": 21,
+              "away": 7
+            },
+            {
+              "home": 21,
+              "away": 4
+            }
+          ],
           "hour": "Mié 18 nov · 10:00",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
@@ -200,8 +209,8 @@
     "color": "#ab75d7",
     "bg": "#4c2361"
   },
-  "updatedAtLocal": "18/11/2026 09:27",
-  "updatedAt": "2026-11-18T15:27:22.016Z",
-  "lastUpdated": "2026-11-18T15:27:22.016Z",
-  "timestamp": "2026-11-18T15:27:22.016Z"
+  "updatedAtLocal": "18/11/2026 10:38",
+  "updatedAt": "2026-11-18T16:38:13.456Z",
+  "lastUpdated": "2026-11-18T16:38:13.456Z",
+  "timestamp": "2026-11-18T16:38:13.456Z"
 }
