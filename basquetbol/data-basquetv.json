@@ -103,8 +103,8 @@
         {
           "home": "PL-31 Aquismón",
           "away": "PL-05 Cd. Fernández",
-          "gh": null,
-          "ga": null,
+          "gh": 10,
+          "ga": 57,
           "hour": "Mié 18 nov · 13:10",
           "place": "U. Politécnica · Cancha 2"
         },
@@ -223,7 +223,7 @@
       "place": "U. Politécnica · Cancha 2"
     }
   },
-  "updatedAtLocal": "18/11/2026 13:10",
+  "updatedAtLocal": "18/11/2026 14:14",
   "theme": {
     "color": "#db6a00",
     "bg": "#eed48b"
@@ -233,7 +233,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-18T19:10:19.959Z",
-  "lastUpdated": "2026-11-18T19:10:19.959Z",
-  "timestamp": "2026-11-18T19:10:19.959Z"
+  "updatedAt": "2026-11-18T20:14:55.646Z",
+  "lastUpdated": "2026-11-18T20:14:55.646Z",
+  "timestamp": "2026-11-18T20:14:55.646Z"
 }
