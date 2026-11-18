@@ -142,8 +142,8 @@
         {
           "home": "PL-08 Xilitla",
           "away": "PL-05 Cd. Fernández",
-          "gh": null,
-          "ga": null,
+          "gh": 31,
+          "ga": 8,
           "hour": "Mié 18 nov · 12:00",
           "place": "CEDETAR · Cancha 1"
         },
@@ -159,25 +159,14 @@
       "table": [
         {
           "team": "PL-08 Xilitla",
-          "PJ": 1,
-          "G": 1,
+          "PJ": 2,
+          "G": 2,
           "E": 0,
           "P": 0,
-          "GF": 19,
-          "GC": 3,
-          "DG": 16,
-          "Pts": 2
-        },
-        {
-          "team": "PL-05 Cd. Fernández",
-          "PJ": 0,
-          "G": 0,
-          "E": 0,
-          "P": 0,
-          "GF": 0,
-          "GC": 0,
-          "DG": 0,
-          "Pts": 0
+          "GF": 50,
+          "GC": 11,
+          "DG": 39,
+          "Pts": 4
         },
         {
           "team": "PL-33 Axtla",
@@ -188,6 +177,17 @@
           "GF": 3,
           "GC": 19,
           "DG": -16,
+          "Pts": 0
+        },
+        {
+          "team": "PL-05 Cd. Fernández",
+          "PJ": 1,
+          "G": 0,
+          "E": 0,
+          "P": 1,
+          "GF": 8,
+          "GC": 31,
+          "DG": -23,
           "Pts": 0
         }
       ]
@@ -202,8 +202,8 @@
         {
           "home": "PL-26 San Luis IV",
           "away": "PL-24 Valles II",
-          "gh": null,
-          "ga": null,
+          "gh": 10,
+          "ga": 0,
           "hour": "Mié 18 nov · 11:00",
           "place": "CEDETAR · Cancha 1"
         },
@@ -226,6 +226,17 @@
       ],
       "table": [
         {
+          "team": "PL-26 San Luis IV",
+          "PJ": 1,
+          "G": 1,
+          "E": 0,
+          "P": 0,
+          "GF": 10,
+          "GC": 0,
+          "DG": 10,
+          "Pts": 2
+        },
+        {
           "team": "PL-28 San Luis V",
           "PJ": 1,
           "G": 1,
@@ -237,25 +248,14 @@
           "Pts": 2
         },
         {
-          "team": "PL-26 San Luis IV",
-          "PJ": 0,
-          "G": 0,
-          "E": 0,
-          "P": 0,
-          "GF": 0,
-          "GC": 0,
-          "DG": 0,
-          "Pts": 0
-        },
-        {
           "team": "PL-24 Valles II",
-          "PJ": 1,
+          "PJ": 2,
           "G": 0,
           "E": 0,
-          "P": 1,
+          "P": 2,
           "GF": 0,
-          "GC": 10,
-          "DG": -10,
+          "GC": 20,
+          "DG": -20,
           "Pts": 0
         }
       ]
@@ -339,8 +339,8 @@
       "place": "CEDETAR · Cancha 2"
     }
   },
-  "lastUpdated": "2026-11-18T19:54:23.835Z",
-  "updatedAt": "2026-11-18T19:54:23.835Z",
-  "timestamp": "2026-11-18T19:54:23.835Z",
-  "updatedAtLocal": "18/11/2026 13:54"
+  "lastUpdated": "2026-11-18T19:55:23.799Z",
+  "updatedAt": "2026-11-18T19:55:23.799Z",
+  "timestamp": "2026-11-18T19:55:23.799Z",
+  "updatedAtLocal": "18/11/2026 13:55"
 }
