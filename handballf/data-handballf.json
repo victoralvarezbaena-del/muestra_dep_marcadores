@@ -51,8 +51,8 @@
         {
           "home": "PL-17 San Luis I Pavón",
           "away": "PL-06 Valles I",
-          "gh": null,
-          "ga": null,
+          "gh": 10,
+          "ga": 5,
           "hour": "Mié 18 nov · 08:00",
           "place": "CEDETAR · Cancha 1"
         },
@@ -100,28 +100,28 @@
       "table": [
         {
           "team": "PL-06 Valles I",
+          "PJ": 2,
+          "G": 1,
+          "E": 0,
+          "P": 1,
+          "GF": 18,
+          "GC": 12,
+          "DG": 6,
+          "Pts": 2
+        },
+        {
+          "team": "PL-17 San Luis I Pavón",
           "PJ": 1,
           "G": 1,
           "E": 0,
           "P": 0,
-          "GF": 13,
-          "GC": 2,
-          "DG": 11,
+          "GF": 10,
+          "GC": 5,
+          "DG": 5,
           "Pts": 2
         },
         {
           "team": "PL-03 Cedral",
-          "PJ": 0,
-          "G": 0,
-          "E": 0,
-          "P": 0,
-          "GF": 0,
-          "GC": 0,
-          "DG": 0,
-          "Pts": 0
-        },
-        {
-          "team": "PL-17 San Luis I Pavón",
           "PJ": 0,
           "G": 0,
           "E": 0,
@@ -216,7 +216,7 @@
   "qualifiedTeams": {
     "firstA": "PL-06 Valles I",
     "firstB": "PL-08 Xilitla",
-    "secondA": "PL-03 Cedral",
+    "secondA": "PL-17 San Luis I Pavón",
     "secondB": "PL-33 Axtla"
   },
   "semifinalTeams": {
@@ -263,9 +263,9 @@
       "place": "CEDETAR · Cancha 2"
     }
   },
-  "lastUpdated": "2026-11-18T19:40:05.650Z",
+  "lastUpdated": "2026-11-18T19:52:31.358Z",
   "format": "2_grupos_3o4_equipos",
-  "updatedAt": "2026-11-18T19:40:05.650Z",
-  "timestamp": "2026-11-18T19:40:05.650Z",
-  "updatedAtLocal": "18/11/2026 13:40"
+  "updatedAt": "2026-11-18T19:52:31.358Z",
+  "timestamp": "2026-11-18T19:52:31.358Z",
+  "updatedAtLocal": "18/11/2026 13:52"
 }
