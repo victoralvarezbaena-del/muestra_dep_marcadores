@@ -136,8 +136,8 @@
         {
           "home": "PL-16 San Vicente",
           "away": "PL-33 Axtla",
-          "gh": null,
-          "ga": null,
+          "gh": 3,
+          "ga": 0,
           "hour": "Mié 18 nov · 15:00",
           "place": "Tangamanga I · Campo 1"
         },
@@ -228,12 +228,12 @@
     "draw": 1,
     "loss": 0
   },
-  "updatedAtLocal": "18/11/2026 14:04",
+  "updatedAtLocal": "18/11/2026 16:21",
   "theme": {
     "color": "#0284c7",
     "bg": "#f8fafc"
   },
-  "updatedAt": "2026-11-18T20:04:31.424Z",
-  "lastUpdated": "2026-11-18T20:04:31.424Z",
-  "timestamp": "2026-11-18T20:04:31.424Z"
+  "updatedAt": "2026-11-18T22:21:09.775Z",
+  "lastUpdated": "2026-11-18T22:21:09.775Z",
+  "timestamp": "2026-11-18T22:21:09.775Z"
 }
