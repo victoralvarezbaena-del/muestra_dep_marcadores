@@ -1,4 +1,5 @@
 {
+  "tournamentName": "Baloncesto 3x3 Femenil 2026",
   "teamProfiles": {
     "PL-19 San Luis II": {
       "school": "",
@@ -45,6 +46,7 @@
       "image": "../mascotas/PL-27.webp"
     }
   },
+  "subtitle": "Torneo 3x3 Baloncesto",
   "groups": {
     "A": {
       "teams": [
@@ -56,8 +58,8 @@
         {
           "home": "PL-19 San Luis II",
           "away": "PL-14 Tancanhuitz",
-          "gh": null,
-          "ga": null,
+          "gh": 2,
+          "ga": 0,
           "hour": "Mié 18 nov · 08:00",
           "place": "U. Politécnica · Cancha externa 3 · Tablero 1"
         },
@@ -162,10 +164,6 @@
       ]
     }
   },
-  "points": {
-    "win": 2,
-    "loss": 0
-  },
   "knockout": {
     "sf1": {
       "home": "",
@@ -204,13 +202,17 @@
       "place": "U. Politécnica · Media cancha 2"
     }
   },
-  "tournamentName": "Baloncesto 3x3 Femenil 2026",
+  "updatedAtLocal": "18/11/2026 09:37",
   "theme": {
     "color": "#df944e",
     "bg": "#ecb009"
   },
-  "updatedAtLocal": "10/11/2026 10:56",
-  "updatedAt": "2026-11-10T10:56:51-06:00",
-  "lastUpdated": "2026-11-10T10:56:51-06:00",
-  "timestamp": "2026-11-10T10:56:51-06:00"
+  "points": {
+    "win": 2,
+    "loss": 0
+  },
+  "sport": "basketball",
+  "updatedAt": "2026-11-18T15:37:07.890Z",
+  "lastUpdated": "2026-11-18T15:37:07.890Z",
+  "timestamp": "2026-11-18T15:37:07.890Z"
 }
