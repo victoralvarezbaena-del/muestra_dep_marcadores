@@ -66,8 +66,8 @@
         {
           "home": "PL-03 Cedral",
           "away": "PL-14 Tancanhuitz",
-          "gh": null,
-          "ga": null,
+          "gh": 39,
+          "ga": 1,
           "hour": "Mié 18 nov · 10:00",
           "place": "CEDETAR · Cancha 1"
         },
@@ -91,14 +91,14 @@
       "table": [
         {
           "team": "PL-03 Cedral",
-          "PJ": 0,
-          "G": 0,
+          "PJ": 1,
+          "G": 1,
           "E": 0,
           "P": 0,
-          "GF": 0,
-          "GC": 0,
-          "DG": 0,
-          "Pts": 0
+          "GF": 39,
+          "GC": 1,
+          "DG": 38,
+          "Pts": 2
         },
         {
           "team": "PL-06 Valles I",
@@ -113,13 +113,13 @@
         },
         {
           "team": "PL-14 Tancanhuitz",
-          "PJ": 0,
+          "PJ": 1,
           "G": 0,
           "E": 0,
-          "P": 0,
-          "GF": 0,
-          "GC": 0,
-          "DG": 0,
+          "P": 1,
+          "GF": 1,
+          "GC": 39,
+          "DG": -38,
           "Pts": 0
         }
       ]
@@ -339,8 +339,8 @@
       "place": "CEDETAR · Cancha 2"
     }
   },
-  "lastUpdated": "2026-11-18T19:50:16.768Z",
-  "updatedAt": "2026-11-18T19:50:16.768Z",
-  "timestamp": "2026-11-18T19:50:16.768Z",
-  "updatedAtLocal": "18/11/2026 13:50"
+  "lastUpdated": "2026-11-18T19:54:23.835Z",
+  "updatedAt": "2026-11-18T19:54:23.835Z",
+  "timestamp": "2026-11-18T19:54:23.835Z",
+  "updatedAtLocal": "18/11/2026 13:54"
 }
