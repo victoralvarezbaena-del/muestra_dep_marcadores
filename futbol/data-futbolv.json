@@ -62,8 +62,8 @@
         {
           "home": "PL-28 San Luis V",
           "away": "PL-04 El Naranjo",
-          "gh": null,
-          "ga": null,
+          "gh": 1,
+          "ga": 1,
           "hour": "Mié 18 nov · 10:20",
           "place": "Tangamanga I · Campo 1"
         },
@@ -95,8 +95,8 @@
         {
           "home": "CE-07 Sto. Domingo",
           "away": "PL-21 Matlapa",
-          "gh": null,
-          "ga": null,
+          "gh": 1,
+          "ga": 1,
           "hour": "Mié 18 nov · 10:20",
           "place": "Tangamanga I · Campo 2"
         },
@@ -228,12 +228,12 @@
     "draw": 1,
     "loss": 0
   },
-  "updatedAtLocal": "18/11/2026 09:25",
+  "updatedAtLocal": "18/11/2026 12:11",
   "theme": {
     "color": "#0284c7",
     "bg": "#f8fafc"
   },
-  "updatedAt": "2026-11-18T15:25:59.799Z",
-  "lastUpdated": "2026-11-18T15:25:59.799Z",
-  "timestamp": "2026-11-18T15:25:59.799Z"
+  "updatedAt": "2026-11-18T18:11:57.346Z",
+  "lastUpdated": "2026-11-18T18:11:57.346Z",
+  "timestamp": "2026-11-18T18:11:57.346Z"
 }
