@@ -169,8 +169,8 @@
         {
           "home": "PL-03 Cedral",
           "away": "PL-24 Valles II",
-          "gh": null,
-          "ga": null,
+          "gh": 0,
+          "ga": 1,
           "hour": "Mié 18 nov · 15:00",
           "place": "Tangamanga I · Campo 2"
         },
@@ -228,12 +228,12 @@
     "draw": 1,
     "loss": 0
   },
-  "updatedAtLocal": "18/11/2026 16:21",
+  "updatedAtLocal": "18/11/2026 16:22",
   "theme": {
     "color": "#0284c7",
     "bg": "#f8fafc"
   },
-  "updatedAt": "2026-11-18T22:21:09.775Z",
-  "lastUpdated": "2026-11-18T22:21:09.775Z",
-  "timestamp": "2026-11-18T22:21:09.775Z"
+  "updatedAt": "2026-11-18T22:22:10.964Z",
+  "lastUpdated": "2026-11-18T22:22:10.964Z",
+  "timestamp": "2026-11-18T22:22:10.964Z"
 }
