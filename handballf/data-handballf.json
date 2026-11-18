@@ -162,8 +162,8 @@
         {
           "home": "PL-08 Xilitla",
           "away": "PL-33 Axtla",
-          "gh": null,
-          "ga": null,
+          "gh": 16,
+          "ga": 3,
           "hour": "Mié 18 nov · 13:00",
           "place": "CEDETAR · Cancha 2"
         },
@@ -179,24 +179,24 @@
       "table": [
         {
           "team": "PL-08 Xilitla",
-          "PJ": 1,
-          "G": 1,
+          "PJ": 2,
+          "G": 2,
           "E": 0,
           "P": 0,
-          "GF": 15,
-          "GC": 1,
-          "DG": 14,
-          "Pts": 2
+          "GF": 31,
+          "GC": 4,
+          "DG": 27,
+          "Pts": 4
         },
         {
           "team": "PL-33 Axtla",
-          "PJ": 0,
+          "PJ": 1,
           "G": 0,
           "E": 0,
-          "P": 0,
-          "GF": 0,
-          "GC": 0,
-          "DG": 0,
+          "P": 1,
+          "GF": 3,
+          "GC": 16,
+          "DG": -13,
           "Pts": 0
         },
         {
@@ -263,9 +263,9 @@
       "place": "CEDETAR · Cancha 2"
     }
   },
-  "lastUpdated": "2026-11-18T18:08:49.035Z",
+  "lastUpdated": "2026-11-18T19:40:05.650Z",
   "format": "2_grupos_3o4_equipos",
-  "updatedAt": "2026-11-18T18:08:49.035Z",
-  "timestamp": "2026-11-18T18:08:49.035Z",
-  "updatedAtLocal": "18/11/2026 12:08"
+  "updatedAt": "2026-11-18T19:40:05.650Z",
+  "timestamp": "2026-11-18T19:40:05.650Z",
+  "updatedAtLocal": "18/11/2026 13:40"
 }
