@@ -1,4 +1,38 @@
 {
+  "teamProfiles": {
+    "CE-06 Palomas": {
+      "school": "",
+      "image": "../mascotas/CE-06.webp"
+    },
+    "PL-28 San Luis V": {
+      "school": "",
+      "image": "../mascotas/PL-28.webp"
+    },
+    "PL-06 Valles I": {
+      "school": "",
+      "image": "../mascotas/PL-06.webp"
+    },
+    "PL-01 Soledad": {
+      "school": "",
+      "image": "../mascotas/PL-01.webp"
+    },
+    "PL-37 Tamapatz": {
+      "school": "",
+      "image": "../mascotas/PL-37.webp"
+    },
+    "PL-11 Rayón": {
+      "school": "",
+      "image": "../mascotas/PL-11.webp"
+    },
+    "CE-21 La Pila": {
+      "school": "",
+      "image": "../mascotas/CE-21.webp"
+    },
+    "PL-03 Cedral": {
+      "school": "",
+      "image": "../mascotas/PL-03.webp"
+    }
+  },
   "groups": {
     "A": {
       "teams": [
@@ -11,7 +45,16 @@
         {
           "home": "CE-06 Palomas",
           "away": "PL-06 Valles I",
-          "sets": [],
+          "sets": [
+            {
+              "home": 21,
+              "away": 10
+            },
+            {
+              "home": 21,
+              "away": 17
+            }
+          ],
           "hour": "Mié 18 nov · 09:20",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
@@ -148,42 +191,8 @@
     "color": "#8308e7",
     "bg": "#4c2361"
   },
-  "teamProfiles": {
-    "CE-06 Palomas": {
-      "school": "",
-      "image": "../mascotas/CE-06.webp"
-    },
-    "PL-28 San Luis V": {
-      "school": "",
-      "image": "../mascotas/PL-28.webp"
-    },
-    "PL-06 Valles I": {
-      "school": "",
-      "image": "../mascotas/PL-06.webp"
-    },
-    "PL-01 Soledad": {
-      "school": "",
-      "image": "../mascotas/PL-01.webp"
-    },
-    "PL-37 Tamapatz": {
-      "school": "",
-      "image": "../mascotas/PL-37.webp"
-    },
-    "PL-11 Rayón": {
-      "school": "",
-      "image": "../mascotas/PL-11.webp"
-    },
-    "CE-21 La Pila": {
-      "school": "",
-      "image": "../mascotas/CE-21.webp"
-    },
-    "PL-03 Cedral": {
-      "school": "",
-      "image": "../mascotas/PL-03.webp"
-    }
-  },
-  "updatedAtLocal": "10/11/2026 10:56",
-  "updatedAt": "2026-11-10T10:56:51-06:00",
-  "lastUpdated": "2026-11-10T10:56:51-06:00",
-  "timestamp": "2026-11-10T10:56:51-06:00"
+  "updatedAtLocal": "18/11/2026 10:12",
+  "updatedAt": "2026-11-18T16:12:09.492Z",
+  "lastUpdated": "2026-11-18T16:12:09.492Z",
+  "timestamp": "2026-11-18T16:12:09.492Z"
 }
