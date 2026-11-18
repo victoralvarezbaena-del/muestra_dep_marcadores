@@ -176,7 +176,16 @@
         {
           "home": "PL-37 Tamapatz",
           "away": "PL-05 Cd. Fernández",
-          "sets": [],
+          "sets": [
+            {
+              "home": 8,
+              "away": 21
+            },
+            {
+              "home": 10,
+              "away": 21
+            }
+          ],
           "hour": "Mié 18 nov · 16:40",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
@@ -240,8 +249,8 @@
     "color": "#ab75d7",
     "bg": "#4c2361"
   },
-  "updatedAtLocal": "18/11/2026 14:49",
-  "updatedAt": "2026-11-18T20:49:35.222Z",
-  "lastUpdated": "2026-11-18T20:49:35.222Z",
-  "timestamp": "2026-11-18T20:49:35.222Z"
+  "updatedAtLocal": "18/11/2026 17:08",
+  "updatedAt": "2026-11-18T23:08:39.592Z",
+  "lastUpdated": "2026-11-18T23:08:39.592Z",
+  "timestamp": "2026-11-18T23:08:39.592Z"
 }
