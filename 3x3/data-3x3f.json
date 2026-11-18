@@ -91,8 +91,8 @@
         {
           "home": "PL-33 Axtla",
           "away": "PL-17 San Luis I Pavón",
-          "gh": null,
-          "ga": null,
+          "gh": 5,
+          "ga": 9,
           "hour": "Mié 18 nov · 08:15",
           "place": "U. Politécnica · Cancha externa 3 · Tablero 1"
         },
@@ -202,7 +202,7 @@
       "place": "U. Politécnica · Media cancha 2"
     }
   },
-  "updatedAtLocal": "18/11/2026 09:37",
+  "updatedAtLocal": "18/11/2026 09:39",
   "theme": {
     "color": "#df944e",
     "bg": "#ecb009"
@@ -212,7 +212,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-18T15:37:07.890Z",
-  "lastUpdated": "2026-11-18T15:37:07.890Z",
-  "timestamp": "2026-11-18T15:37:07.890Z"
+  "updatedAt": "2026-11-18T15:39:54.667Z",
+  "lastUpdated": "2026-11-18T15:39:54.667Z",
+  "timestamp": "2026-11-18T15:39:54.667Z"
 }
