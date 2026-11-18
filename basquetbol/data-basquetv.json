@@ -62,8 +62,8 @@
         {
           "home": "PL-35 Tambaca",
           "away": "PL-28 San Luis V",
-          "gh": null,
-          "ga": null,
+          "gh": 37,
+          "ga": 85,
           "hour": "Mié 18 nov · 11:10",
           "place": "U. Politécnica · Cancha 1"
         },
@@ -223,7 +223,7 @@
       "place": "U. Politécnica · Cancha 2"
     }
   },
-  "updatedAtLocal": "18/11/2026 12:48",
+  "updatedAtLocal": "18/11/2026 12:51",
   "theme": {
     "color": "#db6a00",
     "bg": "#eed48b"
@@ -233,7 +233,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-18T18:48:00.539Z",
-  "lastUpdated": "2026-11-18T18:48:00.539Z",
-  "timestamp": "2026-11-18T18:48:00.539Z"
+  "updatedAt": "2026-11-18T18:51:13.860Z",
+  "lastUpdated": "2026-11-18T18:51:13.860Z",
+  "timestamp": "2026-11-18T18:51:13.860Z"
 }
