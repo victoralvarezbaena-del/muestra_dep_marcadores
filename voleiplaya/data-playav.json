@@ -61,7 +61,20 @@
         {
           "home": "PL-28 San Luis V",
           "away": "PL-06 Valles I",
-          "sets": [],
+          "sets": [
+            {
+              "home": 21,
+              "away": 19
+            },
+            {
+              "home": 21,
+              "away": 23
+            },
+            {
+              "home": 15,
+              "away": 10
+            }
+          ],
           "hour": "Mié 18 nov · 14:40",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
@@ -226,8 +239,8 @@
     "color": "#8308e7",
     "bg": "#4c2361"
   },
-  "updatedAtLocal": "18/11/2026 14:11",
-  "updatedAt": "2026-11-18T20:11:46.842Z",
-  "lastUpdated": "2026-11-18T20:11:46.842Z",
-  "timestamp": "2026-11-18T20:11:46.842Z"
+  "updatedAtLocal": "18/11/2026 15:27",
+  "updatedAt": "2026-11-18T21:27:12.148Z",
+  "lastUpdated": "2026-11-18T21:27:12.148Z",
+  "timestamp": "2026-11-18T21:27:12.148Z"
 }
