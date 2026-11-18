@@ -103,8 +103,8 @@
         {
           "home": "PL-21 Matlapa",
           "away": "PL-25 San Luis III",
-          "gh": null,
-          "ga": null,
+          "gh": 2,
+          "ga": 1,
           "hour": "Mié 18 nov · 12:40",
           "place": "Tangamanga I · Campo 2"
         },
@@ -228,12 +228,12 @@
     "draw": 1,
     "loss": 0
   },
-  "updatedAtLocal": "18/11/2026 13:02",
+  "updatedAtLocal": "18/11/2026 14:04",
   "theme": {
     "color": "#0284c7",
     "bg": "#f8fafc"
   },
-  "updatedAt": "2026-11-18T19:02:05.299Z",
-  "lastUpdated": "2026-11-18T19:02:05.299Z",
-  "timestamp": "2026-11-18T19:02:05.299Z"
+  "updatedAt": "2026-11-18T20:04:31.424Z",
+  "lastUpdated": "2026-11-18T20:04:31.424Z",
+  "timestamp": "2026-11-18T20:04:31.424Z"
 }
