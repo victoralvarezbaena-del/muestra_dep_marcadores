@@ -128,8 +128,8 @@
         {
           "home": "PL-03 Cedral",
           "away": "PL-08 Xilitla",
-          "gh": null,
-          "ga": null,
+          "gh": 31,
+          "ga": 27,
           "hour": "Mié 18 nov · 12:10",
           "place": "U. Politécnica · Cancha 1"
         },
@@ -223,7 +223,7 @@
       "place": "U. Politécnica · Cancha 2"
     }
   },
-  "updatedAtLocal": "18/11/2026 11:17",
+  "updatedAtLocal": "18/11/2026 13:08",
   "theme": {
     "color": "#dc2626",
     "bg": "#f8fafc"
@@ -233,7 +233,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-18T17:17:33.669Z",
-  "lastUpdated": "2026-11-18T17:17:33.669Z",
-  "timestamp": "2026-11-18T17:17:33.669Z"
+  "updatedAt": "2026-11-18T19:08:15.414Z",
+  "lastUpdated": "2026-11-18T19:08:15.414Z",
+  "timestamp": "2026-11-18T19:08:15.414Z"
 }
