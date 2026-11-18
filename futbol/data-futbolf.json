@@ -1,4 +1,56 @@
 {
+  "tournamentName": "Fútbol Soccer Femenil 2026",
+  "subtitle": "",
+  "teamProfiles": {
+    "PL-23 Tierra Nueva": {
+      "school": "",
+      "image": "../mascotas/PL-23.webp"
+    },
+    "PL-04 El Naranjo": {
+      "school": "",
+      "image": "../mascotas/PL-04.webp"
+    },
+    "CE-12 La Parada": {
+      "school": "",
+      "image": "../mascotas/CE-12.webp"
+    },
+    "PL-01 Soledad": {
+      "school": "",
+      "image": "../mascotas/PL-01.webp"
+    },
+    "PL-03 Cedral": {
+      "school": "",
+      "image": "../mascotas/PL-03.webp"
+    },
+    "PL-33 Axtla": {
+      "school": "",
+      "image": "../mascotas/PL-33.webp"
+    },
+    "PL-06 Valles I": {
+      "school": "",
+      "image": "../mascotas/PL-06.webp"
+    },
+    "PL-09 Tanlajás": {
+      "school": "",
+      "image": "../mascotas/PL-09.webp"
+    },
+    "PL-12 Tampacán": {
+      "school": "",
+      "image": "../mascotas/PL-12.webp"
+    },
+    "PL-28 San Luis V": {
+      "school": "",
+      "image": "../mascotas/PL-28.webp"
+    },
+    "PL-13 Tanquián": {
+      "school": "",
+      "image": "../mascotas/PL-13.webp"
+    },
+    "PL-26 San Luis IV": {
+      "school": "",
+      "image": "../mascotas/PL-26.webp"
+    }
+  },
   "groups": {
     "A": {
       "teams": [
@@ -10,8 +62,8 @@
         {
           "home": "PL-23 Tierra Nueva",
           "away": "PL-04 El Naranjo",
-          "gh": null,
-          "ga": null,
+          "gh": 2,
+          "ga": 0,
           "hour": "Mié 18 nov · 08:00",
           "place": "Tangamanga I · Campo 1"
         },
@@ -133,11 +185,6 @@
       ]
     }
   },
-  "points": {
-    "win": 3,
-    "draw": 1,
-    "loss": 0
-  },
   "knockout": {
     "sf1": {
       "home": "",
@@ -176,63 +223,17 @@
       "place": "Tangamanga I · Campo 2"
     }
   },
-  "tournamentName": "Fútbol Soccer Femenil 2026",
+  "points": {
+    "win": 3,
+    "draw": 1,
+    "loss": 0
+  },
+  "updatedAtLocal": "18/11/2026 09:27",
   "theme": {
     "color": "#62d0df",
     "bg": "#b2e1eb"
   },
-  "teamProfiles": {
-    "PL-23 Tierra Nueva": {
-      "school": "",
-      "image": "../mascotas/PL-23.webp"
-    },
-    "PL-04 El Naranjo": {
-      "school": "",
-      "image": "../mascotas/PL-04.webp"
-    },
-    "CE-12 La Parada": {
-      "school": "",
-      "image": "../mascotas/CE-12.webp"
-    },
-    "PL-01 Soledad": {
-      "school": "",
-      "image": "../mascotas/PL-01.webp"
-    },
-    "PL-03 Cedral": {
-      "school": "",
-      "image": "../mascotas/PL-03.webp"
-    },
-    "PL-33 Axtla": {
-      "school": "",
-      "image": "../mascotas/PL-33.webp"
-    },
-    "PL-06 Valles I": {
-      "school": "",
-      "image": "../mascotas/PL-06.webp"
-    },
-    "PL-09 Tanlajás": {
-      "school": "",
-      "image": "../mascotas/PL-09.webp"
-    },
-    "PL-12 Tampacán": {
-      "school": "",
-      "image": "../mascotas/PL-12.webp"
-    },
-    "PL-28 San Luis V": {
-      "school": "",
-      "image": "../mascotas/PL-28.webp"
-    },
-    "PL-13 Tanquián": {
-      "school": "",
-      "image": "../mascotas/PL-13.webp"
-    },
-    "PL-26 San Luis IV": {
-      "school": "",
-      "image": "../mascotas/PL-26.webp"
-    }
-  },
-  "updatedAtLocal": "10/11/2026 10:56",
-  "updatedAt": "2026-11-10T10:56:51-06:00",
-  "lastUpdated": "2026-11-10T10:56:51-06:00",
-  "timestamp": "2026-11-10T10:56:51-06:00"
+  "updatedAt": "2026-11-18T15:27:16.530Z",
+  "lastUpdated": "2026-11-18T15:27:16.530Z",
+  "timestamp": "2026-11-18T15:27:16.530Z"
 }
