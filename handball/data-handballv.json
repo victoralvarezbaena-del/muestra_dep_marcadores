@@ -210,8 +210,8 @@
         {
           "home": "PL-24 Valles II",
           "away": "PL-28 San Luis V",
-          "gh": null,
-          "ga": null,
+          "gh": 0,
+          "ga": 10,
           "hour": "Mié 18 nov · 13:00",
           "place": "CEDETAR · Cancha 1"
         },
@@ -226,15 +226,15 @@
       ],
       "table": [
         {
-          "team": "PL-24 Valles II",
-          "PJ": 0,
-          "G": 0,
+          "team": "PL-28 San Luis V",
+          "PJ": 1,
+          "G": 1,
           "E": 0,
           "P": 0,
-          "GF": 0,
+          "GF": 10,
           "GC": 0,
-          "DG": 0,
-          "Pts": 0
+          "DG": 10,
+          "Pts": 2
         },
         {
           "team": "PL-26 San Luis IV",
@@ -248,14 +248,14 @@
           "Pts": 0
         },
         {
-          "team": "PL-28 San Luis V",
-          "PJ": 0,
+          "team": "PL-24 Valles II",
+          "PJ": 1,
           "G": 0,
           "E": 0,
-          "P": 0,
+          "P": 1,
           "GF": 0,
-          "GC": 0,
-          "DG": 0,
+          "GC": 10,
+          "DG": -10,
           "Pts": 0
         }
       ]
@@ -339,8 +339,8 @@
       "place": "CEDETAR · Cancha 2"
     }
   },
-  "lastUpdated": "2026-11-18T15:11:27.971Z",
-  "updatedAt": "2026-11-18T15:11:27.971Z",
-  "timestamp": "2026-11-18T15:11:27.971Z",
-  "updatedAtLocal": "18/11/2026 09:11"
+  "lastUpdated": "2026-11-18T19:50:16.768Z",
+  "updatedAt": "2026-11-18T19:50:16.768Z",
+  "timestamp": "2026-11-18T19:50:16.768Z",
+  "updatedAtLocal": "18/11/2026 13:50"
 }
