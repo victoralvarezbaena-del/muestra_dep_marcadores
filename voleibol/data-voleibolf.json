@@ -91,7 +91,16 @@
         {
           "home": "PL-06 Valles I",
           "away": "PL-05 Cd. Fernández",
-          "sets": [],
+          "sets": [
+            {
+              "home": 18,
+              "away": 25
+            },
+            {
+              "home": 23,
+              "away": 25
+            }
+          ],
           "hour": "Mié 18 nov · 10:50",
           "place": "Plantel 26 San Luis IV · Cancha 1"
         },
@@ -216,8 +225,8 @@
     "color": "#ab75d7",
     "bg": "#dcc8ea"
   },
-  "updatedAtLocal": "18/11/2026 11:15",
-  "updatedAt": "2026-11-18T17:15:15.156Z",
-  "lastUpdated": "2026-11-18T17:15:15.156Z",
-  "timestamp": "2026-11-18T17:15:15.156Z"
+  "updatedAtLocal": "18/11/2026 12:10",
+  "updatedAt": "2026-11-18T18:10:43.849Z",
+  "lastUpdated": "2026-11-18T18:10:43.849Z",
+  "timestamp": "2026-11-18T18:10:43.849Z"
 }
