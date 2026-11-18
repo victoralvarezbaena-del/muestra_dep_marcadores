@@ -70,8 +70,8 @@
         {
           "home": "PL-12 Tampacán",
           "away": "PL-14 Tancanhuitz",
-          "gh": null,
-          "ga": null,
+          "gh": 13,
+          "ga": 59,
           "hour": "Mié 18 nov · 13:10",
           "place": "U. Politécnica · Cancha 1"
         },
@@ -223,7 +223,7 @@
       "place": "U. Politécnica · Cancha 2"
     }
   },
-  "updatedAtLocal": "18/11/2026 13:08",
+  "updatedAtLocal": "18/11/2026 14:03",
   "theme": {
     "color": "#dc2626",
     "bg": "#f8fafc"
@@ -233,7 +233,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-18T19:08:15.414Z",
-  "lastUpdated": "2026-11-18T19:08:15.414Z",
-  "timestamp": "2026-11-18T19:08:15.414Z"
+  "updatedAt": "2026-11-18T20:03:41.058Z",
+  "lastUpdated": "2026-11-18T20:03:41.058Z",
+  "timestamp": "2026-11-18T20:03:41.058Z"
 }
