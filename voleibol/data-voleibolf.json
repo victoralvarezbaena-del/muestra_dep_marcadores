@@ -167,7 +167,16 @@
         {
           "home": "PL-13 Tanquián",
           "away": "PL-22 Tamuín",
-          "sets": [],
+          "sets": [
+            {
+              "home": 18,
+              "away": 25
+            },
+            {
+              "home": 9,
+              "away": 25
+            }
+          ],
           "hour": "Mié 18 nov · 12:30",
           "place": "Plantel 26 San Luis IV · Cancha 2"
         },
@@ -238,8 +247,8 @@
     "color": "#ab75d7",
     "bg": "#dcc8ea"
   },
-  "updatedAtLocal": "18/11/2026 12:27",
-  "updatedAt": "2026-11-18T18:27:28.530Z",
-  "lastUpdated": "2026-11-18T18:27:28.530Z",
-  "timestamp": "2026-11-18T18:27:28.530Z"
+  "updatedAtLocal": "18/11/2026 14:14",
+  "updatedAt": "2026-11-18T20:14:00.347Z",
+  "lastUpdated": "2026-11-18T20:14:00.347Z",
+  "timestamp": "2026-11-18T20:14:00.347Z"
 }
