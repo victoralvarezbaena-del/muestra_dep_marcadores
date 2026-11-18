@@ -67,8 +67,8 @@
         {
           "home": "PL-14 Tancanhuitz",
           "away": "PL-06 Valles I",
-          "gh": null,
-          "ga": null,
+          "gh": 2,
+          "ga": 13,
           "hour": "Mié 18 nov · 11:00",
           "place": "CEDETAR · Cancha 2"
         },
@@ -99,29 +99,18 @@
       ],
       "table": [
         {
-          "team": "PL-03 Cedral",
-          "PJ": 0,
-          "G": 0,
-          "E": 0,
-          "P": 0,
-          "GF": 0,
-          "GC": 0,
-          "DG": 0,
-          "Pts": 0
-        },
-        {
           "team": "PL-06 Valles I",
-          "PJ": 0,
-          "G": 0,
+          "PJ": 1,
+          "G": 1,
           "E": 0,
           "P": 0,
-          "GF": 0,
-          "GC": 0,
-          "DG": 0,
-          "Pts": 0
+          "GF": 13,
+          "GC": 2,
+          "DG": 11,
+          "Pts": 2
         },
         {
-          "team": "PL-14 Tancanhuitz",
+          "team": "PL-03 Cedral",
           "PJ": 0,
           "G": 0,
           "E": 0,
@@ -140,6 +129,17 @@
           "GF": 0,
           "GC": 0,
           "DG": 0,
+          "Pts": 0
+        },
+        {
+          "team": "PL-14 Tancanhuitz",
+          "PJ": 1,
+          "G": 0,
+          "E": 0,
+          "P": 1,
+          "GF": 2,
+          "GC": 13,
+          "DG": -11,
           "Pts": 0
         }
       ]
@@ -214,9 +214,9 @@
     }
   },
   "qualifiedTeams": {
-    "firstA": "PL-03 Cedral",
+    "firstA": "PL-06 Valles I",
     "firstB": "PL-08 Xilitla",
-    "secondA": "PL-06 Valles I",
+    "secondA": "PL-03 Cedral",
     "secondB": "PL-33 Axtla"
   },
   "semifinalTeams": {
@@ -263,9 +263,9 @@
       "place": "CEDETAR · Cancha 2"
     }
   },
-  "lastUpdated": "2026-11-18T16:13:12.805Z",
+  "lastUpdated": "2026-11-18T18:08:49.035Z",
   "format": "2_grupos_3o4_equipos",
-  "updatedAt": "2026-11-18T16:13:12.805Z",
-  "timestamp": "2026-11-18T16:13:12.805Z",
-  "updatedAtLocal": "18/11/2026 10:13"
+  "updatedAt": "2026-11-18T18:08:49.035Z",
+  "timestamp": "2026-11-18T18:08:49.035Z",
+  "updatedAtLocal": "18/11/2026 12:08"
 }
