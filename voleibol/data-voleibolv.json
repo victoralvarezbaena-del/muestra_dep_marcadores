@@ -138,7 +138,20 @@
         {
           "home": "PL-01 Soledad",
           "away": "PL-17 San Luis I Pavón",
-          "sets": [],
+          "sets": [
+            {
+              "home": 25,
+              "away": 18
+            },
+            {
+              "home": 22,
+              "away": 25
+            },
+            {
+              "home": 12,
+              "away": 15
+            }
+          ],
           "hour": "Mié 18 nov · 11:40",
           "place": "Plantel 26 San Luis IV · Cancha 3"
         },
@@ -216,8 +229,8 @@
     "color": "#8308e7",
     "bg": "#dcc8ea"
   },
-  "updatedAtLocal": "18/11/2026 12:09",
-  "updatedAt": "2026-11-18T18:09:41.399Z",
-  "lastUpdated": "2026-11-18T18:09:41.399Z",
-  "timestamp": "2026-11-18T18:09:41.399Z"
+  "updatedAtLocal": "18/11/2026 13:09",
+  "updatedAt": "2026-11-18T19:09:06.512Z",
+  "lastUpdated": "2026-11-18T19:09:06.512Z",
+  "timestamp": "2026-11-18T19:09:06.512Z"
 }
