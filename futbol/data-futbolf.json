@@ -70,8 +70,8 @@
         {
           "home": "PL-04 El Naranjo",
           "away": "CE-12 La Parada",
-          "gh": null,
-          "ga": null,
+          "gh": 3,
+          "ga": 1,
           "hour": "Mié 18 nov · 12:40",
           "place": "Tangamanga I · Campo 1"
         },
@@ -228,12 +228,12 @@
     "draw": 1,
     "loss": 0
   },
-  "updatedAtLocal": "18/11/2026 13:03",
+  "updatedAtLocal": "18/11/2026 14:07",
   "theme": {
     "color": "#62d0df",
     "bg": "#b2e1eb"
   },
-  "updatedAt": "2026-11-18T19:03:06.511Z",
-  "lastUpdated": "2026-11-18T19:03:06.511Z",
-  "timestamp": "2026-11-18T19:03:06.511Z"
+  "updatedAt": "2026-11-18T20:07:08.317Z",
+  "lastUpdated": "2026-11-18T20:07:08.317Z",
+  "timestamp": "2026-11-18T20:07:08.317Z"
 }
