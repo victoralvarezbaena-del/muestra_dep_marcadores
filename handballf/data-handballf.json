@@ -59,8 +59,8 @@
         {
           "home": "PL-03 Cedral",
           "away": "PL-14 Tancanhuitz",
-          "gh": null,
-          "ga": null,
+          "gh": 25,
+          "ga": 1,
           "hour": "Mié 18 nov · 09:00",
           "place": "CEDETAR · Cancha 1"
         },
@@ -99,6 +99,17 @@
       ],
       "table": [
         {
+          "team": "PL-03 Cedral",
+          "PJ": 1,
+          "G": 1,
+          "E": 0,
+          "P": 0,
+          "GF": 25,
+          "GC": 1,
+          "DG": 24,
+          "Pts": 2
+        },
+        {
           "team": "PL-06 Valles I",
           "PJ": 2,
           "G": 1,
@@ -121,25 +132,14 @@
           "Pts": 2
         },
         {
-          "team": "PL-03 Cedral",
-          "PJ": 0,
-          "G": 0,
-          "E": 0,
-          "P": 0,
-          "GF": 0,
-          "GC": 0,
-          "DG": 0,
-          "Pts": 0
-        },
-        {
           "team": "PL-14 Tancanhuitz",
-          "PJ": 1,
+          "PJ": 2,
           "G": 0,
           "E": 0,
-          "P": 1,
-          "GF": 2,
-          "GC": 13,
-          "DG": -11,
+          "P": 2,
+          "GF": 3,
+          "GC": 38,
+          "DG": -35,
           "Pts": 0
         }
       ]
@@ -214,9 +214,9 @@
     }
   },
   "qualifiedTeams": {
-    "firstA": "PL-06 Valles I",
+    "firstA": "PL-03 Cedral",
     "firstB": "PL-08 Xilitla",
-    "secondA": "PL-17 San Luis I Pavón",
+    "secondA": "PL-06 Valles I",
     "secondB": "PL-33 Axtla"
   },
   "semifinalTeams": {
@@ -263,9 +263,9 @@
       "place": "CEDETAR · Cancha 2"
     }
   },
-  "lastUpdated": "2026-11-18T19:52:31.358Z",
+  "lastUpdated": "2026-11-18T19:53:33.503Z",
   "format": "2_grupos_3o4_equipos",
-  "updatedAt": "2026-11-18T19:52:31.358Z",
-  "timestamp": "2026-11-18T19:52:31.358Z",
-  "updatedAtLocal": "18/11/2026 13:52"
+  "updatedAt": "2026-11-18T19:53:33.503Z",
+  "timestamp": "2026-11-18T19:53:33.503Z",
+  "updatedAtLocal": "18/11/2026 13:53"
 }
