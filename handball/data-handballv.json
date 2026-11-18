@@ -1,4 +1,5 @@
 {
+  "tournamentName": "Balonmano Varonil 2026",
   "teamProfiles": {
     "PL-03 Cedral": {
       "school": "",
@@ -45,6 +46,15 @@
       "image": "../mascotas/PL-17.webp"
     }
   },
+  "theme": {
+    "color": "#0284c7",
+    "bg": "#f8fafc"
+  },
+  "points": {
+    "win": 2,
+    "draw": 1,
+    "loss": 0
+  },
   "groups": {
     "A": {
       "teams": [
@@ -77,6 +87,41 @@
           "hour": "Jue 19 nov · 08:00",
           "place": "CEDETAR · Cancha 1"
         }
+      ],
+      "table": [
+        {
+          "team": "PL-03 Cedral",
+          "PJ": 0,
+          "G": 0,
+          "E": 0,
+          "P": 0,
+          "GF": 0,
+          "GC": 0,
+          "DG": 0,
+          "Pts": 0
+        },
+        {
+          "team": "PL-06 Valles I",
+          "PJ": 0,
+          "G": 0,
+          "E": 0,
+          "P": 0,
+          "GF": 0,
+          "GC": 0,
+          "DG": 0,
+          "Pts": 0
+        },
+        {
+          "team": "PL-14 Tancanhuitz",
+          "PJ": 0,
+          "G": 0,
+          "E": 0,
+          "P": 0,
+          "GF": 0,
+          "GC": 0,
+          "DG": 0,
+          "Pts": 0
+        }
       ]
     },
     "B": {
@@ -89,8 +134,8 @@
         {
           "home": "PL-33 Axtla",
           "away": "PL-08 Xilitla",
-          "gh": null,
-          "ga": null,
+          "gh": 3,
+          "ga": 19,
           "hour": "Mié 18 nov · 08:00",
           "place": "CEDETAR · Cancha 2"
         },
@@ -109,6 +154,41 @@
           "ga": null,
           "hour": "Jue 19 nov · 08:00",
           "place": "CEDETAR · Cancha 2"
+        }
+      ],
+      "table": [
+        {
+          "team": "PL-08 Xilitla",
+          "PJ": 1,
+          "G": 1,
+          "E": 0,
+          "P": 0,
+          "GF": 19,
+          "GC": 3,
+          "DG": 16,
+          "Pts": 2
+        },
+        {
+          "team": "PL-05 Cd. Fernández",
+          "PJ": 0,
+          "G": 0,
+          "E": 0,
+          "P": 0,
+          "GF": 0,
+          "GC": 0,
+          "DG": 0,
+          "Pts": 0
+        },
+        {
+          "team": "PL-33 Axtla",
+          "PJ": 1,
+          "G": 0,
+          "E": 0,
+          "P": 1,
+          "GF": 3,
+          "GC": 19,
+          "DG": -16,
+          "Pts": 0
         }
       ]
     },
@@ -143,6 +223,41 @@
           "hour": "Jue 19 nov · 09:00",
           "place": "CEDETAR · Cancha 1"
         }
+      ],
+      "table": [
+        {
+          "team": "PL-24 Valles II",
+          "PJ": 0,
+          "G": 0,
+          "E": 0,
+          "P": 0,
+          "GF": 0,
+          "GC": 0,
+          "DG": 0,
+          "Pts": 0
+        },
+        {
+          "team": "PL-26 San Luis IV",
+          "PJ": 0,
+          "G": 0,
+          "E": 0,
+          "P": 0,
+          "GF": 0,
+          "GC": 0,
+          "DG": 0,
+          "Pts": 0
+        },
+        {
+          "team": "PL-28 San Luis V",
+          "PJ": 0,
+          "G": 0,
+          "E": 0,
+          "P": 0,
+          "GF": 0,
+          "GC": 0,
+          "DG": 0,
+          "Pts": 0
+        }
       ]
     },
     "D": {
@@ -159,13 +274,32 @@
           "hour": "Jue 19 nov · 09:00",
           "place": "CEDETAR · Cancha 2"
         }
+      ],
+      "table": [
+        {
+          "team": "PL-17 San Luis I Pavón",
+          "PJ": 0,
+          "G": 0,
+          "E": 0,
+          "P": 0,
+          "GF": 0,
+          "GC": 0,
+          "DG": 0,
+          "Pts": 0
+        },
+        {
+          "team": "PL-29 V. Zaragoza",
+          "PJ": 0,
+          "G": 0,
+          "E": 0,
+          "P": 0,
+          "GF": 0,
+          "GC": 0,
+          "DG": 0,
+          "Pts": 0
+        }
       ]
     }
-  },
-  "points": {
-    "win": 2,
-    "draw": 1,
-    "loss": 0
   },
   "knockout": {
     "sf1": {
@@ -205,13 +339,8 @@
       "place": "CEDETAR · Cancha 2"
     }
   },
-  "tournamentName": "Balonmano Varonil 2026",
-  "theme": {
-    "color": "#0284c7",
-    "bg": "#f8fafc"
-  },
-  "updatedAtLocal": "10/11/2026 10:56",
-  "updatedAt": "2026-11-10T10:56:51-06:00",
-  "lastUpdated": "2026-11-10T10:56:51-06:00",
-  "timestamp": "2026-11-10T10:56:51-06:00"
+  "lastUpdated": "2026-11-18T15:11:27.971Z",
+  "updatedAt": "2026-11-18T15:11:27.971Z",
+  "timestamp": "2026-11-18T15:11:27.971Z",
+  "updatedAtLocal": "18/11/2026 09:11"
 }
