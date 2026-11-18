@@ -128,8 +128,8 @@
         {
           "home": "PL-19 San Luis II",
           "away": "PL-16 San Vicente",
-          "gh": null,
-          "ga": null,
+          "gh": 1,
+          "ga": 3,
           "hour": "Mié 18 nov · 11:30",
           "place": "Tangamanga I · Campo 2"
         },
@@ -228,12 +228,12 @@
     "draw": 1,
     "loss": 0
   },
-  "updatedAtLocal": "18/11/2026 12:11",
+  "updatedAtLocal": "18/11/2026 13:02",
   "theme": {
     "color": "#0284c7",
     "bg": "#f8fafc"
   },
-  "updatedAt": "2026-11-18T18:11:57.346Z",
-  "lastUpdated": "2026-11-18T18:11:57.346Z",
-  "timestamp": "2026-11-18T18:11:57.346Z"
+  "updatedAt": "2026-11-18T19:02:05.299Z",
+  "lastUpdated": "2026-11-18T19:02:05.299Z",
+  "timestamp": "2026-11-18T19:02:05.299Z"
 }
