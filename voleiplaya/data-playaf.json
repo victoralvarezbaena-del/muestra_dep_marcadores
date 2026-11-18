@@ -144,7 +144,16 @@
         {
           "home": "PL-37 Tamapatz",
           "away": "PL-19 San Luis II",
-          "sets": [],
+          "sets": [
+            {
+              "home": 5,
+              "away": 21
+            },
+            {
+              "home": 7,
+              "away": 21
+            }
+          ],
           "hour": "Mié 18 nov · 12:40",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
@@ -222,8 +231,8 @@
     "color": "#ab75d7",
     "bg": "#4c2361"
   },
-  "updatedAtLocal": "18/11/2026 12:11",
-  "updatedAt": "2026-11-18T18:11:51.778Z",
-  "lastUpdated": "2026-11-18T18:11:51.778Z",
-  "timestamp": "2026-11-18T18:11:51.778Z"
+  "updatedAtLocal": "18/11/2026 13:29",
+  "updatedAt": "2026-11-18T19:29:12.090Z",
+  "lastUpdated": "2026-11-18T19:29:12.090Z",
+  "timestamp": "2026-11-18T19:29:12.090Z"
 }

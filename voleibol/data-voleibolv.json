@@ -144,7 +144,16 @@
         {
           "home": "CE-27 Plazuela",
           "away": "PL-16 San Vicente",
-          "sets": [],
+          "sets": [
+            {
+              "home": 13,
+              "away": 25
+            },
+            {
+              "home": 11,
+              "away": 25
+            }
+          ],
           "hour": "Mié 18 nov · 11:40",
           "place": "Plantel 26 San Luis IV · Cancha 2"
         },
@@ -242,8 +251,8 @@
     "color": "#8308e7",
     "bg": "#dcc8ea"
   },
-  "updatedAtLocal": "18/11/2026 13:28",
-  "updatedAt": "2026-11-18T19:28:09.040Z",
-  "lastUpdated": "2026-11-18T19:28:09.040Z",
-  "timestamp": "2026-11-18T19:28:09.040Z"
+  "updatedAtLocal": "18/11/2026 13:29",
+  "updatedAt": "2026-11-18T19:29:06.519Z",
+  "lastUpdated": "2026-11-18T19:29:06.519Z",
+  "timestamp": "2026-11-18T19:29:06.519Z"
 }
