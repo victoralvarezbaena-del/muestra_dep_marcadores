@@ -128,8 +128,8 @@
         {
           "home": "PL-17 San Luis I Pavón",
           "away": "PL-01 Soledad",
-          "gh": null,
-          "ga": null,
+          "gh": 18,
+          "ga": 64,
           "hour": "Mié 18 nov · 12:10",
           "place": "U. Politécnica · Cancha 2"
         },
@@ -223,7 +223,7 @@
       "place": "U. Politécnica · Cancha 2"
     }
   },
-  "updatedAtLocal": "18/11/2026 12:51",
+  "updatedAtLocal": "18/11/2026 13:10",
   "theme": {
     "color": "#db6a00",
     "bg": "#eed48b"
@@ -233,7 +233,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-18T18:51:13.860Z",
-  "lastUpdated": "2026-11-18T18:51:13.860Z",
-  "timestamp": "2026-11-18T18:51:13.860Z"
+  "updatedAt": "2026-11-18T19:10:19.959Z",
+  "lastUpdated": "2026-11-18T19:10:19.959Z",
+  "timestamp": "2026-11-18T19:10:19.959Z"
 }
