@@ -127,8 +127,8 @@
         {
           "home": "CE-19 Coyoles",
           "away": "PL-06 Valles I",
-          "gh": null,
-          "ga": null,
+          "gh": 6,
+          "ga": 8,
           "hour": "Mié 18 nov · 13:30",
           "place": "Tangamanga I · Campo 2"
         },
@@ -207,8 +207,8 @@
     "color": "#004b70",
     "bg": "#f8fafc"
   },
-  "updatedAtLocal": "18/11/2026 16:49",
-  "updatedAt": "2026-11-18T22:49:09.835Z",
-  "lastUpdated": "2026-11-18T22:49:09.835Z",
-  "timestamp": "2026-11-18T22:49:09.835Z"
+  "updatedAtLocal": "18/11/2026 17:05",
+  "updatedAt": "2026-11-18T23:05:08.081Z",
+  "lastUpdated": "2026-11-18T23:05:08.081Z",
+  "timestamp": "2026-11-18T23:05:08.081Z"
 }
