@@ -68,7 +68,16 @@
         {
           "home": "PL-16 San Vicente",
           "away": "PL-26 San Luis IV",
-          "sets": [],
+          "sets": [
+            {
+              "home": 9,
+              "away": 25
+            },
+            {
+              "home": 12,
+              "away": 25
+            }
+          ],
           "hour": "Mié 18 nov · 13:20",
           "place": "Plantel 26 San Luis IV · Cancha 1"
         },
@@ -265,8 +274,8 @@
     "color": "#ab75d7",
     "bg": "#dcc8ea"
   },
-  "updatedAtLocal": "18/11/2026 14:25",
-  "updatedAt": "2026-11-18T20:25:21.218Z",
-  "lastUpdated": "2026-11-18T20:25:21.218Z",
-  "timestamp": "2026-11-18T20:25:21.218Z"
+  "updatedAtLocal": "18/11/2026 15:09",
+  "updatedAt": "2026-11-18T21:09:56.131Z",
+  "lastUpdated": "2026-11-18T21:09:56.131Z",
+  "timestamp": "2026-11-18T21:09:56.131Z"
 }
