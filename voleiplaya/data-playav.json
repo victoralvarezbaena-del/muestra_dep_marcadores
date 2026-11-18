@@ -81,7 +81,20 @@
         {
           "home": "PL-06 Valles I",
           "away": "PL-01 Soledad",
-          "sets": [],
+          "sets": [
+            {
+              "home": 9,
+              "away": 21
+            },
+            {
+              "home": 21,
+              "away": 19
+            },
+            {
+              "home": 11,
+              "away": 15
+            }
+          ],
           "hour": "Mié 18 nov · 16:00",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
@@ -248,8 +261,8 @@
     "color": "#8308e7",
     "bg": "#4c2361"
   },
-  "updatedAtLocal": "18/11/2026 16:01",
-  "updatedAt": "2026-11-18T22:01:48.175Z",
-  "lastUpdated": "2026-11-18T22:01:48.175Z",
-  "timestamp": "2026-11-18T22:01:48.175Z"
+  "updatedAtLocal": "18/11/2026 16:43",
+  "updatedAt": "2026-11-18T22:43:22.879Z",
+  "lastUpdated": "2026-11-18T22:43:22.879Z",
+  "timestamp": "2026-11-18T22:43:22.879Z"
 }
