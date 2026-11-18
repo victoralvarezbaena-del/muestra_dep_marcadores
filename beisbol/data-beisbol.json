@@ -53,8 +53,8 @@
         {
           "home": "PL-02 Villa Hidalgo",
           "away": "PL-11 Rayón",
-          "gh": null,
-          "ga": null,
+          "gh": 3,
+          "ga": 2,
           "hour": "Mié 18 nov · 08:00",
           "place": "Tangamanga I · Campo 2"
         },
@@ -207,8 +207,8 @@
     "color": "#004b70",
     "bg": "#f8fafc"
   },
-  "updatedAtLocal": "18/11/2026 10:38",
-  "updatedAt": "2026-11-18T16:38:07.974Z",
-  "lastUpdated": "2026-11-18T16:38:07.974Z",
-  "timestamp": "2026-11-18T16:38:07.974Z"
+  "updatedAtLocal": "18/11/2026 11:00",
+  "updatedAt": "2026-11-18T17:00:55.985Z",
+  "lastUpdated": "2026-11-18T17:00:55.985Z",
+  "timestamp": "2026-11-18T17:00:55.985Z"
 }
