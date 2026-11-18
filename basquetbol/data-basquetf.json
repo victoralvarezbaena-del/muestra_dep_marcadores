@@ -95,8 +95,8 @@
         {
           "home": "PL-01 Soledad",
           "away": "PL-04 El Naranjo",
-          "gh": null,
-          "ga": null,
+          "gh": 77,
+          "ga": 1,
           "hour": "Mié 18 nov · 10:10",
           "place": "U. Politécnica · Cancha 1"
         },
@@ -223,7 +223,7 @@
       "place": "U. Politécnica · Cancha 2"
     }
   },
-  "updatedAtLocal": "18/11/2026 10:36",
+  "updatedAtLocal": "18/11/2026 11:16",
   "theme": {
     "color": "#dc2626",
     "bg": "#f8fafc"
@@ -233,7 +233,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-18T16:36:54.441Z",
-  "lastUpdated": "2026-11-18T16:36:54.441Z",
-  "timestamp": "2026-11-18T16:36:54.441Z"
+  "updatedAt": "2026-11-18T17:16:37.886Z",
+  "lastUpdated": "2026-11-18T17:16:37.886Z",
+  "timestamp": "2026-11-18T17:16:37.886Z"
 }

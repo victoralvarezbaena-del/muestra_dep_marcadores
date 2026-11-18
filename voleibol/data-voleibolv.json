@@ -82,7 +82,16 @@
         {
           "home": "PL-04 El Naranjo",
           "away": "PL-28 San Luis V",
-          "sets": [],
+          "sets": [
+            {
+              "home": 21,
+              "away": 25
+            },
+            {
+              "home": 18,
+              "away": 25
+            }
+          ],
           "hour": "Mié 18 nov · 10:00",
           "place": "Plantel 26 San Luis IV · Cancha 3"
         },
@@ -198,8 +207,8 @@
     "color": "#8308e7",
     "bg": "#dcc8ea"
   },
-  "updatedAtLocal": "10/11/2026 10:56",
-  "updatedAt": "2026-11-10T10:56:51-06:00",
-  "lastUpdated": "2026-11-10T10:56:51-06:00",
-  "timestamp": "2026-11-10T10:56:51-06:00"
+  "updatedAtLocal": "18/11/2026 11:16",
+  "updatedAt": "2026-11-18T17:16:32.400Z",
+  "lastUpdated": "2026-11-18T17:16:32.400Z",
+  "timestamp": "2026-11-18T17:16:32.400Z"
 }
