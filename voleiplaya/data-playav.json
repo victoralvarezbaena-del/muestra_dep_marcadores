@@ -146,7 +146,16 @@
         {
           "home": "PL-37 Tamapatz",
           "away": "PL-03 Cedral",
-          "sets": [],
+          "sets": [
+            {
+              "home": 11,
+              "away": 21
+            },
+            {
+              "home": 16,
+              "away": 21
+            }
+          ],
           "hour": "Mié 18 nov · 13:20",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
@@ -217,8 +226,8 @@
     "color": "#8308e7",
     "bg": "#4c2361"
   },
-  "updatedAtLocal": "18/11/2026 12:44",
-  "updatedAt": "2026-11-18T18:44:52.112Z",
-  "lastUpdated": "2026-11-18T18:44:52.112Z",
-  "timestamp": "2026-11-18T18:44:52.112Z"
+  "updatedAtLocal": "18/11/2026 14:11",
+  "updatedAt": "2026-11-18T20:11:46.842Z",
+  "lastUpdated": "2026-11-18T20:11:46.842Z",
+  "timestamp": "2026-11-18T20:11:46.842Z"
 }
