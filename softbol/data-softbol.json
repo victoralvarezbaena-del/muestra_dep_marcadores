@@ -41,8 +41,8 @@
         {
           "home": "PL-07 Ahualulco",
           "away": "PL-28 San Luis V",
-          "gh": null,
-          "ga": null,
+          "gh": 15,
+          "ga": 1,
           "hour": "Mié 18 nov · 08:00",
           "place": "Tangamanga I · Campo 1"
         },
@@ -178,8 +178,8 @@
     "color": "#487a93",
     "bg": "#cce0f5"
   },
-  "updatedAtLocal": "10/11/2026 13:15",
-  "updatedAt": "2026-11-10T13:15:46-06:00",
-  "lastUpdated": "2026-11-10T13:15:46-06:00",
-  "timestamp": "2026-11-10T13:15:46-06:00"
+  "updatedAtLocal": "18/11/2026 09:36",
+  "updatedAt": "2026-11-18T15:36:06.829Z",
+  "lastUpdated": "2026-11-18T15:36:06.829Z",
+  "timestamp": "2026-11-18T15:36:06.829Z"
 }
