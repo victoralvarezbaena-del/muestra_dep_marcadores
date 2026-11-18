@@ -175,7 +175,16 @@
         {
           "home": "PL-11 Rayón",
           "away": "CE-21 La Pila",
-          "sets": [],
+          "sets": [
+            {
+              "home": 21,
+              "away": 12
+            },
+            {
+              "home": 21,
+              "away": 15
+            }
+          ],
           "hour": "Mié 18 nov · 15:20",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
@@ -239,8 +248,8 @@
     "color": "#8308e7",
     "bg": "#4c2361"
   },
-  "updatedAtLocal": "18/11/2026 15:27",
-  "updatedAt": "2026-11-18T21:27:12.148Z",
-  "lastUpdated": "2026-11-18T21:27:12.148Z",
-  "timestamp": "2026-11-18T21:27:12.148Z"
+  "updatedAtLocal": "18/11/2026 16:01",
+  "updatedAt": "2026-11-18T22:01:48.175Z",
+  "lastUpdated": "2026-11-18T22:01:48.175Z",
+  "timestamp": "2026-11-18T22:01:48.175Z"
 }
