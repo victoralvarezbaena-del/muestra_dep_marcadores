@@ -77,7 +77,20 @@
         {
           "home": "PL-28 San Luis V",
           "away": "CE-21 La Pila",
-          "sets": [],
+          "sets": [
+            {
+              "home": 12,
+              "away": 21
+            },
+            {
+              "home": 21,
+              "away": 13
+            },
+            {
+              "home": 11,
+              "away": 15
+            }
+          ],
           "hour": "Mié 18 nov · 11:20",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
@@ -209,8 +222,8 @@
     "color": "#ab75d7",
     "bg": "#4c2361"
   },
-  "updatedAtLocal": "18/11/2026 10:38",
-  "updatedAt": "2026-11-18T16:38:13.456Z",
-  "lastUpdated": "2026-11-18T16:38:13.456Z",
-  "timestamp": "2026-11-18T16:38:13.456Z"
+  "updatedAtLocal": "18/11/2026 12:11",
+  "updatedAt": "2026-11-18T18:11:51.778Z",
+  "lastUpdated": "2026-11-18T18:11:51.778Z",
+  "timestamp": "2026-11-18T18:11:51.778Z"
 }
