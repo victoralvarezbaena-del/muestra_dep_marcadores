@@ -136,8 +136,8 @@
         {
           "home": "PL-19 San Luis II",
           "away": "PL-07 Ahualulco",
-          "gh": null,
-          "ga": null,
+          "gh": 15,
+          "ga": 9,
           "hour": "Mié 18 nov · 09:30",
           "place": "U. Politécnica · Cancha externa 3 · Tablero 2"
         },
@@ -223,7 +223,7 @@
       "place": "U. Politécnica · Media cancha 4"
     }
   },
-  "updatedAtLocal": "18/11/2026 10:24",
+  "updatedAtLocal": "18/11/2026 10:26",
   "theme": {
     "color": "#db6a00",
     "bg": "#ecb009"
@@ -233,7 +233,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-18T16:24:37.518Z",
-  "lastUpdated": "2026-11-18T16:24:37.518Z",
-  "timestamp": "2026-11-18T16:24:37.518Z"
+  "updatedAt": "2026-11-18T16:26:15.998Z",
+  "lastUpdated": "2026-11-18T16:26:15.998Z",
+  "timestamp": "2026-11-18T16:26:15.998Z"
 }
