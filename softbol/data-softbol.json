@@ -49,8 +49,8 @@
         {
           "home": "PL-04 El Naranjo",
           "away": "PL-03 Cedral",
-          "gh": null,
-          "ga": null,
+          "gh": 5,
+          "ga": 4,
           "hour": "Mié 18 nov · 08:00",
           "place": "Tangamanga I · Campo 2"
         },
@@ -178,8 +178,8 @@
     "color": "#487a93",
     "bg": "#cce0f5"
   },
-  "updatedAtLocal": "18/11/2026 09:36",
-  "updatedAt": "2026-11-18T15:36:06.829Z",
-  "lastUpdated": "2026-11-18T15:36:06.829Z",
-  "timestamp": "2026-11-18T15:36:06.829Z"
+  "updatedAtLocal": "18/11/2026 10:14",
+  "updatedAt": "2026-11-18T16:14:21.804Z",
+  "lastUpdated": "2026-11-18T16:14:21.804Z",
+  "timestamp": "2026-11-18T16:14:21.804Z"
 }
