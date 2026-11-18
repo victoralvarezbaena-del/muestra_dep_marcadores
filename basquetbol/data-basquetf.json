@@ -103,8 +103,8 @@
         {
           "home": "PL-04 El Naranjo",
           "away": "CE-13 Tampaxal",
-          "gh": null,
-          "ga": null,
+          "gh": 11,
+          "ga": 20,
           "hour": "Mié 18 nov · 14:10",
           "place": "U. Politécnica · Cancha 1"
         },
@@ -136,8 +136,8 @@
         {
           "home": "PL-08 Xilitla",
           "away": "PL-23 Tierra Nueva",
-          "gh": null,
-          "ga": null,
+          "gh": 42,
+          "ga": 24,
           "hour": "Mié 18 nov · 14:10",
           "place": "U. Politécnica · Cancha 2"
         },
@@ -223,7 +223,7 @@
       "place": "U. Politécnica · Cancha 2"
     }
   },
-  "updatedAtLocal": "18/11/2026 14:03",
+  "updatedAtLocal": "18/11/2026 15:07",
   "theme": {
     "color": "#dc2626",
     "bg": "#f8fafc"
@@ -233,7 +233,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-18T20:03:41.058Z",
-  "lastUpdated": "2026-11-18T20:03:41.058Z",
-  "timestamp": "2026-11-18T20:03:41.058Z"
+  "updatedAt": "2026-11-18T21:07:04.935Z",
+  "lastUpdated": "2026-11-18T21:07:04.935Z",
+  "timestamp": "2026-11-18T21:07:04.935Z"
 }
