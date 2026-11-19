@@ -287,30 +287,48 @@
     "sf1": {
       "home": "PL-03 Cedral",
       "away": "PL-01 Soledad",
-      "sets": [],
-      "winner": "",
+      "sets": [
+        {
+          "home": 25,
+          "away": 17
+        },
+        {
+          "home": 25,
+          "away": 14
+        }
+      ],
+      "winner": "PL-03 Cedral",
       "hour": "Jue 19 nov · 13:20",
       "place": "Plantel 26 San Luis IV · Cancha 2"
     },
     "sf2": {
       "home": "PL-28 San Luis V",
       "away": "PL-17 San Luis I Pavón",
-      "sets": [],
-      "winner": "",
+      "sets": [
+        {
+          "home": 21,
+          "away": 25
+        },
+        {
+          "home": 21,
+          "away": 25
+        }
+      ],
+      "winner": "PL-17 San Luis I Pavón",
       "hour": "Jue 19 nov · 13:20",
       "place": "Plantel 26 San Luis IV · Cancha 3"
     },
     "final": {
-      "home": "",
-      "away": "",
+      "home": "PL-03 Cedral",
+      "away": "PL-17 San Luis I Pavón",
       "sets": [],
       "winner": "",
       "hour": "Vie 20 nov · 10:50",
       "place": "Plantel 26 San Luis IV · Cancha 1"
     },
     "third": {
-      "home": "",
-      "away": "",
+      "home": "PL-01 Soledad",
+      "away": "PL-28 San Luis V",
       "sets": [],
       "winner": "",
       "hour": "Vie 20 nov · 10:50",
@@ -322,8 +340,8 @@
     "color": "#8308e7",
     "bg": "#dcc8ea"
   },
-  "updatedAtLocal": "19/11/2026 13:32",
-  "updatedAt": "2026-11-19T19:32:12.254Z",
-  "lastUpdated": "2026-11-19T19:32:12.254Z",
-  "timestamp": "2026-11-19T19:32:12.254Z"
+  "updatedAtLocal": "19/11/2026 15:21",
+  "updatedAt": "2026-11-19T21:21:17.032Z",
+  "lastUpdated": "2026-11-19T21:21:17.032Z",
+  "timestamp": "2026-11-19T21:21:17.032Z"
 }
