@@ -129,7 +129,16 @@
         {
           "home": "PL-22 Tamuín",
           "away": "PL-28 San Luis V",
-          "sets": [],
+          "sets": [
+            {
+              "home": 21,
+              "away": 8
+            },
+            {
+              "home": 21,
+              "away": 10
+            }
+          ],
           "hour": "Jue 19 nov · 12:00",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         }
@@ -276,8 +285,8 @@
     "color": "#ab75d7",
     "bg": "#4c2361"
   },
-  "updatedAtLocal": "19/11/2026 11:13",
-  "updatedAt": "2026-11-19T17:13:17.006Z",
-  "lastUpdated": "2026-11-19T17:13:17.006Z",
-  "timestamp": "2026-11-19T17:13:17.006Z"
+  "updatedAtLocal": "19/11/2026 12:16",
+  "updatedAt": "2026-11-19T18:16:18.941Z",
+  "lastUpdated": "2026-11-19T18:16:18.941Z",
+  "timestamp": "2026-11-19T18:16:18.941Z"
 }
