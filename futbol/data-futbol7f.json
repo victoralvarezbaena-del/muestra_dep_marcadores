@@ -78,8 +78,8 @@
         {
           "home": "CE-29 El Carrizo",
           "away": "PL-25 San Luis III",
-          "gh": null,
-          "ga": null,
+          "gh": 1,
+          "ga": 4,
           "hour": "Jue 19 nov · 09:00",
           "place": "U. Politécnica · Campo F7 1"
         }
@@ -112,8 +112,8 @@
         {
           "home": "CE-27 Plazuela",
           "away": "PL-29 V. Zaragoza",
-          "gh": null,
-          "ga": null,
+          "gh": 0,
+          "ga": 2,
           "hour": "Jue 19 nov · 11:00",
           "place": "U. Politécnica · Campo F7 1"
         }
@@ -145,8 +145,8 @@
         {
           "home": "CE-13 Tampaxal",
           "away": "PL-34 El Pujal",
-          "gh": null,
-          "ga": null,
+          "gh": 0,
+          "ga": 4,
           "hour": "Jue 19 nov · 11:00",
           "place": "U. Politécnica · Campo F7 2"
         }
@@ -170,26 +170,28 @@
         {
           "home": "CE-05 Tlaletla",
           "away": "PL-37 Tamapatz",
-          "gh": null,
-          "ga": null,
+          "gh": 0,
+          "ga": 0,
           "hour": "Jue 19 nov · 08:00",
-          "place": "U. Politécnica · Campo F7 1"
+          "place": "U. Politécnica · Campo F7 1",
+          "pen": "home"
         },
         {
           "home": "PL-08 Xilitla",
           "away": "CE-05 Tlaletla",
-          "gh": null,
-          "ga": null,
+          "gh": 0,
+          "ga": 0,
           "hour": "Jue 19 nov · 10:00",
-          "place": "U. Politécnica · Campo F7 1"
+          "place": "U. Politécnica · Campo F7 1",
+          "pen": "away"
         }
       ]
     }
   },
   "knockout": {
     "sf1": {
-      "home": "",
-      "away": "",
+      "home": "PL-25 San Luis III",
+      "away": "PL-29 V. Zaragoza",
       "gh": null,
       "ga": null,
       "winner": "",
@@ -197,8 +199,8 @@
       "place": "U. Politécnica · Campo F7 1"
     },
     "sf2": {
-      "home": "",
-      "away": "",
+      "home": "PL-34 El Pujal",
+      "away": "PL-08 Xilitla",
       "gh": null,
       "ga": null,
       "winner": "",
