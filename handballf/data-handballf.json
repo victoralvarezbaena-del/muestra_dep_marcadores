@@ -229,9 +229,9 @@
     "sf1": {
       "home": "PL-03 Cedral",
       "away": "PL-28 San Luis V",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 18,
+      "ga": 6,
+      "winner": "PL-03 Cedral",
       "hour": "Jue 19 nov · 13:00",
       "place": "CEDETAR · Cancha 1"
     },
@@ -245,7 +245,7 @@
       "place": "CEDETAR · Cancha 2"
     },
     "final": {
-      "home": "",
+      "home": "PL-03 Cedral",
       "away": "",
       "gh": null,
       "ga": null,
@@ -254,7 +254,7 @@
       "place": "CEDETAR · Cancha 1"
     },
     "third": {
-      "home": "",
+      "home": "PL-28 San Luis V",
       "away": "",
       "gh": null,
       "ga": null,
@@ -263,9 +263,9 @@
       "place": "CEDETAR · Cancha 2"
     }
   },
-  "lastUpdated": "2026-11-19T17:56:22.983Z",
+  "lastUpdated": "2026-11-19T20:13:33.260Z",
   "format": "2_grupos_3o4_equipos",
-  "updatedAt": "2026-11-19T17:56:22.983Z",
-  "timestamp": "2026-11-19T17:56:22.983Z",
-  "updatedAtLocal": "19/11/2026 11:56"
+  "updatedAt": "2026-11-19T20:13:33.260Z",
+  "timestamp": "2026-11-19T20:13:33.260Z",
+  "updatedAtLocal": "19/11/2026 14:13"
 }
