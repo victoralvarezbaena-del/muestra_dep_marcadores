@@ -218,33 +218,33 @@
         {
           "home": "PL-28 San Luis V",
           "away": "PL-26 San Luis IV",
-          "gh": null,
-          "ga": null,
+          "gh": 10,
+          "ga": 9,
           "hour": "Jue 19 nov · 09:00",
           "place": "CEDETAR · Cancha 1"
         }
       ],
       "table": [
         {
-          "team": "PL-26 San Luis IV",
-          "PJ": 1,
-          "G": 1,
+          "team": "PL-28 San Luis V",
+          "PJ": 2,
+          "G": 2,
           "E": 0,
           "P": 0,
-          "GF": 10,
-          "GC": 0,
-          "DG": 10,
-          "Pts": 2
+          "GF": 20,
+          "GC": 9,
+          "DG": 11,
+          "Pts": 4
         },
         {
-          "team": "PL-28 San Luis V",
-          "PJ": 1,
+          "team": "PL-26 San Luis IV",
+          "PJ": 2,
           "G": 1,
           "E": 0,
-          "P": 0,
-          "GF": 10,
-          "GC": 0,
-          "DG": 10,
+          "P": 1,
+          "GF": 19,
+          "GC": 10,
+          "DG": 9,
           "Pts": 2
         },
         {
@@ -303,8 +303,8 @@
   },
   "knockout": {
     "sf1": {
-      "home": "",
-      "away": "",
+      "home": "PL-03 Cedral",
+      "away": "PL-08 Xilitla",
       "gh": null,
       "ga": null,
       "winner": "",
@@ -312,8 +312,8 @@
       "place": "CEDETAR · Cancha 1"
     },
     "sf2": {
-      "home": "",
-      "away": "",
+      "home": "PL-28 San Luis V",
+      "away": "PL-17 San Luis I Pavón",
       "gh": null,
       "ga": null,
       "winner": "",
@@ -321,8 +321,8 @@
       "place": "CEDETAR · Cancha 2"
     },
     "final": {
-      "home": "",
-      "away": "",
+      "home": "Ganador SF1",
+      "away": "Ganador SF2",
       "gh": null,
       "ga": null,
       "winner": "",
@@ -330,8 +330,8 @@
       "place": "CEDETAR · Cancha 1"
     },
     "third": {
-      "home": "",
-      "away": "",
+      "home": "Perdedor SF1",
+      "away": "Perdedor SF2",
       "gh": null,
       "ga": null,
       "winner": "",
@@ -339,8 +339,8 @@
       "place": "CEDETAR · Cancha 2"
     }
   },
-  "lastUpdated": "2026-11-19T15:55:44.118Z",
-  "updatedAt": "2026-11-19T15:55:44.118Z",
-  "timestamp": "2026-11-19T15:55:44.118Z",
-  "updatedAtLocal": "19/11/2026 09:55"
+  "lastUpdated": "2026-11-19T15:56:46.383Z",
+  "updatedAt": "2026-11-19T15:56:46.383Z",
+  "timestamp": "2026-11-19T15:56:46.383Z",
+  "updatedAtLocal": "19/11/2026 09:56"
 }
