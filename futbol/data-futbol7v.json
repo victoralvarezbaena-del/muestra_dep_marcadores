@@ -70,16 +70,16 @@
         {
           "home": "PL-25 San Luis III",
           "away": "PL-38 Mecatlán",
-          "gh": null,
-          "ga": null,
+          "gh": 1,
+          "ga": 0,
           "hour": "Jue 19 nov · 08:00",
           "place": "U. Politécnica · Campo F7 2"
         },
         {
           "home": "PL-38 Mecatlán",
           "away": "PL-26 San Luis IV",
-          "gh": null,
-          "ga": null,
+          "gh": 1,
+          "ga": 2,
           "hour": "Jue 19 nov · 12:00",
           "place": "U. Politécnica · Campo F7 1"
         }
@@ -111,8 +111,8 @@
         {
           "home": "CE-07 Sto. Domingo",
           "away": "CE-05 Tlaletla",
-          "gh": null,
-          "ga": null,
+          "gh": 0,
+          "ga": 1,
           "hour": "Jue 19 nov · 12:00",
           "place": "U. Politécnica · Campo F7 2"
         }
@@ -131,7 +131,8 @@
           "gh": 0,
           "ga": 0,
           "hour": "Mié 18 nov · 11:00",
-          "place": "U. Politécnica · Campo F7 2"
+          "place": "U. Politécnica · Campo F7 2",
+          "pen": "home"
         },
         {
           "home": "PL-07 Ahualulco",
@@ -144,8 +145,8 @@
         {
           "home": "CE-19 Coyoles",
           "away": "PL-01 Soledad",
-          "gh": null,
-          "ga": null,
+          "gh": 0,
+          "ga": 4,
           "hour": "Jue 19 nov · 09:00",
           "place": "U. Politécnica · Campo F7 2"
         }
@@ -177,8 +178,8 @@
         {
           "home": "PL-22 Tamuín",
           "away": "PL-37 Tamapatz",
-          "gh": null,
-          "ga": null,
+          "gh": 1,
+          "ga": 0,
           "hour": "Jue 19 nov · 10:00",
           "place": "U. Politécnica · Campo F7 2"
         }
@@ -187,8 +188,8 @@
   },
   "knockout": {
     "sf1": {
-      "home": "",
-      "away": "",
+      "home": "PL-26 San Luis IV",
+      "away": "CE-05 Tlaletla",
       "gh": null,
       "ga": null,
       "winner": "",
@@ -196,8 +197,8 @@
       "place": "U. Politécnica · Campo F7 1"
     },
     "sf2": {
-      "home": "",
-      "away": "",
+      "home": "PL-01 Soledad",
+      "away": "PL-22 Tamuín",
       "gh": null,
       "ga": null,
       "winner": "",
