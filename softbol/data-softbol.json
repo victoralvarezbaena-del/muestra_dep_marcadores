@@ -73,8 +73,8 @@
         {
           "home": "PL-07 Ahualulco",
           "away": "PL-03 Cedral",
-          "gh": null,
-          "ga": null,
+          "gh": 14,
+          "ga": 4,
           "hour": "Jue 19 nov · 08:00",
           "place": "Tangamanga I · Campo 1"
         },
@@ -178,8 +178,8 @@
     "color": "#487a93",
     "bg": "#cce0f5"
   },
-  "updatedAtLocal": "18/11/2026 15:08",
-  "updatedAt": "2026-11-18T21:08:02.367Z",
-  "lastUpdated": "2026-11-18T21:08:02.367Z",
-  "timestamp": "2026-11-18T21:08:02.367Z"
+  "updatedAtLocal": "19/11/2026 09:19",
+  "updatedAt": "2026-11-19T15:19:50.732Z",
+  "lastUpdated": "2026-11-19T15:19:50.732Z",
+  "timestamp": "2026-11-19T15:19:50.732Z"
 }
