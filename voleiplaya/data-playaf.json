@@ -210,7 +210,16 @@
         {
           "home": "PL-26 San Luis IV",
           "away": "PL-19 San Luis II",
-          "sets": [],
+          "sets": [
+            {
+              "home": 21,
+              "away": 17
+            },
+            {
+              "home": 21,
+              "away": 13
+            }
+          ],
           "hour": "Jue 19 nov · 10:40",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
@@ -267,8 +276,8 @@
     "color": "#ab75d7",
     "bg": "#4c2361"
   },
-  "updatedAtLocal": "19/11/2026 10:29",
-  "updatedAt": "2026-11-19T16:29:49.979Z",
-  "lastUpdated": "2026-11-19T16:29:49.979Z",
-  "timestamp": "2026-11-19T16:29:49.979Z"
+  "updatedAtLocal": "19/11/2026 11:13",
+  "updatedAt": "2026-11-19T17:13:17.006Z",
+  "lastUpdated": "2026-11-19T17:13:17.006Z",
+  "timestamp": "2026-11-19T17:13:17.006Z"
 }
