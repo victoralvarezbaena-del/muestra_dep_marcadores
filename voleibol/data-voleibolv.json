@@ -84,7 +84,20 @@
         {
           "home": "PL-26 San Luis IV",
           "away": "PL-03 Cedral",
-          "sets": [],
+          "sets": [
+            {
+              "home": 22,
+              "away": 25
+            },
+            {
+              "home": 26,
+              "away": 24
+            },
+            {
+              "home": 9,
+              "away": 15
+            }
+          ],
           "hour": "Jue 19 nov · 11:40",
           "place": "Plantel 26 San Luis IV · Cancha 1"
         }
@@ -272,16 +285,16 @@
   },
   "knockout": {
     "sf1": {
-      "home": "",
-      "away": "",
+      "home": "PL-03 Cedral",
+      "away": "PL-01 Soledad",
       "sets": [],
       "winner": "",
       "hour": "Jue 19 nov · 13:20",
       "place": "Plantel 26 San Luis IV · Cancha 2"
     },
     "sf2": {
-      "home": "",
-      "away": "",
+      "home": "PL-28 San Luis V",
+      "away": "PL-17 San Luis I Pavón",
       "sets": [],
       "winner": "",
       "hour": "Jue 19 nov · 13:20",
@@ -309,8 +322,8 @@
     "color": "#8308e7",
     "bg": "#dcc8ea"
   },
-  "updatedAtLocal": "19/11/2026 13:27",
-  "updatedAt": "2026-11-19T19:27:44.803Z",
-  "lastUpdated": "2026-11-19T19:27:44.803Z",
-  "timestamp": "2026-11-19T19:27:44.803Z"
+  "updatedAtLocal": "19/11/2026 13:32",
+  "updatedAt": "2026-11-19T19:32:12.254Z",
+  "lastUpdated": "2026-11-19T19:32:12.254Z",
+  "timestamp": "2026-11-19T19:32:12.254Z"
 }
