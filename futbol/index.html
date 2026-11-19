@@ -250,6 +250,9 @@
     }
 
     /* Estados de partidos */
+    .match-result { flex-wrap: wrap; }
+    .points-note { margin-top:14px; padding:10px 14px; border-radius:10px; background:color-mix(in srgb, var(--accent, #0284c7) 8%, white); font-size:.9rem; line-height:1.4; }
+    .pen-note { display:block; width:100%; max-width:90px; margin:2px auto 0; text-align:center; font-size:.7rem; line-height:1.2; font-weight:600; opacity:.8; }
     .match-result {
       display: flex;
       justify-content: center;
@@ -653,8 +656,16 @@ function teamIdentity(name,soloMascota){const p=teamProfiles[name]||{};const lab
         } else {
           homeTeam.E++;
           awayTeam.E++;
-          homeTeam.Pts += pointsConfig.draw;
-          awayTeam.Pts += pointsConfig.draw;
+          // Empate definido en penales (match.pen = 'home' | 'away'), si el torneo lo usa
+          if ((match.pen === 'home' || match.pen === 'away') && pointsConfig.penWin != null) {
+            const w = match.pen === 'home' ? homeTeam : awayTeam;
+            const l = match.pen === 'home' ? awayTeam : homeTeam;
+            w.Pts += pointsConfig.penWin;
+            l.Pts += (pointsConfig.penLoss != null ? pointsConfig.penLoss : pointsConfig.draw);
+          } else {
+            homeTeam.Pts += pointsConfig.draw;
+            awayTeam.Pts += pointsConfig.draw;
+          }
         }
       });
       
@@ -677,8 +688,9 @@ function teamIdentity(name,soloMascota){const p=teamProfiles[name]||{};const lab
       // Asegurar que match siempre sea un objeto
       const _m = Object.assign({gh:null,ga:null,hour:'',place:''}, match || {});
       const hasResult = _m.gh !== null && _m.ga !== null;
-      const homeWinner = hasResult && _m.gh > _m.ga;
-      const awayWinner = hasResult && _m.gh < _m.ga;
+      const penWin = hasResult && _m.gh === _m.ga && (_m.pen === 'home' || _m.pen === 'away') ? _m.pen : '';
+      const homeWinner = hasResult && (_m.gh > _m.ga || penWin === 'home');
+      const awayWinner = hasResult && (_m.gh < _m.ga || penWin === 'away');
       
       // Usar nombres por defecto si no están definidos
       const homeName = _m.home || defaultHome || 'Equipo Local';
@@ -694,6 +706,7 @@ function teamIdentity(name,soloMascota){const p=teamProfiles[name]||{};const lab
               <span>${_m.gh}</span>
               <span class="dash">—</span>
               <span>${_m.ga}</span>
+              ${penWin ? `<span class="pen-note">Gana en penales<br>${String(penWin === 'home' ? homeName : awayName).split(' ')[0]}</span>` : ''}
             ` : '<span class="dash">-</span>'}
           </div>
           <div class="team ${awayWinner ? 'winner' : ''}" style="justify-content:flex-end">
@@ -734,7 +747,7 @@ function teamIdentity(name,soloMascota){const p=teamProfiles[name]||{};const lab
     }
 
     // Renderizar fase de grupos
-    function renderGroups(groups) {
+    function renderGroups(groups, pointsConfig) {
       let html = '<div class="card"><h2>Fase de Grupos</h2><div class="groups">';
       
       ['A', 'B', 'C', 'D'].forEach(groupKey => {
@@ -758,7 +771,7 @@ function teamIdentity(name,soloMascota){const p=teamProfiles[name]||{};const lab
         html += `</div>`;
         
         // Tabla de posiciones
-        const table = computeTable(matches, teams);
+        const table = computeTable(matches, teams, pointsConfig);
         html += `
           <div class="table-wrap">
             <table>
@@ -791,7 +804,17 @@ function teamIdentity(name,soloMascota){const p=teamProfiles[name]||{};const lab
         html += `</div>`;
       });
       
-      html += '</div></div>';
+      html += '</div>';
+      // Explicación del sistema de puntos cuando el torneo define empates en penales
+      const pc = pointsConfig || {};
+      if (pc.penWin != null) {
+        html += `<div class="points-note">
+          <strong>Sistema de puntos:</strong> victoria ${pc.win} pts · derrota ${pc.loss} pts.
+          Si el partido termina empatado se define en penales: el ganador suma ${pc.penWin} pts y el perdedor ${pc.penLoss != null ? pc.penLoss : pc.draw} pt${(pc.penLoss != null ? pc.penLoss : pc.draw) === 1 ? '' : 's'}.
+          El marcador muestra los goles del partido y debajo quién ganó en penales.
+        </div>`;
+      }
+      html += '</div>';
       return html;
     }
 
@@ -872,7 +895,7 @@ function teamIdentity(name,soloMascota){const p=teamProfiles[name]||{};const lab
       
       // Fase de grupos
       if (data.groups) {
-        html += renderGroups(data.groups);
+        html += renderGroups(data.groups, data.points);
       }
       
       // Fase eliminatoria

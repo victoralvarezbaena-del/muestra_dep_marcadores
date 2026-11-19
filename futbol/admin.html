@@ -393,8 +393,16 @@ function computeTable(matches, teams) {
     } else {
       homeTeam.E++;
       awayTeam.E++;
-      homeTeam.Pts += cfg.draw;
-      awayTeam.Pts += cfg.draw;
+      // Empate definido en penales (match.pen = 'home' | 'away'), si el torneo lo usa
+      if ((match.pen === 'home' || match.pen === 'away') && cfg.penWin != null) {
+        const w = match.pen === 'home' ? homeTeam : awayTeam;
+        const l = match.pen === 'home' ? awayTeam : homeTeam;
+        w.Pts += cfg.penWin;
+        l.Pts += (cfg.penLoss != null ? cfg.penLoss : cfg.draw);
+      } else {
+        homeTeam.Pts += cfg.draw;
+        awayTeam.Pts += cfg.draw;
+      }
     }
   });
   
@@ -453,6 +461,17 @@ function renderGroups() {
         </div>
         <div class="team" style="justify-content:flex-end">${teamIdentity(away)}</div>
       `;
+      if (state.points && state.points.penWin != null && existingMatch.gh != null && existingMatch.gh === existingMatch.ga) {
+        matchDiv.insertAdjacentHTML('beforeend', `
+          <div class="pen-row" style="grid-column:1/-1;text-align:center;font-size:.85rem">
+            Penales:
+            <select class="match-pen" data-group="${groupKey}" data-home="${home}" data-away="${away}">
+              <option value="" ${!existingMatch.pen ? 'selected' : ''}>— sin penales —</option>
+              <option value="home" ${existingMatch.pen === 'home' ? 'selected' : ''}>Gana ${home}</option>
+              <option value="away" ${existingMatch.pen === 'away' ? 'selected' : ''}>Gana ${away}</option>
+            </select>
+          </div>`);
+      }
       
       const infoDiv = document.createElement('div');
       infoDiv.className = 'info';
@@ -527,6 +546,8 @@ function setupGroupEventListeners() {
       } else {
         match.ga = valInt(this.value);
       }
+      // Los penales solo valen si hay empate
+      if (match.pen && !(match.gh != null && match.gh === match.ga)) delete match.pen;
       
       saveState();
       renderGroups();
@@ -534,6 +555,19 @@ function setupGroupEventListeners() {
     });
   });
   
+  // Ganador en penales (solo empates)
+  document.querySelectorAll('.match-pen').forEach(sel => {
+    sel.addEventListener('change', function() {
+      const g = this.dataset.group, home = this.dataset.home, away = this.dataset.away;
+      const match = state.groups[g].matches.find(m => m.home === home && m.away === away);
+      if (!match) return;
+      if (this.value === 'home' || this.value === 'away') match.pen = this.value; else delete match.pen;
+      saveState();
+      renderGroups();
+      updateKnockout();
+    });
+  });
+
   // Hora y lugar
   document.querySelectorAll('.match-hour, .match-place').forEach(input => {
     input.addEventListener('change', function() {

@@ -98,7 +98,8 @@
           "gh": 1,
           "ga": 1,
           "hour": "Mié 18 nov · 09:00",
-          "place": "U. Politécnica · Campo F7 1"
+          "place": "U. Politécnica · Campo F7 1",
+          "pen": "home"
         },
         {
           "home": "PL-17 San Luis I Pavón",
@@ -226,7 +227,9 @@
   "points": {
     "win": 3,
     "draw": 1,
-    "loss": 0
+    "loss": 0,
+    "penWin": 2,
+    "penLoss": 1
   },
   "updatedAtLocal": "19/11/2026 08:01",
   "theme": {
