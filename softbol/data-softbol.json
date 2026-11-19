@@ -114,8 +114,8 @@
         {
           "home": "PL-17 San Luis I Pavón",
           "away": "PL-11 Rayón",
-          "gh": null,
-          "ga": null,
+          "gh": 9,
+          "ga": 28,
           "hour": "Jue 19 nov · 09:50",
           "place": "Tangamanga I · Campo 1"
         }
@@ -130,7 +130,7 @@
   "knockout": {
     "sf1": {
       "home": "PL-07 Ahualulco",
-      "away": "",
+      "away": "PL-11 Rayón",
       "gh": null,
       "ga": null,
       "winner": "",
@@ -178,8 +178,8 @@
     "color": "#487a93",
     "bg": "#cce0f5"
   },
-  "updatedAtLocal": "19/11/2026 09:40",
-  "updatedAt": "2026-11-19T15:40:07.818Z",
-  "lastUpdated": "2026-11-19T15:40:07.818Z",
-  "timestamp": "2026-11-19T15:40:07.818Z"
+  "updatedAtLocal": "19/11/2026 12:48",
+  "updatedAt": "2026-11-19T18:48:43.562Z",
+  "lastUpdated": "2026-11-19T18:48:43.562Z",
+  "timestamp": "2026-11-19T18:48:43.562Z"
 }
