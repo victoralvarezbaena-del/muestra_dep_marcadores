@@ -238,15 +238,15 @@
     "sf2": {
       "home": "PL-08 Xilitla",
       "away": "PL-17 San Luis I Pavón",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 23,
+      "ga": 10,
+      "winner": "PL-08 Xilitla",
       "hour": "Jue 19 nov · 13:00",
       "place": "CEDETAR · Cancha 2"
     },
     "final": {
       "home": "PL-03 Cedral",
-      "away": "",
+      "away": "PL-08 Xilitla",
       "gh": null,
       "ga": null,
       "winner": "",
@@ -255,7 +255,7 @@
     },
     "third": {
       "home": "PL-28 San Luis V",
-      "away": "",
+      "away": "PL-17 San Luis I Pavón",
       "gh": null,
       "ga": null,
       "winner": "",
@@ -263,9 +263,9 @@
       "place": "CEDETAR · Cancha 2"
     }
   },
-  "lastUpdated": "2026-11-19T20:13:33.260Z",
+  "lastUpdated": "2026-11-19T20:50:49.103Z",
   "format": "2_grupos_3o4_equipos",
-  "updatedAt": "2026-11-19T20:13:33.260Z",
-  "timestamp": "2026-11-19T20:13:33.260Z",
-  "updatedAtLocal": "19/11/2026 14:13"
+  "updatedAt": "2026-11-19T20:50:49.103Z",
+  "timestamp": "2026-11-19T20:50:49.103Z",
+  "updatedAtLocal": "19/11/2026 14:50"
 }
