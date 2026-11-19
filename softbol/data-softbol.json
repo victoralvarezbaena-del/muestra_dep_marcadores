@@ -129,7 +129,7 @@
   },
   "knockout": {
     "sf1": {
-      "home": "",
+      "home": "PL-07 Ahualulco",
       "away": "",
       "gh": null,
       "ga": null,
@@ -140,8 +140,8 @@
       "awayName": ""
     },
     "sf2": {
-      "home": "",
-      "away": "",
+      "home": "PL-06 Valles I",
+      "away": "PL-04 El Naranjo",
       "gh": null,
       "ga": null,
       "winner": "",
