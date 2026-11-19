@@ -111,8 +111,8 @@
         {
           "home": "PL-05 Cd. Fernández",
           "away": "PL-24 Valles II",
-          "gh": null,
-          "ga": null,
+          "gh": 35,
+          "ga": 28,
           "hour": "Jue 19 nov · 13:10",
           "place": "U. Politécnica · Cancha 2"
         }
@@ -188,7 +188,7 @@
   "knockout": {
     "sf1": {
       "home": "PL-28 San Luis V",
-      "away": "",
+      "away": "PL-05 Cd. Fernández",
       "gh": null,
       "ga": null,
       "winner": "",
@@ -223,7 +223,7 @@
       "place": "U. Politécnica · Cancha 2"
     }
   },
-  "updatedAtLocal": "19/11/2026 12:43",
+  "updatedAtLocal": "19/11/2026 14:53",
   "theme": {
     "color": "#db6a00",
     "bg": "#eed48b"
@@ -233,7 +233,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-19T18:43:23.407Z",
-  "lastUpdated": "2026-11-19T18:43:23.407Z",
-  "timestamp": "2026-11-19T18:43:23.407Z"
+  "updatedAt": "2026-11-19T20:53:35.252Z",
+  "lastUpdated": "2026-11-19T20:53:35.252Z",
+  "timestamp": "2026-11-19T20:53:35.252Z"
 }
