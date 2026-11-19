@@ -222,7 +222,16 @@
         {
           "home": "CE-21 La Pila",
           "away": "PL-03 Cedral",
-          "sets": [],
+          "sets": [
+            {
+              "home": 13,
+              "away": 21
+            },
+            {
+              "home": 10,
+              "away": 21
+            }
+          ],
           "hour": "Jue 19 nov · 11:20",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
@@ -279,8 +288,8 @@
     "color": "#8308e7",
     "bg": "#4c2361"
   },
-  "updatedAtLocal": "19/11/2026 09:54",
-  "updatedAt": "2026-11-19T15:54:23.843Z",
-  "lastUpdated": "2026-11-19T15:54:23.843Z",
-  "timestamp": "2026-11-19T15:54:23.843Z"
+  "updatedAtLocal": "19/11/2026 11:44",
+  "updatedAt": "2026-11-19T17:44:00.660Z",
+  "lastUpdated": "2026-11-19T17:44:00.660Z",
+  "timestamp": "2026-11-19T17:44:00.660Z"
 }
