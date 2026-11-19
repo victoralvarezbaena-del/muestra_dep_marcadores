@@ -77,16 +77,16 @@
         {
           "home": "PL-10 Moctezuma",
           "away": "PL-11 Rayón",
-          "gh": null,
-          "ga": null,
+          "gh": 2,
+          "ga": 3,
           "hour": "Jue 19 nov · 08:00",
           "place": "Tangamanga I · Campo 1"
         },
         {
           "home": "PL-19 San Luis II",
           "away": "PL-02 Villa Hidalgo",
-          "gh": null,
-          "ga": null,
+          "gh": 2,
+          "ga": 14,
           "hour": "Jue 19 nov · 08:00",
           "place": "Tangamanga I · Campo 2"
         }
@@ -207,8 +207,8 @@
     "color": "#004b70",
     "bg": "#f8fafc"
   },
-  "updatedAtLocal": "18/11/2026 17:05",
-  "updatedAt": "2026-11-18T23:05:08.081Z",
-  "lastUpdated": "2026-11-18T23:05:08.081Z",
-  "timestamp": "2026-11-18T23:05:08.081Z"
+  "updatedAtLocal": "19/11/2026 10:39",
+  "updatedAt": "2026-11-19T16:39:13.733Z",
+  "lastUpdated": "2026-11-19T16:39:13.733Z",
+  "timestamp": "2026-11-19T16:39:13.733Z"
 }
