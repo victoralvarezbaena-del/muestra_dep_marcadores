@@ -143,8 +143,8 @@
         {
           "home": "CE-19 Coyoles",
           "away": "CE-09 Guadalcázar",
-          "gh": null,
-          "ga": null,
+          "gh": 8,
+          "ga": 5,
           "hour": "Jue 19 nov · 09:50",
           "place": "Tangamanga I · Campo 2"
         }
@@ -207,8 +207,8 @@
     "color": "#004b70",
     "bg": "#f8fafc"
   },
-  "updatedAtLocal": "19/11/2026 10:39",
-  "updatedAt": "2026-11-19T16:39:13.733Z",
-  "lastUpdated": "2026-11-19T16:39:13.733Z",
-  "timestamp": "2026-11-19T16:39:13.733Z"
+  "updatedAtLocal": "19/11/2026 12:10",
+  "updatedAt": "2026-11-19T18:10:17.215Z",
+  "lastUpdated": "2026-11-19T18:10:17.215Z",
+  "timestamp": "2026-11-19T18:10:17.215Z"
 }
