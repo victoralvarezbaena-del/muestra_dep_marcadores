@@ -83,8 +83,8 @@
         {
           "home": "PL-03 Cedral",
           "away": "PL-06 Valles I",
-          "gh": null,
-          "ga": null,
+          "gh": 12,
+          "ga": 2,
           "hour": "Jue 19 nov · 10:00",
           "place": "CEDETAR · Cancha 1"
         },
@@ -100,25 +100,14 @@
       "table": [
         {
           "team": "PL-03 Cedral",
-          "PJ": 2,
-          "G": 2,
+          "PJ": 3,
+          "G": 3,
           "E": 0,
           "P": 0,
-          "GF": 41,
-          "GC": 11,
-          "DG": 30,
-          "Pts": 4
-        },
-        {
-          "team": "PL-06 Valles I",
-          "PJ": 2,
-          "G": 1,
-          "E": 0,
-          "P": 1,
-          "GF": 18,
-          "GC": 12,
-          "DG": 6,
-          "Pts": 2
+          "GF": 53,
+          "GC": 13,
+          "DG": 40,
+          "Pts": 6
         },
         {
           "team": "PL-17 San Luis I Pavón",
@@ -129,6 +118,17 @@
           "GF": 20,
           "GC": 21,
           "DG": -1,
+          "Pts": 2
+        },
+        {
+          "team": "PL-06 Valles I",
+          "PJ": 3,
+          "G": 1,
+          "E": 0,
+          "P": 2,
+          "GF": 20,
+          "GC": 24,
+          "DG": -4,
           "Pts": 2
         },
         {
@@ -216,7 +216,7 @@
   "qualifiedTeams": {
     "firstA": "PL-03 Cedral",
     "firstB": "PL-08 Xilitla",
-    "secondA": "PL-06 Valles I",
+    "secondA": "PL-17 San Luis I Pavón",
     "secondB": "PL-33 Axtla"
   },
   "semifinalTeams": {
@@ -263,9 +263,9 @@
       "place": "CEDETAR · Cancha 2"
     }
   },
-  "lastUpdated": "2026-11-18T20:06:17.547Z",
+  "lastUpdated": "2026-11-19T16:58:35.103Z",
   "format": "2_grupos_3o4_equipos",
-  "updatedAt": "2026-11-18T20:06:17.547Z",
-  "timestamp": "2026-11-18T20:06:17.547Z",
-  "updatedAtLocal": "18/11/2026 14:06"
+  "updatedAt": "2026-11-19T16:58:35.103Z",
+  "timestamp": "2026-11-19T16:58:35.103Z",
+  "updatedAtLocal": "19/11/2026 10:58"
 }
