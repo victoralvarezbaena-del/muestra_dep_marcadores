@@ -226,7 +226,9 @@
   "points": {
     "win": 3,
     "draw": 1,
-    "loss": 0
+    "loss": 0,
+    "penWin": 2,
+    "penLoss": 1
   },
   "updatedAtLocal": "18/11/2026 21:09",
   "theme": {
