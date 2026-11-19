@@ -82,8 +82,8 @@
         {
           "home": "PL-14 Tancanhuitz",
           "away": "PL-06 Valles I",
-          "gh": null,
-          "ga": null,
+          "gh": 7,
+          "ga": 20,
           "hour": "Jue 19 nov · 08:00",
           "place": "CEDETAR · Cancha 1"
         }
@@ -102,24 +102,24 @@
         },
         {
           "team": "PL-06 Valles I",
-          "PJ": 1,
-          "G": 0,
+          "PJ": 2,
+          "G": 1,
           "E": 0,
           "P": 1,
-          "GF": 4,
-          "GC": 24,
-          "DG": -20,
-          "Pts": 0
+          "GF": 24,
+          "GC": 31,
+          "DG": -7,
+          "Pts": 2
         },
         {
           "team": "PL-14 Tancanhuitz",
-          "PJ": 1,
+          "PJ": 2,
           "G": 0,
           "E": 0,
-          "P": 1,
-          "GF": 1,
-          "GC": 39,
-          "DG": -38,
+          "P": 2,
+          "GF": 8,
+          "GC": 59,
+          "DG": -51,
           "Pts": 0
         }
       ]
@@ -339,8 +339,8 @@
       "place": "CEDETAR · Cancha 2"
     }
   },
-  "lastUpdated": "2026-11-18T20:34:35.052Z",
-  "updatedAt": "2026-11-18T20:34:35.052Z",
-  "timestamp": "2026-11-18T20:34:35.052Z",
-  "updatedAtLocal": "18/11/2026 14:34"
+  "lastUpdated": "2026-11-19T15:04:31.219Z",
+  "updatedAt": "2026-11-19T15:04:31.219Z",
+  "timestamp": "2026-11-19T15:04:31.219Z",
+  "updatedAtLocal": "19/11/2026 09:04"
 }
