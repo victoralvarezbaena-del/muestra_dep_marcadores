@@ -74,8 +74,8 @@
         {
           "home": "PL-14 Tancanhuitz",
           "away": "PL-05 Cd. Fernández",
-          "gh": null,
-          "ga": null,
+          "gh": 0,
+          "ga": 2,
           "hour": "Jue 19 nov · 08:00",
           "place": "U. Politécnica · Media cancha 1"
         }
@@ -202,7 +202,7 @@
       "place": "U. Politécnica · Media cancha 2"
     }
   },
-  "updatedAtLocal": "18/11/2026 09:55",
+  "updatedAtLocal": "19/11/2026 09:05",
   "theme": {
     "color": "#df944e",
     "bg": "#ecb009"
@@ -212,7 +212,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-18T15:55:29.533Z",
-  "lastUpdated": "2026-11-18T15:55:29.533Z",
-  "timestamp": "2026-11-18T15:55:29.533Z"
+  "updatedAt": "2026-11-19T15:05:24.181Z",
+  "lastUpdated": "2026-11-19T15:05:24.181Z",
+  "timestamp": "2026-11-19T15:05:24.181Z"
 }
