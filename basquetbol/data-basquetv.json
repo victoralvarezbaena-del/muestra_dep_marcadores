@@ -177,8 +177,8 @@
         {
           "home": "PL-10 Moctezuma",
           "away": "PL-38 Mecatlán",
-          "gh": null,
-          "ga": null,
+          "gh": 23,
+          "ga": 34,
           "hour": "Jue 19 nov · 11:10",
           "place": "U. Politécnica · Cancha 2"
         }
@@ -223,7 +223,7 @@
       "place": "U. Politécnica · Cancha 2"
     }
   },
-  "updatedAtLocal": "19/11/2026 11:10",
+  "updatedAtLocal": "19/11/2026 12:03",
   "theme": {
     "color": "#db6a00",
     "bg": "#eed48b"
@@ -233,7 +233,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-19T17:10:08.750Z",
-  "lastUpdated": "2026-11-19T17:10:08.750Z",
-  "timestamp": "2026-11-19T17:10:08.750Z"
+  "updatedAt": "2026-11-19T18:03:15.210Z",
+  "lastUpdated": "2026-11-19T18:03:15.210Z",
+  "timestamp": "2026-11-19T18:03:15.210Z"
 }
