@@ -135,8 +135,8 @@
         {
           "home": "CE-15 Ojo de Agua",
           "away": "PL-06 Valles I",
-          "gh": null,
-          "ga": null,
+          "gh": 3,
+          "ga": 2,
           "hour": "Jue 19 nov · 09:50",
           "place": "Tangamanga I · Campo 1"
         },
@@ -159,7 +159,7 @@
   "knockout": {
     "sf1": {
       "home": "PL-02 Villa Hidalgo",
-      "away": "",
+      "away": "CE-19 Coyoles",
       "gh": null,
       "ga": null,
       "winner": "",
@@ -169,7 +169,7 @@
       "awayName": ""
     },
     "sf2": {
-      "home": "",
+      "home": "PL-06 Valles I",
       "away": "PL-19 San Luis II",
       "gh": null,
       "ga": null,
@@ -207,8 +207,8 @@
     "color": "#004b70",
     "bg": "#f8fafc"
   },
-  "updatedAtLocal": "19/11/2026 12:10",
-  "updatedAt": "2026-11-19T18:10:17.215Z",
-  "lastUpdated": "2026-11-19T18:10:17.215Z",
-  "timestamp": "2026-11-19T18:10:17.215Z"
+  "updatedAtLocal": "19/11/2026 12:15",
+  "updatedAt": "2026-11-19T18:15:04.140Z",
+  "lastUpdated": "2026-11-19T18:15:04.140Z",
+  "timestamp": "2026-11-19T18:15:04.140Z"
 }
