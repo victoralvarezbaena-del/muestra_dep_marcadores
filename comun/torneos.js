@@ -38,8 +38,10 @@ window.mcdNorm = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').t
 window.mcdEquiposKO = function (data, key) {
   const k = (data.knockout || {})[key] || {};
   const st = data.semifinalTeams || {};
-  let home = k.homeName || k.home || '';
-  let away = k.awayName || k.away || '';
+  // Los administradores ponen textos provisionales ('Ganador SF1', 'Perdedor SF2', '1° Grupo A'…): no son equipos
+  const real = n => (n && !/^(ganador|perdedor)\s*(de\s*)?(la\s*)?(sf|semi(final)?)\s*[12]$|^\d\s*[°ºo]?\s*(lugar\s*)?(del?\s*)?grupo\s*[a-d]$/i.test(String(n).trim())) ? n : '';
+  let home = real(k.homeName || k.home || '');
+  let away = real(k.awayName || k.away || '');
   if (key === 'sf1') { home = home || st.sf1Home || ''; away = away || st.sf1Away || ''; }
   if (key === 'sf2') { home = home || st.sf2Home || ''; away = away || st.sf2Away || ''; }
   if (key === 'final' || key === 'third') {
