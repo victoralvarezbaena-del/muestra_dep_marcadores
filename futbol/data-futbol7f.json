@@ -192,24 +192,24 @@
     "sf1": {
       "home": "PL-25 San Luis III",
       "away": "PL-29 V. Zaragoza",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 2,
+      "ga": 1,
+      "winner": "PL-25 San Luis III",
       "hour": "Jue 19 nov · 13:00",
       "place": "U. Politécnica · Campo F7 1"
     },
     "sf2": {
       "home": "PL-34 El Pujal",
       "away": "PL-08 Xilitla",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 2,
+      "ga": 0,
+      "winner": "PL-34 El Pujal",
       "hour": "Jue 19 nov · 13:00",
       "place": "U. Politécnica · Campo F7 2"
     },
     "final": {
-      "home": "",
-      "away": "",
+      "home": "PL-25 San Luis III",
+      "away": "PL-34 El Pujal",
       "gh": null,
       "ga": null,
       "winner": "",
@@ -217,8 +217,8 @@
       "place": "U. Politécnica · Campo F7 1"
     },
     "third": {
-      "home": "",
-      "away": "",
+      "home": "PL-29 V. Zaragoza",
+      "away": "PL-08 Xilitla",
       "gh": null,
       "ga": null,
       "winner": "",

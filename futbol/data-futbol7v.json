@@ -190,24 +190,24 @@
     "sf1": {
       "home": "PL-26 San Luis IV",
       "away": "CE-05 Tlaletla",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 1,
+      "ga": 4,
+      "winner": "CE-05 Tlaletla",
       "hour": "Jue 19 nov · 14:00",
       "place": "U. Politécnica · Campo F7 1"
     },
     "sf2": {
       "home": "PL-01 Soledad",
       "away": "PL-22 Tamuín",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 2,
+      "ga": 1,
+      "winner": "PL-01 Soledad",
       "hour": "Jue 19 nov · 14:00",
       "place": "U. Politécnica · Campo F7 2"
     },
     "final": {
-      "home": "",
-      "away": "",
+      "home": "CE-05 Tlaletla",
+      "away": "PL-01 Soledad",
       "gh": null,
       "ga": null,
       "winner": "",
@@ -215,8 +215,8 @@
       "place": "U. Politécnica · Campo F7 1"
     },
     "third": {
-      "home": "",
-      "away": "",
+      "home": "PL-26 San Luis IV",
+      "away": "PL-22 Tamuín",
       "gh": null,
       "ga": null,
       "winner": "",
