@@ -144,8 +144,8 @@
         {
           "home": "PL-27 San Martín CH.",
           "away": "PL-17 San Luis I Pavón",
-          "gh": null,
-          "ga": null,
+          "gh": 39,
+          "ga": 26,
           "hour": "Jue 19 nov · 10:10",
           "place": "U. Politécnica · Cancha 2"
         }
@@ -223,7 +223,7 @@
       "place": "U. Politécnica · Cancha 2"
     }
   },
-  "updatedAtLocal": "18/11/2026 17:06",
+  "updatedAtLocal": "19/11/2026 11:10",
   "theme": {
     "color": "#db6a00",
     "bg": "#eed48b"
@@ -233,7 +233,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-18T23:06:39.348Z",
-  "lastUpdated": "2026-11-18T23:06:39.348Z",
-  "timestamp": "2026-11-18T23:06:39.348Z"
+  "updatedAt": "2026-11-19T17:10:08.750Z",
+  "lastUpdated": "2026-11-19T17:10:08.750Z",
+  "timestamp": "2026-11-19T17:10:08.750Z"
 }
