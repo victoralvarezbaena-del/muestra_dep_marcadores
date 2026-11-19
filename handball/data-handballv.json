@@ -305,24 +305,24 @@
     "sf1": {
       "home": "PL-03 Cedral",
       "away": "PL-08 Xilitla",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 10,
+      "ga": 9,
+      "winner": "PL-03 Cedral",
       "hour": "Jue 19 nov · 12:00",
       "place": "CEDETAR · Cancha 1"
     },
     "sf2": {
       "home": "PL-28 San Luis V",
       "away": "PL-17 San Luis I Pavón",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 19,
+      "ga": 24,
+      "winner": "PL-17 San Luis I Pavón",
       "hour": "Jue 19 nov · 12:00",
       "place": "CEDETAR · Cancha 2"
     },
     "final": {
-      "home": "Ganador SF1",
-      "away": "Ganador SF2",
+      "home": "PL-03 Cedral",
+      "away": "PL-17 San Luis I Pavón",
       "gh": null,
       "ga": null,
       "winner": "",
@@ -330,8 +330,8 @@
       "place": "CEDETAR · Cancha 1"
     },
     "third": {
-      "home": "Perdedor SF1",
-      "away": "Perdedor SF2",
+      "home": "PL-08 Xilitla",
+      "away": "PL-28 San Luis V",
       "gh": null,
       "ga": null,
       "winner": "",
@@ -339,8 +339,8 @@
       "place": "CEDETAR · Cancha 2"
     }
   },
-  "lastUpdated": "2026-11-19T15:56:46.383Z",
-  "updatedAt": "2026-11-19T15:56:46.383Z",
-  "timestamp": "2026-11-19T15:56:46.383Z",
-  "updatedAtLocal": "19/11/2026 09:56"
+  "lastUpdated": "2026-11-19T19:05:09.624Z",
+  "updatedAt": "2026-11-19T19:05:09.624Z",
+  "timestamp": "2026-11-19T19:05:09.624Z",
+  "updatedAtLocal": "19/11/2026 13:05"
 }
