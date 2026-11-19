@@ -269,8 +269,8 @@
         {
           "home": "PL-29 V. Zaragoza",
           "away": "PL-17 San Luis I Pavón",
-          "gh": null,
-          "ga": null,
+          "gh": 4,
+          "ga": 25,
           "hour": "Jue 19 nov · 09:00",
           "place": "CEDETAR · Cancha 2"
         }
@@ -278,24 +278,24 @@
       "table": [
         {
           "team": "PL-17 San Luis I Pavón",
-          "PJ": 0,
-          "G": 0,
+          "PJ": 1,
+          "G": 1,
           "E": 0,
           "P": 0,
-          "GF": 0,
-          "GC": 0,
-          "DG": 0,
-          "Pts": 0
+          "GF": 25,
+          "GC": 4,
+          "DG": 21,
+          "Pts": 2
         },
         {
           "team": "PL-29 V. Zaragoza",
-          "PJ": 0,
+          "PJ": 1,
           "G": 0,
           "E": 0,
-          "P": 0,
-          "GF": 0,
-          "GC": 0,
-          "DG": 0,
+          "P": 1,
+          "GF": 4,
+          "GC": 25,
+          "DG": -21,
           "Pts": 0
         }
       ]
@@ -339,8 +339,8 @@
       "place": "CEDETAR · Cancha 2"
     }
   },
-  "lastUpdated": "2026-11-19T15:06:39.328Z",
-  "updatedAt": "2026-11-19T15:06:39.328Z",
-  "timestamp": "2026-11-19T15:06:39.328Z",
-  "updatedAtLocal": "19/11/2026 09:06"
+  "lastUpdated": "2026-11-19T15:55:44.118Z",
+  "updatedAt": "2026-11-19T15:55:44.118Z",
+  "timestamp": "2026-11-19T15:55:44.118Z",
+  "updatedAtLocal": "19/11/2026 09:55"
 }
