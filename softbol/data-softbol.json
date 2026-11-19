@@ -131,9 +131,9 @@
     "sf1": {
       "home": "PL-07 Ahualulco",
       "away": "PL-11 Rayón",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 15,
+      "ga": 0,
+      "winner": "PL-07 Ahualulco",
       "hour": "Jue 19 nov · 13:30",
       "place": "Tangamanga I · Campo 1",
       "homeName": "",
@@ -142,17 +142,17 @@
     "sf2": {
       "home": "PL-06 Valles I",
       "away": "PL-04 El Naranjo",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 15,
+      "ga": 2,
+      "winner": "PL-06 Valles I",
       "hour": "Jue 19 nov · 13:30",
       "place": "Tangamanga I · Campo 2",
       "homeName": "",
       "awayName": ""
     },
     "final": {
-      "home": "",
-      "away": "",
+      "home": "PL-07 Ahualulco",
+      "away": "PL-06 Valles I",
       "gh": null,
       "ga": null,
       "winner": "",
@@ -162,8 +162,8 @@
       "awayName": ""
     },
     "third": {
-      "home": "",
-      "away": "",
+      "home": "PL-11 Rayón",
+      "away": "PL-04 El Naranjo",
       "gh": null,
       "ga": null,
       "winner": "",
@@ -178,8 +178,8 @@
     "color": "#487a93",
     "bg": "#cce0f5"
   },
-  "updatedAtLocal": "19/11/2026 12:48",
-  "updatedAt": "2026-11-19T18:48:43.562Z",
-  "lastUpdated": "2026-11-19T18:48:43.562Z",
-  "timestamp": "2026-11-19T18:48:43.562Z"
+  "updatedAtLocal": "19/11/2026 14:49",
+  "updatedAt": "2026-11-19T20:49:45.655Z",
+  "lastUpdated": "2026-11-19T20:49:45.655Z",
+  "timestamp": "2026-11-19T20:49:45.655Z"
 }
