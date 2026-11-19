@@ -97,7 +97,16 @@
         {
           "home": "PL-22 Tamuín",
           "away": "CE-21 La Pila",
-          "sets": [],
+          "sets": [
+            {
+              "home": 21,
+              "away": 12
+            },
+            {
+              "home": 21,
+              "away": 6
+            }
+          ],
           "hour": "Jue 19 nov · 08:40",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
@@ -249,8 +258,8 @@
     "color": "#ab75d7",
     "bg": "#4c2361"
   },
-  "updatedAtLocal": "18/11/2026 17:08",
-  "updatedAt": "2026-11-18T23:08:39.592Z",
-  "lastUpdated": "2026-11-18T23:08:39.592Z",
-  "timestamp": "2026-11-18T23:08:39.592Z"
+  "updatedAtLocal": "19/11/2026 09:12",
+  "updatedAt": "2026-11-19T15:12:36.974Z",
+  "lastUpdated": "2026-11-19T15:12:36.974Z",
+  "timestamp": "2026-11-19T15:12:36.974Z"
 }
