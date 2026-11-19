@@ -144,8 +144,8 @@
         {
           "home": "PL-12 Tampacán",
           "away": "PL-06 Valles I",
-          "gh": null,
-          "ga": null,
+          "gh": 0,
+          "ga": 7,
           "hour": "Jue 19 nov · 11:30",
           "place": "Tangamanga I · Campo 2"
         }
@@ -196,7 +196,7 @@
       "place": "Tangamanga I · Campo 1"
     },
     "sf2": {
-      "home": "",
+      "home": "PL-06 Valles I",
       "away": "PL-28 San Luis V",
       "gh": null,
       "ga": null,
@@ -228,12 +228,12 @@
     "draw": 1,
     "loss": 0
   },
-  "updatedAtLocal": "19/11/2026 12:38",
+  "updatedAtLocal": "19/11/2026 12:41",
   "theme": {
     "color": "#62d0df",
     "bg": "#b2e1eb"
   },
-  "updatedAt": "2026-11-19T18:38:50.009Z",
-  "lastUpdated": "2026-11-19T18:38:50.009Z",
-  "timestamp": "2026-11-19T18:38:50.009Z"
+  "updatedAt": "2026-11-19T18:41:33.970Z",
+  "lastUpdated": "2026-11-19T18:41:33.970Z",
+  "timestamp": "2026-11-19T18:41:33.970Z"
 }
