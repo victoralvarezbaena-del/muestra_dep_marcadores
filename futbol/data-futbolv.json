@@ -111,8 +111,8 @@
         {
           "home": "PL-25 San Luis III",
           "away": "CE-07 Sto. Domingo",
-          "gh": null,
-          "ga": null,
+          "gh": 2,
+          "ga": 4,
           "hour": "Jue 19 nov · 12:40",
           "place": "Tangamanga I · Campo 2"
         }
@@ -188,7 +188,7 @@
   "knockout": {
     "sf1": {
       "home": "PL-26 San Luis IV",
-      "away": "",
+      "away": "CE-07 Sto. Domingo",
       "gh": null,
       "ga": null,
       "winner": "",
@@ -228,12 +228,12 @@
     "draw": 1,
     "loss": 0
   },
-  "updatedAtLocal": "19/11/2026 11:31",
+  "updatedAtLocal": "19/11/2026 13:52",
   "theme": {
     "color": "#0284c7",
     "bg": "#f8fafc"
   },
-  "updatedAt": "2026-11-19T17:31:16.962Z",
-  "lastUpdated": "2026-11-19T17:31:16.962Z",
-  "timestamp": "2026-11-19T17:31:16.962Z"
+  "updatedAt": "2026-11-19T19:52:24.576Z",
+  "lastUpdated": "2026-11-19T19:52:24.576Z",
+  "timestamp": "2026-11-19T19:52:24.576Z"
 }
