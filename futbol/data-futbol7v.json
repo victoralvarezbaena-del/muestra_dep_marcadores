@@ -1,186 +1,6 @@
 {
-  "groups": {
-    "A": {
-      "teams": [
-        "PL-38 Mecatlán",
-        "PL-26 San Luis IV",
-        "PL-25 San Luis III"
-      ],
-      "matches": [
-        {
-          "home": "PL-26 San Luis IV",
-          "away": "PL-25 San Luis III",
-          "gh": null,
-          "ga": null,
-          "hour": "Mié 18 nov · 10:00",
-          "place": "U. Politécnica · Campo F7 1"
-        },
-        {
-          "home": "PL-25 San Luis III",
-          "away": "PL-38 Mecatlán",
-          "gh": null,
-          "ga": null,
-          "hour": "Jue 19 nov · 08:00",
-          "place": "U. Politécnica · Campo F7 2"
-        },
-        {
-          "home": "PL-38 Mecatlán",
-          "away": "PL-26 San Luis IV",
-          "gh": null,
-          "ga": null,
-          "hour": "Jue 19 nov · 12:00",
-          "place": "U. Politécnica · Campo F7 1"
-        }
-      ]
-    },
-    "B": {
-      "teams": [
-        "CE-07 Sto. Domingo",
-        "CE-05 Tlaletla",
-        "CE-22 San Nicolás"
-      ],
-      "matches": [
-        {
-          "home": "CE-05 Tlaletla",
-          "away": "CE-22 San Nicolás",
-          "gh": null,
-          "ga": null,
-          "hour": "Mié 18 nov · 10:00",
-          "place": "U. Politécnica · Campo F7 2"
-        },
-        {
-          "home": "CE-22 San Nicolás",
-          "away": "CE-07 Sto. Domingo",
-          "gh": null,
-          "ga": null,
-          "hour": "Mié 18 nov · 12:00",
-          "place": "U. Politécnica · Campo F7 2"
-        },
-        {
-          "home": "CE-07 Sto. Domingo",
-          "away": "CE-05 Tlaletla",
-          "gh": null,
-          "ga": null,
-          "hour": "Jue 19 nov · 12:00",
-          "place": "U. Politécnica · Campo F7 2"
-        }
-      ]
-    },
-    "C": {
-      "teams": [
-        "PL-01 Soledad",
-        "PL-07 Ahualulco",
-        "CE-19 Coyoles"
-      ],
-      "matches": [
-        {
-          "home": "PL-01 Soledad",
-          "away": "PL-07 Ahualulco",
-          "gh": null,
-          "ga": null,
-          "hour": "Mié 18 nov · 11:00",
-          "place": "U. Politécnica · Campo F7 2"
-        },
-        {
-          "home": "PL-07 Ahualulco",
-          "away": "CE-19 Coyoles",
-          "gh": null,
-          "ga": null,
-          "hour": "Mié 18 nov · 14:00",
-          "place": "U. Politécnica · Campo F7 1"
-        },
-        {
-          "home": "CE-19 Coyoles",
-          "away": "PL-01 Soledad",
-          "gh": null,
-          "ga": null,
-          "hour": "Jue 19 nov · 09:00",
-          "place": "U. Politécnica · Campo F7 2"
-        }
-      ]
-    },
-    "D": {
-      "teams": [
-        "PL-29 V. Zaragoza",
-        "PL-22 Tamuín",
-        "PL-37 Tamapatz"
-      ],
-      "matches": [
-        {
-          "home": "PL-29 V. Zaragoza",
-          "away": "PL-22 Tamuín",
-          "gh": null,
-          "ga": null,
-          "hour": "Mié 18 nov · 08:00",
-          "place": "U. Politécnica · Campo F7 2"
-        },
-        {
-          "home": "PL-37 Tamapatz",
-          "away": "PL-29 V. Zaragoza",
-          "gh": null,
-          "ga": null,
-          "hour": "Mié 18 nov · 14:00",
-          "place": "U. Politécnica · Campo F7 2"
-        },
-        {
-          "home": "PL-22 Tamuín",
-          "away": "PL-37 Tamapatz",
-          "gh": null,
-          "ga": null,
-          "hour": "Jue 19 nov · 10:00",
-          "place": "U. Politécnica · Campo F7 2"
-        }
-      ]
-    }
-  },
-  "points": {
-    "win": 3,
-    "draw": 1,
-    "loss": 0
-  },
-  "knockout": {
-    "sf1": {
-      "home": "",
-      "away": "",
-      "gh": null,
-      "ga": null,
-      "winner": "",
-      "hour": "Jue 19 nov · 14:00",
-      "place": "U. Politécnica · Campo F7 1"
-    },
-    "sf2": {
-      "home": "",
-      "away": "",
-      "gh": null,
-      "ga": null,
-      "winner": "",
-      "hour": "Jue 19 nov · 14:00",
-      "place": "U. Politécnica · Campo F7 2"
-    },
-    "final": {
-      "home": "",
-      "away": "",
-      "gh": null,
-      "ga": null,
-      "winner": "",
-      "hour": "Vie 20 nov · 09:00",
-      "place": "U. Politécnica · Campo F7 1"
-    },
-    "third": {
-      "home": "",
-      "away": "",
-      "gh": null,
-      "ga": null,
-      "winner": "",
-      "hour": "Vie 20 nov · 09:00",
-      "place": "U. Politécnica · Campo F7 2"
-    }
-  },
   "tournamentName": "Fútbol 7 Varonil 2026",
-  "theme": {
-    "color": "#01a6bc",
-    "bg": "#194c57"
-  },
+  "subtitle": "",
   "teamProfiles": {
     "PL-38 Mecatlán": {
       "school": "",
@@ -231,8 +51,189 @@
       "image": "../mascotas/PL-37.webp"
     }
   },
-  "updatedAtLocal": "10/11/2026 10:56",
-  "updatedAt": "2026-11-10T10:56:51-06:00",
-  "lastUpdated": "2026-11-10T10:56:51-06:00",
-  "timestamp": "2026-11-10T10:56:51-06:00"
+  "groups": {
+    "A": {
+      "teams": [
+        "PL-38 Mecatlán",
+        "PL-26 San Luis IV",
+        "PL-25 San Luis III"
+      ],
+      "matches": [
+        {
+          "home": "PL-26 San Luis IV",
+          "away": "PL-25 San Luis III",
+          "gh": 2,
+          "ga": 1,
+          "hour": "Mié 18 nov · 10:00",
+          "place": "U. Politécnica · Campo F7 1"
+        },
+        {
+          "home": "PL-25 San Luis III",
+          "away": "PL-38 Mecatlán",
+          "gh": null,
+          "ga": null,
+          "hour": "Jue 19 nov · 08:00",
+          "place": "U. Politécnica · Campo F7 2"
+        },
+        {
+          "home": "PL-38 Mecatlán",
+          "away": "PL-26 San Luis IV",
+          "gh": null,
+          "ga": null,
+          "hour": "Jue 19 nov · 12:00",
+          "place": "U. Politécnica · Campo F7 1"
+        }
+      ]
+    },
+    "B": {
+      "teams": [
+        "CE-07 Sto. Domingo",
+        "CE-05 Tlaletla",
+        "CE-22 San Nicolás"
+      ],
+      "matches": [
+        {
+          "home": "CE-05 Tlaletla",
+          "away": "CE-22 San Nicolás",
+          "gh": 2,
+          "ga": 0,
+          "hour": "Mié 18 nov · 10:00",
+          "place": "U. Politécnica · Campo F7 2"
+        },
+        {
+          "home": "CE-22 San Nicolás",
+          "away": "CE-07 Sto. Domingo",
+          "gh": 3,
+          "ga": 4,
+          "hour": "Mié 18 nov · 12:00",
+          "place": "U. Politécnica · Campo F7 2"
+        },
+        {
+          "home": "CE-07 Sto. Domingo",
+          "away": "CE-05 Tlaletla",
+          "gh": null,
+          "ga": null,
+          "hour": "Jue 19 nov · 12:00",
+          "place": "U. Politécnica · Campo F7 2"
+        }
+      ]
+    },
+    "C": {
+      "teams": [
+        "PL-01 Soledad",
+        "PL-07 Ahualulco",
+        "CE-19 Coyoles"
+      ],
+      "matches": [
+        {
+          "home": "PL-01 Soledad",
+          "away": "PL-07 Ahualulco",
+          "gh": 0,
+          "ga": 0,
+          "hour": "Mié 18 nov · 11:00",
+          "place": "U. Politécnica · Campo F7 2"
+        },
+        {
+          "home": "PL-07 Ahualulco",
+          "away": "CE-19 Coyoles",
+          "gh": 4,
+          "ga": 0,
+          "hour": "Mié 18 nov · 14:00",
+          "place": "U. Politécnica · Campo F7 1"
+        },
+        {
+          "home": "CE-19 Coyoles",
+          "away": "PL-01 Soledad",
+          "gh": null,
+          "ga": null,
+          "hour": "Jue 19 nov · 09:00",
+          "place": "U. Politécnica · Campo F7 2"
+        }
+      ]
+    },
+    "D": {
+      "teams": [
+        "PL-29 V. Zaragoza",
+        "PL-22 Tamuín",
+        "PL-37 Tamapatz"
+      ],
+      "matches": [
+        {
+          "home": "PL-29 V. Zaragoza",
+          "away": "PL-22 Tamuín",
+          "gh": 0,
+          "ga": 2,
+          "hour": "Mié 18 nov · 08:00",
+          "place": "U. Politécnica · Campo F7 2"
+        },
+        {
+          "home": "PL-37 Tamapatz",
+          "away": "PL-29 V. Zaragoza",
+          "gh": 3,
+          "ga": 6,
+          "hour": "Mié 18 nov · 14:00",
+          "place": "U. Politécnica · Campo F7 2"
+        },
+        {
+          "home": "PL-22 Tamuín",
+          "away": "PL-37 Tamapatz",
+          "gh": null,
+          "ga": null,
+          "hour": "Jue 19 nov · 10:00",
+          "place": "U. Politécnica · Campo F7 2"
+        }
+      ]
+    }
+  },
+  "knockout": {
+    "sf1": {
+      "home": "",
+      "away": "",
+      "gh": null,
+      "ga": null,
+      "winner": "",
+      "hour": "Jue 19 nov · 14:00",
+      "place": "U. Politécnica · Campo F7 1"
+    },
+    "sf2": {
+      "home": "",
+      "away": "",
+      "gh": null,
+      "ga": null,
+      "winner": "",
+      "hour": "Jue 19 nov · 14:00",
+      "place": "U. Politécnica · Campo F7 2"
+    },
+    "final": {
+      "home": "",
+      "away": "",
+      "gh": null,
+      "ga": null,
+      "winner": "",
+      "hour": "Vie 20 nov · 09:00",
+      "place": "U. Politécnica · Campo F7 1"
+    },
+    "third": {
+      "home": "",
+      "away": "",
+      "gh": null,
+      "ga": null,
+      "winner": "",
+      "hour": "Vie 20 nov · 09:00",
+      "place": "U. Politécnica · Campo F7 2"
+    }
+  },
+  "points": {
+    "win": 3,
+    "draw": 1,
+    "loss": 0
+  },
+  "updatedAtLocal": "18/11/2026 21:09",
+  "theme": {
+    "color": "#01a6bc",
+    "bg": "#194c57"
+  },
+  "updatedAt": "2026-11-19T03:09:23.250Z",
+  "lastUpdated": "2026-11-19T03:09:23.250Z",
+  "timestamp": "2026-11-19T03:09:23.250Z"
 }
