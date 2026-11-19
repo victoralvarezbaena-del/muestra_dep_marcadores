@@ -144,8 +144,8 @@
         {
           "home": "PL-13 Tanquián",
           "away": "PL-19 San Luis II",
-          "gh": null,
-          "ga": null,
+          "gh": 10,
+          "ga": 18,
           "hour": "Jue 19 nov · 08:15",
           "place": "U. Politécnica · Media cancha 2"
         }
@@ -187,8 +187,8 @@
   },
   "knockout": {
     "sf1": {
-      "home": "",
-      "away": "",
+      "home": "PL-05 Cd. Fernández",
+      "away": "PL-17 San Luis I Pavón",
       "gh": null,
       "ga": null,
       "winner": "",
@@ -196,8 +196,8 @@
       "place": "U. Politécnica · Media cancha 3"
     },
     "sf2": {
-      "home": "",
-      "away": "",
+      "home": "PL-19 San Luis II",
+      "away": "PL-28 San Luis V",
       "gh": null,
       "ga": null,
       "winner": "",
@@ -223,7 +223,7 @@
       "place": "U. Politécnica · Media cancha 4"
     }
   },
-  "updatedAtLocal": "19/11/2026 09:11",
+  "updatedAtLocal": "19/11/2026 09:24",
   "theme": {
     "color": "#db6a00",
     "bg": "#ecb009"
@@ -233,7 +233,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-19T15:11:44.775Z",
-  "lastUpdated": "2026-11-19T15:11:44.775Z",
-  "timestamp": "2026-11-19T15:11:44.775Z"
+  "updatedAt": "2026-11-19T15:24:15.974Z",
+  "lastUpdated": "2026-11-19T15:24:15.974Z",
+  "timestamp": "2026-11-19T15:24:15.974Z"
 }
