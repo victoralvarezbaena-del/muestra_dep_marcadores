@@ -263,8 +263,17 @@
     "sf1": {
       "home": "PL-22 Tamuín",
       "away": "PL-26 San Luis IV",
-      "sets": [],
-      "winner": "",
+      "sets": [
+        {
+          "home": 21,
+          "away": 4
+        },
+        {
+          "home": 21,
+          "away": 6
+        }
+      ],
+      "winner": "PL-22 Tamuín",
       "hour": "Jue 19 nov · 14:40",
       "place": "U. Cuauhtémoc campus sur · Cancha 1"
     },
@@ -277,7 +286,7 @@
       "place": "U. Cuauhtémoc campus sur · Cancha 1"
     },
     "final": {
-      "home": "",
+      "home": "PL-22 Tamuín",
       "away": "",
       "sets": [],
       "winner": "",
@@ -285,7 +294,7 @@
       "place": "U. Cuauhtémoc campus sur · Cancha 1"
     },
     "third": {
-      "home": "",
+      "home": "PL-26 San Luis IV",
       "away": "",
       "sets": [],
       "winner": "",
@@ -298,8 +307,8 @@
     "color": "#ab75d7",
     "bg": "#4c2361"
   },
-  "updatedAtLocal": "19/11/2026 13:06",
-  "updatedAt": "2026-11-19T19:06:07.841Z",
-  "lastUpdated": "2026-11-19T19:06:07.841Z",
-  "timestamp": "2026-11-19T19:06:07.841Z"
+  "updatedAtLocal": "19/11/2026 15:00",
+  "updatedAt": "2026-11-19T21:00:45.077Z",
+  "lastUpdated": "2026-11-19T21:00:45.077Z",
+  "timestamp": "2026-11-19T21:00:45.077Z"
 }
