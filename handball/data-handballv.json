@@ -150,8 +150,8 @@
         {
           "home": "PL-05 Cd. Fernández",
           "away": "PL-33 Axtla",
-          "gh": null,
-          "ga": null,
+          "gh": 13,
+          "ga": 1,
           "hour": "Jue 19 nov · 08:00",
           "place": "CEDETAR · Cancha 2"
         }
@@ -169,25 +169,25 @@
           "Pts": 4
         },
         {
-          "team": "PL-33 Axtla",
-          "PJ": 1,
-          "G": 0,
+          "team": "PL-05 Cd. Fernández",
+          "PJ": 2,
+          "G": 1,
           "E": 0,
           "P": 1,
-          "GF": 3,
-          "GC": 19,
-          "DG": -16,
-          "Pts": 0
+          "GF": 21,
+          "GC": 32,
+          "DG": -11,
+          "Pts": 2
         },
         {
-          "team": "PL-05 Cd. Fernández",
-          "PJ": 1,
+          "team": "PL-33 Axtla",
+          "PJ": 2,
           "G": 0,
           "E": 0,
-          "P": 1,
-          "GF": 8,
-          "GC": 31,
-          "DG": -23,
+          "P": 2,
+          "GF": 4,
+          "GC": 32,
+          "DG": -28,
           "Pts": 0
         }
       ]
@@ -339,8 +339,8 @@
       "place": "CEDETAR · Cancha 2"
     }
   },
-  "lastUpdated": "2026-11-19T15:04:31.219Z",
-  "updatedAt": "2026-11-19T15:04:31.219Z",
-  "timestamp": "2026-11-19T15:04:31.219Z",
-  "updatedAtLocal": "19/11/2026 09:04"
+  "lastUpdated": "2026-11-19T15:06:39.328Z",
+  "updatedAt": "2026-11-19T15:06:39.328Z",
+  "timestamp": "2026-11-19T15:06:39.328Z",
+  "updatedAtLocal": "19/11/2026 09:06"
 }
