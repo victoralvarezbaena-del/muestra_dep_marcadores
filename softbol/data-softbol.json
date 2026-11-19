@@ -81,8 +81,8 @@
         {
           "home": "PL-28 San Luis V",
           "away": "PL-04 El Naranjo",
-          "gh": null,
-          "ga": null,
+          "gh": 2,
+          "ga": 15,
           "hour": "Jue 19 nov · 08:00",
           "place": "Tangamanga I · Campo 2"
         }
@@ -178,8 +178,8 @@
     "color": "#487a93",
     "bg": "#cce0f5"
   },
-  "updatedAtLocal": "19/11/2026 09:19",
-  "updatedAt": "2026-11-19T15:19:50.732Z",
-  "lastUpdated": "2026-11-19T15:19:50.732Z",
-  "timestamp": "2026-11-19T15:19:50.732Z"
+  "updatedAtLocal": "19/11/2026 09:40",
+  "updatedAt": "2026-11-19T15:40:07.818Z",
+  "lastUpdated": "2026-11-19T15:40:07.818Z",
+  "timestamp": "2026-11-19T15:40:07.818Z"
 }
