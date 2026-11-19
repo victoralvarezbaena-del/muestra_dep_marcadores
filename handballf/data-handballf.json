@@ -220,14 +220,14 @@
     "secondB": "PL-33 Axtla"
   },
   "semifinalTeams": {
-    "sf1Home": "",
+    "sf1Home": "PL-03 Cedral",
     "sf1Away": "",
     "sf2Home": "",
-    "sf2Away": ""
+    "sf2Away": "PL-17 San Luis I Pavón"
   },
   "knockout": {
     "sf1": {
-      "home": "",
+      "home": "PL-03 Cedral",
       "away": "",
       "gh": null,
       "ga": null,
@@ -237,7 +237,7 @@
     },
     "sf2": {
       "home": "",
-      "away": "",
+      "away": "PL-17 San Luis I Pavón",
       "gh": null,
       "ga": null,
       "winner": "",
