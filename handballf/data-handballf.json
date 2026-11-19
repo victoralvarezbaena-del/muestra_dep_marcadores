@@ -170,8 +170,8 @@
         {
           "home": "PL-33 Axtla",
           "away": "PL-28 San Luis V",
-          "gh": null,
-          "ga": null,
+          "gh": 11,
+          "ga": 12,
           "hour": "Jue 19 nov · 11:00",
           "place": "CEDETAR · Cancha 2"
         }
@@ -189,24 +189,24 @@
           "Pts": 4
         },
         {
-          "team": "PL-33 Axtla",
-          "PJ": 1,
-          "G": 0,
+          "team": "PL-28 San Luis V",
+          "PJ": 2,
+          "G": 1,
           "E": 0,
           "P": 1,
-          "GF": 3,
-          "GC": 16,
+          "GF": 13,
+          "GC": 26,
           "DG": -13,
-          "Pts": 0
+          "Pts": 2
         },
         {
-          "team": "PL-28 San Luis V",
-          "PJ": 1,
+          "team": "PL-33 Axtla",
+          "PJ": 2,
           "G": 0,
           "E": 0,
-          "P": 1,
-          "GF": 1,
-          "GC": 15,
+          "P": 2,
+          "GF": 14,
+          "GC": 28,
           "DG": -14,
           "Pts": 0
         }
@@ -217,7 +217,7 @@
     "firstA": "PL-03 Cedral",
     "firstB": "PL-08 Xilitla",
     "secondA": "PL-17 San Luis I Pavón",
-    "secondB": "PL-33 Axtla"
+    "secondB": "PL-28 San Luis V"
   },
   "semifinalTeams": {
     "sf1Home": "PL-03 Cedral",
@@ -228,7 +228,7 @@
   "knockout": {
     "sf1": {
       "home": "PL-03 Cedral",
-      "away": "",
+      "away": "PL-28 San Luis V",
       "gh": null,
       "ga": null,
       "winner": "",
@@ -236,7 +236,7 @@
       "place": "CEDETAR · Cancha 1"
     },
     "sf2": {
-      "home": "",
+      "home": "PL-08 Xilitla",
       "away": "PL-17 San Luis I Pavón",
       "gh": null,
       "ga": null,
@@ -263,9 +263,9 @@
       "place": "CEDETAR · Cancha 2"
     }
   },
-  "lastUpdated": "2026-11-19T17:01:36.283Z",
+  "lastUpdated": "2026-11-19T17:56:22.983Z",
   "format": "2_grupos_3o4_equipos",
-  "updatedAt": "2026-11-19T17:01:36.283Z",
-  "timestamp": "2026-11-19T17:01:36.283Z",
-  "updatedAtLocal": "19/11/2026 11:01"
+  "updatedAt": "2026-11-19T17:56:22.983Z",
+  "timestamp": "2026-11-19T17:56:22.983Z",
+  "updatedAtLocal": "19/11/2026 11:56"
 }
