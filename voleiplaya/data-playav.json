@@ -117,7 +117,16 @@
         {
           "home": "CE-06 Palomas",
           "away": "PL-28 San Luis V",
-          "sets": [],
+          "sets": [
+            {
+              "home": 23,
+              "away": 21
+            },
+            {
+              "home": 21,
+              "away": 16
+            }
+          ],
           "hour": "Jue 19 nov · 09:20",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
@@ -270,8 +279,8 @@
     "color": "#8308e7",
     "bg": "#4c2361"
   },
-  "updatedAtLocal": "19/11/2026 08:40",
-  "updatedAt": "2026-11-19T14:40:54.506Z",
-  "lastUpdated": "2026-11-19T14:40:54.506Z",
-  "timestamp": "2026-11-19T14:40:54.506Z"
+  "updatedAtLocal": "19/11/2026 09:54",
+  "updatedAt": "2026-11-19T15:54:23.843Z",
+  "lastUpdated": "2026-11-19T15:54:23.843Z",
+  "timestamp": "2026-11-19T15:54:23.843Z"
 }
