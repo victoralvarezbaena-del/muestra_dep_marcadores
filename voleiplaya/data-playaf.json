@@ -280,14 +280,27 @@
     "sf2": {
       "home": "PL-05 Cd. Fernández",
       "away": "CE-21 La Pila",
-      "sets": [],
-      "winner": "",
+      "sets": [
+        {
+          "home": 21,
+          "away": 15
+        },
+        {
+          "home": 20,
+          "away": 22
+        },
+        {
+          "home": 13,
+          "away": 15
+        }
+      ],
+      "winner": "CE-21 La Pila",
       "hour": "Jue 19 nov · 15:20",
       "place": "U. Cuauhtémoc campus sur · Cancha 1"
     },
     "final": {
       "home": "PL-22 Tamuín",
-      "away": "",
+      "away": "CE-21 La Pila",
       "sets": [],
       "winner": "",
       "hour": "Vie 20 nov · 08:45",
@@ -295,7 +308,7 @@
     },
     "third": {
       "home": "PL-26 San Luis IV",
-      "away": "",
+      "away": "PL-05 Cd. Fernández",
       "sets": [],
       "winner": "",
       "hour": "Vie 20 nov · 08:00",
@@ -307,8 +320,8 @@
     "color": "#ab75d7",
     "bg": "#4c2361"
   },
-  "updatedAtLocal": "19/11/2026 15:00",
-  "updatedAt": "2026-11-19T21:00:45.077Z",
-  "lastUpdated": "2026-11-19T21:00:45.077Z",
-  "timestamp": "2026-11-19T21:00:45.077Z"
+  "updatedAtLocal": "19/11/2026 15:52",
+  "updatedAt": "2026-11-19T21:52:30.017Z",
+  "lastUpdated": "2026-11-19T21:52:30.017Z",
+  "timestamp": "2026-11-19T21:52:30.017Z"
 }
