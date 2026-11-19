@@ -132,7 +132,16 @@
         {
           "home": "PL-05 Cd. Fernández",
           "away": "PL-01 Soledad",
-          "sets": [],
+          "sets": [
+            {
+              "home": 25,
+              "away": 13
+            },
+            {
+              "home": 25,
+              "away": 21
+            }
+          ],
           "hour": "Jue 19 nov · 10:00",
           "place": "Plantel 26 San Luis IV · Cancha 1"
         }
@@ -274,8 +283,8 @@
     "color": "#ab75d7",
     "bg": "#dcc8ea"
   },
-  "updatedAtLocal": "18/11/2026 15:09",
-  "updatedAt": "2026-11-18T21:09:56.131Z",
-  "lastUpdated": "2026-11-18T21:09:56.131Z",
-  "timestamp": "2026-11-18T21:09:56.131Z"
+  "updatedAtLocal": "19/11/2026 10:50",
+  "updatedAt": "2026-11-19T16:50:51.615Z",
+  "lastUpdated": "2026-11-19T16:50:51.615Z",
+  "timestamp": "2026-11-19T16:50:51.615Z"
 }
