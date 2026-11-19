@@ -177,8 +177,8 @@
         {
           "home": "PL-28 San Luis V",
           "away": "PL-13 Tanquián",
-          "gh": null,
-          "ga": null,
+          "gh": 5,
+          "ga": 2,
           "hour": "Jue 19 nov · 10:20",
           "place": "Tangamanga I · Campo 1"
         }
@@ -228,12 +228,12 @@
     "draw": 1,
     "loss": 0
   },
-  "updatedAtLocal": "19/11/2026 11:17",
+  "updatedAtLocal": "19/11/2026 11:31",
   "theme": {
     "color": "#62d0df",
     "bg": "#b2e1eb"
   },
-  "updatedAt": "2026-11-19T17:17:30.158Z",
-  "lastUpdated": "2026-11-19T17:17:30.158Z",
-  "timestamp": "2026-11-19T17:17:30.158Z"
+  "updatedAt": "2026-11-19T17:31:11.331Z",
+  "lastUpdated": "2026-11-19T17:31:11.331Z",
+  "timestamp": "2026-11-19T17:31:11.331Z"
 }

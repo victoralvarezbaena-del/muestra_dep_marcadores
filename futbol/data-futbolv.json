@@ -177,8 +177,8 @@
         {
           "home": "PL-13 Tanquián",
           "away": "PL-03 Cedral",
-          "gh": null,
-          "ga": null,
+          "gh": 0,
+          "ga": 1,
           "hour": "Jue 19 nov · 10:20",
           "place": "Tangamanga I · Campo 2"
         }
@@ -228,12 +228,12 @@
     "draw": 1,
     "loss": 0
   },
-  "updatedAtLocal": "19/11/2026 11:17",
+  "updatedAtLocal": "19/11/2026 11:31",
   "theme": {
     "color": "#0284c7",
     "bg": "#f8fafc"
   },
-  "updatedAt": "2026-11-19T17:17:24.464Z",
-  "lastUpdated": "2026-11-19T17:17:24.464Z",
-  "timestamp": "2026-11-19T17:17:24.464Z"
+  "updatedAt": "2026-11-19T17:31:16.962Z",
+  "lastUpdated": "2026-11-19T17:31:16.962Z",
+  "timestamp": "2026-11-19T17:31:16.962Z"
 }
