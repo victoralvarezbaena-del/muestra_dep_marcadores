@@ -68,7 +68,16 @@
         {
           "home": "PL-06 Valles I",
           "away": "PL-26 San Luis IV",
-          "sets": [],
+          "sets": [
+            {
+              "home": 11,
+              "away": 25
+            },
+            {
+              "home": 11,
+              "away": 25
+            }
+          ],
           "hour": "Jue 19 nov · 10:00",
           "place": "Plantel 26 San Luis IV · Cancha 2"
         },
@@ -205,7 +214,16 @@
         {
           "home": "CE-27 Plazuela",
           "away": "PL-01 Soledad",
-          "sets": [],
+          "sets": [
+            {
+              "home": 11,
+              "away": 25
+            },
+            {
+              "home": 11,
+              "away": 25
+            }
+          ],
           "hour": "Jue 19 nov · 10:00",
           "place": "Plantel 26 San Luis IV · Cancha 3"
         },
@@ -269,8 +287,8 @@
     "color": "#8308e7",
     "bg": "#dcc8ea"
   },
-  "updatedAtLocal": "18/11/2026 15:09",
-  "updatedAt": "2026-11-18T21:09:05.769Z",
-  "lastUpdated": "2026-11-18T21:09:05.769Z",
-  "timestamp": "2026-11-18T21:09:05.769Z"
+  "updatedAtLocal": "19/11/2026 10:48",
+  "updatedAt": "2026-11-19T16:48:34.646Z",
+  "lastUpdated": "2026-11-19T16:48:34.646Z",
+  "timestamp": "2026-11-19T16:48:34.646Z"
 }
