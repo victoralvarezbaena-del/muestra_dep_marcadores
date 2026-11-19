@@ -296,14 +296,23 @@
     "sf2": {
       "home": "PL-05 Cd. Fernández",
       "away": "PL-28 San Luis V",
-      "sets": [],
-      "winner": "",
+      "sets": [
+        {
+          "home": 18,
+          "away": 25
+        },
+        {
+          "home": 21,
+          "away": 25
+        }
+      ],
+      "winner": "PL-28 San Luis V",
       "hour": "Jue 19 nov · 13:20",
       "place": "Plantel 26 San Luis IV · Cancha 1"
     },
     "final": {
       "home": "PL-26 San Luis IV",
-      "away": "",
+      "away": "PL-28 San Luis V",
       "sets": [],
       "winner": "",
       "hour": "Vie 20 nov · 10:00",
@@ -311,7 +320,7 @@
     },
     "third": {
       "home": "PL-22 Tamuín",
-      "away": "",
+      "away": "PL-05 Cd. Fernández",
       "sets": [],
       "winner": "",
       "hour": "Vie 20 nov · 10:00",
@@ -323,8 +332,8 @@
     "color": "#ab75d7",
     "bg": "#dcc8ea"
   },
-  "updatedAtLocal": "19/11/2026 15:10",
-  "updatedAt": "2026-11-19T21:10:44.019Z",
-  "lastUpdated": "2026-11-19T21:10:44.019Z",
-  "timestamp": "2026-11-19T21:10:44.019Z"
+  "updatedAtLocal": "19/11/2026 16:11",
+  "updatedAt": "2026-11-19T22:11:43.316Z",
+  "lastUpdated": "2026-11-19T22:11:43.316Z",
+  "timestamp": "2026-11-19T22:11:43.316Z"
 }
