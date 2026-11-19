@@ -233,7 +233,16 @@
         {
           "home": "PL-17 San Luis I Pavón",
           "away": "PL-22 Tamuín",
-          "sets": [],
+          "sets": [
+            {
+              "home": 16,
+              "away": 25
+            },
+            {
+              "home": 7,
+              "away": 25
+            }
+          ],
           "hour": "Jue 19 nov · 10:50",
           "place": "Plantel 26 San Luis IV · Cancha 3"
         }
@@ -283,8 +292,8 @@
     "color": "#ab75d7",
     "bg": "#dcc8ea"
   },
-  "updatedAtLocal": "19/11/2026 10:50",
-  "updatedAt": "2026-11-19T16:50:51.615Z",
-  "lastUpdated": "2026-11-19T16:50:51.615Z",
-  "timestamp": "2026-11-19T16:50:51.615Z"
+  "updatedAtLocal": "19/11/2026 11:45",
+  "updatedAt": "2026-11-19T17:45:01.286Z",
+  "lastUpdated": "2026-11-19T17:45:01.286Z",
+  "timestamp": "2026-11-19T17:45:01.286Z"
 }
