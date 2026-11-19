@@ -160,9 +160,9 @@
     "sf1": {
       "home": "PL-02 Villa Hidalgo",
       "away": "CE-19 Coyoles",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 2,
+      "ga": 0,
+      "winner": "PL-02 Villa Hidalgo",
       "hour": "Jue 19 nov · 13:30",
       "place": "Tangamanga I · Campo 1",
       "homeName": "",
@@ -180,7 +180,7 @@
       "awayName": ""
     },
     "final": {
-      "home": "",
+      "home": "PL-02 Villa Hidalgo",
       "away": "",
       "gh": null,
       "ga": null,
@@ -191,7 +191,7 @@
       "awayName": ""
     },
     "third": {
-      "home": "",
+      "home": "CE-19 Coyoles",
       "away": "",
       "gh": null,
       "ga": null,
@@ -207,8 +207,8 @@
     "color": "#004b70",
     "bg": "#f8fafc"
   },
-  "updatedAtLocal": "19/11/2026 12:15",
-  "updatedAt": "2026-11-19T18:15:04.140Z",
-  "lastUpdated": "2026-11-19T18:15:04.140Z",
-  "timestamp": "2026-11-19T18:15:04.140Z"
+  "updatedAtLocal": "19/11/2026 14:52",
+  "updatedAt": "2026-11-19T20:52:25.524Z",
+  "lastUpdated": "2026-11-19T20:52:25.524Z",
+  "timestamp": "2026-11-19T20:52:25.524Z"
 }
