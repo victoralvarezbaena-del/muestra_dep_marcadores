@@ -111,8 +111,8 @@
         {
           "home": "CE-13 Tampaxal",
           "away": "PL-01 Soledad",
-          "gh": null,
-          "ga": null,
+          "gh": 7,
+          "ga": 61,
           "hour": "Jue 19 nov · 12:10",
           "place": "U. Politécnica · Cancha 1"
         }
@@ -144,8 +144,8 @@
         {
           "home": "PL-23 Tierra Nueva",
           "away": "PL-03 Cedral",
-          "gh": null,
-          "ga": null,
+          "gh": 25,
+          "ga": 64,
           "hour": "Jue 19 nov · 12:10",
           "place": "U. Politécnica · Cancha 2"
         }
@@ -188,7 +188,7 @@
   "knockout": {
     "sf1": {
       "home": "PL-05 Cd. Fernández",
-      "away": "",
+      "away": "PL-01 Soledad",
       "gh": null,
       "ga": null,
       "winner": "",
@@ -196,7 +196,7 @@
       "place": "U. Politécnica · Cancha 1"
     },
     "sf2": {
-      "home": "",
+      "home": "PL-03 Cedral",
       "away": "PL-28 San Luis V",
       "gh": null,
       "ga": null,
@@ -223,7 +223,7 @@
       "place": "U. Politécnica · Cancha 2"
     }
   },
-  "updatedAtLocal": "19/11/2026 12:49",
+  "updatedAtLocal": "19/11/2026 13:04",
   "theme": {
     "color": "#dc2626",
     "bg": "#f8fafc"
@@ -233,7 +233,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-19T18:49:38.459Z",
-  "lastUpdated": "2026-11-19T18:49:38.459Z",
-  "timestamp": "2026-11-19T18:49:38.459Z"
+  "updatedAt": "2026-11-19T19:04:15.159Z",
+  "lastUpdated": "2026-11-19T19:04:15.159Z",
+  "timestamp": "2026-11-19T19:04:15.159Z"
 }
