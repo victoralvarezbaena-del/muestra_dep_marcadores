@@ -91,8 +91,8 @@
         {
           "home": "PL-17 San Luis I Pavón",
           "away": "PL-14 Tancanhuitz",
-          "gh": null,
-          "ga": null,
+          "gh": 8,
+          "ga": 0,
           "hour": "Jue 19 nov · 10:00",
           "place": "CEDETAR · Cancha 2"
         }
@@ -111,14 +111,14 @@
         },
         {
           "team": "PL-17 San Luis I Pavón",
-          "PJ": 2,
-          "G": 1,
+          "PJ": 3,
+          "G": 2,
           "E": 0,
           "P": 1,
-          "GF": 20,
+          "GF": 28,
           "GC": 21,
-          "DG": -1,
-          "Pts": 2
+          "DG": 7,
+          "Pts": 4
         },
         {
           "team": "PL-06 Valles I",
@@ -133,13 +133,13 @@
         },
         {
           "team": "PL-14 Tancanhuitz",
-          "PJ": 2,
+          "PJ": 3,
           "G": 0,
           "E": 0,
-          "P": 2,
+          "P": 3,
           "GF": 3,
-          "GC": 38,
-          "DG": -35,
+          "GC": 46,
+          "DG": -43,
           "Pts": 0
         }
       ]
@@ -263,9 +263,9 @@
       "place": "CEDETAR · Cancha 2"
     }
   },
-  "lastUpdated": "2026-11-19T16:58:35.103Z",
+  "lastUpdated": "2026-11-19T17:01:36.283Z",
   "format": "2_grupos_3o4_equipos",
-  "updatedAt": "2026-11-19T16:58:35.103Z",
-  "timestamp": "2026-11-19T16:58:35.103Z",
-  "updatedAtLocal": "19/11/2026 10:58"
+  "updatedAt": "2026-11-19T17:01:36.283Z",
+  "timestamp": "2026-11-19T17:01:36.283Z",
+  "updatedAtLocal": "19/11/2026 11:01"
 }
