@@ -177,8 +177,8 @@
         {
           "home": "PL-26 San Luis IV",
           "away": "PL-28 San Luis V",
-          "gh": null,
-          "ga": null,
+          "gh": 23,
+          "ga": 25,
           "hour": "Jue 19 nov · 09:10",
           "place": "U. Politécnica · Cancha 1"
         }
@@ -223,7 +223,7 @@
       "place": "U. Politécnica · Cancha 2"
     }
   },
-  "updatedAtLocal": "19/11/2026 11:10",
+  "updatedAtLocal": "19/11/2026 12:49",
   "theme": {
     "color": "#dc2626",
     "bg": "#f8fafc"
@@ -233,7 +233,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-19T17:10:14.333Z",
-  "lastUpdated": "2026-11-19T17:10:14.333Z",
-  "timestamp": "2026-11-19T17:10:14.333Z"
+  "updatedAt": "2026-11-19T18:49:38.459Z",
+  "lastUpdated": "2026-11-19T18:49:38.459Z",
+  "timestamp": "2026-11-19T18:49:38.459Z"
 }
