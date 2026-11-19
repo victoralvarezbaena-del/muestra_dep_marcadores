@@ -144,8 +144,8 @@
         {
           "home": "PL-33 Axtla",
           "away": "PL-19 San Luis II",
-          "gh": null,
-          "ga": null,
+          "gh": 2,
+          "ga": 2,
           "hour": "Jue 19 nov · 09:10",
           "place": "Tangamanga I · Campo 2"
         }
@@ -228,12 +228,12 @@
     "draw": 1,
     "loss": 0
   },
-  "updatedAtLocal": "19/11/2026 09:24",
+  "updatedAtLocal": "19/11/2026 11:17",
   "theme": {
     "color": "#0284c7",
     "bg": "#f8fafc"
   },
-  "updatedAt": "2026-11-19T15:24:10.393Z",
-  "lastUpdated": "2026-11-19T15:24:10.393Z",
-  "timestamp": "2026-11-19T15:24:10.393Z"
+  "updatedAt": "2026-11-19T17:17:24.464Z",
+  "lastUpdated": "2026-11-19T17:17:24.464Z",
+  "timestamp": "2026-11-19T17:17:24.464Z"
 }
