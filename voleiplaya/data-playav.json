@@ -101,7 +101,16 @@
         {
           "home": "CE-06 Palomas",
           "away": "PL-01 Soledad",
-          "sets": [],
+          "sets": [
+            {
+              "home": 21,
+              "away": 18
+            },
+            {
+              "home": 21,
+              "away": 10
+            }
+          ],
           "hour": "Jue 19 nov · 08:00",
           "place": "U. Cuauhtémoc campus sur · Cancha 1"
         },
@@ -261,8 +270,8 @@
     "color": "#8308e7",
     "bg": "#4c2361"
   },
-  "updatedAtLocal": "18/11/2026 16:43",
-  "updatedAt": "2026-11-18T22:43:22.879Z",
-  "lastUpdated": "2026-11-18T22:43:22.879Z",
-  "timestamp": "2026-11-18T22:43:22.879Z"
+  "updatedAtLocal": "19/11/2026 08:40",
+  "updatedAt": "2026-11-19T14:40:54.506Z",
+  "lastUpdated": "2026-11-19T14:40:54.506Z",
+  "timestamp": "2026-11-19T14:40:54.506Z"
 }
