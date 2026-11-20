@@ -256,16 +256,16 @@
     "third": {
       "home": "PL-28 San Luis V",
       "away": "PL-17 San Luis I Pavón",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 8,
+      "ga": 11,
+      "winner": "PL-17 San Luis I Pavón",
       "hour": "Vie 20 nov · 09:00",
       "place": "CEDETAR · Cancha 2"
     }
   },
-  "lastUpdated": "2026-11-19T20:50:49.103Z",
+  "lastUpdated": "2026-11-20T16:11:56.813Z",
   "format": "2_grupos_3o4_equipos",
-  "updatedAt": "2026-11-19T20:50:49.103Z",
-  "timestamp": "2026-11-19T20:50:49.103Z",
-  "updatedAtLocal": "19/11/2026 14:50"
+  "updatedAt": "2026-11-20T16:11:56.813Z",
+  "timestamp": "2026-11-20T16:11:56.813Z",
+  "updatedAtLocal": "20/11/2026 10:11"
 }
