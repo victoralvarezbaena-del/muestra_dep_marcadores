@@ -323,9 +323,9 @@
     "final": {
       "home": "PL-03 Cedral",
       "away": "PL-17 San Luis I Pavón",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 15,
+      "ga": 12,
+      "winner": "PL-03 Cedral",
       "hour": "Vie 20 nov · 08:00",
       "place": "CEDETAR · Cancha 1"
     },
@@ -339,8 +339,8 @@
       "place": "CEDETAR · Cancha 2"
     }
   },
-  "lastUpdated": "2026-11-20T15:08:25.788Z",
-  "updatedAt": "2026-11-20T15:08:25.788Z",
-  "timestamp": "2026-11-20T15:08:25.788Z",
-  "updatedAtLocal": "20/11/2026 09:08"
+  "lastUpdated": "2026-11-20T15:25:32.598Z",
+  "updatedAt": "2026-11-20T15:25:32.598Z",
+  "timestamp": "2026-11-20T15:25:32.598Z",
+  "updatedAtLocal": "20/11/2026 09:25"
 }
