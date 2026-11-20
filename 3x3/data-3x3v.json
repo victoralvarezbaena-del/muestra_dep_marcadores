@@ -207,9 +207,9 @@
     "final": {
       "home": "PL-17 San Luis I Pavón",
       "away": "PL-19 San Luis II",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 10,
+      "ga": 14,
+      "winner": "PL-19 San Luis II",
       "hour": "Vie 20 nov · 08:00",
       "place": "U. Politécnica · Media cancha 3"
     },
@@ -223,7 +223,7 @@
       "place": "U. Politécnica · Media cancha 4"
     }
   },
-  "updatedAtLocal": "20/11/2026 10:12",
+  "updatedAtLocal": "20/11/2026 11:22",
   "theme": {
     "color": "#db6a00",
     "bg": "#ecb009"
@@ -233,7 +233,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-20T16:12:52.588Z",
-  "lastUpdated": "2026-11-20T16:12:52.588Z",
-  "timestamp": "2026-11-20T16:12:52.588Z"
+  "updatedAt": "2026-11-20T17:22:49.746Z",
+  "lastUpdated": "2026-11-20T17:22:49.746Z",
+  "timestamp": "2026-11-20T17:22:49.746Z"
 }
