@@ -216,14 +216,14 @@
     "third": {
       "home": "PL-01 Soledad",
       "away": "PL-03 Cedral",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 28,
+      "ga": 17,
+      "winner": "PL-01 Soledad",
       "hour": "Vie 20 nov · 09:10",
       "place": "U. Politécnica · Cancha 2"
     }
   },
-  "updatedAtLocal": "19/11/2026 17:13",
+  "updatedAtLocal": "20/11/2026 10:12",
   "theme": {
     "color": "#dc2626",
     "bg": "#f8fafc"
@@ -233,7 +233,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-19T23:13:00.936Z",
-  "lastUpdated": "2026-11-19T23:13:00.936Z",
-  "timestamp": "2026-11-19T23:13:00.936Z"
+  "updatedAt": "2026-11-20T16:12:40.995Z",
+  "lastUpdated": "2026-11-20T16:12:40.995Z",
+  "timestamp": "2026-11-20T16:12:40.995Z"
 }

@@ -186,23 +186,23 @@
     "final": {
       "home": "PL-17 San Luis I Pavón",
       "away": "PL-10 Moctezuma",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 3,
+      "ga": 6,
+      "winner": "PL-10 Moctezuma",
       "hour": "Vie 20 nov · 08:00",
       "place": "U. Politécnica · Media cancha 1"
     },
     "third": {
       "home": "PL-19 San Luis II",
       "away": "PL-27 San Martín CH.",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 7,
+      "ga": 8,
+      "winner": "PL-27 San Martín CH.",
       "hour": "Vie 20 nov · 08:00",
       "place": "U. Politécnica · Media cancha 2"
     }
   },
-  "updatedAtLocal": "19/11/2026 10:30",
+  "updatedAtLocal": "20/11/2026 10:12",
   "theme": {
     "color": "#df944e",
     "bg": "#ecb009"
@@ -212,7 +212,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-19T16:30:35.227Z",
-  "lastUpdated": "2026-11-19T16:30:35.227Z",
-  "timestamp": "2026-11-19T16:30:35.227Z"
+  "updatedAt": "2026-11-20T16:12:46.780Z",
+  "lastUpdated": "2026-11-20T16:12:46.780Z",
+  "timestamp": "2026-11-20T16:12:46.780Z"
 }
