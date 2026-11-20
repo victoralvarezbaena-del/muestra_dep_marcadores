@@ -101,5 +101,23 @@
       "nombre": "César Constantino Díaz Flores",
       "plantel": "PL-03 Cedral"
     }
+  ],
+  "futbolf": [
+    {
+      "icono": "⚽",
+      "titulo": "Campeona goleadora",
+      "nombre": "Vania Guadalupe Sánchez García",
+      "plantel": "PL-01 Soledad",
+      "detalle": "8 goles"
+    }
+  ],
+  "futbolv": [
+    {
+      "icono": "⚽",
+      "titulo": "Campeón goleador",
+      "nombre": "Luis Fernando del Rosal Hernández",
+      "plantel": "PL-26 San Luis IV",
+      "detalle": "4 goles"
+    }
   ]
 }
