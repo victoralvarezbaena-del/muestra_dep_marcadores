@@ -207,23 +207,23 @@
     "final": {
       "home": "PL-28 San Luis V",
       "away": "PL-01 Soledad",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 43,
+      "ga": 32,
+      "winner": "PL-28 San Luis V",
       "hour": "Vie 20 nov · 10:10",
       "place": "U. Politécnica · Cancha 1"
     },
     "third": {
       "home": "PL-05 Cd. Fernández",
       "away": "PL-38 Mecatlán",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 43,
+      "ga": 37,
+      "winner": "PL-05 Cd. Fernández",
       "hour": "Vie 20 nov · 10:10",
       "place": "U. Politécnica · Cancha 2"
     }
   },
-  "updatedAtLocal": "19/11/2026 16:10",
+  "updatedAtLocal": "20/11/2026 16:42",
   "theme": {
     "color": "#db6a00",
     "bg": "#eed48b"
@@ -233,7 +233,7 @@
     "loss": 0
   },
   "sport": "basketball",
-  "updatedAt": "2026-11-19T22:10:50.003Z",
-  "lastUpdated": "2026-11-19T22:10:50.003Z",
-  "timestamp": "2026-11-19T22:10:50.003Z"
+  "updatedAt": "2026-11-20T22:42:51.451Z",
+  "lastUpdated": "2026-11-20T22:42:51.451Z",
+  "timestamp": "2026-11-20T22:42:51.451Z"
 }
