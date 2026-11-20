@@ -182,9 +182,9 @@
     "final": {
       "home": "PL-02 Villa Hidalgo",
       "away": "PL-19 San Luis II",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 9,
+      "ga": 1,
+      "winner": "PL-02 Villa Hidalgo",
       "hour": "Vie 20 nov · 08:00",
       "place": "Tangamanga I · Campo 1",
       "homeName": "",
@@ -193,9 +193,9 @@
     "third": {
       "home": "CE-19 Coyoles",
       "away": "PL-06 Valles I",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 4,
+      "ga": 8,
+      "winner": "PL-06 Valles I",
       "hour": "Vie 20 nov · 08:00",
       "place": "Tangamanga I · Campo 2",
       "homeName": "",
@@ -207,8 +207,8 @@
     "color": "#004b70",
     "bg": "#f8fafc"
   },
-  "updatedAtLocal": "19/11/2026 15:41",
-  "updatedAt": "2026-11-19T21:41:56.701Z",
-  "lastUpdated": "2026-11-19T21:41:56.701Z",
-  "timestamp": "2026-11-19T21:41:56.701Z"
+  "updatedAtLocal": "20/11/2026 11:56",
+  "updatedAt": "2026-11-20T17:56:46.335Z",
+  "lastUpdated": "2026-11-20T17:56:46.335Z",
+  "timestamp": "2026-11-20T17:56:46.335Z"
 }
