@@ -313,8 +313,17 @@
     "final": {
       "home": "CE-06 Palomas",
       "away": "PL-03 Cedral",
-      "sets": [],
-      "winner": "",
+      "sets": [
+        {
+          "home": 14,
+          "away": 21
+        },
+        {
+          "home": 13,
+          "away": 21
+        }
+      ],
+      "winner": "PL-03 Cedral",
       "hour": "Vie 20 nov · 10:15",
       "place": "U. Cuauhtémoc campus sur · Cancha 1"
     },
@@ -341,8 +350,8 @@
     "color": "#8308e7",
     "bg": "#4c2361"
   },
-  "updatedAtLocal": "20/11/2026 10:31",
-  "updatedAt": "2026-11-20T16:31:01.572Z",
-  "lastUpdated": "2026-11-20T16:31:01.572Z",
-  "timestamp": "2026-11-20T16:31:01.572Z"
+  "updatedAtLocal": "20/11/2026 11:20",
+  "updatedAt": "2026-11-20T17:20:49.838Z",
+  "lastUpdated": "2026-11-20T17:20:49.838Z",
+  "timestamp": "2026-11-20T17:20:49.838Z"
 }
