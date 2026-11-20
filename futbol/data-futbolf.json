@@ -207,18 +207,18 @@
     "final": {
       "home": "PL-01 Soledad",
       "away": "PL-06 Valles I",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 1,
+      "ga": 0,
+      "winner": "PL-01 Soledad",
       "hour": "Vie 20 nov · 08:00",
       "place": "Tangamanga I · Campo 1"
     },
     "third": {
       "home": "PL-23 Tierra Nueva",
       "away": "PL-28 San Luis V",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 0,
+      "ga": 1,
+      "winner": "PL-28 San Luis V",
       "hour": "Vie 20 nov · 08:00",
       "place": "Tangamanga I · Campo 2"
     }
@@ -228,12 +228,12 @@
     "draw": 1,
     "loss": 0
   },
-  "updatedAtLocal": "19/11/2026 15:09",
+  "updatedAtLocal": "20/11/2026 09:33",
   "theme": {
     "color": "#62d0df",
     "bg": "#b2e1eb"
   },
-  "updatedAt": "2026-11-19T21:09:39.371Z",
-  "lastUpdated": "2026-11-19T21:09:39.371Z",
-  "timestamp": "2026-11-19T21:09:39.371Z"
+  "updatedAt": "2026-11-20T15:33:18.723Z",
+  "lastUpdated": "2026-11-20T15:33:18.723Z",
+  "timestamp": "2026-11-20T15:33:18.723Z"
 }
