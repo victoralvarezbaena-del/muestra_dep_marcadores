@@ -208,9 +208,9 @@
     "final": {
       "home": "CE-05 Tlaletla",
       "away": "PL-01 Soledad",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 1,
+      "ga": 1,
+      "winner": "PL-01 Soledad",
       "hour": "Vie 20 nov · 09:00",
       "place": "U. Politécnica · Campo F7 1"
     },
@@ -231,12 +231,12 @@
     "penWin": 2,
     "penLoss": 1
   },
-  "updatedAtLocal": "20/11/2026 10:40",
+  "updatedAtLocal": "20/11/2026 11:23",
   "theme": {
     "color": "#01a6bc",
     "bg": "#194c57"
   },
-  "updatedAt": "2026-11-20T16:40:13.793Z",
-  "lastUpdated": "2026-11-20T16:40:13.793Z",
-  "timestamp": "2026-11-20T16:40:13.793Z"
+  "updatedAt": "2026-11-20T17:23:50.375Z",
+  "lastUpdated": "2026-11-20T17:23:50.375Z",
+  "timestamp": "2026-11-20T17:23:50.375Z"
 }
