@@ -1,0 +1,22 @@
+{
+  "futbol7v": [
+    {"icono": "⚽", "titulo": "Campeón de goleo", "nombre": "Diego Alexander Bravo Briseño", "plantel": "PL-29 V. Zaragoza"}
+  ],
+  "futbol7f": [
+    {"icono": "⚽", "titulo": "Campeona de goleo", "nombre": "Yatziry Vizuet Ahumada", "plantel": "PL-34 El Pujal", "detalle": "6 goles"}
+  ],
+  "handballv": [
+    {"icono": "🤾", "titulo": "Campeón goleador", "nombre": "Juan Valentín Crespo Chávez", "plantel": "PL-17 San Luis I Pavón", "detalle": "No. 10 · 26 goles"}
+  ],
+  "handballf": [
+    {"icono": "🤾‍♀️", "titulo": "Campeona goleadora", "nombre": "Azul Yorleit García Larraga", "plantel": "PL-08 Xilitla", "detalle": "No. 7 · 28 goles"}
+  ],
+  "playav": [
+    {"icono": "🏐", "titulo": "Mejor acomodador", "nombre": "Cristian Rivera Hernández", "plantel": "PL-11 Rayón"},
+    {"icono": "🏐", "titulo": "Mejor rematador", "nombre": "Alan Yovany Lara Bolaños", "plantel": "PL-03 Cedral"}
+  ],
+  "playaf": [
+    {"icono": "🏐", "titulo": "Mejor acomodadora", "nombre": "Ashley Hazel López Barrera", "plantel": "PL-22 Tamuín"},
+    {"icono": "🏐", "titulo": "Mejor rematadora", "nombre": "Victoria Alesandra Rubio Castro", "plantel": "PL-22 Tamuín"}
+  ]
+}
