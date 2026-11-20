@@ -247,9 +247,9 @@
     "final": {
       "home": "PL-03 Cedral",
       "away": "PL-08 Xilitla",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 11,
+      "ga": 9,
+      "winner": "PL-03 Cedral",
       "hour": "Vie 20 nov · 09:00",
       "place": "CEDETAR · Cancha 1"
     },
@@ -263,9 +263,9 @@
       "place": "CEDETAR · Cancha 2"
     }
   },
-  "lastUpdated": "2026-11-20T16:11:56.813Z",
+  "lastUpdated": "2026-11-20T18:41:59.290Z",
   "format": "2_grupos_3o4_equipos",
-  "updatedAt": "2026-11-20T16:11:56.813Z",
-  "timestamp": "2026-11-20T16:11:56.813Z",
-  "updatedAtLocal": "20/11/2026 10:11"
+  "updatedAt": "2026-11-20T18:41:59.290Z",
+  "timestamp": "2026-11-20T18:41:59.290Z",
+  "updatedAtLocal": "20/11/2026 12:41"
 }
