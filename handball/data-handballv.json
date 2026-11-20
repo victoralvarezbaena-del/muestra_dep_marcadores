@@ -332,15 +332,15 @@
     "third": {
       "home": "PL-08 Xilitla",
       "away": "PL-28 San Luis V",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 27,
+      "ga": 11,
+      "winner": "PL-08 Xilitla",
       "hour": "Vie 20 nov · 08:00",
       "place": "CEDETAR · Cancha 2"
     }
   },
-  "lastUpdated": "2026-11-19T19:05:09.624Z",
-  "updatedAt": "2026-11-19T19:05:09.624Z",
-  "timestamp": "2026-11-19T19:05:09.624Z",
-  "updatedAtLocal": "19/11/2026 13:05"
+  "lastUpdated": "2026-11-20T15:08:25.788Z",
+  "updatedAt": "2026-11-20T15:08:25.788Z",
+  "timestamp": "2026-11-20T15:08:25.788Z",
+  "updatedAtLocal": "20/11/2026 09:08"
 }
