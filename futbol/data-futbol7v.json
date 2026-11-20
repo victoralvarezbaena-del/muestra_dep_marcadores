@@ -217,9 +217,9 @@
     "third": {
       "home": "PL-26 San Luis IV",
       "away": "PL-22 Tamuín",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 2,
+      "ga": 2,
+      "winner": "PL-22 Tamuín",
       "hour": "Vie 20 nov · 09:00",
       "place": "U. Politécnica · Campo F7 2"
     }
@@ -231,12 +231,12 @@
     "penWin": 2,
     "penLoss": 1
   },
-  "updatedAtLocal": "18/11/2026 21:09",
+  "updatedAtLocal": "20/11/2026 10:40",
   "theme": {
     "color": "#01a6bc",
     "bg": "#194c57"
   },
-  "updatedAt": "2026-11-19T03:09:23.250Z",
-  "lastUpdated": "2026-11-19T03:09:23.250Z",
-  "timestamp": "2026-11-19T03:09:23.250Z"
+  "updatedAt": "2026-11-20T16:40:13.793Z",
+  "lastUpdated": "2026-11-20T16:40:13.793Z",
+  "timestamp": "2026-11-20T16:40:13.793Z"
 }
