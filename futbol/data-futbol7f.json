@@ -210,9 +210,9 @@
     "final": {
       "home": "PL-25 San Luis III",
       "away": "PL-34 El Pujal",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 4,
+      "ga": 1,
+      "winner": "PL-25 San Luis III",
       "hour": "Vie 20 nov · 08:00",
       "place": "U. Politécnica · Campo F7 1"
     },
@@ -233,12 +233,12 @@
     "penWin": 2,
     "penLoss": 1
   },
-  "updatedAtLocal": "20/11/2026 09:58",
+  "updatedAtLocal": "20/11/2026 09:59",
   "theme": {
     "color": "#62d0df",
     "bg": "#194c57"
   },
-  "updatedAt": "2026-11-20T15:58:06.206Z",
-  "lastUpdated": "2026-11-20T15:58:06.206Z",
-  "timestamp": "2026-11-20T15:58:06.206Z"
+  "updatedAt": "2026-11-20T15:59:02.150Z",
+  "lastUpdated": "2026-11-20T15:59:02.150Z",
+  "timestamp": "2026-11-20T15:59:02.150Z"
 }
