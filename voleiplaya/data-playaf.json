@@ -301,8 +301,17 @@
     "final": {
       "home": "PL-22 Tamuín",
       "away": "CE-21 La Pila",
-      "sets": [],
-      "winner": "",
+      "sets": [
+        {
+          "home": 21,
+          "away": 7
+        },
+        {
+          "home": 21,
+          "away": 9
+        }
+      ],
+      "winner": "PL-22 Tamuín",
       "hour": "Vie 20 nov · 08:45",
       "place": "U. Cuauhtémoc campus sur · Cancha 1"
     },
@@ -329,8 +338,8 @@
     "color": "#ab75d7",
     "bg": "#4c2361"
   },
-  "updatedAtLocal": "20/11/2026 08:40",
-  "updatedAt": "2026-11-20T14:40:03.039Z",
-  "lastUpdated": "2026-11-20T14:40:03.039Z",
-  "timestamp": "2026-11-20T14:40:03.039Z"
+  "updatedAtLocal": "20/11/2026 09:07",
+  "updatedAt": "2026-11-20T15:07:40.043Z",
+  "lastUpdated": "2026-11-20T15:07:40.043Z",
+  "timestamp": "2026-11-20T15:07:40.043Z"
 }
