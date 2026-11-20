@@ -207,9 +207,9 @@
     "final": {
       "home": "PL-26 San Luis IV",
       "away": "PL-13 Tanquián",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 1,
+      "ga": 0,
+      "winner": "PL-26 San Luis IV",
       "hour": "Vie 20 nov · 09:10",
       "place": "Tangamanga I · Campo 1"
     },
@@ -228,12 +228,12 @@
     "draw": 1,
     "loss": 0
   },
-  "updatedAtLocal": "19/11/2026 16:28",
+  "updatedAtLocal": "20/11/2026 11:22",
   "theme": {
     "color": "#0284c7",
     "bg": "#f8fafc"
   },
-  "updatedAt": "2026-11-19T22:28:59.720Z",
-  "lastUpdated": "2026-11-19T22:28:59.720Z",
-  "timestamp": "2026-11-19T22:28:59.720Z"
+  "updatedAt": "2026-11-20T17:22:05.601Z",
+  "lastUpdated": "2026-11-20T17:22:05.601Z",
+  "timestamp": "2026-11-20T17:22:05.601Z"
 }
