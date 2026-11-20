@@ -219,9 +219,9 @@
     "third": {
       "home": "PL-29 V. Zaragoza",
       "away": "PL-08 Xilitla",
-      "gh": null,
-      "ga": null,
-      "winner": "",
+      "gh": 2,
+      "ga": 0,
+      "winner": "PL-29 V. Zaragoza",
       "hour": "Vie 20 nov · 08:00",
       "place": "U. Politécnica · Campo F7 2"
     }
@@ -233,12 +233,12 @@
     "penWin": 2,
     "penLoss": 1
   },
-  "updatedAtLocal": "19/11/2026 08:01",
+  "updatedAtLocal": "20/11/2026 09:58",
   "theme": {
     "color": "#62d0df",
     "bg": "#194c57"
   },
-  "updatedAt": "2026-11-19T14:01:37.653Z",
-  "lastUpdated": "2026-11-19T14:01:37.653Z",
-  "timestamp": "2026-11-19T14:01:37.653Z"
+  "updatedAt": "2026-11-20T15:58:06.206Z",
+  "lastUpdated": "2026-11-20T15:58:06.206Z",
+  "timestamp": "2026-11-20T15:58:06.206Z"
 }
