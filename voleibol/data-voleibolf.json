@@ -332,19 +332,19 @@
       "away": "PL-05 Cd. Fernández",
       "sets": [
         {
-          "home": 12,
+          "home": 25,
+          "away": 12
+        },
+        {
+          "home": 19,
           "away": 25
         },
         {
-          "home": 25,
-          "away": 19
-        },
-        {
-          "home": 15,
-          "away": 7
+          "home": 7,
+          "away": 15
         }
       ],
-      "winner": "PL-22 Tamuín",
+      "winner": "PL-05 Cd. Fernández",
       "hour": "Vie 20 nov · 10:00",
       "place": "Plantel 26 San Luis IV · Cancha 2"
     }
@@ -354,8 +354,8 @@
     "color": "#ab75d7",
     "bg": "#dcc8ea"
   },
-  "updatedAtLocal": "20/11/2026 11:57",
-  "updatedAt": "2026-11-20T17:57:33.150Z",
-  "lastUpdated": "2026-11-20T17:57:33.150Z",
-  "timestamp": "2026-11-20T17:57:33.150Z"
+  "updatedAtLocal": "21/11/2026 08:05",
+  "updatedAt": "2026-11-21T14:05:00.000Z",
+  "lastUpdated": "2026-11-21T14:05:00.000Z",
+  "timestamp": "2026-11-21T14:05:00.000Z"
 }
