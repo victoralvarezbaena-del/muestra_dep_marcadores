@@ -119,5 +119,10 @@
       "plantel": "PL-26 San Luis IV",
       "detalle": "4 goles"
     }
-  ]
+  ],
+  "_podio": {
+    "futbolv": {
+      "3": "Desierto"
+    }
+  }
 }

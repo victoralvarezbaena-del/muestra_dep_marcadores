@@ -95,7 +95,10 @@
   async function pintar(id, data) {
     ultimo = { id, data };
     const lugares = podio(data);
-    const lista = ((await cargarLogros())[id]) || [];
+    const todos = await cargarLogros();
+    const lista = todos[id] || [];
+    const ajuste = ((todos._podio || {})[id]) || {};   // p. ej. {"3": "Desierto"}
+    Object.keys(ajuste).forEach(k => { const n = +k; if (!lugares.some(x => x.n === n)) lugares.push({ n, t: ajuste[k], nota: true }); });
     let sec = document.getElementById('mcdPodio');
     if (!lugares.length && !lista.length) { if (sec) sec.remove(); return; }
     estilos();
@@ -107,7 +110,7 @@
       html += '<h2>🏆 Podio</h2><div class="mcdp-lugares">';
       [1, 2, 3].forEach(n => {
         const l = lugares.find(x => x.n === n);
-        html += `<div class="mcdp-lugar mcdp-l${n}${l ? '' : ' mcdp-pend'}"><span class="mcdp-med">${med[n]}</span><span class="mcdp-pos">${pos[n]}</span>${l ? equipo(l.t) : '<span class="mcdp-nom">Por definir</span>'}</div>`;
+        html += `<div class="mcdp-lugar mcdp-l${n}${l ? '' : ' mcdp-pend'}"><span class="mcdp-med">${med[n]}</span><span class="mcdp-pos">${pos[n]}</span>${l ? (l.nota ? `<span class="mcdp-nom">${esc(l.t)}</span>` : equipo(l.t)) : '<span class="mcdp-nom">Por definir</span>'}</div>`;
       });
       html += '</div>';
     }
